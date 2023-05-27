@@ -12,7 +12,7 @@ Projeto pessoal para ajudar a aprender japones e fazer os testes de proficiencia
 
 
 ## Checklist
-- [ ] 1. Data - Hiragana
+- [x] 1. Data - Hiragana
 ## Stacks
 
 HTML | CSS - SASS(scss) | JavaScript | React - Redux 
