@@ -2,6 +2,10 @@
 
 Projeto pessoal para ajudar a aprender japones e fazer os testes de proficiencia japonesa.
 
+## Instagram
+
+ - [JLPT - Descomplicado](https://www.instagram.com/jlpt_descomplicado/)
+
 
 ## Planejamento das Funcionalidades
 
