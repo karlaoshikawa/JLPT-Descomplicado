@@ -1453,3 +1453,449 @@ export const hiraganaDakuon = [
     },
   },
 ];
+
+export const hiraganaYoon = [
+  {
+    kya: {
+      letra: "kya",
+      hiragana: "きゃ",
+      exemplos: [
+        {
+          palavra: "きゃく",
+          traducao: "convidado",
+          romaji: "kyaku",
+        },
+        {
+          palavra: "にんきゃく",
+          traducao: "persuasão",
+          romaji: "ninkyaku",
+        },
+        {
+          palavra: "しゅうきゃく",
+          traducao: "retorno para casa",
+          romaji: "shuukyaku",
+        },
+      ],
+    },
+    kyu: {
+      letra: "kyu",
+      hiragana: "きゅ",
+      exemplos: [
+        {
+          palavra: "きゅうけい",
+          traducao: "intervalo",
+          romaji: "kyūkei",
+        },
+        {
+          palavra: "きゅうりょく",
+          traducao: "gravidade",
+          romaji: "kyūryoku",
+        },
+        {
+          palavra: "きゅうけつ",
+          traducao: "picada de inseto",
+          romaji: "kyūketsu",
+        },
+      ],
+    },
+    kyo: {
+      letra: "kyo",
+      hiragana: "きょ",
+      exemplos: [
+        {
+          palavra: "きょうかい",
+          traducao: "igreja",
+          romaji: "kyōkai",
+        },
+        {
+          palavra: "きょじん",
+          traducao: "gigante",
+          romaji: "kyojin",
+        },
+        {
+          palavra: "きょさん",
+          traducao: "dica",
+          romaji: "kyosan",
+        },
+      ],
+    },
+    sha: {
+      letra: "sha",
+      hiragana: "しゃ",
+      exemplos: [
+        {
+          palavra: "しゃしん",
+          traducao: "foto",
+          romaji: "shashin",
+        },
+        {
+          palavra: "しゃべる",
+          traducao: "conversar",
+          romaji: "shaberu",
+        },
+        {
+          palavra: "しゃいん",
+          traducao: "funcionário",
+          romaji: "shain",
+        },
+      ],
+    },
+    shu: {
+      letra: "shu",
+      hiragana: "しゅ",
+      exemplos: [
+        {
+          palavra: "しゅくだい",
+          traducao: "lição de casa",
+          romaji: "shukudai",
+        },
+        {
+          palavra: "しゅっせき",
+          traducao: "presença",
+          romaji: "shusseki",
+        },
+        {
+          palavra: "しゅうかん",
+          traducao: "semana",
+          romaji: "shuukan",
+        },
+      ],
+    },
+    sho: {
+      letra: "sho",
+      hiragana: "しょ",
+      exemplos: [
+        {
+          palavra: "しょうしょう",
+          traducao: "pouco a pouco",
+          romaji: "shoushou",
+        },
+        {
+          palavra: "しょうり",
+          traducao: "vitória",
+          romaji: "shouri",
+        },
+        {
+          palavra: "しょくどう",
+          traducao: "refeitório",
+          romaji: "shokudou",
+        },
+      ],
+    },
+    cha: {
+      letra: "cha",
+      hiragana: "ちゃ",
+      exemplos: [
+        {
+          palavra: "ちゃいろ",
+          traducao: "marrom",
+          romaji: "chairo",
+        },
+        {
+          palavra: "ちゃわん",
+          traducao: "tigela",
+          romaji: "chawan",
+        },
+        {
+          palavra: "ちゃい",
+          traducao: "chá",
+          romaji: "cha",
+        },
+      ],
+    },
+    chu: {
+      letra: "chu",
+      hiragana: "ちゅ",
+      exemplos: [
+        {
+          palavra: "ちゅうい",
+          traducao: "atenção",
+          romaji: "chuu'i",
+        },
+        {
+          palavra: "ちゅうもく",
+          traducao: "foco",
+          romaji: "chuumoku",
+        },
+        {
+          palavra: "ちゅうしゃ",
+          traducao: "estacionamento",
+          romaji: "chuusha",
+        },
+      ],
+    },
+    cho: {
+      letra: "cho",
+      hiragana: "ちょ",
+      exemplos: [
+        {
+          palavra: "ちょっと",
+          traducao: "um pouco",
+          romaji: "chotto",
+        },
+        {
+          palavra: "ちょうし",
+          traducao: "condição",
+          romaji: "choushi",
+        },
+        {
+          palavra: "ちょうだい",
+          traducao: "por favor",
+          romaji: "choudai",
+        },
+      ],
+    },
+    nya: {
+      letra: "nya",
+      hiragana: "にゃ",
+      exemplos: [
+        {
+          palavra: "にゃん",
+          traducao: "miau",
+          romaji: "nyan",
+        },
+        {
+          palavra: "にゃー",
+          traducao: "meow",
+          romaji: "nya-",
+        },
+      ],
+    },
+    nyu: {
+      letra: "nyu",
+      hiragana: "にゅ",
+      exemplos: [
+        {
+          palavra: "にゅういん",
+          traducao: "hospitalização",
+          romaji: "nyuuin",
+        },
+      ],
+    },
+    nyo: {
+      letra: "nyo",
+      hiragana: "にょ",
+      exemplos: [
+        {
+          palavra: "にょろにょろ",
+          traducao: "escorregadio",
+          romaji: "nyoro-nyoro",
+        },
+      ],
+    },
+    hya: {
+      letra: "hya",
+      hiragana: "ひゃ",
+      exemplos: [
+        {
+          palavra: "ひゃく",
+          traducao: "cem",
+          romaji: "hyaku",
+        },
+      ],
+    },
+    hyu: {
+      letra: "hyu",
+      hiragana: "ひゅ",
+      exemplos: [
+        {
+          palavra: "ひゅうひゅう",
+          traducao: "assobio",
+          romaji: "hyuuhyuu",
+        },
+      ],
+    },
+    hyo: {
+      letra: "hyo",
+      hiragana: "ひょ",
+    },
+    mya: {
+      letra: "mya",
+      hiragana: "みゃ",
+      exemplos: [
+        {
+          palavra: "みゃく",
+          traducao: "pulso",
+          romaji: "myaku",
+        },
+      ],
+    },
+    myu: {
+      letra: "myu",
+      hiragana: "みゅ",
+    },
+    myo: {
+      letra: "myo",
+      hiragana: "みょ",
+      exemplos: [
+        {
+          palavra: "みょうじ",
+          traducao: "sobrenome",
+          romaji: "myouji",
+        },
+      ],
+    },
+    rya: {
+      letra: "rya",
+      hiragana: "りゃ",
+    },
+    ryu: {
+      letra: "ryu",
+      hiragana: "りゅ",
+      exemplos: [
+        {
+          palavra: "りゅうがく",
+          traducao: "estudo no exterior",
+          romaji: "ryuugaku",
+        },
+      ],
+    },
+    ryo: {
+      letra: "ryo",
+      hiragana: "りょ",
+      exemplos: [
+        {
+          palavra: "りょうかい",
+          traducao: "compreensão",
+          romaji: "ryoukai",
+        },
+      ],
+    },
+    gya: {
+      letra: "gya",
+      hiragana: "ぎゃ",
+      exemplos: [
+        {
+          palavra: "ぎゃくてん",
+          traducao: "oposição",
+          romaji: "gyakuten",
+        },
+      ],
+    },
+    gyu: {
+      letra: "gyu",
+      hiragana: "ぎゅ",
+      exemplos: [
+        {
+          palavra: "ぎゅうにく",
+          traducao: "carne",
+          romaji: "gyuuniku",
+        },
+      ],
+    },
+    gyo: {
+      letra: "gyo",
+      hiragana: "ぎょ",
+      exemplos: [
+        {
+          palavra: "ぎょうむ",
+          traducao: "negócios",
+          romaji: "gyoumu",
+        },
+      ],
+    },
+        jya: {
+      letra: "jya",
+      hiragana: "じゃ",
+      exemplos: [
+        {
+          palavra: "じゃがいも",
+          traducao: "batata",
+          romaji: "jagaimo",
+        },
+        {
+          palavra: "じゃんけん",
+          traducao: "jokenpô (pedra, papel, tesoura)",
+          romaji: "janken",
+        },
+      ],
+    },
+    jyu: {
+      letra: "jyu",
+      hiragana: "じゅ",
+      exemplos: [
+        {
+          palavra: "じゅうじ",
+          traducao: "horário",
+          romaji: "juuji",
+        },
+        {
+          palavra: "じゅぎょう",
+          traducao: "aula",
+          romaji: "jugyou",
+        },
+      ],
+    },
+    jyo: {
+      letra: "jyo",
+      hiragana: "じょ",
+      exemplos: [
+        {
+          palavra: "じょせい",
+          traducao: "mulher",
+          romaji: "josei",
+        },
+        {
+          palavra: "じょうほう",
+          traducao: "informação",
+          romaji: "jouhou",
+        },
+      ],
+    },
+    dya: {
+      letra: "dya",
+      hiragana: "ぢゃ",
+    },
+    dyu: {
+      letra: "dyu",
+      hiragana: "ぢゅ",
+    },
+    dyo: {
+      letra: "dyo",
+      hiragana: "ぢょ",
+    },
+    bya: {
+      letra: "bya",
+      hiragana: "びゃ",
+    },
+    byu: {
+      letra: "byu",
+      hiragana: "びゅ",
+    },
+    byo: {
+      letra: "byo",
+      hiragana: "びょ",
+      exemplos: [
+        {
+          palavra: "びょういん",
+          traducao: "hospital",
+          romaji: "byouin",
+        },
+        {
+          palavra: "びょうき",
+          traducao: "doença",
+          romaji: "byouki",
+        },
+      ],
+    },
+    pya: {
+      letra: "pya",
+      hiragana: "ぴゃ",
+    },
+    pyu: {
+      letra: "pyu",
+      hiragana: "ぴゅ",
+    },
+    pyo: {
+      letra: "pyo",
+      hiragana: "ぴょ",
+      exemplos: [
+        {
+          palavra: "ぴょんぴょん",
+          traducao: "saltar",
+          romaji: "pyonpyon",
+        },
+      ],
+    },
+  },
+];
