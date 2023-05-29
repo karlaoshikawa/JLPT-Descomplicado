@@ -1,4 +1,4 @@
-const hiraganaList = [
+export const hiraganaList = [
   {
     a: {
       letra: "a",
@@ -927,50 +927,529 @@ const hiraganaList = [
     wo: {
       letra: "wo",
       hiragana: "を",
-      exemplos: [
-        {
-          palavra: "をたく",
-          traducao: "querer",
-          romaji: "wotaku",
-        },
-        {
-          palavra: "をん",
-          traducao: "on (letra)",
-          romaji: "on",
-        },
-        {
-          palavra: "をり",
-          traducao: "guerreiro",
-          romaji: "wori",
-        },
-      ],
     },
     n: {
       letra: "n",
       hiragana: "ん",
       exemplos: [
         {
-          palavra: "にほん",
-          traducao: "Japão",
-          romaji: "Nihon",
+          palavra: "さんぽ",
+          traducao: "caminhada",
+          romaji: "sanpo",
         },
         {
-          palavra: "なまえ",
-          traducao: "nome",
-          romaji: "namae",
+          palavra: "でんわ",
+          traducao: "telefone",
+          romaji: "denwa",
         },
         {
-          palavra: "なん",
-          traducao: "o quê",
-          romaji: "nan",
+          palavra: "かんじ",
+          traducao: "caractere kanji",
+          romaji: "kanji",
         },
       ],
     },
   },
 ];
 
-const hiraganaDakuon = {
-  
-}
-
-export default hiraganaList;
+export const hiraganaDakuon = [
+  {
+    ga: {
+      letra: "ga",
+      hiragana: "が",
+      exemplos: [
+        {
+          palavra: "がっこう",
+          traducao: "escola",
+          romaji: "gakkou",
+        },
+        {
+          palavra: "がいこくじん",
+          traducao: "estrangeiro",
+          romaji: "gaikokujin",
+        },
+        {
+          palavra: "がんばる",
+          traducao: "esforçar-se",
+          romaji: "ganbaru",
+        },
+      ],
+    },
+    gi: {
+      letra: "gi",
+      hiragana: "ぎ",
+      exemplos: [
+        {
+          palavra: "ぎんこう",
+          traducao: "banco",
+          romaji: "ginkou",
+        },
+        {
+          palavra: "ぎたい",
+          traducao: "aparência",
+          romaji: "gitai",
+        },
+        {
+          palavra: "ぎゅうにゅう",
+          traducao: "leite",
+          romaji: "gyuunyuu",
+        },
+      ],
+    },
+    gu: {
+      letra: "gu",
+      hiragana: "ぐ",
+      exemplos: [
+        {
+          palavra: "ぐんたい",
+          traducao: "exército",
+          romaji: "guntai",
+        },
+        {
+          palavra: "ぐあい",
+          traducao: "estado",
+          romaji: "guai",
+        },
+        {
+          palavra: "ぐうすう",
+          traducao: "número par",
+          romaji: "guusuu",
+        },
+      ],
+    },
+    ge: {
+      letra: "ge",
+      hiragana: "げ",
+      exemplos: [
+        {
+          palavra: "げんかん",
+          traducao: "entrada",
+          romaji: "genkan",
+        },
+        {
+          palavra: "げんき",
+          traducao: "energia; saudável",
+          romaji: "genki",
+        },
+        {
+          palavra: "げんじつ",
+          traducao: "realidade",
+          romaji: "genjitsu",
+        },
+      ],
+    },
+    go: {
+      letra: "go",
+      hiragana: "ご",
+      exemplos: [
+        {
+          palavra: "ごはん",
+          traducao: "arroz cozido; refeição",
+          romaji: "gohan",
+        },
+        {
+          palavra: "ごうかく",
+          traducao: "aprovação",
+          romaji: "goukaku",
+        },
+        {
+          palavra: "ごうり",
+          traducao: "lei",
+          romaji: "gouri",
+        },
+      ],
+    },
+    za: {
+      letra: "za",
+      hiragana: "ざ",
+      exemplos: [
+        {
+          palavra: "ざっし",
+          traducao: "revista",
+          romaji: "zasshi",
+        },
+        {
+          palavra: "ざくろ",
+          traducao: "romã",
+          romaji: "zakuro",
+        },
+        {
+          palavra: "ざんねん",
+          traducao: "lamentável",
+          romaji: "zannen",
+        },
+      ],
+    },
+  },
+  {
+    ji: {
+      letra: "ji",
+      hiragana: "じ",
+      exemplos: [
+        {
+          palavra: "じかん",
+          traducao: "tempo",
+          romaji: "jikan",
+        },
+        {
+          palavra: "じてんしゃ",
+          traducao: "bicicleta",
+          romaji: "jitensha",
+        },
+        {
+          palavra: "じぶん",
+          traducao: "eu, si mesmo",
+          romaji: "jibun",
+        },
+      ],
+    },
+  },
+  {
+    zu: {
+      letra: "zu",
+      hiragana: "ず",
+      exemplos: [
+        {
+          palavra: "ずっと",
+          traducao: "o tempo todo",
+          romaji: "zutto",
+        },
+        {
+          palavra: "ずいぶん",
+          traducao: "muito, consideravelmente",
+          romaji: "zuibun",
+        },
+        {
+          palavra: "ずるい",
+          traducao: "desonesto, trapaceiro",
+          romaji: "zurui",
+        },
+      ],
+    },
+  },
+  {
+    ze: {
+      letra: "ze",
+      hiragana: "ぜ",
+      exemplos: [
+        {
+          palavra: "ぜんぶ",
+          traducao: "tudo",
+          romaji: "zenbu",
+        },
+        {
+          palavra: "ぜいたく",
+          traducao: "luxo",
+          romaji: "zeitaku",
+        },
+        {
+          palavra: "ぜひ",
+          traducao: "definitivamente",
+          romaji: "zehi",
+        },
+      ],
+    },
+  },
+  {
+    zo: {
+      letra: "zo",
+      hiragana: "ぞ",
+      exemplos: [
+        {
+          palavra: "ぞうきん",
+          traducao: "pano de limpeza",
+          romaji: "zoukin",
+        },
+        {
+          palavra: "ぞんじる",
+          traducao: "saber, conhecer",
+          romaji: "zonjiru",
+        },
+        {
+          palavra: "ぞくしん",
+          traducao: "emoção, sentimento",
+          romaji: "zokushin",
+        },
+      ],
+    },
+    da: {
+      letra: "da",
+      hiragana: "だ",
+      exemplos: [
+        {
+          palavra: "だいがく",
+          traducao: "universidade",
+          romaji: "daigaku",
+        },
+        {
+          palavra: "だれ",
+          traducao: "quem",
+          romaji: "dare",
+        },
+        {
+          palavra: "だいじょうぶ",
+          traducao: "está tudo bem",
+          romaji: "daijōbu",
+        },
+      ],
+    },
+  },
+  {
+    di: {
+      letra: "di",
+      hiragana: "ぢ",
+    },
+  },
+  {
+    du: {
+      letra: "du",
+      hiragana: "づ",
+    },
+  },
+  {
+    de: {
+      letra: "de",
+      hiragana: "で",
+      exemplos: [
+        {
+          palavra: "でんわ",
+          traducao: "telefone",
+          romaji: "denwa",
+        },
+        {
+          palavra: "でんしゃ",
+          traducao: "trem",
+          romaji: "densha",
+        },
+        {
+          palavra: "でんとう",
+          traducao: "tradição",
+          romaji: "dentō",
+        },
+      ],
+    },
+  },
+  {
+    do: {
+      letra: "do",
+      hiragana: "ど",
+      exemplos: [
+        {
+          palavra: "どうぶつ",
+          traducao: "animal",
+          romaji: "dōbutsu",
+        },
+        {
+          palavra: "どこ",
+          traducao: "onde",
+          romaji: "doko",
+        },
+        {
+          palavra: "どういたしまして",
+          traducao: "de nada",
+          romaji: "dōitashimashite",
+        },
+      ],
+    },
+    ba: {
+      letra: "ba",
+      hiragana: "ば",
+      exemplos: [
+        {
+          palavra: "ばなな",
+          traducao: "banana",
+          romaji: "banana",
+        },
+        {
+          palavra: "ばしょ",
+          traducao: "local",
+          romaji: "basho",
+        },
+        {
+          palavra: "ばか",
+          traducao: "idiota",
+          romaji: "baka",
+        },
+      ],
+    },
+    bi: {
+      letra: "bi",
+      hiragana: "び",
+      exemplos: [
+        {
+          palavra: "びん",
+          traducao: "garrafa",
+          romaji: "bin",
+        },
+        {
+          palavra: "びっくり",
+          traducao: "surpreso",
+          romaji: "bikkuri",
+        },
+        {
+          palavra: "びじん",
+          traducao: "pessoa bonita",
+          romaji: "bijin",
+        },
+      ],
+    },
+    bu: {
+      letra: "bu",
+      hiragana: "ぶ",
+      exemplos: [
+        {
+          palavra: "ぶた",
+          traducao: "porco",
+          romaji: "buta",
+        },
+        {
+          palavra: "ぶんか",
+          traducao: "cultura",
+          romaji: "bunka",
+        },
+        {
+          palavra: "ぶんしん",
+          traducao: "literatura",
+          romaji: "bunshin",
+        },
+      ],
+    },
+    be: {
+      letra: "be",
+      hiragana: "べ",
+      exemplos: [
+        {
+          palavra: "べんきょう",
+          traducao: "estudo",
+          romaji: "benkyou",
+        },
+        {
+          palavra: "べつべつ",
+          traducao: "separadamente",
+          romaji: "betsubetsu",
+        },
+        {
+          palavra: "べんとう",
+          traducao: "marmita",
+          romaji: "bentou",
+        },
+      ],
+    },
+    bo: {
+      letra: "bo",
+      hiragana: "ぼ",
+      exemplos: [
+        {
+          palavra: "ぼく",
+          traducao: "eu",
+          romaji: "boku",
+        },
+        {
+          palavra: "ぼうし",
+          traducao: "chapéu",
+          romaji: "boushi",
+        },
+        {
+          palavra: "ぼんさい",
+          traducao: "arvore em miniatura",
+          romaji: "bonsai",
+        },
+      ],
+    },
+    pa: {
+      letra: "pa",
+      hiragana: "ぱ",
+      exemplos: [
+        {
+          palavra: "ぱくぱく",
+          traducao: "som de mastigação",
+          romaji: "paku paku",
+        },
+        {
+          palavra: "ぱちぱち",
+          traducao: "som de aplausos",
+          romaji: "pachi pachi",
+        },
+      ],
+    },
+    pi: {
+      letra: "pi",
+      hiragana: "ぴ",
+      exemplos: [
+        {
+          palavra: "ぴかぴか",
+          traducao: "brilhante",
+          romaji: "pikapika",
+        },
+        {
+          palavra: "ぴったり",
+          traducao: "perfeito",
+          romaji: "pittari",
+        },
+        {
+          palavra: "ぴょんぴょん",
+          traducao: "saltitante",
+          romaji: "pyonpyon",
+        },
+      ],
+    },
+    pu: {
+      letra: "pu",
+      hiragana: "ぷ",
+      exemplos: [
+        {
+          palavra: "ぷかぷか",
+          traducao: "boiando",
+          romaji: "pukapuka",
+        },
+        {
+          palavra: "ぷっくり",
+          traducao: "cheio, inchado",
+          romaji: "pukkuri",
+        },
+      ],
+    },
+    pe: {
+      letra: "pe",
+      hiragana: "ぺ",
+      exemplos: [
+        {
+          palavra: "ぺんぎん",
+          traducao: "pinguim",
+          romaji: "pengin",
+        },
+        {
+          palavra: "ぺったんこ",
+          traducao: "achatado",
+          romaji: "pettanko",
+        },
+        {
+          palavra: "ぺろぺろ",
+          traducao: "lamber",
+          romaji: "peropero",
+        },
+      ],
+    },
+    po: {
+      letra: "po",
+      hiragana: "ぽ",
+      exemplos: [
+        {
+          palavra: "ぽけっとモンスター",
+          traducao: "Pokémon",
+          romaji: "poketto monsutā",
+        },
+        {
+          palavra: "ぽかぽか",
+          traducao: "aconchegante",
+          romaji: "pokapoka",
+        },
+        {
+          palavra: "ぽんぽん",
+          traducao: "tapa",
+          romaji: "ponpon",
+        },
+      ],
+    },
+  },
+];
