@@ -7,14 +7,17 @@ const hiraganaList = [
         {
           palavra: "あさ",
           traducao: "manhã",
+          romaji: "asa",
         },
         {
           palavra: "あめ",
           traducao: "chuva",
+          romaji: "ame",
         },
         {
           palavra: "あかい",
           traducao: "vermelho",
+          romaji: "akai",
         },
       ],
     },
@@ -25,14 +28,17 @@ const hiraganaList = [
         {
           palavra: "いえ",
           traducao: "casa",
+          romaji: "ie",
         },
         {
           palavra: "いぬ",
           traducao: "cachorro",
+          romaji: "inu",
         },
         {
           palavra: "いちご",
           traducao: "morango",
+          romaji: "ichigo",
         },
       ],
     },
@@ -43,14 +49,17 @@ const hiraganaList = [
         {
           palavra: "うみ",
           traducao: "mar",
+          romaji: "umi",
         },
         {
           palavra: "うさぎ",
           traducao: "coelho",
+          romaji: "usagi",
         },
         {
           palavra: "うた",
           traducao: "música",
+          romaji: "uta",
         },
       ],
     },
@@ -61,14 +70,17 @@ const hiraganaList = [
         {
           palavra: "えき",
           traducao: "estação de trem",
+          romaji: "eki",
         },
         {
           palavra: "えんぴつ",
           traducao: "lápis",
+          romaji: "enpitsu",
         },
         {
           palavra: "えいご",
           traducao: "inglês",
+          romaji: "eigo",
         },
       ],
     },
@@ -79,14 +91,17 @@ const hiraganaList = [
         {
           palavra: "おおきい",
           traducao: "grande",
+          romaji: "ookii",
         },
         {
           palavra: "おにぎり",
           traducao: "bolinho de arroz",
+          romaji: "onigiri",
         },
         {
           palavra: "おとうさん",
           traducao: "pai",
+          romaji: "otousan",
         },
       ],
     },
@@ -97,14 +112,17 @@ const hiraganaList = [
         {
           palavra: "かさ",
           traducao: "guarda-chuva",
+          romaji: "kasa",
         },
         {
           palavra: "かわ",
           traducao: "rio",
+          romaji: "kawa",
         },
         {
           palavra: "かいしゃ",
           traducao: "empresa",
+          romaji: "kaisha",
         },
       ],
     },
@@ -115,14 +133,17 @@ const hiraganaList = [
         {
           palavra: "きょう",
           traducao: "hoje",
+          romaji: "kyou",
         },
         {
           palavra: "きっさてん",
           traducao: "cafeteria",
+          romaji: "kissaten",
         },
         {
           palavra: "きのこ",
           traducao: "cogumelo",
+          romaji: "kinoko",
         },
       ],
     },
@@ -133,14 +154,17 @@ const hiraganaList = [
         {
           palavra: "くるま",
           traducao: "carro",
+          romaji: "kuruma",
         },
         {
           palavra: "くつ",
           traducao: "sapato",
+          romaji: "kutsu",
         },
         {
           palavra: "くろ",
           traducao: "preto",
+          romaji: "kuro",
         },
       ],
     },
@@ -151,14 +175,17 @@ const hiraganaList = [
         {
           palavra: "けんきゅう",
           traducao: "pesquisa",
+          romaji: "kenkyuu",
         },
         {
           palavra: "けいさつ",
           traducao: "polícia",
+          romaji: "keisatsu",
         },
         {
           palavra: "けっこん",
           traducao: "casamento",
+          romaji: "kekkon",
         },
       ],
     },
@@ -169,14 +196,17 @@ const hiraganaList = [
         {
           palavra: "こども",
           traducao: "criança",
+          romaji: "kodomo",
         },
         {
           palavra: "こうえん",
           traducao: "parque",
+          romaji: "kouen",
         },
         {
           palavra: "こわい",
           traducao: "assustador",
+          romaji: "kowai",
         },
       ],
     },
@@ -187,14 +217,17 @@ const hiraganaList = [
         {
           palavra: "さくら",
           traducao: "cerejeira",
+          romaji: "sakura",
         },
         {
           palavra: "さかな",
           traducao: "peixe",
+          romaji: "sakana",
         },
         {
           palavra: "さく",
           traducao: "flor",
+          romaji: "saku",
         },
       ],
     },
@@ -205,14 +238,17 @@ const hiraganaList = [
         {
           palavra: "しお",
           traducao: "sal",
+          romaji: "shio",
         },
         {
           palavra: "しごと",
           traducao: "trabalho",
+          romaji: "shigoto",
         },
         {
           palavra: "した",
           traducao: "abaixo",
+          romaji: "shita",
         },
       ],
     },
@@ -223,14 +259,17 @@ const hiraganaList = [
         {
           palavra: "すみません",
           traducao: "com licença",
+          romaji: "sumimasen",
         },
         {
           palavra: "すし",
           traducao: "sushi",
+          romaji: "sushi",
         },
         {
           palavra: "すわる",
           traducao: "sentar",
+          romaji: "suwaru",
         },
       ],
     },
@@ -241,14 +280,17 @@ const hiraganaList = [
         {
           palavra: "せんせい",
           traducao: "professor",
+          romaji: "sensei",
         },
         {
           palavra: "せかい",
           traducao: "mundo",
+          romaji: "sekai",
         },
         {
           palavra: "せん",
           traducao: "linha",
+          romaji: "sen",
         },
       ],
     },
@@ -259,14 +301,17 @@ const hiraganaList = [
         {
           palavra: "そら",
           traducao: "céu",
+          romaji: "sora",
         },
         {
           palavra: "そうじ",
           traducao: "limpeza",
+          romaji: "souji",
         },
         {
           palavra: "そこ",
           traducao: "ali",
+          romaji: "soko",
         },
       ],
     },
@@ -277,14 +322,17 @@ const hiraganaList = [
         {
           palavra: "たべる",
           traducao: "comer",
+          romaji: "taberu",
         },
         {
           palavra: "たなか",
           traducao: "Tanaka (nome próprio)",
+          romaji: "Tanaka",
         },
         {
           palavra: "たまご",
           traducao: "ovo",
+          romaji: "tamago",
         },
       ],
     },
@@ -295,14 +343,17 @@ const hiraganaList = [
         {
           palavra: "ちいさい",
           traducao: "pequeno",
+          romaji: "chiisai",
         },
         {
           palavra: "ちかん",
           traducao: "agressor",
+          romaji: "chikan",
         },
         {
           palavra: "ちち",
           traducao: "pai",
+          romaji: "chichi",
         },
       ],
     },
@@ -313,14 +364,17 @@ const hiraganaList = [
         {
           palavra: "つくえ",
           traducao: "mesa",
+          romaji: "tsukue",
         },
         {
           palavra: "つめたい",
           traducao: "frio (ao toque)",
+          romaji: "tsumetai",
         },
         {
           palavra: "つかう",
           traducao: "usar",
+          romaji: "tsukau",
         },
       ],
     },
@@ -331,14 +385,17 @@ const hiraganaList = [
         {
           palavra: "てがみ",
           traducao: "carta",
+          romaji: "tegami",
         },
         {
           palavra: "てんき",
           traducao: "tempo (clima)",
+          romaji: "tenki",
         },
         {
           palavra: "てんし",
           traducao: "anjo",
+          romaji: "tenshi",
         },
       ],
     },
@@ -349,14 +406,17 @@ const hiraganaList = [
         {
           palavra: "ともだち",
           traducao: "amigo",
+          romaji: "tomodachi",
         },
         {
           palavra: "とおい",
           traducao: "longe",
+          romaji: "tooi",
         },
         {
           palavra: "とうきょう",
           traducao: "Tóquio",
+          romaji: "Toukyou",
         },
       ],
     },
@@ -367,14 +427,17 @@ const hiraganaList = [
         {
           palavra: "なまえ",
           traducao: "nome",
+          romaji: "namae",
         },
         {
           palavra: "なつ",
           traducao: "verão",
+          romaji: "natsu",
         },
         {
           palavra: "なか",
           traducao: "dentro",
+          romaji: "naka",
         },
       ],
     },
@@ -385,14 +448,17 @@ const hiraganaList = [
         {
           palavra: "にほん",
           traducao: "Japão",
+          romaji: "Nihon",
         },
         {
           palavra: "にちようび",
           traducao: "domingo",
+          romaji: "nichiyoubi",
         },
         {
           palavra: "にわ",
           traducao: "jardim",
+          romaji: "niwa",
         },
       ],
     },
@@ -403,14 +469,17 @@ const hiraganaList = [
         {
           palavra: "ぬいぐるみ",
           traducao: "pelúcia",
+          romaji: "nuigurumi",
         },
         {
           palavra: "ぬくもり",
           traducao: "calor",
+          romaji: "nukumori",
         },
         {
           palavra: "ぬすむ",
           traducao: "roubar",
+          romaji: "nusumu",
         },
       ],
     },
@@ -421,14 +490,17 @@ const hiraganaList = [
         {
           palavra: "ねこ",
           traducao: "gato",
+          romaji: "neko",
         },
         {
           palavra: "ねむい",
           traducao: "com sono",
+          romaji: "nemui",
         },
         {
           palavra: "ねだん",
           traducao: "preço",
+          romaji: "nedan",
         },
       ],
     },
@@ -439,14 +511,17 @@ const hiraganaList = [
         {
           palavra: "のみもの",
           traducao: "bebida",
+          romaji: "nomimono",
         },
         {
           palavra: "のぼる",
           traducao: "subir",
+          romaji: "noboru",
         },
         {
           palavra: "のうりょく",
           traducao: "habilidade",
+          romaji: "nouryoku",
         },
       ],
     },
@@ -457,14 +532,17 @@ const hiraganaList = [
         {
           palavra: "はな",
           traducao: "flor",
+          romaji: "hana",
         },
         {
           palavra: "はし",
           traducao: "hashi (palitos)",
+          romaji: "hashi",
         },
         {
           palavra: "はいる",
           traducao: "entrar",
+          romaji: "hairu",
         },
       ],
     },
@@ -475,14 +553,17 @@ const hiraganaList = [
         {
           palavra: "ひと",
           traducao: "pessoa",
+          romaji: "hito",
         },
         {
           palavra: "ひる",
           traducao: "tarde",
+          romaji: "hiru",
         },
         {
           palavra: "ひこうき",
           traducao: "avião",
+          romaji: "hikouki",
         },
       ],
     },
@@ -493,14 +574,17 @@ const hiraganaList = [
         {
           palavra: "ふたり",
           traducao: "duas pessoas",
+          romaji: "futari",
         },
         {
           palavra: "ふく",
           traducao: "roupa",
+          romaji: "fuku",
         },
         {
           palavra: "ふる",
           traducao: "chover",
+          romaji: "furu",
         },
       ],
     },
@@ -511,14 +595,17 @@ const hiraganaList = [
         {
           palavra: "へや",
           traducao: "quarto",
+          romaji: "heya",
         },
         {
           palavra: "へんじ",
           traducao: "resposta",
+          romaji: "henji",
         },
         {
           palavra: "へいわ",
           traducao: "paz",
+          romaji: "heiwa",
         },
       ],
     },
@@ -529,14 +616,17 @@ const hiraganaList = [
         {
           palavra: "ほん",
           traducao: "livro",
+          romaji: "hon",
         },
         {
           palavra: "ほし",
           traducao: "estrela",
+          romaji: "hoshi",
         },
         {
           palavra: "ほうりつ",
           traducao: "lei",
+          romaji: "houritsu",
         },
       ],
     },
@@ -547,14 +637,17 @@ const hiraganaList = [
         {
           palavra: "まど",
           traducao: "janela",
+          romaji: "mado",
         },
         {
           palavra: "まるい",
           traducao: "redondo",
+          romaji: "marui",
         },
         {
           palavra: "まち",
           traducao: "cidade",
+          romaji: "machi",
         },
       ],
     },
@@ -565,14 +658,17 @@ const hiraganaList = [
         {
           palavra: "みず",
           traducao: "água",
+          romaji: "mizu",
         },
         {
           palavra: "みせ",
           traducao: "loja",
+          romaji: "mise",
         },
         {
           palavra: "みんな",
           traducao: "todos",
+          romaji: "minna",
         },
       ],
     },
@@ -583,14 +679,17 @@ const hiraganaList = [
         {
           palavra: "むし",
           traducao: "inseto",
+          romaji: "mushi",
         },
         {
           palavra: "むかし",
           traducao: "antigamente",
+          romaji: "mukashi",
         },
         {
           palavra: "むずかしい",
           traducao: "difícil",
+          romaji: "muzukashii",
         },
       ],
     },
@@ -601,14 +700,17 @@ const hiraganaList = [
         {
           palavra: "めがね",
           traducao: "óculos",
+          romaji: "megane",
         },
         {
           palavra: "め",
           traducao: "olho",
+          romaji: "me",
         },
         {
           palavra: "めいわく",
           traducao: "inconveniente",
+          romaji: "meiwaku",
         },
       ],
     },
@@ -619,14 +721,17 @@ const hiraganaList = [
         {
           palavra: "もの",
           traducao: "coisa",
+          romaji: "mono",
         },
         {
           palavra: "もくてき",
           traducao: "objetivo",
+          romaji: "mokuteki",
         },
         {
           palavra: "もり",
           traducao: "floresta",
+          romaji: "mori",
         },
       ],
     },
@@ -637,14 +742,17 @@ const hiraganaList = [
         {
           palavra: "やま",
           traducao: "montanha",
+          romaji: "yama",
         },
         {
           palavra: "やさい",
           traducao: "vegetais",
+          romaji: "yasai",
         },
         {
           palavra: "やすい",
           traducao: "barato",
+          romaji: "yasui",
         },
       ],
     },
@@ -655,14 +763,17 @@ const hiraganaList = [
         {
           palavra: "ゆうがた",
           traducao: "tarde",
+          romaji: "yūgata",
         },
         {
           palavra: "ゆめ",
           traducao: "sonho",
+          romaji: "yume",
         },
         {
           palavra: "ゆび",
           traducao: "dedo",
+          romaji: "yubi",
         },
       ],
     },
@@ -673,14 +784,17 @@ const hiraganaList = [
         {
           palavra: "よる",
           traducao: "noite",
+          romaji: "yoru",
         },
         {
           palavra: "よわい",
           traducao: "fraco",
+          romaji: "yowai",
         },
         {
           palavra: "よん",
           traducao: "quatro",
+          romaji: "yon",
         },
       ],
     },
@@ -691,14 +805,17 @@ const hiraganaList = [
         {
           palavra: "らいねん",
           traducao: "próximo ano",
+          romaji: "rainen",
         },
         {
           palavra: "らいしゅう",
           traducao: "próxima semana",
+          romaji: "raishū",
         },
         {
           palavra: "らくがき",
           traducao: "rascunho",
+          romaji: "rakugaki",
         },
       ],
     },
@@ -709,14 +826,17 @@ const hiraganaList = [
         {
           palavra: "りんご",
           traducao: "maçã",
+          romaji: "ringo",
         },
         {
           palavra: "りょうり",
           traducao: "culinária",
+          romaji: "ryōri",
         },
         {
           palavra: "りゅうがく",
           traducao: "estudar no exterior",
+          romaji: "ryūgaku",
         },
       ],
     },
@@ -727,14 +847,17 @@ const hiraganaList = [
         {
           palavra: "るす",
           traducao: "ficar fora de casa",
+          romaji: "rusu",
         },
         {
           palavra: "るい",
           traducao: "categoria",
+          romaji: "rui",
         },
         {
           palavra: "るん",
           traducao: "regra",
+          romaji: "run",
         },
       ],
     },
@@ -745,14 +868,17 @@ const hiraganaList = [
         {
           palavra: "れんしゅう",
           traducao: "prática",
+          romaji: "renshū",
         },
         {
           palavra: "れいぞうこ",
           traducao: "geladeira",
+          romaji: "reizōko",
         },
         {
           palavra: "れんあい",
           traducao: "amor",
+          romaji: "ren'ai",
         },
       ],
     },
@@ -763,14 +889,17 @@ const hiraganaList = [
         {
           palavra: "ろうか",
           traducao: "corredor",
+          romaji: "rōka",
         },
         {
           palavra: "ろっぴゃく",
           traducao: "seiscentos",
+          romaji: "ropphyaku",
         },
         {
           palavra: "ろく",
           traducao: "seis",
+          romaji: "roku",
         },
       ],
     },
@@ -781,14 +910,17 @@ const hiraganaList = [
         {
           palavra: "わたし",
           traducao: "eu",
+          romaji: "watashi",
         },
         {
           palavra: "わるい",
           traducao: "ruim",
+          romaji: "warui",
         },
         {
           palavra: "わかる",
           traducao: "entender",
+          romaji: "wakaru",
         },
       ],
     },
@@ -799,14 +931,17 @@ const hiraganaList = [
         {
           palavra: "をたく",
           traducao: "querer",
+          romaji: "wotaku",
         },
         {
           palavra: "をん",
           traducao: "on (letra)",
+          romaji: "on",
         },
         {
           palavra: "をり",
           traducao: "guerreiro",
+          romaji: "wori",
         },
       ],
     },
@@ -817,18 +952,25 @@ const hiraganaList = [
         {
           palavra: "にほん",
           traducao: "Japão",
+          romaji: "Nihon",
         },
         {
           palavra: "なまえ",
           traducao: "nome",
+          romaji: "namae",
         },
         {
           palavra: "なん",
           traducao: "o quê",
+          romaji: "nan",
         },
       ],
     },
   },
 ];
+
+const hiraganaDakuon = {
+  
+}
 
 export default hiraganaList;
