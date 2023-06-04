@@ -1,0 +1,35 @@
+.header_container {
+  background-color: #1b0000;
+
+  .header_link_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 130rem;
+    margin: 0 auto;
+
+    a {
+      text-decoration: none;
+      color: #edf2f4;
+      font-size: 1.6rem;
+      transition: all 0.3s;
+      display: inline-block;
+
+      img {
+        width: 200px;
+        margin: 5px 0;
+      }
+
+      &:hover,
+      &:active {
+        color: #8d99ae;
+      }
+    }
+    .header_link {
+      width: 50rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

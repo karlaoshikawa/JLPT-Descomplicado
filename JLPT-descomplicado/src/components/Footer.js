@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import logoJLPT from "../images/logo-header-site.png";
 import Search from "./Search";
-import style from './Header.module.scss';
+import style from './Footer.module.scss';
 
-export default function Header() {
+export default function Footer() {
   return (
-    <div className={style.header_container}>
-      <div className={style.header_link_box}>
+    <div className={style.footer_container}>
+      <div className={style.footer_link_box}>
       <Link to="/" data-testid="link-to-home">
       <img src={logoJLPT} alt="logo JLPT descomplicado" />
         </Link>
-        <div className={style.header_link}>
+        <div className={style.footer_link}>
       <Link to="/hiragana" data-testid="link-to-hiragana">
         <div className="header-link">Hiragana</div>
       </Link>
