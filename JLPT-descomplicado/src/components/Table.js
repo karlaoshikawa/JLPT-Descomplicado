@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import style from './Table.module.scss';
 
 export default function Table({ caracteres, tipo }) {
-  console.log(caracteres);
   return (
     <div className={style.table_container}>
       {caracteres.map((moji, i) => (
