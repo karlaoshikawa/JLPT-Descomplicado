@@ -798,6 +798,14 @@ export const katakanaList = [
     ],
   },
   {
+    letra: "",
+    katakana: "",
+  },
+    {
+    letra: "",
+    katakana: "",
+  },
+  {
     letra: "ra",
     katakana: "ラ",
     exemplos: [
@@ -1478,7 +1486,7 @@ export const katakanaDakuon = [
   },
 ];
 
-export const katakanaYuoon = [
+export const katakanaYoon = [
     {
     letra: "kya",
     katakana: "キャ",
