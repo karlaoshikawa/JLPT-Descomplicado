@@ -960,7 +960,6 @@ export const hiraganaList = [
 
 export const hiraganaDakuon = [
   {
-    ga: {
       letra: "ga",
       hiragana: "が",
       exemplos: [
@@ -981,7 +980,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    gi: {
+     {
       letra: "gi",
       hiragana: "ぎ",
       exemplos: [
@@ -1002,7 +1001,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    gu: {
+    {
       letra: "gu",
       hiragana: "ぐ",
       exemplos: [
@@ -1023,7 +1022,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    ge: {
+    {
       letra: "ge",
       hiragana: "げ",
       exemplos: [
@@ -1044,7 +1043,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    go: {
+    {
       letra: "go",
       hiragana: "ご",
       exemplos: [
@@ -1065,7 +1064,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    za: {
+    {
       letra: "za",
       hiragana: "ざ",
       exemplos: [
@@ -1086,9 +1085,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-  },
   {
-    ji: {
       letra: "ji",
       hiragana: "じ",
       exemplos: [
@@ -1109,9 +1106,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-  },
-  {
-    zu: {
+{
       letra: "zu",
       hiragana: "ず",
       exemplos: [
@@ -1132,9 +1127,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-  },
-  {
-    ze: {
+{
       letra: "ze",
       hiragana: "ぜ",
       exemplos: [
@@ -1155,9 +1148,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-  },
   {
-    zo: {
       letra: "zo",
       hiragana: "ぞ",
       exemplos: [
@@ -1178,7 +1169,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    da: {
+  {
       letra: "da",
       hiragana: "だ",
       exemplos: [
@@ -1199,21 +1190,15 @@ export const hiraganaDakuon = [
         },
       ],
     },
-  },
   {
-    di: {
       letra: "di",
       hiragana: "ぢ",
     },
-  },
   {
-    du: {
       letra: "du",
       hiragana: "づ",
     },
-  },
   {
-    de: {
       letra: "de",
       hiragana: "で",
       exemplos: [
@@ -1234,9 +1219,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-  },
-  {
-    do: {
+ {
       letra: "do",
       hiragana: "ど",
       exemplos: [
@@ -1257,7 +1240,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    ba: {
+    {
       letra: "ba",
       hiragana: "ば",
       exemplos: [
@@ -1278,7 +1261,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    bi: {
+    {
       letra: "bi",
       hiragana: "び",
       exemplos: [
@@ -1299,7 +1282,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    bu: {
+   {
       letra: "bu",
       hiragana: "ぶ",
       exemplos: [
@@ -1320,7 +1303,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    be: {
+    {
       letra: "be",
       hiragana: "べ",
       exemplos: [
@@ -1341,7 +1324,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    bo: {
+   {
       letra: "bo",
       hiragana: "ぼ",
       exemplos: [
@@ -1362,7 +1345,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    pa: {
+{
       letra: "pa",
       hiragana: "ぱ",
       exemplos: [
@@ -1378,7 +1361,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    pi: {
+  {
       letra: "pi",
       hiragana: "ぴ",
       exemplos: [
@@ -1399,7 +1382,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    pu: {
+  {
       letra: "pu",
       hiragana: "ぷ",
       exemplos: [
@@ -1415,7 +1398,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    pe: {
+  {
       letra: "pe",
       hiragana: "ぺ",
       exemplos: [
@@ -1436,7 +1419,7 @@ export const hiraganaDakuon = [
         },
       ],
     },
-    po: {
+  {
       letra: "po",
       hiragana: "ぽ",
       exemplos: [
@@ -1457,12 +1440,10 @@ export const hiraganaDakuon = [
         },
       ],
     },
-  },
 ];
 
 export const hiraganaYoon = [
   {
-    kya: {
       letra: "kya",
       hiragana: "きゃ",
       exemplos: [
@@ -1483,7 +1464,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    kyu: {
+    {
       letra: "kyu",
       hiragana: "きゅ",
       exemplos: [
@@ -1504,7 +1485,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    kyo: {
+    {
       letra: "kyo",
       hiragana: "きょ",
       exemplos: [
@@ -1525,7 +1506,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    sha: {
+    {
       letra: "sha",
       hiragana: "しゃ",
       exemplos: [
@@ -1546,7 +1527,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    shu: {
+    {
       letra: "shu",
       hiragana: "しゅ",
       exemplos: [
@@ -1567,7 +1548,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    sho: {
+    {
       letra: "sho",
       hiragana: "しょ",
       exemplos: [
@@ -1588,7 +1569,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    cha: {
+    {
       letra: "cha",
       hiragana: "ちゃ",
       exemplos: [
@@ -1609,7 +1590,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    chu: {
+    {
       letra: "chu",
       hiragana: "ちゅ",
       exemplos: [
@@ -1630,7 +1611,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    cho: {
+    {
       letra: "cho",
       hiragana: "ちょ",
       exemplos: [
@@ -1651,7 +1632,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    nya: {
+    {
       letra: "nya",
       hiragana: "にゃ",
       exemplos: [
@@ -1667,7 +1648,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    nyu: {
+    {
       letra: "nyu",
       hiragana: "にゅ",
       exemplos: [
@@ -1678,7 +1659,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    nyo: {
+    {
       letra: "nyo",
       hiragana: "にょ",
       exemplos: [
@@ -1689,7 +1670,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    hya: {
+    {
       letra: "hya",
       hiragana: "ひゃ",
       exemplos: [
@@ -1700,7 +1681,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    hyu: {
+    {
       letra: "hyu",
       hiragana: "ひゅ",
       exemplos: [
@@ -1711,11 +1692,11 @@ export const hiraganaYoon = [
         },
       ],
     },
-    hyo: {
+    {
       letra: "hyo",
       hiragana: "ひょ",
     },
-    mya: {
+    {
       letra: "mya",
       hiragana: "みゃ",
       exemplos: [
@@ -1726,11 +1707,11 @@ export const hiraganaYoon = [
         },
       ],
     },
-    myu: {
+    {
       letra: "myu",
       hiragana: "みゅ",
     },
-    myo: {
+    {
       letra: "myo",
       hiragana: "みょ",
       exemplos: [
@@ -1741,11 +1722,11 @@ export const hiraganaYoon = [
         },
       ],
     },
-    rya: {
+    {
       letra: "rya",
       hiragana: "りゃ",
     },
-    ryu: {
+    {
       letra: "ryu",
       hiragana: "りゅ",
       exemplos: [
@@ -1756,7 +1737,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    ryo: {
+     {
       letra: "ryo",
       hiragana: "りょ",
       exemplos: [
@@ -1767,7 +1748,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    gya: {
+    {
       letra: "gya",
       hiragana: "ぎゃ",
       exemplos: [
@@ -1778,7 +1759,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    gyu: {
+   {
       letra: "gyu",
       hiragana: "ぎゅ",
       exemplos: [
@@ -1789,7 +1770,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    gyo: {
+     {
       letra: "gyo",
       hiragana: "ぎょ",
       exemplos: [
@@ -1800,7 +1781,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-        jya: {
+      {
       letra: "jya",
       hiragana: "じゃ",
       exemplos: [
@@ -1816,7 +1797,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    jyu: {
+    {
       letra: "jyu",
       hiragana: "じゅ",
       exemplos: [
@@ -1832,7 +1813,7 @@ export const hiraganaYoon = [
         },
       ],
     },
-    jyo: {
+    {
       letra: "jyo",
       hiragana: "じょ",
       exemplos: [
@@ -1848,27 +1829,27 @@ export const hiraganaYoon = [
         },
       ],
     },
-    dya: {
+    {
       letra: "dya",
       hiragana: "ぢゃ",
     },
-    dyu: {
+    {
       letra: "dyu",
       hiragana: "ぢゅ",
     },
-    dyo: {
+    {
       letra: "dyo",
       hiragana: "ぢょ",
     },
-    bya: {
+   {
       letra: "bya",
       hiragana: "びゃ",
-    },
-    byu: {
+  },
+  {
       letra: "byu",
       hiragana: "びゅ",
-    },
-    byo: {
+  },
+  {
       letra: "byo",
       hiragana: "びょ",
       exemplos: [
@@ -1883,16 +1864,16 @@ export const hiraganaYoon = [
           romaji: "byouki",
         },
       ],
-    },
-    pya: {
+  },
+  {
       letra: "pya",
       hiragana: "ぴゃ",
-    },
-    pyu: {
+  },
+  {
       letra: "pyu",
       hiragana: "ぴゅ",
-    },
-    pyo: {
+  },
+  {
       letra: "pyo",
       hiragana: "ぴょ",
       exemplos: [
@@ -1903,5 +1884,4 @@ export const hiraganaYoon = [
         },
       ],
     },
-  },
 ];

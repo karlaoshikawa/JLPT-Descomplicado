@@ -1,17 +1,16 @@
-import { Link } from "react-router-dom"
-import { hiraganaList } from "../data/hiragana"
+import { Link } from "react-router-dom";
 import style from './Table.module.scss';
 
-export default function Table() {
+export default function Table({ caracteres, tipo }) {
+  console.log(caracteres);
   return (
     <div className={style.table_container}>
-      {hiraganaList.map((moji) => (
-        <Link className={style.table_box}>
-        <p>{moji.letra}</p>
-        <h2>{moji.hiragana}</h2>
-    </Link>
-    ))
-        }
-      </div>
-  )
+      {caracteres.map((moji, i) => (
+        <Link key={i} className={tipo === true ? style.table_box_yoon : style.table_box}>
+          <p>{moji.letra}</p>
+          <h2>{moji.hiragana}</h2>
+        </Link>
+      ))}
+    </div>
+  );
 }

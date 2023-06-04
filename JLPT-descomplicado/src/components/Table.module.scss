@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
   height: 40rem;
   max-width: 100rem;
   margin: 0 auto;
 
   .table_box {
+     border: 1px solid #ced4da;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -15,29 +16,58 @@
     justify-content: center;
     flex-basis: calc(20% - 10px);
     height: 50px;
-    border: 2px solid #1b0000;
     text-decoration: none;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0px;
 
     p {
       font-size: 2rem;
       margin-bottom: 3px;
+      color: #1b0000
     }
 
     h2 {
       font-size: 2.4rem;
       margin-top: 0;
+      color: #C80200
     }
   }
-}
+
+  .table_box_yoon {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: calc(33% - 10px);
+    text-decoration: none;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0px;
+
+    p {
+      font-size: 2rem;
+      margin-bottom: 3px;
+      color: #1b0000
+    }
+
+    h2 {
+      font-size: 2.4rem;
+      margin-top: 0;
+      color: #C80200
+    }
+  }
+ }
 
 @for $i from 1 through 48 {
   .table_container .table_box:nth-child(#{$i}) {
     /* Estilos para todos os elementos */
-    border: 2px solid #1b0000;
+    
 
     /* Estilos específicos para os elementos de índice 39 e 40 */
     @if $i == 39 or $i == 40 {
-      border: 2px solid #edf2f4;
+      border: none;
+      box-shadow: none;
     }
   }
 }
