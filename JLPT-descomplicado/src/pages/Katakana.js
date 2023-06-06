@@ -8,18 +8,27 @@ import { katakanaDakuon } from "../data/katakana"
 import { katakanaYoon } from "../data/katakana"
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
-export default function Hiragana() {
+export default function Katakana() {
   return (
     <div className={style.TitleAndSubtitle_container} >
       <Header />
-      <TitleAndSubtitle wordH3={"Katakana"} wordP={"Clique no Caracter para ver os exemplos"}/>
+      <TitleAndSubtitle
+        wordH3={"Katakana"}
+        wordP={"Clique no Caracter para ver os exemplos"}
+      />
       <Table caracteres={katakanaList} katakana={true}/>
 
-      <TitleAndSubtitle wordH3={"Katakana Dakuon"} wordP={"Clique no Caracter para ver os exemplos"}/>
-      <Table caracteres={katakanaDakuon} katakana={true}/>
+      <TitleAndSubtitle
+        wordH3={"Katakana Dakuon"}
+        wordP={"Clique no Caracter para ver os exemplos"}
+      />
+      <Table caracteres={katakanaDakuon} tipo='Dakuon' katakana={true}/>
 
-      <TitleAndSubtitle wordH3={"Katakana Yoon"} wordP={"Clique no Caracter para ver os exemplos"}/>
-      <Table caracteres={katakanaYoon} tipo={true} katakana={true} />
+      <TitleAndSubtitle
+        wordH3={"Katakana Yoon"}
+        wordP={"Clique no Caracter para ver os exemplos"}
+      />
+      <Table caracteres={katakanaYoon} tipo='Yoon' katakana={true} />
       <Footer />
     </div>
   )

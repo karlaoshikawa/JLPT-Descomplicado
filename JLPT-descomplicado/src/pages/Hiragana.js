@@ -16,10 +16,10 @@ export default function Hiragana() {
       <Table caracteres={hiraganaList} />
 
       <TitleAndSubtitle wordH3={"Hiragana Dakuon"} wordP={"Clique no Caracter para ver os exemplos"}/>
-      <Table caracteres={hiraganaDakuon} />
+      <Table caracteres={hiraganaDakuon} tipo='Dakuon'/>
 
       <TitleAndSubtitle wordH3={"Hiragana Yoon"} wordP={"Clique no Caracter para ver os exemplos"}/>
-      <Table caracteres={ hiraganaYoon } tipo={true}/>
+      <Table caracteres={ hiraganaYoon } tipo='Yoon'/>
       <Footer />
     </div>
   )

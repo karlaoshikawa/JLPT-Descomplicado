@@ -8,7 +8,7 @@
   margin: 0 auto;
 
   .table_box {
-     border: 1px solid #ced4da;
+    border: 1px solid #ced4da;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -18,18 +18,18 @@
     height: 50px;
     text-decoration: none;
 
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
 
     p {
       font-size: 2rem;
       margin-bottom: 3px;
-      color: #1b0000
+      color: #1b0000;
     }
 
     h2 {
       font-size: 2.4rem;
       margin-top: 0;
-      color: #C80200
+      color: #c80200;
     }
   }
 
@@ -43,26 +43,25 @@
     flex-basis: calc(33% - 10px);
     text-decoration: none;
 
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
 
     p {
       font-size: 2rem;
       margin-bottom: 3px;
-      color: #1b0000
+      color: #1b0000;
     }
 
     h2 {
       font-size: 2.4rem;
       margin-top: 0;
-      color: #C80200
+      color: #c80200;
     }
   }
- }
+}
 
 @for $i from 1 through 48 {
   .table_container .table_box:nth-child(#{$i}) {
     /* Estilos para todos os elementos */
-    
 
     /* Estilos específicos para os elementos de índice 39 e 40 */
     @if $i == 39 or $i == 40 {
