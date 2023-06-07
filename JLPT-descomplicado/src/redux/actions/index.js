@@ -9,3 +9,9 @@ export const getcaracter = (caracter) => ({
   type: GETCARACTER,
   ...caracter,
 })
+
+export const GETNEXTCARACTER = 'GETNEXTCARACTER';
+export const getnextcaracter = (caracter) => ({
+  type: GETNEXTCARACTER,
+  ...caracter,
+})

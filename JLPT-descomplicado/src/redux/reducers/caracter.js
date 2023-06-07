@@ -1,9 +1,10 @@
-import { GETCARACTER } from "../actions";
+import { GETCARACTER, GETNEXTCARACTER } from "../actions";
 
 const initialState = {
   kana: "",
-  type: "",
+  tipo: "",
   caracter: "",
+  posicao: undefined,
 };
 
 const caracter = (state = initialState, action) => {
@@ -11,8 +12,16 @@ const caracter = (state = initialState, action) => {
     case GETCARACTER:
       return {
         kana: action.isKatakana,
-        type: action.tipo,
+        tipo: action.tipo,
         caracter: action.moji,
+        posicao: action.index,
+      };
+    case GETNEXTCARACTER:
+      return {
+        kana: action.kana,
+        tipo: action.tipo,
+        caracter: action.next.letra,
+        posicao: action.posicao,
       };
     default:
       return state;
