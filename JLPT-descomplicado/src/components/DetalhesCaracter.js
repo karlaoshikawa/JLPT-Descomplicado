@@ -36,19 +36,25 @@ export default function DetalhesCaracter() {
     "katakanaYoon",
   ];
 
+  const nextMojiIndex =
+    moji.posicao === 38 ? Number(moji.posicao) + 3 : Number(moji.posicao) + 1;
+
+  const dataIndex = dataStringList.findIndex((item) => dataString === item);
+  const list = data[dataIndex];
   useEffect(() => {
-    const dataIndex = dataStringList.findIndex((item) => dataString === item);
-    const list = data[dataIndex];
     // const dataCaracter = list.find((carac) => carac.letra === moji.caracter);
     // setGetCaracter(dataCaracter);
     setGetCaracter(list[moji.posicao]);
-    setNextCaracter(list[moji.posicao + 1]);
+    setNextCaracter(list[nextMojiIndex]);
   }, [moji, nextCaracter]);
 
   const caracterState = (kana, tipo, next, posicao) => {
     dispatch(getnextcaracter({ kana, tipo, next, posicao }));
     setGetCaracter(next);
   };
+
+  console.log(moji.posicao);
+  console.log("ka", list.length);
 
   return (
     <div className={style.detalhesCaracter_container}>
@@ -70,19 +76,23 @@ export default function DetalhesCaracter() {
           </div>
         ) : null
       )}
-      {nextCaracter.letra && (
+      {nextCaracter?.letra ? (
         <Link
-          to={`/${moji.kana}/${nextCaracter.letra}`}
+          to={
+            moji.posicao >= list.length
+              ? `/${moji.kana}`
+              : `/${moji.kana}/${nextCaracter.letra}`
+          }
           onClick={() =>
-            caracterState(
-              moji.kana,
-              basicList,
-              nextCaracter,
-              (Number(moji.posicao) + 1)
-            )}
+            caracterState(moji.kana, basicList, nextCaracter, nextMojiIndex)
+          }
         >
           <h4 className={style.detalhesCaracter_next_link}>próximo</h4>
         </Link>
+      ) : (
+          <Link to={`/${moji.kana}`}>
+            <h4 className={style.detalhesCaracter_next_link}>{moji.kana}</h4>
+          </Link>
       )}
     </div>
   );
