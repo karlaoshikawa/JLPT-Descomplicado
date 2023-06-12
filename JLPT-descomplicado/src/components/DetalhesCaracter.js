@@ -1,14 +1,11 @@
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import style from "./DetalhesCaracter.module.scss";
-import { hiraganaList } from "../data/hiragana";
-import { hiraganaDakuon } from "../data/hiragana";
-import { hiraganaYoon } from "../data/hiragana";
-import { katakanaList } from "../data/katakana";
-import { katakanaDakuon } from "../data/katakana";
-import { katakanaYoon } from "../data/katakana";
 import { Link } from "react-router-dom";
 import { getnextcaracter } from "../redux/actions";
+
+import { hiraganaList, hiraganaDakuon, hiraganaYoon } from "../data/hiragana";
+import { katakanaList, katakanaDakuon, katakanaYoon } from "../data/katakana";
 
 export default function DetalhesCaracter() {
   const dispatch = useDispatch();
@@ -37,7 +34,7 @@ export default function DetalhesCaracter() {
   ];
 
   const nextMojiIndex =
-    moji.posicao === 38 ? Number(moji.posicao) + 3 : Number(moji.posicao) + 1;
+    moji.posicao === 37 ? Number(moji.posicao) + 3 : Number(moji.posicao) + 1;
 
   const dataIndex = dataStringList.findIndex((item) => dataString === item);
   const list = data[dataIndex];
@@ -53,8 +50,9 @@ export default function DetalhesCaracter() {
     setGetCaracter(next);
   };
 
-  console.log(moji.posicao);
-  console.log("ka", list.length);
+  console.log(nextCaracter);
+  console.log('atual', moji.posicao);
+  console.log('next',nextMojiIndex);
 
   return (
     <div className={style.detalhesCaracter_container}>
@@ -78,11 +76,7 @@ export default function DetalhesCaracter() {
       )}
       {nextCaracter?.letra ? (
         <Link
-          to={
-            moji.posicao >= list.length
-              ? `/${moji.kana}`
-              : `/${moji.kana}/${nextCaracter.letra}`
-          }
+          to={`/${moji.kana}/${nextCaracter.letra}`}
           onClick={() =>
             caracterState(moji.kana, basicList, nextCaracter, nextMojiIndex)
           }

@@ -67,6 +67,7 @@
     @if $i == 39 or $i == 40 {
       border: none;
       box-shadow: none;
+      pointer-events: none;
     }
   }
 }
