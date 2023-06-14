@@ -1,0 +1,22 @@
+.testDate_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  .testDate_box {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 0;
+    }
+  }
+}

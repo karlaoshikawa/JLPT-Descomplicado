@@ -5,6 +5,7 @@ import Hiragana from './pages/Hiragana';
 import Katakana from './pages/Katakana';
 import Caracter from './pages/Caracter';
 import AboutJLPT from './pages/AboutJLPT';
+import HowToApply from './pages/HowToApply';
 // import ExerciseRomaji from './components/ExerciseRomaji';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Switch>
       <Route exact path='/'><Home /></Route>
       <Route exact path='/o-que-e-jlpt'><AboutJLPT /></Route>
+      <Route exact path='/sobre-o-teste'><HowToApply /></Route>
       <Route exact path='/hiragana'><Hiragana /></Route>
       <Route exact path='/hiragana/:caracter'><Caracter /></Route>
       {/* <Route exact path='/hiragana/exercise-kaku'><ExerciseRomaji /></Route> */}

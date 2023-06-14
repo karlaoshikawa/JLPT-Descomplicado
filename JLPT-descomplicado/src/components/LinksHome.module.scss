@@ -1,11 +1,19 @@
 .linksHome_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 140rem;
+  margin: 0 auto;
+
   a {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     text-decoration: none;
     display: flex;
     align-items: start;
     justify-content: start;
     max-width: 140rem;
     margin: 0 auto;
+    color: #c80200;
   }
 }

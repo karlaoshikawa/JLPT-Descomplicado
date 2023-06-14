@@ -11,7 +11,7 @@ export default function PageJLPTDetails() {
         <div className={style.PageJLPTDetails_gridItem}>
           <h1>O que é JLPT?</h1>
           <p>
-            O JLPT significa Exame de Proficiência em Língua Japonesa. É um
+            &nbsp;&nbsp;&nbsp;&nbsp;O JLPT significa Exame de Proficiência em Língua Japonesa. É um
             teste padronizado em papel, com tempo determinado, projetado para
             avaliar a compreensão de leitura e habilidades de audição em
             japonês, com cinco níveis de dificuldade. Foi elaborado pela
@@ -41,9 +41,9 @@ export default function PageJLPTDetails() {
         <div className={style.PageJLPTDetails_gridItem}>
           <h2>PORQUE AS PESSOAS FAZEM O JLPT?</h2>
           <p>
-            De acordo com uma pesquisa da Fundação Japão em 2018, os candidatos
+            &nbsp;&nbsp;&nbsp;&nbsp;De acordo com uma pesquisa da Fundação Japão em 2018, os candidatos
             do exterior fazem o JLPT por duas razões principais. Uma razão é
-            para o trabalho - conseguir um emprego, promoção ou aumento de
+            para o trabalho, conseguir um emprego, promoção ou aumento de
             salário, dentro ou fora do Japão (33,4%). A outra é simplesmente
             medir seu nível de proficiência em japonês (33,2%). Outro grande
             motivo é obter admissão em uma universidade japonesa, para aqueles
@@ -54,7 +54,7 @@ export default function PageJLPTDetails() {
         <div className={`${style.PageJLPTDetails_gridItem} ${style.PageJLPTDetails_bigP}`}>
           <h2>NO JAPÃO</h2>
           <p>
-            No Japão, descobri que as pessoas geralmente fazem o JLPT por
+            &nbsp;&nbsp;&nbsp;&nbsp;No Japão, descobri que as pessoas geralmente fazem o JLPT por
             motivos práticos. Quase todos os anúncios de emprego em tempo
             integral técnico e/ou de escritório que exigem que você opere
             principalmente em japonês exigem que os candidatos tenham
