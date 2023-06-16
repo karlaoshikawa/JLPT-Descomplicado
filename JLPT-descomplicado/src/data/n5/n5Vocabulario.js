@@ -1,14 +1,29 @@
 const n5VocabList = [
-{
+  {
     vocabulario: "会う",
     romaji: "au",
     hiragana: "あう",
     traducao: "encontrar",
     exemplosFrases: [
-      { exemplo: "私は友達と会います。", hiragana: "わたしはともだちとあいます。", romaji: "Watashi wa tomodachi to aimasu.", traducao: "Eu encontro-me com meus amigos." },
-      { exemplo: "先生に会って話しました。", hiragana: "せんせいにあってはなしました。", romaji: "Sensei ni atte hanashimashita.", traducao: "Eu encontrei-me com o professor e conversei." },
-      { exemplo: "新しい人に会うのは緊張します。", hiragana: "あたらしいひとにあうのはきんちょうします。", romaji: "Atarashii hito ni au no wa kinchō shimasu.", traducao: "Encontrar uma pessoa nova me deixa nervoso(a)." }
-    ]
+      {
+        exemplo: "私は友達と会います。",
+        hiragana: "わたしはともだちとあいます。",
+        romaji: "Watashi wa tomodachi to aimasu.",
+        traducao: "Eu encontro-me com meus amigos.",
+      },
+      {
+        exemplo: "先生に会って話しました。",
+        hiragana: "せんせいにあってはなしました。",
+        romaji: "Sensei ni atte hanashimashita.",
+        traducao: "Eu encontrei-me com o professor e conversei.",
+      },
+      {
+        exemplo: "新しい人に会うのは緊張します。",
+        hiragana: "あたらしいひとにあうのはきんちょうします。",
+        romaji: "Atarashii hito ni au no wa kinchō shimasu.",
+        traducao: "Encontrar uma pessoa nova me deixa nervoso(a).",
+      },
+    ],
   },
   {
     vocabulario: "青い",
@@ -16,21 +31,51 @@ const n5VocabList = [
     hiragana: "あおい",
     traducao: "azul",
     exemplosFrases: [
-      { exemplo: "空が青くて気持ちがいいです。", hiragana: "そらがあおくてきもちがいいです。", romaji: "Sora ga aokute kimochi ga ii desu.", traducao: "O céu está azul e é agradável." },
-      { exemplo: "青い海が広がっています。", hiragana: "あおいうみがひろがっています。", romaji: "Aoi umi ga hirogatte imasu.", traducao: "Um mar azul se estende." },
-      { exemplo: "青い空気を感じてください。", hiragana: "あおいくうきをかんじてください。", romaji: "Aoi kūki o kanjite kudasai.", traducao: "Por favor, sinta o ar fresco." }
-    ]
+      {
+        exemplo: "空が青くて気持ちがいいです。",
+        hiragana: "そらがあおくてきもちがいいです。",
+        romaji: "Sora ga aokute kimochi ga ii desu.",
+        traducao: "O céu está azul e é agradável.",
+      },
+      {
+        exemplo: "青い海が広がっています。",
+        hiragana: "あおいうみがひろがっています。",
+        romaji: "Aoi umi ga hirogatte imasu.",
+        traducao: "Um mar azul se estende.",
+      },
+      {
+        exemplo: "青い空気を感じてください。",
+        hiragana: "あおいくうきをかんじてください。",
+        romaji: "Aoi kūki o kanjite kudasai.",
+        traducao: "Por favor, sinta o ar fresco.",
+      },
+    ],
   },
- {
+  {
     vocabulario: "赤い",
     romaji: "akai",
     hiragana: "あかい",
     traducao: "vermelho",
     exemplosFrases: [
-      { exemplo: "りんごは赤いです。", hiragana: "りんごはあかいです。", romaji: "Ringo wa akai desu.", traducao: "A maçã é vermelha." },
-      { exemplo: "赤い花がきれいです。", hiragana: "あかいはながきれいです。", romaji: "Akai hana ga kirei desu.", traducao: "As flores vermelhas são bonitas." },
-      { exemplo: "赤い車を見つけました。", hiragana: "あかいくるまをみつけました。", romaji: "Akai kuruma o mitsukemashita.", traducao: "Encontrei um carro vermelho." }
-    ]
+      {
+        exemplo: "りんごは赤いです。",
+        hiragana: "りんごはあかいです。",
+        romaji: "Ringo wa akai desu.",
+        traducao: "A maçã é vermelha.",
+      },
+      {
+        exemplo: "赤い花がきれいです。",
+        hiragana: "あかいはながきれいです。",
+        romaji: "Akai hana ga kirei desu.",
+        traducao: "As flores vermelhas são bonitas.",
+      },
+      {
+        exemplo: "赤い車を見つけました。",
+        hiragana: "あかいくるまをみつけました。",
+        romaji: "Akai kuruma o mitsukemashita.",
+        traducao: "Encontrei um carro vermelho.",
+      },
+    ],
   },
   {
     vocabulario: "明い",
@@ -38,21 +83,51 @@ const n5VocabList = [
     hiragana: "あかい",
     traducao: "brilhante",
     exemplosFrases: [
-      { exemplo: "明い部屋が好きです。", hiragana: "あかいへやがすきです。", romaji: "Akai heya ga suki desu.", traducao: "Gosto de quartos brilhantes." },
-      { exemplo: "明い未来を想像してください。", hiragana: "あかいみらいをそうぞうしてください。", romaji: "Akai mirai o souzou shite kudasai.", traducao: "Por favor, imagine um futuro brilhante." },
-      { exemplo: "彼女の明い笑顔が輝いています。", hiragana: "かのじょのあかいえがおがかがやいています。", romaji: "Kanojo no akai egao ga kagayaiteimasu.", traducao: "O brilhante sorriso dela está radiante." }
-    ]
+      {
+        exemplo: "明い部屋が好きです。",
+        hiragana: "あかいへやがすきです。",
+        romaji: "Akai heya ga suki desu.",
+        traducao: "Gosto de quartos brilhantes.",
+      },
+      {
+        exemplo: "明い未来を想像してください。",
+        hiragana: "あかいみらいをそうぞうしてください。",
+        romaji: "Akai mirai o souzou shite kudasai.",
+        traducao: "Por favor, imagine um futuro brilhante.",
+      },
+      {
+        exemplo: "彼女の明い笑顔が輝いています。",
+        hiragana: "かのじょのあかいえがおがかがやいています。",
+        romaji: "Kanojo no akai egao ga kagayaiteimasu.",
+        traducao: "O brilhante sorriso dela está radiante.",
+      },
+    ],
   },
-    {
+  {
     vocabulario: "秋",
     romaji: "aki",
     hiragana: "あき",
     traducao: "outono",
     exemplosFrases: [
-      { exemplo: "秋は美しい季節です。", hiragana: "あきはうつくしいきせつです。", romaji: "Aki wa utsukushii kisetsu desu.", traducao: "O outono é uma estação bonita." },
-      { exemplo: "秋には紅葉が楽しめます。", hiragana: "あきにはこうようがたのしめます。", romaji: "Aki ni wa kōyō ga tanoshimemasu.", traducao: "No outono, você pode desfrutar das folhas coloridas." },
-      { exemplo: "秋の風が心地よいです。", hiragana: "あきのかぜがここちよいです。", romaji: "Aki no kaze ga kokochiyoi desu.", traducao: "O vento do outono é agradável." }
-    ]
+      {
+        exemplo: "秋は美しい季節です。",
+        hiragana: "あきはうつくしいきせつです。",
+        romaji: "Aki wa utsukushii kisetsu desu.",
+        traducao: "O outono é uma estação bonita.",
+      },
+      {
+        exemplo: "秋には紅葉が楽しめます。",
+        hiragana: "あきにはこうようがたのしめます。",
+        romaji: "Aki ni wa kōyō ga tanoshimemasu.",
+        traducao: "No outono, você pode desfrutar das folhas coloridas.",
+      },
+      {
+        exemplo: "秋の風が心地よいです。",
+        hiragana: "あきのかぜがここちよいです。",
+        romaji: "Aki no kaze ga kokochiyoi desu.",
+        traducao: "O vento do outono é agradável.",
+      },
+    ],
   },
   {
     vocabulario: "開く",
@@ -60,10 +135,25 @@ const n5VocabList = [
     hiragana: "ひらく",
     traducao: "abrir",
     exemplosFrases: [
-      { exemplo: "ドアが開いています。", hiragana: "ドアがひらいています。", romaji: "Doa ga hiraite imasu.", traducao: "A porta está aberta." },
-      { exemplo: "会議が開かれます。", hiragana: "かいぎがひらかれます。", romaji: "Kaigi ga hirakaremasu.", traducao: "Uma reunião será realizada." },
-      { exemplo: "新しいお店が開店しました。", hiragana: "あたらしいおみせがかいてんしました。", romaji: "Atarashii omise ga kaiten shimashita.", traducao: "Uma nova loja foi inaugurada." }
-    ]
+      {
+        exemplo: "ドアが開いています。",
+        hiragana: "ドアがひらいています。",
+        romaji: "Doa ga hiraite imasu.",
+        traducao: "A porta está aberta.",
+      },
+      {
+        exemplo: "会議が開かれます。",
+        hiragana: "かいぎがひらかれます。",
+        romaji: "Kaigi ga hirakaremasu.",
+        traducao: "Uma reunião será realizada.",
+      },
+      {
+        exemplo: "新しいお店が開店しました。",
+        hiragana: "あたらしいおみせがかいてんしました。",
+        romaji: "Atarashii omise ga kaiten shimashita.",
+        traducao: "Uma nova loja foi inaugurada.",
+      },
+    ],
   },
   {
     vocabulario: "開ける",
@@ -71,21 +161,51 @@ const n5VocabList = [
     hiragana: "あける",
     traducao: "abrir",
     exemplosFrases: [
-      { exemplo: "窓を開けてください。", hiragana: "まどをあけてください。", romaji: "Mado o akete kudasai.", traducao: "Por favor, abra a janela." },
-      { exemplo: "ビンのフタを開けました。", hiragana: "ビンのふたをあけました。", romaji: "Bin no futa o akemashita.", traducao: "Eu abri a tampa da garrafa." },
-      { exemplo: "パーティーが開けると楽しみです。", hiragana: "パーティーがあけるとたのしみです。", romaji: "Pātī ga akeru to tanoshimi desu.", traducao: "Estou ansioso(a) para que a festa comece." }
-    ]
+      {
+        exemplo: "窓を開けてください。",
+        hiragana: "まどをあけてください。",
+        romaji: "Mado o akete kudasai.",
+        traducao: "Por favor, abra a janela.",
+      },
+      {
+        exemplo: "ビンのフタを開けました。",
+        hiragana: "ビンのふたをあけました。",
+        romaji: "Bin no futa o akemashita.",
+        traducao: "Eu abri a tampa da garrafa.",
+      },
+      {
+        exemplo: "パーティーが開けると楽しみです。",
+        hiragana: "パーティーがあけるとたのしみです。",
+        romaji: "Pātī ga akeru to tanoshimi desu.",
+        traducao: "Estou ansioso(a) para que a festa comece.",
+      },
+    ],
   },
-    {
+  {
     vocabulario: "上げる",
     romaji: "ageru",
     hiragana: "あげる",
     traducao: "elevar",
     exemplosFrases: [
-      { exemplo: "手を上げてください。", hiragana: "てをあげてください。", romaji: "Te o agete kudasai.", traducao: "Por favor, levante a mão." },
-      { exemplo: "声を上げて歌います。", hiragana: "こえをあげてうたいます。", romaji: "Koe o agete utaimasu.", traducao: "Canto em voz alta." },
-      { exemplo: "価格が上がりました。", hiragana: "かかくがあがりました。", romaji: "Kakaku ga agarimashita.", traducao: "O preço subiu." }
-    ]
+      {
+        exemplo: "手を上げてください。",
+        hiragana: "てをあげてください。",
+        romaji: "Te o agete kudasai.",
+        traducao: "Por favor, levante a mão.",
+      },
+      {
+        exemplo: "声を上げて歌います。",
+        hiragana: "こえをあげてうたいます。",
+        romaji: "Koe o agete utaimasu.",
+        traducao: "Canto em voz alta.",
+      },
+      {
+        exemplo: "価格が上がりました。",
+        hiragana: "かかくがあがりました。",
+        romaji: "Kakaku ga agarimashita.",
+        traducao: "O preço subiu.",
+      },
+    ],
   },
   {
     vocabulario: "朝",
@@ -93,10 +213,25 @@ const n5VocabList = [
     hiragana: "あさ",
     traducao: "manhã",
     exemplosFrases: [
-      { exemplo: "朝食をとりましょう。", hiragana: "ちょうしょくをとりましょう。", romaji: "Chōshoku o torimashō.", traducao: "Vamos tomar o café da manhã." },
-      { exemplo: "朝早く起きるのは苦手です。", hiragana: "あさはやくおきるのはにがてです。", romaji: "Asa hayaku okiru no wa nigate desu.", traducao: "Acordar cedo de manhã não é o meu forte." },
-      { exemplo: "朝の散歩は気持ちがいいです。", hiragana: "あさのさんぽはきもちがいいです。", romaji: "Asa no sanpo wa kimochi ga ii desu.", traducao: "Caminhar de manhã é agradável." }
-    ]
+      {
+        exemplo: "朝食をとりましょう。",
+        hiragana: "ちょうしょくをとりましょう。",
+        romaji: "Chōshoku o torimashō.",
+        traducao: "Vamos tomar o café da manhã.",
+      },
+      {
+        exemplo: "朝早く起きるのは苦手です。",
+        hiragana: "あさはやくおきるのはにがてです。",
+        romaji: "Asa hayaku okiru no wa nigate desu.",
+        traducao: "Acordar cedo de manhã não é o meu forte.",
+      },
+      {
+        exemplo: "朝の散歩は気持ちがいいです。",
+        hiragana: "あさのさんぽはきもちがいいです。",
+        romaji: "Asa no sanpo wa kimochi ga ii desu.",
+        traducao: "Caminhar de manhã é agradável.",
+      },
+    ],
   },
   {
     vocabulario: "朝御飯",
@@ -104,10 +239,26 @@ const n5VocabList = [
     hiragana: "あさごはん",
     traducao: "café da manhã",
     exemplosFrases: [
-      { exemplo: "毎朝、朝御飯を食べます。", hiragana: "まいあさ、あさごはんをたべます。", romaji: "Maiasa, asa gohan o tabemasu.", traducao: "Como café da manhã todos os dias." },
-      { exemplo: "朝御飯にはパンが好きです。", hiragana: "あさごはんにはぱんがすきです。", romaji: "Asa gohan ni wa pan ga suki desu.", traducao: "Eu gosto de pão no café da manhã." },
-      { exemplo: "忙しいときは朝御飯を食べる時間がありません。", hiragana: "いそがしいときはあさごはんをたべるじかんがありません。", romaji: "Isogashii toki wa asa gohan o taberu jikan ga arimasen.", traducao: "Quando estou ocupado, não tenho tempo para tomar café da manhã." }
-    ]
+      {
+        exemplo: "毎朝、朝御飯を食べます。",
+        hiragana: "まいあさ、あさごはんをたべます。",
+        romaji: "Maiasa, asa gohan o tabemasu.",
+        traducao: "Como café da manhã todos os dias.",
+      },
+      {
+        exemplo: "朝御飯にはパンが好きです。",
+        hiragana: "あさごはんにはぱんがすきです。",
+        romaji: "Asa gohan ni wa pan ga suki desu.",
+        traducao: "Eu gosto de pão no café da manhã.",
+      },
+      {
+        exemplo: "忙しいときは朝御飯を食べる時間がありません。",
+        hiragana: "いそがしいときはあさごはんをたべるじかんがありません。",
+        romaji: "Isogashii toki wa asa gohan o taberu jikan ga arimasen.",
+        traducao:
+          "Quando estou ocupado, não tenho tempo para tomar café da manhã.",
+      },
+    ],
   },
   {
     vocabulario: "足",
@@ -115,10 +266,25 @@ const n5VocabList = [
     hiragana: "あし",
     traducao: "pé",
     exemplosFrases: [
-      { exemplo: "足が痛いです。", hiragana: "あしはいたいです。", romaji: "Ashi ga itai desu.", traducao: "Meu pé está doendo." },
-      { exemplo: "足を伸ばしてくつろぎましょう。", hiragana: "あしをのばしてくつろぎましょう。", romaji: "Ashi o nobashite kutsurogimashō.", traducao: "Vamos esticar as pernas e relaxar." },
-      { exemplo: "長い距離を歩くと足が疲れます。", hiragana: "ながいきょりをあるくとあしはつかれます。", romaji: "Nagai kyori o aruku to ashi ga tsukaremasu.", traducao: "Caminhar longas distâncias cansa as pernas." }
-    ]
+      {
+        exemplo: "足が痛いです。",
+        hiragana: "あしはいたいです。",
+        romaji: "Ashi ga itai desu.",
+        traducao: "Meu pé está doendo.",
+      },
+      {
+        exemplo: "足を伸ばしてくつろぎましょう。",
+        hiragana: "あしをのばしてくつろぎましょう。",
+        romaji: "Ashi o nobashite kutsurogimashō.",
+        traducao: "Vamos esticar as pernas e relaxar.",
+      },
+      {
+        exemplo: "長い距離を歩くと足が疲れます。",
+        hiragana: "ながいきょりをあるくとあしはつかれます。",
+        romaji: "Nagai kyori o aruku to ashi ga tsukaremasu.",
+        traducao: "Caminhar longas distâncias cansa as pernas.",
+      },
+    ],
   },
   {
     vocabulario: "明日",
@@ -126,21 +292,51 @@ const n5VocabList = [
     hiragana: "あした",
     traducao: "amanhã",
     exemplosFrases: [
-      { exemplo: "明日の天気はどうですか？", hiragana: "あしたのてんきはどうですか？", romaji: "Ashita no tenki wa dō desu ka?", traducao: "Como estará o tempo amanhã?" },
-      { exemplo: "明日は予定がいっぱいです。", hiragana: "あしたはよていがいっぱいです。", romaji: "Ashita wa yotei ga ippai desu.", traducao: "Tenho muitos planos para amanhã." },
-      { exemplo: "明日は休みですか？", hiragana: "あしたはやすみですか？", romaji: "Ashita wa yasumi desu ka?", traducao: "É folga amanhã?" }
-    ]
+      {
+        exemplo: "明日の天気はどうですか？",
+        hiragana: "あしたのてんきはどうですか？",
+        romaji: "Ashita no tenki wa dō desu ka?",
+        traducao: "Como estará o tempo amanhã?",
+      },
+      {
+        exemplo: "明日は予定がいっぱいです。",
+        hiragana: "あしたはよていがいっぱいです。",
+        romaji: "Ashita wa yotei ga ippai desu.",
+        traducao: "Tenho muitos planos para amanhã.",
+      },
+      {
+        exemplo: "明日は休みですか？",
+        hiragana: "あしたはやすみですか？",
+        romaji: "Ashita wa yasumi desu ka?",
+        traducao: "É folga amanhã?",
+      },
+    ],
   },
-    {
+  {
     vocabulario: "あそこ",
     romaji: "asoko",
     hiragana: "あそこ",
     traducao: "aquele lugar ali",
     exemplosFrases: [
-      { exemplo: "あそこに人がいます。", hiragana: "あそこにひとがいます。", romaji: "Asoko ni hito ga imasu.", traducao: "Há uma pessoa lá." },
-      { exemplo: "あそこで待ってください。", hiragana: "あそこでまってください。", romaji: "Asoko de matte kudasai.", traducao: "Por favor, espere lá." },
-      { exemplo: "あそこは静かです。", hiragana: "あそこはしずかです。", romaji: "Asoko wa shizuka desu.", traducao: "Aquele lugar ali está calmo." }
-    ]
+      {
+        exemplo: "あそこに人がいます。",
+        hiragana: "あそこにひとがいます。",
+        romaji: "Asoko ni hito ga imasu.",
+        traducao: "Há uma pessoa lá.",
+      },
+      {
+        exemplo: "あそこで待ってください。",
+        hiragana: "あそこでまってください。",
+        romaji: "Asoko de matte kudasai.",
+        traducao: "Por favor, espere lá.",
+      },
+      {
+        exemplo: "あそこは静かです。",
+        hiragana: "あそこはしずかです。",
+        romaji: "Asoko wa shizuka desu.",
+        traducao: "Aquele lugar ali está calmo.",
+      },
+    ],
   },
   {
     vocabulario: "遊ぶ",
@@ -148,10 +344,25 @@ const n5VocabList = [
     hiragana: "あそぶ",
     traducao: "brincar, jogar",
     exemplosFrases: [
-      { exemplo: "友達と公園で遊ぶ。", hiragana: "ともだちとこうえんであそぶ。", romaji: "Tomodachi to kōen de asobu.", traducao: "Brincar no parque com os amigos." },
-      { exemplo: "子供たちは外で遊んでいます。", hiragana: "こどもたちはそとであそんでいます。", romaji: "Kodomotachi wa soto de asonde imasu.", traducao: "As crianças estão brincando lá fora." },
-      { exemplo: "週末にゲームを遊ぶ。", hiragana: "しゅうまつにゲームをあそぶ。", romaji: "Shūmatsu ni gēmu o asobu.", traducao: "Jogar videogame no fim de semana." }
-    ]
+      {
+        exemplo: "友達と公園で遊ぶ。",
+        hiragana: "ともだちとこうえんであそぶ。",
+        romaji: "Tomodachi to kōen de asobu.",
+        traducao: "Brincar no parque com os amigos.",
+      },
+      {
+        exemplo: "子供たちは外で遊んでいます。",
+        hiragana: "こどもたちはそとであそんでいます。",
+        romaji: "Kodomotachi wa soto de asonde imasu.",
+        traducao: "As crianças estão brincando lá fora.",
+      },
+      {
+        exemplo: "週末にゲームを遊ぶ。",
+        hiragana: "しゅうまつにゲームをあそぶ。",
+        romaji: "Shūmatsu ni gēmu o asobu.",
+        traducao: "Jogar videogame no fim de semana.",
+      },
+    ],
   },
   {
     vocabulario: "暖かい",
@@ -159,10 +370,25 @@ const n5VocabList = [
     hiragana: "あたたかい",
     traducao: "quente",
     exemplosFrases: [
-      { exemplo: "暖かいコーヒーを飲みましょう。", hiragana: "あたたかいコーヒーをのみましょう。", romaji: "Atatakai kōhī o nomimashō.", traducao: "Vamos tomar um café quente." },
-      { exemplo: "今日は暖かい日ですね。", hiragana: "きょうはあたたかいひですね。", romaji: "Kyō wa atatakai hi desu ne.", traducao: "Está um dia quente hoje, não é?" },
-      { exemplo: "寒い部屋を暖かくする。", hiragana: "さむいへやをあたたかくする。", romaji: "Samui heya o atatakaku suru.", traducao: "Aquecer o quarto frio." }
-    ]
+      {
+        exemplo: "暖かいコーヒーを飲みましょう。",
+        hiragana: "あたたかいコーヒーをのみましょう。",
+        romaji: "Atatakai kōhī o nomimashō.",
+        traducao: "Vamos tomar um café quente.",
+      },
+      {
+        exemplo: "今日は暖かい日ですね。",
+        hiragana: "きょうはあたたかいひですね。",
+        romaji: "Kyō wa atatakai hi desu ne.",
+        traducao: "Está um dia quente hoje, não é?",
+      },
+      {
+        exemplo: "寒い部屋を暖かくする。",
+        hiragana: "さむいへやをあたたかくする。",
+        romaji: "Samui heya o atatakaku suru.",
+        traducao: "Aquecer o quarto frio.",
+      },
+    ],
   },
   {
     vocabulario: "頭",
@@ -170,10 +396,25 @@ const n5VocabList = [
     hiragana: "あたま",
     traducao: "cabeça",
     exemplosFrases: [
-      { exemplo: "頭が痛いです。", hiragana: "あたまがいたいです。", romaji: "Atama ga itai desu.", traducao: "Estou com dor de cabeça." },
-      { exemplo: "頭を冷やす", hiragana: "あたまをひやす", romaji: "Atama o hiyasu.", traducao: "Esfriar a cabeça." },
-      { exemplo: "頭が良い", hiragana: "あたまがいい", romaji: "Atama ga ii.", traducao: "Ser inteligente." }
-    ]
+      {
+        exemplo: "頭が痛いです。",
+        hiragana: "あたまがいたいです。",
+        romaji: "Atama ga itai desu.",
+        traducao: "Estou com dor de cabeça.",
+      },
+      {
+        exemplo: "頭を冷やす",
+        hiragana: "あたまをひやす",
+        romaji: "Atama o hiyasu.",
+        traducao: "Esfriar a cabeça.",
+      },
+      {
+        exemplo: "頭が良い",
+        hiragana: "あたまがいい",
+        romaji: "Atama ga ii.",
+        traducao: "Ser inteligente.",
+      },
+    ],
   },
   {
     vocabulario: "新しい",
@@ -181,10 +422,25 @@ const n5VocabList = [
     hiragana: "あたらしい",
     traducao: "novo",
     exemplosFrases: [
-      { exemplo: "新しい本を買いました。", hiragana: "あたらしいほんをかいました。", romaji: "Atarashii hon o kaimashita.", traducao: "Comprei um livro novo." },
-      { exemplo: "新しい仕事を始める。", hiragana: "あたらしいしごとをはじめる。", romaji: "Atarashii shigoto o hajimeru.", traducao: "Começar um novo trabalho." },
-      { exemplo: "新しい友達を作る。", hiragana: "あたらしいともだちをつくる。", romaji: "Atarashii tomodachi o tsukuru.", traducao: "Fazer novos amigos." }
-    ]
+      {
+        exemplo: "新しい本を買いました。",
+        hiragana: "あたらしいほんをかいました。",
+        romaji: "Atarashii hon o kaimashita.",
+        traducao: "Comprei um livro novo.",
+      },
+      {
+        exemplo: "新しい仕事を始める。",
+        hiragana: "あたらしいしごとをはじめる。",
+        romaji: "Atarashii shigoto o hajimeru.",
+        traducao: "Começar um novo trabalho.",
+      },
+      {
+        exemplo: "新しい友達を作る。",
+        hiragana: "あたらしいともだちをつくる。",
+        romaji: "Atarashii tomodachi o tsukuru.",
+        traducao: "Fazer novos amigos.",
+      },
+    ],
   },
   {
     vocabulario: "あちら",
@@ -192,10 +448,25 @@ const n5VocabList = [
     hiragana: "あちら",
     traducao: "lá, aquele lado",
     exemplosFrases: [
-      { exemplo: "あちらに誰かいますか？", hiragana: "あちらにだれかいますか？", romaji: "Achira ni dareka imasu ka?", traducao: "Há alguém lá?" },
-      { exemplo: "あちらに座ってください。", hiragana: "あちらにすわってください。", romaji: "Achira ni suwatte kudasai.", traducao: "Por favor, sente-se lá." },
-      { exemplo: "あちらの方へ行きましょう。", hiragana: "あちらのほうへいきましょう。", romaji: "Achira no hō e ikimashō.", traducao: "Vamos naquela direção." }
-    ]
+      {
+        exemplo: "あちらに誰かいますか？",
+        hiragana: "あちらにだれかいますか？",
+        romaji: "Achira ni dareka imasu ka?",
+        traducao: "Há alguém lá?",
+      },
+      {
+        exemplo: "あちらに座ってください。",
+        hiragana: "あちらにすわってください。",
+        romaji: "Achira ni suwatte kudasai.",
+        traducao: "Por favor, sente-se lá.",
+      },
+      {
+        exemplo: "あちらの方へ行きましょう。",
+        hiragana: "あちらのほうへいきましょう。",
+        romaji: "Achira no hō e ikimashō.",
+        traducao: "Vamos naquela direção.",
+      },
+    ],
   },
   {
     vocabulario: "暑い",
@@ -203,10 +474,25 @@ const n5VocabList = [
     hiragana: "あつい",
     traducao: "quente (clima)",
     exemplosFrases: [
-      { exemplo: "今日は暑いですね。", hiragana: "きょうはあついですね。", romaji: "Kyō wa atsui desu ne.", traducao: "Está quente hoje, não é?" },
-      { exemplo: "夏は暑くて湿気が多い。", hiragana: "なつはあつくてしっけがおおい。", romaji: "Natsu wa atsukute shikke ga ōi.", traducao: "O verão é quente e úmido." },
-      { exemplo: "暑い日には水をたくさん飲みましょう。", hiragana: "あついひにはみずをたくさんのみましょう。", romaji: "Atsui hi ni wa mizu o takusan nomimashō.", traducao: "Em dias quentes, beba bastante água." }
-    ]
+      {
+        exemplo: "今日は暑いですね。",
+        hiragana: "きょうはあついですね。",
+        romaji: "Kyō wa atsui desu ne.",
+        traducao: "Está quente hoje, não é?",
+      },
+      {
+        exemplo: "夏は暑くて湿気が多い。",
+        hiragana: "なつはあつくてしっけがおおい。",
+        romaji: "Natsu wa atsukute shikke ga ōi.",
+        traducao: "O verão é quente e úmido.",
+      },
+      {
+        exemplo: "暑い日には水をたくさん飲みましょう。",
+        hiragana: "あついひにはみずをたくさんのみましょう。",
+        romaji: "Atsui hi ni wa mizu o takusan nomimashō.",
+        traducao: "Em dias quentes, beba bastante água.",
+      },
+    ],
   },
   {
     vocabulario: "熱い",
@@ -214,10 +500,25 @@ const n5VocabList = [
     hiragana: "あつい",
     traducao: "quente (ao toque)",
     exemplosFrases: [
-      { exemplo: "お湯が熱いです。", hiragana: "おゆがあついです。", romaji: "Oyu ga atsui desu.", traducao: "A água está quente." },
-      { exemplo: "熱いコーヒーを飲みましょう。", hiragana: "あついコーヒーをのみましょう。", romaji: "Atsui kōhī o nomimashō.", traducao: "Vamos tomar um café quente." },
-      { exemplo: "熱い天気が続いています。", hiragana: "あついてんきがつづいています。", romaji: "Atsui tenki ga tsuzuite imasu.", traducao: "O clima quente continua." }
-    ]
+      {
+        exemplo: "お湯が熱いです。",
+        hiragana: "おゆがあついです。",
+        romaji: "Oyu ga atsui desu.",
+        traducao: "A água está quente.",
+      },
+      {
+        exemplo: "熱いコーヒーを飲みましょう。",
+        hiragana: "あついコーヒーをのみましょう。",
+        romaji: "Atsui kōhī o nomimashō.",
+        traducao: "Vamos tomar um café quente.",
+      },
+      {
+        exemplo: "熱い天気が続いています。",
+        hiragana: "あついてんきがつづいています。",
+        romaji: "Atsui tenki ga tsuzuite imasu.",
+        traducao: "O clima quente continua.",
+      },
+    ],
   },
   {
     vocabulario: "厚い",
@@ -225,10 +526,25 @@ const n5VocabList = [
     hiragana: "あつい",
     traducao: "espesso, grosso",
     exemplosFrases: [
-      { exemplo: "厚い本を読んでいます。", hiragana: "あついほんをよんでいます。", romaji: "Atsui hon o yonde imasu.", traducao: "Estou lendo um livro grosso." },
-      { exemplo: "厚い雲が広がっています。", hiragana: "あついくもがひろがっています。", romaji: "Atsui kumo ga hirogatte imasu.", traducao: "Nuvens espessas estão se espalhando." },
-      { exemplo: "冬は厚いコートが必要です。", hiragana: "ふゆはあついコートがひつようです。", romaji: "Fuyu wa atsui kōto ga hitsuyō desu.", traducao: "No inverno, um casaco grosso é necessário." }
-    ]
+      {
+        exemplo: "厚い本を読んでいます。",
+        hiragana: "あついほんをよんでいます。",
+        romaji: "Atsui hon o yonde imasu.",
+        traducao: "Estou lendo um livro grosso.",
+      },
+      {
+        exemplo: "厚い雲が広がっています。",
+        hiragana: "あついくもがひろがっています。",
+        romaji: "Atsui kumo ga hirogatte imasu.",
+        traducao: "Nuvens espessas estão se espalhando.",
+      },
+      {
+        exemplo: "冬は厚いコートが必要です。",
+        hiragana: "ふゆはあついコートがひつようです。",
+        romaji: "Fuyu wa atsui kōto ga hitsuyō desu.",
+        traducao: "No inverno, um casaco grosso é necessário.",
+      },
+    ],
   },
   {
     vocabulario: "あっち",
@@ -236,10 +552,25 @@ const n5VocabList = [
     hiragana: "あっち",
     traducao: "lá, por ali",
     exemplosFrases: [
-      { exemplo: "あっちに何かありますか？", hiragana: "あっちになにかありますか？", romaji: "Acchi ni nanika arimasu ka?", traducao: "Tem algo por ali?" },
-      { exemplo: "あっちの方へ行きましょう。", hiragana: "あっちのほうへいきましょう。", romaji: "Acchi no hō e ikimashō.", traducao: "Vamos naquela direção." },
-      { exemplo: "あっちのお店で買い物しましょう。", hiragana: "あっちのおみせでかいものしましょう。", romaji: "Acchi no mise de kaimono shimashō.", traducao: "Vamos fazer compras naquela loja." }
-    ]
+      {
+        exemplo: "あっちに何かありますか？",
+        hiragana: "あっちになにかありますか？",
+        romaji: "Acchi ni nanika arimasu ka?",
+        traducao: "Tem algo por ali?",
+      },
+      {
+        exemplo: "あっちの方へ行きましょう。",
+        hiragana: "あっちのほうへいきましょう。",
+        romaji: "Acchi no hō e ikimashō.",
+        traducao: "Vamos naquela direção.",
+      },
+      {
+        exemplo: "あっちのお店で買い物しましょう。",
+        hiragana: "あっちのおみせでかいものしましょう。",
+        romaji: "Acchi no mise de kaimono shimashō.",
+        traducao: "Vamos fazer compras naquela loja.",
+      },
+    ],
   },
   {
     vocabulario: "後",
@@ -247,10 +578,25 @@ const n5VocabList = [
     hiragana: "あと",
     traducao: "depois",
     exemplosFrases: [
-      { exemplo: "それから後で連絡します。", hiragana: "それからあとでれんらくします。", romaji: "Sorekara ato de renraku shimasu.", traducao: "Vou entrar em contato depois disso." },
-      { exemplo: "仕事の後で友達と会います。", hiragana: "しごとのあとでともだちとあいます。", romaji: "Shigoto no ato de tomodachi to aimasu.", traducao: "Vou encontrar um amigo depois do trabalho." },
-      { exemplo: "映画を見た後で夕食に行きましょう。", hiragana: "えいがをみたあとでゆうしょくにいきましょう。", romaji: "Eiga o mita ato de yūshoku ni ikimashō.", traducao: "Vamos jantar depois de assistir ao filme." }
-    ]
+      {
+        exemplo: "それから後で連絡します。",
+        hiragana: "それからあとでれんらくします。",
+        romaji: "Sorekara ato de renraku shimasu.",
+        traducao: "Vou entrar em contato depois disso.",
+      },
+      {
+        exemplo: "仕事の後で友達と会います。",
+        hiragana: "しごとのあとでともだちとあいます。",
+        romaji: "Shigoto no ato de tomodachi to aimasu.",
+        traducao: "Vou encontrar um amigo depois do trabalho.",
+      },
+      {
+        exemplo: "映画を見た後で夕食に行きましょう。",
+        hiragana: "えいがをみたあとでゆうしょくにいきましょう。",
+        romaji: "Eiga o mita ato de yūshoku ni ikimashō.",
+        traducao: "Vamos jantar depois de assistir ao filme.",
+      },
+    ],
   },
   {
     vocabulario: "あなた",
@@ -258,10 +604,25 @@ const n5VocabList = [
     hiragana: "あなた",
     traducao: "você",
     exemplosFrases: [
-      { exemplo: "あなたの名前は何ですか？", hiragana: "あなたのなまえはなんですか？", romaji: "Anata no namae wa nan desu ka?", traducao: "Qual é o seu nome?" },
-      { exemplo: "あなたはどこから来ましたか？", hiragana: "あなたはどこからきましたか？", romaji: "Anata wa doko kara kimashita ka?", traducao: "De onde você é?" },
-      { exemplo: "あなたは日本語を話せますか？", hiragana: "あなたはにほんごをはなせますか？", romaji: "Anata wa nihongo o hanasemasu ka?", traducao: "Você fala japonês?" }
-    ]
+      {
+        exemplo: "あなたの名前は何ですか？",
+        hiragana: "あなたのなまえはなんですか？",
+        romaji: "Anata no namae wa nan desu ka?",
+        traducao: "Qual é o seu nome?",
+      },
+      {
+        exemplo: "あなたはどこから来ましたか？",
+        hiragana: "あなたはどこからきましたか？",
+        romaji: "Anata wa doko kara kimashita ka?",
+        traducao: "De onde você é?",
+      },
+      {
+        exemplo: "あなたは日本語を話せますか？",
+        hiragana: "あなたはにほんごをはなせますか？",
+        romaji: "Anata wa nihongo o hanasemasu ka?",
+        traducao: "Você fala japonês?",
+      },
+    ],
   },
   {
     vocabulario: "兄",
@@ -269,10 +630,25 @@ const n5VocabList = [
     hiragana: "あに",
     traducao: "irmão mais velho",
     exemplosFrases: [
-      { exemplo: "私の兄は医者です。", hiragana: "わたしのあにはいしゃです。", romaji: "Watashi no ani wa isha desu.", traducao: "Meu irmão mais velho é médico." },
-      { exemplo: "兄は学校の先生です。", hiragana: "あにはがっこうのせんせいです。", romaji: "Ani wa gakkō no sensei desu.", traducao: "Meu irmão mais velho é professor na escola." },
-      { exemplo: "兄の誕生日にプレゼントをあげました。", hiragana: "あにのたんじょうびにプレゼントをあげました。", romaji: "Ani no tanjōbi ni purezento o agemashita.", traducao: "Dei um presente no aniversário do meu irmão mais velho." }
-    ]
+      {
+        exemplo: "私の兄は医者です。",
+        hiragana: "わたしのあにはいしゃです。",
+        romaji: "Watashi no ani wa isha desu.",
+        traducao: "Meu irmão mais velho é médico.",
+      },
+      {
+        exemplo: "兄は学校の先生です。",
+        hiragana: "あにはがっこうのせんせいです。",
+        romaji: "Ani wa gakkō no sensei desu.",
+        traducao: "Meu irmão mais velho é professor na escola.",
+      },
+      {
+        exemplo: "兄の誕生日にプレゼントをあげました。",
+        hiragana: "あにのたんじょうびにプレゼントをあげました。",
+        romaji: "Ani no tanjōbi ni purezento o agemashita.",
+        traducao: "Dei um presente no aniversário do meu irmão mais velho.",
+      },
+    ],
   },
   {
     vocabulario: "姉",
@@ -280,10 +656,25 @@ const n5VocabList = [
     hiragana: "あね",
     traducao: "irmã mais velha",
     exemplosFrases: [
-      { exemplo: "私の姉は大学生です。", hiragana: "わたしのあねはだいがくせいです。", romaji: "Watashi no ane wa daigaku-sei desu.", traducao: "Minha irmã mais velha é estudante universitária." },
-      { exemplo: "姉は会社で働いています。", hiragana: "あねはかいしゃではたらいています。", romaji: "Ane wa kaisha de hataraite imasu.", traducao: "Minha irmã mais velha trabalha em uma empresa." },
-      { exemplo: "姉の結婚式に出席しました。", hiragana: "あねのけっこんしきにしゅっせきしました。", romaji: "Ane no kekkonshiki ni shuttseki shimashita.", traducao: "Estive presente no casamento da minha irmã mais velha." }
-    ]
+      {
+        exemplo: "私の姉は大学生です。",
+        hiragana: "わたしのあねはだいがくせいです。",
+        romaji: "Watashi no ane wa daigaku-sei desu.",
+        traducao: "Minha irmã mais velha é estudante universitária.",
+      },
+      {
+        exemplo: "姉は会社で働いています。",
+        hiragana: "あねはかいしゃではたらいています。",
+        romaji: "Ane wa kaisha de hataraite imasu.",
+        traducao: "Minha irmã mais velha trabalha em uma empresa.",
+      },
+      {
+        exemplo: "姉の結婚式に出席しました。",
+        hiragana: "あねのけっこんしきにしゅっせきしました。",
+        romaji: "Ane no kekkonshiki ni shuttseki shimashita.",
+        traducao: "Estive presente no casamento da minha irmã mais velha.",
+      },
+    ],
   },
   {
     vocabulario: "あの",
@@ -295,21 +686,21 @@ const n5VocabList = [
         exemplo: "あの本は面白いですか？",
         hiragana: "あのほんはおもしろいですか？",
         romaji: "Ano hon wa omoshiroi desu ka?",
-        traducao: "Aquele livro é interessante?"
+        traducao: "Aquele livro é interessante?",
       },
       {
         exemplo: "あの人は誰ですか？",
         hiragana: "あのひとはだれですか？",
         romaji: "Ano hito wa dare desu ka?",
-        traducao: "Quem é aquela pessoa?"
+        traducao: "Quem é aquela pessoa?",
       },
       {
         exemplo: "あのレストランは美味しいです。",
         hiragana: "あのれすとらんはおいしいです。",
         romaji: "Ano resutoran wa oishii desu.",
-        traducao: "Aquele restaurante é delicioso."
-      }
-    ]
+        traducao: "Aquele restaurante é delicioso.",
+      },
+    ],
   },
   {
     vocabulario: "アパート",
@@ -321,21 +712,21 @@ const n5VocabList = [
         exemplo: "私はアパートに住んでいます。",
         hiragana: "わたしはあぱーとにすんでいます。",
         romaji: "Watashi wa apāto ni sunde imasu.",
-        traducao: "Eu moro em um apartamento."
+        traducao: "Eu moro em um apartamento.",
       },
       {
         exemplo: "アパートの隣に公園があります。",
         hiragana: "あぱーとのとなりにこうえんがあります。",
         romaji: "Apāto no tonari ni kōen ga arimasu.",
-        traducao: "Há um parque ao lado do apartamento."
+        traducao: "Há um parque ao lado do apartamento.",
       },
       {
         exemplo: "アパートの家賃は高いです。",
         hiragana: "あぱーとのやちんはたかいです。",
         romaji: "Apāto no yachin wa takai desu.",
-        traducao: "O aluguel do apartamento é caro."
-      }
-    ]
+        traducao: "O aluguel do apartamento é caro.",
+      },
+    ],
   },
   {
     vocabulario: "あびる",
@@ -347,21 +738,21 @@ const n5VocabList = [
         exemplo: "毎朝シャワーをあびます。",
         hiragana: "まいあさしゃわーをあびます。",
         romaji: "Maiasa shawā o abimasu.",
-        traducao: "Tomo banho todas as manhãs."
+        traducao: "Tomo banho todas as manhãs.",
       },
       {
         exemplo: "温泉に入ってゆっくりとあびる。",
         hiragana: "おんせんにはいってゆっくりとあびる。",
         romaji: "Onsen ni haitte yukkuri to abiru.",
-        traducao: "Tomar um banho relaxante em uma fonte termal."
+        traducao: "Tomar um banho relaxante em uma fonte termal.",
       },
       {
         exemplo: "夏は海で泳いだ後にあびる。",
         hiragana: "なつはうみでおよいだあとにあびる。",
         romaji: "Natsu wa umi de oyoida ato ni abiru.",
-        traducao: "Tomar um banho depois de nadar no mar durante o verão."
-      }
-    ]
+        traducao: "Tomar um banho depois de nadar no mar durante o verão.",
+      },
+    ],
   },
   {
     vocabulario: "危ない",
@@ -373,21 +764,24 @@ const n5VocabList = [
         exemplo: "それはとても危ないです。",
         hiragana: "それはとてもあぶないです。",
         romaji: "Sore wa totemo abunai desu.",
-        traducao: "Isso é muito perigoso."
+        traducao: "Isso é muito perigoso.",
       },
       {
         exemplo: "道路を渡るときは気をつけて、危ないですから。",
         hiragana: "どうろをわたるときはきをつけて、あぶないですから。",
         romaji: "Dōro o wataru toki wa ki o tsukete, abunai desu kara.",
-        traducao: "Tenha cuidado ao atravessar a estrada, é perigoso."
+        traducao: "Tenha cuidado ao atravessar a estrada, é perigoso.",
       },
       {
         exemplo: "子供が近くで遊んでいるので、気を付けて危なくありませんか？",
-        hiragana: "こどもがちかくであそんでいるので、きをつけてあぶなくありませんか？",
-        romaji: "Kodomo ga chikaku de asonde iru node, ki o tsukete abunaku arimasen ka?",
-        traducao: "Você não acha perigoso, já que as crianças estão brincando por perto?"
-      }
-    ]
+        hiragana:
+          "こどもがちかくであそんでいるので、きをつけてあぶなくありませんか？",
+        romaji:
+          "Kodomo ga chikaku de asonde iru node, ki o tsukete abunaku arimasen ka?",
+        traducao:
+          "Você não acha perigoso, já que as crianças estão brincando por perto?",
+      },
+    ],
   },
   {
     vocabulario: "甘い",
@@ -399,21 +793,21 @@ const n5VocabList = [
         exemplo: "このケーキはとても甘いです。",
         hiragana: "このケーキはとてもあまいです。",
         romaji: "Kono kēki wa totemo amai desu.",
-        traducao: "Este bolo é muito doce."
+        traducao: "Este bolo é muito doce.",
       },
       {
         exemplo: "果物は甘くておいしいです。",
         hiragana: "くだものはあまくておいしいです。",
         romaji: "Kudamono wa amakute oishii desu.",
-        traducao: "As frutas são doces e saborosas."
+        traducao: "As frutas são doces e saborosas.",
       },
       {
         exemplo: "甘いものを食べすぎると健康に悪いです。",
         hiragana: "あまいものをたべすぎるとけんこうにわるいです。",
         romaji: "Amai mono o tabesugiru to kenkō ni warui desu.",
-        traducao: "Comer doces em excesso é ruim para a saúde."
-      }
-    ]
+        traducao: "Comer doces em excesso é ruim para a saúde.",
+      },
+    ],
   },
   {
     vocabulario: "あまり",
@@ -425,21 +819,22 @@ const n5VocabList = [
         exemplo: "私はあまり甘いものが好きじゃないです。",
         hiragana: "わたしはあまりあまいものがすきじゃないです。",
         romaji: "Watashi wa amari amai mono ga suki ja nai desu.",
-        traducao: "Eu não gosto muito de doces."
+        traducao: "Eu não gosto muito de doces.",
       },
       {
         exemplo: "天気があまり良くないので、外に出かけるのをやめました。",
         hiragana: "てんきがあまりよくないので、そとにでかけるのをやめました。",
-        romaji: "Tenki ga amari yokunai node, soto ni dekakeru no o yamemashita.",
-        traducao: "O tempo não está muito bom, então desisti de sair."
+        romaji:
+          "Tenki ga amari yokunai node, soto ni dekakeru no o yamemashita.",
+        traducao: "O tempo não está muito bom, então desisti de sair.",
       },
       {
         exemplo: "彼はあまり日本語が上手ではありません。",
         hiragana: "かれはあまりにほんごがじょうずではありません。",
         romaji: "Kare wa amari nihongo ga jōzu dewa arimasen.",
-        traducao: "Ele não é muito bom em japonês."
-      }
-    ]
+        traducao: "Ele não é muito bom em japonês.",
+      },
+    ],
   },
   {
     vocabulario: "雨",
@@ -451,21 +846,21 @@ const n5VocabList = [
         exemplo: "今日は雨です。",
         hiragana: "きょうはあめです。",
         romaji: "Kyō wa ame desu.",
-        traducao: "Hoje está chovendo."
+        traducao: "Hoje está chovendo.",
       },
       {
         exemplo: "傘を持って雨に出かけます。",
         hiragana: "かさをもってあめにでかけます。",
         romaji: "Kasa o motte ame ni dekakemasu.",
-        traducao: "Vou sair com um guarda-chuva por causa da chuva."
+        traducao: "Vou sair com um guarda-chuva por causa da chuva.",
       },
       {
         exemplo: "雨がやみました。",
         hiragana: "あめがやみました。",
         romaji: "Ame ga yamimashita.",
-        traducao: "A chuva parou."
-      }
-    ]
+        traducao: "A chuva parou.",
+      },
+    ],
   },
   {
     vocabulario: "飴",
@@ -477,21 +872,21 @@ const n5VocabList = [
         exemplo: "子供たちは飴を食べて喜んでいました。",
         hiragana: "こどもたちはあめをたべてよろこんでいました。",
         romaji: "Kodomotachi wa ame o tabete yorokonde imashita.",
-        traducao: "As crianças estavam felizes comendo balas."
+        traducao: "As crianças estavam felizes comendo balas.",
       },
       {
         exemplo: "お祭りで飴がたくさん売られていました。",
         hiragana: "おまつりであめがたくさんうられていました。",
         romaji: "Omatsuri de ame ga takusan urarete imashita.",
-        traducao: "Havia muitas balas sendo vendidas no festival."
+        traducao: "Havia muitas balas sendo vendidas no festival.",
       },
       {
         exemplo: "彼女は飴をなめながら歩いていました。",
         hiragana: "かのじょはあめをなめながらあるいていました。",
         romaji: "Kanojo wa ame o namanagara aruite imashita.",
-        traducao: "Ela estava caminhando enquanto chupava uma bala."
-      }
-    ]
+        traducao: "Ela estava caminhando enquanto chupava uma bala.",
+      },
+    ],
   },
   {
     vocabulario: "洗う",
@@ -503,21 +898,21 @@ const n5VocabList = [
         exemplo: "毎朝顔を洗います。",
         hiragana: "まいあさかおをあらいます。",
         romaji: "Maiasa kao o araimasu.",
-        traducao: "Eu lavo o rosto todas as manhãs."
+        traducao: "Eu lavo o rosto todas as manhãs.",
       },
       {
         exemplo: "洗濯物を洗って干します。",
         hiragana: "せんたくものをあらってほします。",
         romaji: "Sentakumono o aratte hosu shimasu.",
-        traducao: "Eu lavo e seco a roupa."
+        traducao: "Eu lavo e seco a roupa.",
       },
       {
         exemplo: "彼は車を洗って綺麗にしました。",
         hiragana: "かれはくるまをあらってきれいにしました。",
         romaji: "Kare wa kuruma o aratte kirei ni shimashita.",
-        traducao: "Ele lavou o carro e o deixou limpo."
-      }
-    ]
+        traducao: "Ele lavou o carro e o deixou limpo.",
+      },
+    ],
   },
   {
     vocabulario: "ある",
@@ -529,22 +924,4735 @@ const n5VocabList = [
         exemplo: "家には猫が一匹います。",
         hiragana: "いえにはねこがいっぴきいます。",
         romaji: "Ie ni wa neko ga ippiki imasu.",
-        traducao: "Em casa, existe um gato."
+        traducao: "Em casa, existe um gato.",
       },
       {
         exemplo: "この町には美しい公園があります。",
         hiragana: "このまちにはうつくしいこうえんがあります。",
         romaji: "Kono machi ni wa utsukushii kōen ga arimasu.",
-        traducao: "Nesta cidade, existe um belo parque."
+        traducao: "Nesta cidade, existe um belo parque.",
       },
       {
         exemplo: "昨日の夜、奇妙な音が聞こえました。",
         hiragana: "きのうのよる、きみょうなおとがきこえました。",
         romaji: "Kinō no yoru, kimyō na oto ga kikoemashita.",
-        traducao: "Na noite passada, ouvi um som estranho."
-      }
-    ]
+        traducao: "Na noite passada, ouvi um som estranho.",
+      },
+    ],
   },
-]
+  {
+    vocabulario: "歩く",
+    romaji: "aruku",
+    hiragana: "あるく",
+    traducao: "caminhar",
+    exemplosFrases: [
+      {
+        exemplo: "毎日散歩に歩きます。",
+        hiragana: "まいにちさんぽにあるきます。",
+        romaji: "Mainichi sanpo ni arukimasu.",
+        traducao: "Eu caminho todos os dias para fazer uma caminhada.",
+      },
+      {
+        exemplo: "学校まで歩いて行きます。",
+        hiragana: "がっこうまであるいていきます。",
+        romaji: "Gakkō made aruite ikimasu.",
+        traducao: "Eu vou a pé até a escola.",
+      },
+      {
+        exemplo: "公園で友達と一緒に歩きます。",
+        hiragana: "こうえんでともだちといっしょにあるきます。",
+        romaji: "Kōen de tomodachi to issho ni arukimasu.",
+        traducao: "Eu caminho no parque com meus amigos.",
+      },
+    ],
+  },
+  {
+    vocabulario: "あれ",
+    romaji: "are",
+    hiragana: "あれ",
+    traducao: "aquilo",
+    exemplosFrases: [
+      {
+        exemplo: "あれは何ですか？",
+        hiragana: "あれはなんですか？",
+        romaji: "Are wa nan desu ka?",
+        traducao: "O que é aquilo?",
+      },
+      {
+        exemplo: "あれが彼の車です。",
+        hiragana: "あれがかれのくるまです。",
+        romaji: "Are ga kare no kuruma desu.",
+        traducao: "Aquilo é o carro dele.",
+      },
+      {
+        exemplo: "あれをください。",
+        hiragana: "あれをください。",
+        romaji: "Are o kudasai.",
+        traducao: "Por favor, me dê aquilo.",
+      },
+    ],
+  },
+  {
+    vocabulario: "いいえ",
+    romaji: "iie",
+    hiragana: "いいえ",
+    traducao: "não",
+    exemplosFrases: [
+      {
+        exemplo: "はいといいえで答えてください。",
+        hiragana: "はいといいえでこたえてください。",
+        romaji: "Hai to iie de kotaete kudasai.",
+        traducao: "Por favor, responda com sim ou não.",
+      },
+      {
+        exemplo: "彼女は来週参加することができますか？ - いいえ、できません。",
+        hiragana:
+          "かのじょはらいしゅうさんかすることができますか？ - いいえ、できません。",
+        romaji:
+          "Kanojo wa raishū sanka suru koto ga dekimasu ka? - Iie, dekimasen.",
+        traducao: "Ela pode participar na próxima semana? - Não, ela não pode.",
+      },
+      {
+        exemplo: "ごめんなさい、できませんでした。- いいえ、大丈夫です。",
+        hiragana:
+          "ごめんなさい、できませんでした。- いいえ、だいじょうぶです。",
+        romaji: "Gomen nasai, dekimasen deshita. - Iie, daijōbu desu.",
+        traducao: "Desculpe, não consegui. - Não tem problema.",
+      },
+    ],
+  },
+  {
+    vocabulario: "言う",
+    romaji: "iu",
+    hiragana: "いう",
+    traducao: "dizer",
+    exemplosFrases: [
+      {
+        exemplo: "何と言っていましたか？",
+        hiragana: "なんといっていましたか？",
+        romaji: "Nanto itte imashita ka?",
+        traducao: "O que você disse?",
+      },
+      {
+        exemplo: "彼は真実を言いました。",
+        hiragana: "かれはしんじつをいいました。",
+        romaji: "Kare wa shinjitsu o iimashita.",
+        traducao: "Ele disse a verdade.",
+      },
+      {
+        exemplo: "ごめんなさい、言い過ぎました。",
+        hiragana: "ごめんなさい、いいすぎました。",
+        romaji: "Gomen nasai, iisugimashita.",
+        traducao: "Desculpe, eu falei demais.",
+      },
+    ],
+  },
+  {
+    vocabulario: "家",
+    romaji: "ie",
+    hiragana: "いえ",
+    traducao: "casa",
+    exemplosFrases: [
+      {
+        exemplo: "私は家にいます。",
+        hiragana: "わたしはいえにいます。",
+        romaji: "Watashi wa ie ni imasu.",
+        traducao: "Eu estou em casa.",
+      },
+      {
+        exemplo: "彼は大きな家に住んでいます。",
+        hiragana: "かれはおおきないえにすんでいます。",
+        romaji: "Kare wa ōkina ie ni sunde imasu.",
+        traducao: "Ele mora em uma casa grande.",
+      },
+      {
+        exemplo: "家族と一緒に食事をします。",
+        hiragana: "かぞくといっしょにしょくじをします。",
+        romaji: "Kazoku to issho ni shokuji o shimasu.",
+        traducao: "Eu como com a família.",
+      },
+    ],
+  },
+  {
+    vocabulario: "いかが",
+    romaji: "ikaga",
+    hiragana: "いかが",
+    traducao: "como está",
+    exemplosFrases: [
+      {
+        exemplo: "いかがですか？",
+        hiragana: "いかがですか？",
+        romaji: "Ikaga desu ka?",
+        traducao: "Como você está?",
+      },
+      {
+        exemplo: "いかがお過ごしですか？",
+        hiragana: "いかがおすごしですか？",
+        romaji: "Ikaga o-sugoshi desu ka?",
+        traducao: "Como tem passado?",
+      },
+      {
+        exemplo: "いかがでしょうか？",
+        hiragana: "いかがでしょうか？",
+        romaji: "Ikaga deshō ka?",
+        traducao: "O que você acha?",
+      },
+    ],
+  },
+  {
+    vocabulario: "行く",
+    romaji: "iku",
+    hiragana: "いく",
+    traducao: "ir",
+    exemplosFrases: [
+      {
+        exemplo: "学校に行きます。",
+        hiragana: "がっこうにいきます。",
+        romaji: "Gakkō ni ikimasu.",
+        traducao: "Eu vou para a escola.",
+      },
+      {
+        exemplo: "映画館に行きます。",
+        hiragana: "えいがかんにいきます。",
+        romaji: "Eigakan ni ikimasu.",
+        traducao: "Eu vou ao cinema.",
+      },
+      {
+        exemplo: "友達と遊びに行きます。",
+        hiragana: "ともだちとあそびにいきます。",
+        romaji: "Tomodachi to asobi ni ikimasu.",
+        traducao: "Eu vou sair com amigos.",
+      },
+    ],
+  },
+  {
+    vocabulario: "いくつ",
+    romaji: "ikutsu",
+    hiragana: "いくつ",
+    traducao: "quantos",
+    exemplosFrases: [
+      {
+        exemplo: "いくつですか？",
+        hiragana: "いくつですか？",
+        romaji: "Ikutsu desu ka?",
+        traducao: "Quantos anos você tem?",
+      },
+      {
+        exemplo: "いくつ欲しいですか？",
+        hiragana: "いくつほしいですか？",
+        romaji: "Ikutsu hoshii desu ka?",
+        traducao: "Quantos você quer?",
+      },
+      {
+        exemplo: "いくつありますか？",
+        hiragana: "いくつありますか？",
+        romaji: "Ikutsu arimasu ka?",
+        traducao: "Quantos estão disponíveis?",
+      },
+    ],
+  },
+  {
+    vocabulario: "池",
+    romaji: "ike",
+    hiragana: "いけ",
+    traducao: "lago",
+    exemplosFrases: [
+      {
+        exemplo: "公園には池があります。",
+        hiragana: "こうえんにはいけがあります。",
+        romaji: "Kōen ni wa ike ga arimasu.",
+        traducao: "O parque tem um lago.",
+      },
+      {
+        exemplo: "池の周りを散歩します。",
+        hiragana: "いけのまわりをさんぽします。",
+        romaji: "Ike no mawari o sanpo shimasu.",
+        traducao: "Eu faço uma caminhada ao redor do lago.",
+      },
+      {
+        exemplo: "魚が池で泳いでいます。",
+        hiragana: "さかながいけでおよいでいます。",
+        romaji: "Sakana ga ike de oyoide imasu.",
+        traducao: "Peixes estão nadando no lago.",
+      },
+    ],
+  },
+  {
+    vocabulario: "医者",
+    romaji: "isha",
+    hiragana: "いしゃ",
+    traducao: "médico",
+    exemplosFrases: [
+      {
+        exemplo: "医者に行かなければなりません。",
+        hiragana: "いしゃにいかなければなりません。",
+        romaji: "Isha ni ikanakereba narimasen.",
+        traducao: "Preciso ir ao médico.",
+      },
+      {
+        exemplo: "私の父は医者です。",
+        hiragana: "わたしのちちはいしゃです。",
+        romaji: "Watashi no chichi wa isha desu.",
+        traducao: "Meu pai é médico.",
+      },
+      {
+        exemplo: "病気ですか？医者に相談しましょう。",
+        hiragana: "びょうきですか？いしゃにそうだんしましょう。",
+        romaji: "Byōki desu ka? Isha ni sōdan shimashō.",
+        traducao: "Você está doente? Vamos consultar um médico.",
+      },
+    ],
+  },
+  {
+    vocabulario: "いす",
+    romaji: "isu",
+    hiragana: "いす",
+    traducao: "cadeira",
+    exemplosFrases: [
+      {
+        exemplo: "この部屋にはいすがあります。",
+        hiragana: "このへやにはいすがあります。",
+        romaji: "Kono heya ni wa isu ga arimasu.",
+        traducao: "Neste quarto, há uma cadeira.",
+      },
+      {
+        exemplo: "いすに座ってください。",
+        hiragana: "いすにすわってください。",
+        romaji: "Isu ni suwatte kudasai.",
+        traducao: "Por favor, sente-se na cadeira.",
+      },
+      {
+        exemplo: "新しいいすを買いました。",
+        hiragana: "あたらしいいすをかいました。",
+        romaji: "Atarashii isu o kaimashita.",
+        traducao: "Eu comprei uma cadeira nova.",
+      },
+    ],
+  },
+  {
+    vocabulario: "忙しい",
+    romaji: "isogashii",
+    hiragana: "いそがしい",
+    traducao: "ocupado",
+    exemplosFrases: [
+      {
+        exemplo: "最近、忙しいです。",
+        hiragana: "さいきん、いそがしいです。",
+        romaji: "Saikin, isogashii desu.",
+        traducao: "Ultimamente, estou ocupado.",
+      },
+      {
+        exemplo: "仕事が忙しいです。",
+        hiragana: "しごとがいそがしいです。",
+        romaji: "Shigoto ga isogashii desu.",
+        traducao: "O trabalho está ocupado.",
+      },
+      {
+        exemplo: "忙しい時は休みましょう。",
+        hiragana: "いそがしいときはやすみましょう。",
+        romaji: "Isogashii toki wa yasumimashou.",
+        traducao: "Quando estiver ocupado, tire um descanso.",
+      },
+    ],
+  },
+  {
+    vocabulario: "痛い",
+    romaji: "itai",
+    hiragana: "いたい",
+    traducao: "doloroso",
+    exemplosFrases: [
+      {
+        exemplo: "足が痛いです。",
+        hiragana: "あし が いたい です。",
+        romaji: "Ashi ga itai desu.",
+        traducao: "Meu pé está doendo.",
+      },
+      {
+        exemplo: "歯が痛いです。",
+        hiragana: "は が いたい です。",
+        romaji: "Ha ga itai desu.",
+        traducao: "Meu dente está doendo.",
+      },
+      {
+        exemplo: "頭が痛いです。",
+        hiragana: "あたま が いたい です。",
+        romaji: "Atama ga itai desu.",
+        traducao: "Minha cabeça está doendo.",
+      },
+    ],
+  },
+  {
+    vocabulario: "一",
+    romaji: "ichi",
+    hiragana: "いち",
+    traducao: "um",
+    exemplosFrases: [
+      {
+        exemplo: "一人",
+        hiragana: "ひとり",
+        romaji: "hitori",
+        traducao: "uma pessoa",
+      },
+      {
+        exemplo: "一番",
+        hiragana: "いちばん",
+        romaji: "ichiban",
+        traducao: "o número um, o melhor",
+      },
+      {
+        exemplo: "一日",
+        hiragana: "いちにち",
+        romaji: "ichinichi",
+        traducao: "um dia",
+      },
+    ],
+  },
+  {
+    vocabulario: "いちばん",
+    romaji: "ichiban",
+    hiragana: "いちばん",
+    traducao: "o melhor",
+    exemplosFrases: [
+      {
+        exemplo: "一番大切なことは何ですか？",
+        hiragana: "いちばんたいせつなことはなんですか？",
+        romaji: "Ichiban taisetsu na koto wa nan desu ka?",
+        traducao: "Qual é a coisa mais importante?",
+      },
+      {
+        exemplo: "一番好きな食べ物は何ですか？",
+        hiragana: "いちばんすきなたべものはなんですか？",
+        romaji: "Ichiban suki na tabemono wa nan desu ka?",
+        traducao: "Qual é a sua comida favorita?",
+      },
+      {
+        exemplo: "一番遠い場所に行きたいです。",
+        hiragana: "いちばんとおいばしょにいきたいです。",
+        romaji: "Ichiban tōi basho ni ikitai desu.",
+        traducao: "Quero ir ao lugar mais distante.",
+      },
+    ],
+  },
+  {
+    vocabulario: "一日",
+    romaji: "ichinichi",
+    hiragana: "いちにち",
+    traducao: "um dia",
+    exemplosFrases: [
+      {
+        exemplo: "今日は一日中忙しかった。",
+        hiragana: "きょうはいちにちじゅういそがしかった。",
+        romaji: "Kyō wa ichinichijū isogashikatta.",
+        traducao: "Estive ocupado o dia todo hoje.",
+      },
+      {
+        exemplo: "旅行で一日中歩き回った。",
+        hiragana: "りょこうでいちにちじゅうあるきまわった。",
+        romaji: "Ryokō de ichinichijū arukimawatta.",
+        traducao: "Passei o dia inteiro andando durante a viagem.",
+      },
+      {
+        exemplo: "昨日は一日中家にいました。",
+        hiragana: "きのうはいちにちじゅういえにいました。",
+        romaji: "Kinō wa ichinichijū ie ni imashita.",
+        traducao: "Fiquei em casa o dia todo ontem.",
+      },
+    ],
+  },
+  {
+    vocabulario: "いつ",
+    romaji: "itsu",
+    hiragana: "いつ",
+    traducao: "quando",
+    exemplosFrases: [
+      {
+        exemplo: "いつ来ますか？",
+        hiragana: "いつきますか？",
+        romaji: "itsu kimasu ka?",
+        traducao: "Quando você vem?",
+      },
+      {
+        exemplo: "いつ始まりますか？",
+        hiragana: "いつはじまりますか？",
+        romaji: "itsu hajimarimasu ka?",
+        traducao: "Quando começa?",
+      },
+      {
+        exemplo: "いつ行きますか？",
+        hiragana: "いついきますか？",
+        romaji: "itsu ikimasu ka?",
+        traducao: "Quando você vai?",
+      },
+    ],
+  },
+  {
+    vocabulario: "五日",
+    romaji: "itsuka",
+    hiragana: "いつか",
+    traducao: "cinco dias",
+    exemplosFrases: [
+      {
+        exemplo: "五日間",
+        hiragana: "いつかかん",
+        romaji: "itsuka kan",
+        traducao: "cinco dias",
+      },
+      {
+        exemplo: "五日前",
+        hiragana: "いつかまえ",
+        romaji: "itsuka mae",
+        traducao: "cinco dias atrás",
+      },
+      {
+        exemplo: "五日後",
+        hiragana: "いつかご",
+        romaji: "itsuka go",
+        traducao: "cinco dias depois",
+      },
+    ],
+  },
+  {
+    vocabulario: "一緒",
+    romaji: "issho",
+    hiragana: "いっしょ",
+    traducao: "juntos",
+    exemplosFrases: [
+      {
+        exemplo: "一緒に行きましょう",
+        hiragana: "いっしょにいきましょう",
+        romaji: "issho ni ikimashou",
+        traducao: "Vamos juntos",
+      },
+      {
+        exemplo: "一緒に食べましょう",
+        hiragana: "いっしょにたべましょう",
+        romaji: "issho ni tabemashou",
+        traducao: "Vamos comer juntos",
+      },
+      {
+        exemplo: "一緒に勉強しましょう",
+        hiragana: "いっしょにべんきょうしましょう",
+        romaji: "issho ni benkyou shimashou",
+        traducao: "Vamos estudar juntos",
+      },
+    ],
+  },
+  {
+    vocabulario: "五つ",
+    romaji: "itsutsu",
+    hiragana: "いつつ",
+    traducao: "cinco",
+    exemplosFrases: [
+      {
+        exemplo: "五つのリンゴ",
+        hiragana: "いつつのりんご",
+        romaji: "itsutsu no ringo",
+        traducao: "cinco maçãs",
+      },
+      {
+        exemplo: "五つの本",
+        hiragana: "いつつのほん",
+        romaji: "itsutsu no hon",
+        traducao: "cinco livros",
+      },
+      {
+        exemplo: "五つのカップ",
+        hiragana: "いつつのかっぷ",
+        romaji: "itsutsu no kappu",
+        traducao: "cinco xícaras",
+      },
+    ],
+  },
+  {
+    vocabulario: "いつも",
+    romaji: "itsumo",
+    hiragana: "いつも",
+    traducao: "sempre",
+    exemplosFrases: [
+      {
+        exemplo: "いつもありがとう",
+        hiragana: "いつもありがとう",
+        romaji: "itsumo arigatou",
+        traducao: "Obrigado sempre",
+      },
+      {
+        exemplo: "いつも一緒",
+        hiragana: "いつもいっしょ",
+        romaji: "itsumo issho",
+        traducao: "Sempre juntos",
+      },
+      {
+        exemplo: "いつも笑顔",
+        hiragana: "いつもえがお",
+        romaji: "itsumo egao",
+        traducao: "Sempre sorrindo",
+      },
+    ],
+  },
+  {
+    vocabulario: "犬",
+    romaji: "inu",
+    hiragana: "いぬ",
+    traducao: "cão",
+    exemplosFrases: [
+      {
+        exemplo: "犬が好きです",
+        hiragana: "いぬがすきです",
+        romaji: "inu ga suki desu",
+        traducao: "Eu gosto de cães",
+      },
+      {
+        exemplo: "犬を飼っています",
+        hiragana: "いぬをかっています",
+        romaji: "inu o katteimasu",
+        traducao: "Eu tenho um cachorro",
+      },
+      {
+        exemplo: "犬と散歩します",
+        hiragana: "いぬとさんぽします",
+        romaji: "inu to sanpo shimasu",
+        traducao: "Eu passeio com o cachorro",
+      },
+    ],
+  },
+  {
+    vocabulario: "今",
+    romaji: "ima",
+    hiragana: "いま",
+    traducao: "agora",
+    exemplosFrases: [
+      {
+        exemplo: "今何時ですか？",
+        hiragana: "いまなんじですか？",
+        romaji: "ima nanji desu ka?",
+        traducao: "Que horas são agora?",
+      },
+      {
+        exemplo: "今行きます",
+        hiragana: "いまいきます",
+        romaji: "ima ikimasu",
+        traducao: "Estou indo agora",
+      },
+      {
+        exemplo: "今日の天気はどうですか？",
+        hiragana: "きょうのてんきはどうですか？",
+        romaji: "kyou no tenki wa dou desu ka?",
+        traducao: "Como está o clima hoje?",
+      },
+    ],
+  },
+  {
+    vocabulario: "意味",
+    romaji: "imi",
+    hiragana: "いみ",
+    traducao: "significado",
+    exemplosFrases: [
+      {
+        exemplo: "それは何の意味ですか？",
+        hiragana: "それはなんのいみですか？",
+        romaji: "sore wa nan no imi desu ka?",
+        traducao: "Qual é o significado disso?",
+      },
+      {
+        exemplo: "その言葉の意味を知りません",
+        hiragana: "そのことばのいみをしりません",
+        romaji: "sono kotoba no imi o shirimasen",
+        traducao: "Eu não sei o significado dessa palavra",
+      },
+      {
+        exemplo: "意味がわかりました",
+        hiragana: "いみがわかりました",
+        romaji: "imi ga wakarimashita",
+        traducao: "Eu entendi o significado",
+      },
+    ],
+  },
+  {
+    vocabulario: "妹",
+    romaji: "imouto",
+    hiragana: "いもうと",
+    traducao: "irmã mais nova",
+    exemplosFrases: [
+      {
+        exemplo: "私には妹がいます",
+        hiragana: "わたしにはいもうとがいます",
+        romaji: "watashi niwa imouto ga imasu",
+        traducao: "Eu tenho uma irmã mais nova",
+      },
+      {
+        exemplo: "妹は学生です",
+        hiragana: "いもうとはがくせいです",
+        romaji: "imouto wa gakusei desu",
+        traducao: "Minha irmã mais nova é estudante",
+      },
+      {
+        exemplo: "妹と一緒に遊びます",
+        hiragana: "いもうとといっしょにあそびます",
+        romaji: "imouto to issho ni asobimasu",
+        traducao: "Eu brinco com minha irmã mais nova",
+      },
+    ],
+  },
+  {
+    vocabulario: "嫌",
+    romaji: "iya",
+    hiragana: "いや",
+    traducao: "desagradável",
+    exemplosFrases: [
+      {
+        exemplo: "この匂いが嫌です",
+        hiragana: "このにおいがいやです",
+        romaji: "kono nioi ga iya desu",
+        traducao: "Eu não gosto desse cheiro",
+      },
+      {
+        exemplo: "彼は嫌な人です",
+        hiragana: "かれはいやなひとです",
+        romaji: "kare wa iya na hito desu",
+        traducao: "Ele é uma pessoa desagradável",
+      },
+      {
+        exemplo: "嫌いな食べ物があります",
+        hiragana: "きらいなたべものがあります",
+        romaji: "kirai na tabemono ga arimasu",
+        traducao: "Eu tenho comida que não gosto",
+      },
+    ],
+  },
+  {
+    vocabulario: "入れる",
+    romaji: "ireru",
+    hiragana: "いれる",
+    traducao: "colocar",
+    exemplosFrases: [
+      {
+        exemplo: "お茶をカップに入れる",
+        hiragana: "おちゃをかっぷにいれる",
+        romaji: "ocha o kappu ni ireru",
+        traducao: "Colocar chá na xícara",
+      },
+      {
+        exemplo: "鍵をポケットに入れる",
+        hiragana: "かぎをぽけっとにいれる",
+        romaji: "kagi o poketto ni ireru",
+        traducao: "Colocar a chave no bolso",
+      },
+      {
+        exemplo: "手紙を封筒に入れる",
+        hiragana: "てがみをふうとうにいれる",
+        romaji: "tegami o fuutou ni ireru",
+        traducao: "Colocar a carta no envelope",
+      },
+    ],
+  },
+  {
+    vocabulario: "色",
+    romaji: "iro",
+    hiragana: "いろ",
+    traducao: "cor",
+    exemplosFrases: [
+      {
+        exemplo: "青色が好きです",
+        hiragana: "あおいろがすきです",
+        romaji: "aoiro ga suki desu",
+        traducao: "Eu gosto da cor azul",
+      },
+      {
+        exemplo: "赤色のバラ",
+        hiragana: "あかいろのばら",
+        romaji: "akairo no bara",
+        traducao: "Rosa vermelha",
+      },
+      {
+        exemplo: "黒色の車",
+        hiragana: "くろいろのくるま",
+        romaji: "kuroiro no kuruma",
+        traducao: "Carro preto",
+      },
+    ],
+  },
+  {
+    vocabulario: "色々",
+    romaji: "iroiro",
+    hiragana: "いろいろ",
+    traducao: "vários",
+    exemplosFrases: [
+      {
+        exemplo: "色々な経験をする",
+        hiragana: "いろいろなけいけんをする",
+        romaji: "iroiro na keiken o suru",
+        traducao: "Ter várias experiências",
+      },
+      {
+        exemplo: "色々な国に旅行する",
+        hiragana: "いろいろなくににりょこうする",
+        romaji: "iroiro na kuni ni ryokou suru",
+        traducao: "Viajar para vários países",
+      },
+      {
+        exemplo: "色々な料理を作る",
+        hiragana: "いろいろなりょうりをつくる",
+        romaji: "iroiro na ryouri o tsukuru",
+        traducao: "Preparar várias receitas",
+      },
+    ],
+  },
+  {
+    vocabulario: "上",
+    romaji: "ue",
+    hiragana: "うえ",
+    traducao: "em cima",
+    exemplosFrases: [
+      {
+        exemplo: "机の上に本があります",
+        hiragana: "つくえのうえにほんがあります",
+        romaji: "tsukue no ue ni hon ga arimasu",
+        traducao: "Tem um livro em cima da mesa",
+      },
+      {
+        exemplo: "箱の上に置いてください",
+        hiragana: "はこのうえにおいてください",
+        romaji: "hako no ue ni oite kudasai",
+        traducao: "Por favor, coloque em cima da caixa",
+      },
+      {
+        exemplo: "本棚の上に飾り物がある",
+        hiragana: "ほんだなのうえにかざりものがある",
+        romaji: "hondana no ue ni kazari mono ga aru",
+        traducao: "Tem enfeites em cima da estante",
+      },
+    ],
+  },
+  {
+    vocabulario: "後ろ",
+    romaji: "ushiro",
+    hiragana: "うしろ",
+    traducao: "atrás",
+    exemplosFrases: [
+      {
+        exemplo: "机の後ろに椅子があります",
+        hiragana: "つくえのうしろにいすがあります",
+        romaji: "tsukue no ushiro ni isu ga arimasu",
+        traducao: "Tem uma cadeira atrás da mesa",
+      },
+      {
+        exemplo: "本棚の後ろに本が置かれています",
+        hiragana: "ほんだなのうしろにほんがおかれています",
+        romaji: "hondana no ushiro ni hon ga okareteimasu",
+        traducao: "Livros estão colocados atrás da estante",
+      },
+      {
+        exemplo: "家の後ろに庭があります",
+        hiragana: "いえのうしろににわがあります",
+        romaji: "ie no ushiro ni niwa ga arimasu",
+        traducao: "Tem um jardim atrás da casa",
+      },
+    ],
+  },
+  {
+    vocabulario: "薄い",
+    romaji: "usui",
+    hiragana: "うすい",
+    traducao: "fino, ralo",
+    exemplosFrases: [
+      {
+        exemplo: "薄い本",
+        hiragana: "うすいほん",
+        romaji: "usui hon",
+        traducao: "livro fino",
+      },
+      {
+        exemplo: "薄い服",
+        hiragana: "うすいふく",
+        romaji: "usui fuku",
+        traducao: "roupa fina",
+      },
+      {
+        exemplo: "薄いスープ",
+        hiragana: "うすいすーぷ",
+        romaji: "usui suupu",
+        traducao: "sopa rala",
+      },
+    ],
+  },
+  {
+    vocabulario: "歌",
+    romaji: "uta",
+    hiragana: "うた",
+    traducao: "canção",
+    exemplosFrases: [
+      {
+        exemplo: "歌を歌う",
+        hiragana: "うたをうたう",
+        romaji: "uta o utau",
+        traducao: "cantar uma música",
+      },
+      {
+        exemplo: "歌を作る",
+        hiragana: "うたをつくる",
+        romaji: "uta o tsukuru",
+        traducao: "criar uma canção",
+      },
+      {
+        exemplo: "歌手になる",
+        hiragana: "かしゅになる",
+        romaji: "kashu ni naru",
+        traducao: "tornar-se cantor(a)",
+      },
+    ],
+  },
+  {
+    vocabulario: "歌う",
+    romaji: "utau",
+    hiragana: "うたう",
+    traducao: "cantar",
+    exemplosFrases: [
+      {
+        exemplo: "歌を歌う",
+        hiragana: "うたをうたう",
+        romaji: "uta o utau",
+        traducao: "cantar uma música",
+      },
+      {
+        exemplo: "友達と一緒に歌う",
+        hiragana: "ともだちといっしょにうたう",
+        romaji: "tomodachi to issho ni utau",
+        traducao: "cantar junto com os amigos",
+      },
+      {
+        exemplo: "カラオケで歌う",
+        hiragana: "からおけでうたう",
+        romaji: "karaoke de utau",
+        traducao: "cantar no karaokê",
+      },
+    ],
+  },
+  {
+    vocabulario: "生まれる",
+    romaji: "umareru",
+    hiragana: "うまれる",
+    traducao: "nascer",
+    exemplosFrases: [
+      {
+        exemplo: "東京で生まれる",
+        hiragana: "とうきょうでうまれる",
+        romaji: "toukyou de umareru",
+        traducao: "nascer em Tóquio",
+      },
+      {
+        exemplo: "新しい命が生まれる",
+        hiragana: "あたらしいいのちがうまれる",
+        romaji: "atarashii inochi ga umareru",
+        traducao: "uma nova vida nasce",
+      },
+      {
+        exemplo: "夜中に赤ちゃんが生まれた",
+        hiragana: "よなかにあかちゃんがうまれた",
+        romaji: "yonaka ni akachan ga umareta",
+        traducao: "um bebê nasceu à meia-noite",
+      },
+    ],
+  },
+  {
+    vocabulario: "海",
+    romaji: "umi",
+    hiragana: "うみ",
+    traducao: "mar, oceano",
+    exemplosFrases: [
+      {
+        exemplo: "海に行きたいです。",
+        hiragana: "うみにいきたいです。",
+        romaji: "umi ni ikitai desu.",
+        traducao: "Eu quero ir ao mar.",
+      },
+      {
+        exemplo: "海で泳ぎます。",
+        hiragana: "うみでおよぎます。",
+        romaji: "umi de oyogimasu.",
+        traducao: "Eu nado no mar.",
+      },
+      {
+        exemplo: "海辺で散歩します。",
+        hiragana: "うみべでさんぽします。",
+        romaji: "umibe de sanpo shimasu.",
+        traducao: "Eu faço uma caminhada na praia.",
+      },
+    ],
+  },
+  {
+    vocabulario: "売る",
+    romaji: "uru",
+    hiragana: "うる",
+    traducao: "vender",
+    exemplosFrases: [
+      {
+        exemplo: "商品を売ります。",
+        hiragana: "しょうひんをうります。",
+        romaji: "shouhin o urimasu.",
+        traducao: "Eu vendo produtos.",
+      },
+      {
+        exemplo: "店で売ります。",
+        hiragana: "みせでうります。",
+        romaji: "mise de urimasu.",
+        traducao: "Eu vendo na loja.",
+      },
+      {
+        exemplo: "オンラインで売ります。",
+        hiragana: "おんらいんでうります。",
+        romaji: "onrain de urimasu.",
+        traducao: "Eu vendo online.",
+      },
+    ],
+  },
+  {
+    vocabulario: "煩い",
+    romaji: "urusai",
+    hiragana: "うるさい",
+    traducao: "barulhento, irritante",
+    exemplosFrases: [
+      {
+        exemplo: "煩い音がします。",
+        hiragana: "うるさいおとがします。",
+        romaji: "urusai oto ga shimasu.",
+        traducao: "Há um barulho irritante.",
+      },
+      {
+        exemplo: "煩い人です。",
+        hiragana: "うるさいひとです。",
+        romaji: "urusai hito desu.",
+        traducao: "Ele/ela é uma pessoa irritante.",
+      },
+      {
+        exemplo: "煩い環境です。",
+        hiragana: "うるさいかんきょうです。",
+        romaji: "urusai kankyō desu.",
+        traducao: "É um ambiente barulhento/irritante.",
+      },
+    ],
+  },
+  {
+    vocabulario: "上着",
+    romaji: "uwagi",
+    hiragana: "うわぎ",
+    traducao: "casaco, jaqueta",
+    exemplosFrases: [
+      {
+        exemplo: "上着を着ます。",
+        hiragana: "うわぎをきます。",
+        romaji: "uwagi o kimasu.",
+        traducao: "Eu visto um casaco.",
+      },
+      {
+        exemplo: "上着を脱ぎます。",
+        hiragana: "うわぎをぬぎます。",
+        romaji: "uwagi o nugimasu.",
+        traducao: "Eu tiro um casaco.",
+      },
+      {
+        exemplo: "上着を買います。",
+        hiragana: "うわぎをかいます。",
+        romaji: "uwagi o kaimasu.",
+        traducao: "Eu compro um casaco.",
+      },
+    ],
+  },
+  {
+    vocabulario: "絵",
+    romaji: "e",
+    hiragana: "え",
+    traducao: "desenho, pintura",
+    exemplosFrases: [
+      {
+        exemplo: "絵を描きます。",
+        hiragana: "えをかきます。",
+        romaji: "e o kakimasu.",
+        traducao: "Eu desenho/pinto.",
+      },
+      {
+        exemplo: "絵が上手です。",
+        hiragana: "えがじょうずです。",
+        romaji: "e ga jōzu desu.",
+        traducao: "Eu sou bom(a) em desenhar.",
+      },
+      {
+        exemplo: "美しい絵ですね。",
+        hiragana: "うつくしいえですね。",
+        romaji: "utsukushii e desu ne.",
+        traducao: "Que bela pintura!",
+      },
+    ],
+  },
+  {
+    vocabulario: "映画",
+    romaji: "eiga",
+    hiragana: "えいが",
+    traducao: "filme",
+    exemplosFrases: [
+      {
+        exemplo: "映画を見ます。",
+        hiragana: "えいがをみます。",
+        romaji: "eiga o mimasu.",
+        traducao: "Eu assisto filmes.",
+      },
+      {
+        exemplo: "映画が好きです。",
+        hiragana: "えいががすきです。",
+        romaji: "eiga ga suki desu.",
+        traducao: "Eu gosto de filmes.",
+      },
+      {
+        exemplo: "新しい映画が公開されます。",
+        hiragana: "あたらしいえいががこうかいされます。",
+        romaji: "atarashii eiga ga kōkai sa remasu.",
+        traducao: "Um novo filme será lançado.",
+      },
+    ],
+  },
+  {
+    vocabulario: "映画館",
+    romaji: "eigakan",
+    hiragana: "えいがかん",
+    traducao: "cinema",
+    exemplosFrases: [
+      {
+        exemplo: "映画館に行きます。",
+        hiragana: "えいがかんにいきます。",
+        romaji: "eigakan ni ikimasu.",
+        traducao: "Eu vou ao cinema.",
+      },
+      {
+        exemplo: "映画館で映画を見ます。",
+        hiragana: "えいがかんでえいがをみます。",
+        romaji: "eigakan de eiga o mimasu.",
+        traducao: "Eu assisto filmes no cinema.",
+      },
+      {
+        exemplo: "この映画館は人気です。",
+        hiragana: "このえいがかんはにんきです。",
+        romaji: "kono eigakan wa ninki desu.",
+        traducao: "Este cinema é popular.",
+      },
+    ],
+  },
+  {
+    vocabulario: "英語",
+    romaji: "eigo",
+    hiragana: "えいご",
+    traducao: "inglês",
+    exemplosFrases: [
+      {
+        exemplo: "英語を勉強します。",
+        hiragana: "えいごをべんきょうします。",
+        romaji: "eigo o benkyō shimasu.",
+        traducao: "Eu estudo inglês.",
+      },
+      {
+        exemplo: "英語が話せますか？",
+        hiragana: "えいごがはなせますか？",
+        romaji: "eigo ga hanasemasu ka?",
+        traducao: "Você fala inglês?",
+      },
+      {
+        exemplo: "英語の先生",
+        hiragana: "えいごのせんせい",
+        romaji: "eigo no sensei",
+        traducao: "Professor(a) de inglês",
+      },
+    ],
+  },
+  {
+    vocabulario: "駅",
+    romaji: "eki",
+    hiragana: "えき",
+    traducao: "estação (de trem/metrô)",
+    exemplosFrases: [
+      {
+        exemplo: "駅に行きます。",
+        hiragana: "えきにいきます。",
+        romaji: "eki ni ikimasu.",
+        traducao: "Eu vou para a estação.",
+      },
+      {
+        exemplo: "駅で切符を買います。",
+        hiragana: "えきできっぷをかいます。",
+        romaji: "eki de kippu o kaimasu.",
+        traducao: "Eu compro bilhetes na estação.",
+      },
+      {
+        exemplo: "最寄りの駅",
+        hiragana: "もよりのえき",
+        romaji: "moyori no eki",
+        traducao: "Estação mais próxima",
+      },
+    ],
+  },
+  {
+    vocabulario: "エレベーター",
+    romaji: "erebētā",
+    hiragana: "えれべーたー",
+    traducao: "elevador",
+    exemplosFrases: [
+      {
+        exemplo: "エレベーターに乗ります。",
+        hiragana: "えれべーたーにのります。",
+        romaji: "erebētā ni norimasu.",
+        traducao: "Eu pego o elevador.",
+      },
+      {
+        exemplo: "エレベーターが壊れています。",
+        hiragana: "えれべーたーがこわれています。",
+        romaji: "erebētā ga kowarete imasu.",
+        traducao: "O elevador está quebrado.",
+      },
+      {
+        exemplo: "このビルにはエレベーターがあります。",
+        hiragana: "このびるにはえれべーたーがあります。",
+        romaji: "kono biru ni wa erebētā ga arimasu.",
+        traducao: "Este prédio tem um elevador.",
+      },
+    ],
+  },
+  {
+    vocabulario: "鉛筆",
+    romaji: "enpitsu",
+    hiragana: "えんぴつ",
+    traducao: "lápis",
+    exemplosFrases: [
+      {
+        exemplo: "鉛筆で書きます。",
+        hiragana: "えんぴつでかきます。",
+        romaji: "enpitsu de kakimasu.",
+        traducao: "Eu escrevo com um lápis.",
+      },
+      {
+        exemplo: "鉛筆を貸してください。",
+        hiragana: "えんぴつをかしてください。",
+        romaji: "enpitsu o kashite kudasai.",
+        traducao: "Por favor, me empreste um lápis.",
+      },
+      {
+        exemplo: "新しい鉛筆を買いました。",
+        hiragana: "あたらしいえんぴつをかいました。",
+        romaji: "atarashii enpitsu o kaimashita.",
+        traducao: "Comprei um lápis novo.",
+      },
+    ],
+  },
+  {
+    vocabulario: "おいしい",
+    romaji: "oishii",
+    hiragana: "おいしい",
+    traducao: "delicioso, saboroso",
+    exemplosFrases: [
+      {
+        exemplo: "この料理はおいしいです。",
+        hiragana: "このりょうりはおいしいです。",
+        romaji: "kono ryōri wa oishii desu.",
+        traducao: "Esta comida é deliciosa.",
+      },
+      {
+        exemplo: "おいしいお店を知っていますか？",
+        hiragana: "おいしいおみせをしっていますか？",
+        romaji: "oishii omise o shitte imasu ka?",
+        traducao: "Você conhece alguma loja deliciosa?",
+      },
+      {
+        exemplo: "おいしいケーキを食べたいです。",
+        hiragana: "おいしいけーきをたべたいです。",
+        romaji: "oishii kēki o tabetai desu.",
+        traducao: "Quero comer um bolo delicioso.",
+      },
+    ],
+  },
+  {
+    vocabulario: "多い",
+    romaji: "ooi",
+    hiragana: "おおい",
+    traducao: "muitos, muitas",
+    exemplosFrases: [
+      {
+        exemplo: "人が多いです。",
+        hiragana: "ひとがおおいです。",
+        romaji: "hito ga ooi desu.",
+        traducao: "Há muitas pessoas.",
+      },
+      {
+        exemplo: "この町は観光客が多いです。",
+        hiragana: "このまちはかんこうきゃくがおおいです。",
+        romaji: "kono machi wa kankōkyaku ga ooi desu.",
+        traducao: "Esta cidade tem muitos turistas.",
+      },
+      {
+        exemplo: "多い問題に取り組んでいます。",
+        hiragana: "おおいもんだいにとりくんでいます。",
+        romaji: "ooi mondai ni torikunde imasu.",
+        traducao: "Estou lidando com muitos problemas.",
+      },
+    ],
+  },
+  {
+    vocabulario: "大きい",
+    romaji: "ōkii",
+    hiragana: "おおきい",
+    traducao: "grande",
+    exemplosFrases: [
+      {
+        exemplo: "この部屋は大きいです。",
+        hiragana: "このへやはおおきいです。",
+        romaji: "kono heya wa ōkii desu.",
+        traducao: "Este quarto é grande.",
+      },
+      {
+        exemplo: "大きい夢を持っています。",
+        hiragana: "おおきいゆめをもっています。",
+        romaji: "ōkii yume o motte imasu.",
+        traducao: "Tenho grandes sonhos.",
+      },
+      {
+        exemplo: "大きい声で話してください。",
+        hiragana: "おおきいこえではなしてください。",
+        romaji: "ōkii koe de hanashite kudasai.",
+        traducao: "Por favor, fale em voz alta.",
+      },
+    ],
+  },
+  {
+    vocabulario: "大きな",
+    romaji: "ookina",
+    hiragana: "おおきな",
+    traducao: "grande",
+    exemplosFrases: [
+      {
+        exemplo: "大きな家",
+        hiragana: "おおきないえ",
+        romaji: "ookina ie",
+        traducao: "uma casa grande",
+      },
+      {
+        exemplo: "大きな夢",
+        hiragana: "おおきなゆめ",
+        romaji: "ookina yume",
+        traducao: "um grande sonho",
+      },
+      {
+        exemplo: "大きな声",
+        hiragana: "おおきなこえ",
+        romaji: "ookina koe",
+        traducao: "uma voz alta",
+      },
+    ],
+  },
+  {
+    vocabulario: "大きな",
+    romaji: "ookina",
+    hiragana: "おおきな",
+    traducao: "grande",
+    exemplosFrases: [
+      {
+        exemplo: "大きな家",
+        hiragana: "おおきないえ",
+        romaji: "ookina ie",
+        traducao: "uma casa grande",
+      },
+      {
+        exemplo: "大きな夢",
+        hiragana: "おおきなゆめ",
+        romaji: "ookina yume",
+        traducao: "um grande sonho",
+      },
+      {
+        exemplo: "大きな声",
+        hiragana: "おおきなこえ",
+        romaji: "ookina koe",
+        traducao: "uma voz alta",
+      },
+    ],
+  },
+  {
+    vocabulario: "お母さん",
+    romaji: "okaasan",
+    hiragana: "おかあさん",
+    traducao: "mãe",
+    exemplosFrases: [
+      {
+        exemplo: "お母さんが料理を作っています。",
+        hiragana: "おかあさんがりょうりをつくっています。",
+        romaji: "okaasan ga ryouri o tsukutte imasu.",
+        traducao: "Minha mãe está cozinhando.",
+      },
+      {
+        exemplo: "お母さんの誕生日",
+        hiragana: "おかあさんのたんじょうび",
+        romaji: "okaasan no tanjoubi",
+        traducao: "aniversário da minha mãe",
+      },
+      {
+        exemplo: "お母さんの笑顔",
+        hiragana: "おかあさんのえがお",
+        romaji: "okaasan no egao",
+        traducao: "sorriso da minha mãe",
+      },
+    ],
+  },
+  {
+    vocabulario: "お菓子",
+    romaji: "okashi",
+    hiragana: "おかし",
+    traducao: "doce, guloseima",
+    exemplosFrases: [
+      {
+        exemplo: "お菓子を食べる",
+        hiragana: "おかしをたべる",
+        romaji: "okashi o taberu",
+        traducao: "comer doces",
+      },
+      {
+        exemplo: "お菓子を買う",
+        hiragana: "おかしをかう",
+        romaji: "okashi o kau",
+        traducao: "comprar guloseimas",
+      },
+      {
+        exemplo: "お菓子の詰め合わせ",
+        hiragana: "おかしのつめあわせ",
+        romaji: "okashi no tsumeawase",
+        traducao: "conjunto de doces",
+      },
+    ],
+  },
+  {
+    vocabulario: "お金",
+    romaji: "okane",
+    hiragana: "おかね",
+    traducao: "dinheiro",
+    exemplosFrases: [
+      {
+        exemplo: "お金を稼ぐ",
+        hiragana: "おかねをかせぐ",
+        romaji: "okane o kasegu",
+        traducao: "ganhar dinheiro",
+      },
+      {
+        exemplo: "お金を節約する",
+        hiragana: "おかねをせつやくする",
+        romaji: "okane o setsuyaku suru",
+        traducao: "economizar dinheiro",
+      },
+      {
+        exemplo: "お金を貯める",
+        hiragana: "おかねをためる",
+        romaji: "okane o tameru",
+        traducao: "guardar dinheiro",
+      },
+    ],
+  },
+  {
+    vocabulario: "起きる",
+    romaji: "okiru",
+    hiragana: "おきる",
+    traducao: "acordar",
+    exemplosFrases: [
+      {
+        exemplo: "毎朝早く起きる",
+        hiragana: "まいあさはやくおきる",
+        romaji: "mai asa hayaku okiru",
+        traducao: "acordar cedo todas as manhãs",
+      },
+      {
+        exemplo: "起きる時間",
+        hiragana: "おきるじかん",
+        romaji: "okiru jikan",
+        traducao: "horário de acordar",
+      },
+      {
+        exemplo: "早く起きること",
+        hiragana: "はやくおきること",
+        romaji: "hayaku okiru koto",
+        traducao: "acordar cedo",
+      },
+    ],
+  },
+  {
+    vocabulario: "置く",
+    romaji: "oku",
+    hiragana: "おく",
+    traducao: "colocar",
+    exemplosFrases: [
+      {
+        exemplo: "本を机に置く",
+        hiragana: "ほんをつくえにおく",
+        romaji: "hon o tsukue ni oku",
+        traducao: "colocar o livro na mesa",
+      },
+      {
+        exemplo: "鍵をポケットに置く",
+        hiragana: "かぎをぽけっとにおく",
+        romaji: "kagi o poketto ni oku",
+        traducao: "colocar a chave no bolso",
+      },
+      {
+        exemplo: "荷物を床に置く",
+        hiragana: "にもつをゆかにおく",
+        romaji: "nimotsu o yuka ni oku",
+        traducao: "colocar a bagagem no chão",
+      },
+    ],
+  },
+  {
+    vocabulario: "奥さん",
+    romaji: "okusama",
+    hiragana: "おくさん",
+    traducao: "esposa",
+    exemplosFrases: [
+      {
+        exemplo: "奥さんと一緒に住む",
+        hiragana: "おくさんといっしょにすむ",
+        romaji: "okusama to issho ni sumu",
+        traducao: "morar junto com a esposa",
+      },
+      {
+        exemplo: "奥さんの誕生日",
+        hiragana: "おくさんのたんじょうび",
+        romaji: "okusama no tanjoubi",
+        traducao: "aniversário da esposa",
+      },
+      {
+        exemplo: "奥さんの料理",
+        hiragana: "おくさんのりょうり",
+        romaji: "okusama no ryouri",
+        traducao: "cozinha da esposa",
+      },
+    ],
+  },
+  {
+    vocabulario: "お酒",
+    romaji: "osake",
+    hiragana: "おさけ",
+    traducao: "bebida alcoólica",
+    exemplosFrases: [
+      {
+        exemplo: "お酒を飲む",
+        hiragana: "おさけをのむ",
+        romaji: "osake o nomu",
+        traducao: "beber bebida alcoólica",
+      },
+      {
+        exemplo: "お酒の量",
+        hiragana: "おさけのりょう",
+        romaji: "osake no ryou",
+        traducao: "quantidade de bebida alcoólica",
+      },
+      {
+        exemplo: "お酒の種類",
+        hiragana: "おさけのしゅるい",
+        romaji: "osake no shurui",
+        traducao: "tipo de bebida alcoólica",
+      },
+    ],
+  },
+  {
+    vocabulario: "お皿",
+    romaji: "osara",
+    hiragana: "おさら",
+    traducao: "prato",
+    exemplosFrases: [
+      {
+        exemplo: "お皿に料理を盛る",
+        hiragana: "おさらにりょうりをもる",
+        romaji: "osara ni ryouri o moru",
+        traducao: "colocar comida no prato",
+      },
+      {
+        exemplo: "お皿を洗う",
+        hiragana: "おさらをあらう",
+        romaji: "osara o arau",
+        traducao: "lavar o prato",
+      },
+      {
+        exemplo: "お皿が割れる",
+        hiragana: "おさらがわれる",
+        romaji: "osara ga wareru",
+        traducao: "o prato quebra",
+      },
+    ],
+  },
+  {
+    vocabulario: "お爺さん",
+    romaji: "ojii-san",
+    hiragana: "おじいさん",
+    traducao: "avô",
+    exemplosFrases: [
+      {
+        exemplo: "お爺さんの誕生日",
+        hiragana: "おじいさんのたんじょうび",
+        romaji: "ojii-san no tanjoubi",
+        traducao: "aniversário do avô",
+      },
+      {
+        exemplo: "お爺さんの話",
+        hiragana: "おじいさんのはなし",
+        romaji: "ojii-san no hanashi",
+        traducao: "história do avô",
+      },
+      {
+        exemplo: "お爺さんと遊ぶ",
+        hiragana: "おじいさんとあそぶ",
+        romaji: "ojii-san to asobu",
+        traducao: "brincar com o avô",
+      },
+    ],
+  },
+  {
+    vocabulario: "教える",
+    romaji: "oshieru",
+    hiragana: "おしえる",
+    traducao: "ensinar",
+    exemplosFrases: [
+      {
+        exemplo: "日本語を教える",
+        hiragana: "にほんごをおしえる",
+        romaji: "nihongo o oshieru",
+        traducao: "ensinar japonês",
+      },
+      {
+        exemplo: "友達に歌を教える",
+        hiragana: "ともだちにうたをおしえる",
+        romaji: "tomodachi ni uta o oshieru",
+        traducao: "ensinar uma música para um amigo",
+      },
+      {
+        exemplo: "先生が英語を教える",
+        hiragana: "せんせいがえいごをおしえる",
+        romaji: "sensei ga eigo o oshieru",
+        traducao: "o professor ensina inglês",
+      },
+    ],
+  },
+  {
+    vocabulario: "叔父さん",
+    romaji: "oji-san",
+    hiragana: "おじさん",
+    traducao: "tio",
+    exemplosFrases: [
+      {
+        exemplo: "叔父さんの家",
+        hiragana: "おじさんのいえ",
+        romaji: "oji-san no ie",
+        traducao: "casa do tio",
+      },
+      {
+        exemplo: "叔父さんと旅行する",
+        hiragana: "おじさんとりょこうする",
+        romaji: "oji-san to ryokou suru",
+        traducao: "viajar com o tio",
+      },
+      {
+        exemplo: "叔父さんの趣味",
+        hiragana: "おじさんのしゅみ",
+        romaji: "oji-san no shumi",
+        traducao: "hobby do tio",
+      },
+    ],
+  },
+  {
+    vocabulario: "押す",
+    romaji: "osu",
+    hiragana: "おす",
+    traducao: "empurrar, pressionar",
+    exemplosFrases: [
+      {
+        exemplo: "ボタンを押す",
+        hiragana: "ボタンをおす",
+        romaji: "botan o osu",
+        traducao: "pressionar o botão",
+      },
+      {
+        exemplo: "ドアを押す",
+        hiragana: "ドアをおす",
+        romaji: "doa o osu",
+        traducao: "empurrar a porta",
+      },
+      {
+        exemplo: "押しボタン電話",
+        hiragana: "おしぼたんでんわ",
+        romaji: "oshi botan denwa",
+        traducao: "telefone com teclas de pressionar",
+      },
+    ],
+  },
+  {
+    vocabulario: "遅い",
+    romaji: "osoi",
+    hiragana: "おそい",
+    traducao: "lento, tarde",
+    exemplosFrases: [
+      {
+        exemplo: "電車が遅い",
+        hiragana: "でんしゃがおそい",
+        romaji: "densha ga osoi",
+        traducao: "o trem está atrasado",
+      },
+      {
+        exemplo: "遅い時間",
+        hiragana: "おそいじかん",
+        romaji: "osoi jikan",
+        traducao: "horário tardio",
+      },
+      {
+        exemplo: "遅い朝食",
+        hiragana: "おそいちょうしょく",
+        romaji: "osoi choushoku",
+        traducao: "café da manhã tardio",
+      },
+    ],
+  },
+  {
+    vocabulario: "お茶",
+    romaji: "ocha",
+    hiragana: "おちゃ",
+    traducao: "chá",
+    exemplosFrases: [
+      {
+        exemplo: "お茶を飲みますか？",
+        hiragana: "おちゃをのみますか",
+        romaji: "Ocha o nomimasu ka?",
+        traducao: "Você gostaria de tomar chá?",
+      },
+      {
+        exemplo: "お茶を入れるのが好きです",
+        hiragana: "おちゃをいれるのがすきです",
+        romaji: "Ocha o ireru no ga suki desu",
+        traducao: "Eu gosto de fazer chá",
+      },
+      {
+        exemplo: "お茶の時間は大切です",
+        hiragana: "おちゃのじかんはたいせつです",
+        romaji: "Ocha no jikan wa taisetsu desu",
+        traducao: "O horário do chá é importante",
+      },
+    ],
+  },
+  {
+    vocabulario: "お手洗い",
+    romaji: "otearai",
+    hiragana: "おてあらい",
+    traducao: "banheiro",
+    exemplosFrases: [
+      {
+        exemplo: "お手洗いはどこですか？",
+        hiragana: "おてあらいはどこですか",
+        romaji: "Otearai wa doko desu ka?",
+        traducao: "Onde fica o banheiro?",
+      },
+      {
+        exemplo: "お手洗いに行きたいです",
+        hiragana: "おてあらいにいきたいです",
+        romaji: "Otearai ni ikitai desu",
+        traducao: "Eu quero ir ao banheiro",
+      },
+      {
+        exemplo: "お手洗いは清潔です",
+        hiragana: "おてあらいはせいけつです",
+        romaji: "Otearai wa seiketsu desu",
+        traducao: "O banheiro está limpo",
+      },
+    ],
+  },
+  {
+    vocabulario: "お父さん",
+    romaji: "otousan",
+    hiragana: "おとうさん",
+    traducao: "pai",
+    exemplosFrases: [
+      {
+        exemplo: "お父さんは仕事に行きました",
+        hiragana: "おとうさんはしごとにいきました",
+        romaji: "Otousan wa shigoto ni ikimashita",
+        traducao: "Meu pai foi trabalhar",
+      },
+      {
+        exemplo: "お父さんは料理が上手です",
+        hiragana: "おとうさんはりょうりがじょうずです",
+        romaji: "Otousan wa ryouri ga jouzu desu",
+        traducao: "Meu pai é bom em cozinhar",
+      },
+      {
+        exemplo: "お父さんが家族を支えています",
+        hiragana: "おとうさんがかぞくをささえています",
+        romaji: "Otousan ga kazoku o sasaeteimasu",
+        traducao: "Meu pai sustenta a família",
+      },
+    ],
+  },
+  {
+    vocabulario: "弟",
+    romaji: "otouto",
+    hiragana: "おとうと",
+    traducao: "irmão mais novo",
+    exemplosFrases: [
+      {
+        exemplo: "弟がいます",
+        hiragana: "おとうとがいます",
+        romaji: "Otouto ga imasu",
+        traducao: "Eu tenho um irmão mais novo",
+      },
+      {
+        exemplo: "弟の誕生日",
+        hiragana: "おとうとのたんじょうび",
+        romaji: "Otouto no tanjoubi",
+        traducao: "Aniversário do meu irmão mais novo",
+      },
+      {
+        exemplo: "弟と遊ぶ",
+        hiragana: "おとうととあそぶ",
+        romaji: "Otouto to asobu",
+        traducao: "Brincar com meu irmão mais novo",
+      },
+    ],
+  },
+  {
+    vocabulario: "男",
+    romaji: "otoko",
+    hiragana: "おとこ",
+    traducao: "homem",
+    exemplosFrases: [
+      {
+        exemplo: "男の子が元気ですね",
+        hiragana: "おとこのこがげんきですね",
+        romaji: "Otokonoko ga genki desu ne",
+        traducao: "Os meninos estão animados, não é?",
+      },
+      {
+        exemplo: "男性は電車に乗りました",
+        hiragana: "だんせいはでんしゃにのりました",
+        romaji: "Dansei wa densha ni norimashita",
+        traducao: "Os homens pegaram o trem",
+      },
+      {
+        exemplo: "男友達と一緒に遊ぶ",
+        hiragana: "おとこともだちといっしょにあそぶ",
+        romaji: "Otoko tomodachi to issho ni asobu",
+        traducao: "Brincar com os amigos homens",
+      },
+    ],
+  },
+  {
+    vocabulario: "男の子",
+    romaji: "otokonoko",
+    hiragana: "おとこのこ",
+    traducao: "menino",
+    exemplosFrases: [
+      {
+        exemplo: "男の子が公園で遊んでいます",
+        hiragana: "おとこのこがこうえんであそんでいます",
+        romaji: "Otokonoko ga kouen de asondeimasu",
+        traducao: "Os meninos estão brincando no parque",
+      },
+      {
+        exemplo: "男の子の夢は何ですか？",
+        hiragana: "おとこのこのゆめはなんですか",
+        romaji: "Otokonoko no yume wa nan desu ka?",
+        traducao: "Qual é o sonho do menino?",
+      },
+      {
+        exemplo: "男の子が元気に走っています",
+        hiragana: "おとこのこがげんきにはしっています",
+        romaji: "Otokonoko ga genki ni hashitteimasu",
+        traducao: "O menino está correndo animado",
+      },
+    ],
+  },
+  {
+    vocabulario: "一昨日",
+    romaji: "ototoi",
+    hiragana: "おととい",
+    traducao: "anteontem",
+    exemplosFrases: [
+      {
+        exemplo: "一昨日は友達に会いました",
+        hiragana: "おとといはともだちにあいました",
+        romaji: "Ototoi wa tomodachi ni aimashita",
+        traducao: "Eu encontrei um amigo anteontem",
+      },
+      {
+        exemplo: "一昨日は忙しかったです",
+        hiragana: "おとといはいそがしかったです",
+        romaji: "Ototoi wa isogashikatta desu",
+        traducao: "Foi um dia agitado anteontem",
+      },
+      {
+        exemplo: "一昨日の晩ご飯は何でしたか？",
+        hiragana: "おとといのばんごはんはなんでしたか",
+        romaji: "Ototoi no bangohan wa nan deshita ka?",
+        traducao: "O que você teve para o jantar anteontem?",
+      },
+    ],
+  },
+  {
+    vocabulario: "一昨年",
+    romaji: "ototoshi",
+    hiragana: "おととし",
+    traducao: "ano retrasado",
+    exemplosFrases: [
+      {
+        exemplo: "一昨年は旅行に行きました",
+        hiragana: "おととしはりょこうにいきました",
+        romaji: "Ototoshi wa ryokou ni ikimashita",
+        traducao: "Eu viajei no ano retrasado",
+      },
+      {
+        exemplo: "一昨年の夏は暑かったです",
+        hiragana: "おととしのなつはあつかったです",
+        romaji: "Ototoshi no natsu wa atsukatta desu",
+        traducao: "O verão do ano retrasado estava quente",
+      },
+      {
+        exemplo: "一昨年の出来事を思い出します",
+        hiragana: "おととしのできごとをおもいだします",
+        romaji: "Ototoshi no dekigoto o omoidashimasu",
+        traducao: "Eu me lembro dos eventos do ano retrasado",
+      },
+    ],
+  },
+  {
+    vocabulario: "大人",
+    romaji: "otona",
+    hiragana: "おとな",
+    traducao: "adulto",
+    exemplosFrases: [
+      {
+        exemplo: "大人になると責任が増えます",
+        hiragana: "おとなになるとせきにんがふえます",
+        romaji: "Otona ni naru to sekinin ga fuemasu",
+        traducao: "As responsabilidades aumentam quando se torna adulto",
+      },
+      {
+        exemplo: "大人は子供たちに良い手本です",
+        hiragana: "おとなはこどもたちにいいてほんです",
+        romaji: "Otona wa kodomo-tachi ni ii tehon desu",
+        traducao: "Os adultos são bons exemplos para as crianças",
+      },
+      {
+        exemplo: "大人でも楽しめる映画です",
+        hiragana: "おとなでもたのしめるえいがです",
+        romaji: "Otona demo tanoshimeru eiga desu",
+        traducao: "É um filme que até os adultos podem curtir",
+      },
+    ],
+  },
+  {
+    vocabulario: "おなか",
+    romaji: "onaka",
+    hiragana: "おなか",
+    traducao: "barriga",
+    exemplosFrases: [
+      {
+        exemplo: "おなかがすきました",
+        hiragana: "おなかがすきました",
+        romaji: "Onaka ga sukimashita",
+        traducao: "Estou com fome",
+      },
+      {
+        exemplo: "おなかが痛いです",
+        hiragana: "おなかがいたいです",
+        romaji: "Onaka ga itai desu",
+        traducao: "Minha barriga dói",
+      },
+      {
+        exemplo: "おなかがいっぱいです",
+        hiragana: "おなかがいっぱいです",
+        romaji: "Onaka ga ippai desu",
+        traducao: "Minha barriga está cheia",
+      },
+    ],
+  },
+  {
+    vocabulario: "同じ",
+    romaji: "onaji",
+    hiragana: "おなじ",
+    traducao: "mesmo, igual",
+    exemplosFrases: [
+      {
+        exemplo: "私たちは同じ学校に通っています",
+        hiragana: "わたしたちはおなじがっこうにかよっています",
+        romaji: "Watashitachi wa onaji gakkou ni kayotteimasu",
+        traducao: "Nós frequentamos a mesma escola",
+      },
+      {
+        exemplo: "彼と私は同じ趣味を持っています",
+        hiragana: "かれとわたしはおなじしゅみをもっています",
+        romaji: "Kare to watashi wa onaji shumi o motteimasu",
+        traducao: "Ele e eu temos o mesmo hobby",
+      },
+      {
+        exemplo: "この二つの絵は同じ作者の作品です",
+        hiragana: "このふたつのえはおなじさくしゃのさくひんです",
+        romaji: "Kono futatsu no e wa onaji sakusha no sakuhin desu",
+        traducao: "Essas duas pinturas são obras do mesmo artista",
+      },
+    ],
+  },
+  {
+    vocabulario: "お兄さん",
+    romaji: "oniisan",
+    hiragana: "おにいさん",
+    traducao: "irmão mais velho",
+    exemplosFrases: [
+      {
+        exemplo: "私のお兄さんは医者です",
+        hiragana: "わたしのおにいさんはいしゃです",
+        romaji: "Watashi no oniisan wa isha desu",
+        traducao: "Meu irmão mais velho é médico",
+      },
+      {
+        exemplo: "お兄さんの友達は優しい人です",
+        hiragana: "おにいさんのともだちはやさしいひとです",
+        romaji: "Oniisan no tomodachi wa yasashii hito desu",
+        traducao: "Os amigos do meu irmão mais velho são pessoas gentis",
+      },
+      {
+        exemplo: "お兄さんと一緒に買い物に行きます",
+        hiragana: "おにいさんといっしょにかいものにいきます",
+        romaji: "Oniisan to issho ni kaimono ni ikimasu",
+        traducao: "Vou fazer compras junto com meu irmão mais velho",
+      },
+    ],
+  },
+  {
+    vocabulario: "お姉さん",
+    romaji: "oneesan",
+    hiragana: "おねえさん",
+    traducao: "irmã mais velha",
+    exemplosFrases: [
+      {
+        exemplo: "私のお姉さんは先生です",
+        hiragana: "わたしのおねえさんはせんせいです",
+        romaji: "Watashi no oneesan wa sensei desu",
+        traducao: "Minha irmã mais velha é professora",
+      },
+      {
+        exemplo: "お姉さんの趣味は料理です",
+        hiragana: "おねえさんのしゅみはりょうりです",
+        romaji: "Oneesan no shumi wa ryouri desu",
+        traducao: "O hobby da minha irmã mais velha é cozinhar",
+      },
+      {
+        exemplo: "お姉さんと一緒に旅行に行きます",
+        hiragana: "おねえさんといっしょにりょこうにいきます",
+        romaji: "Oneesan to issho ni ryokou ni ikimasu",
+        traducao: "Vou viajar junto com minha irmã mais velha",
+      },
+    ],
+  },
+  {
+    vocabulario: "おばあさん",
+    romaji: "obaasan",
+    hiragana: "おばあさん",
+    traducao: "avó",
+    exemplosFrases: [
+      {
+        exemplo: "私のおばあさんは元気です",
+        hiragana: "わたしのおばあさんはげんきです",
+        romaji: "Watashi no obaasan wa genki desu",
+        traducao: "Minha avó está bem",
+      },
+      {
+        exemplo: "おばあさんの手料理が大好きです",
+        hiragana: "おばあさんのてりょうりがだいすきです",
+        romaji: "Obaasan no te-ryouri ga daisuki desu",
+        traducao: "Eu amo a comida caseira da minha avó",
+      },
+      {
+        exemplo: "おばあさんと一緒に散歩に行きます",
+        hiragana: "おばあさんといっしょにさんぽにいきます",
+        romaji: "Obaasan to issho ni sanpo ni ikimasu",
+        traducao: "Vou fazer uma caminhada com minha avó",
+      },
+    ],
+  },
+  {
+    vocabulario: "伯母さん",
+    romaji: "obasan",
+    hiragana: "おばさん",
+    traducao: "tia",
+    exemplosFrases: [
+      {
+        exemplo: "私の伯母さんは看護師です",
+        hiragana: "わたしのおばさんはかんごしです",
+        romaji: "Watashi no obasan wa kangoshi desu",
+        traducao: "Minha tia é enfermeira",
+      },
+      {
+        exemplo: "伯母さんの家は広いです",
+        hiragana: "おばさんのいえはひろいです",
+        romaji: "Obasan no ie wa hiroi desu",
+        traducao: "A casa da minha tia é espaçosa",
+      },
+      {
+        exemplo: "伯母さんと一緒に買い物に行きます",
+        hiragana: "おばさんといっしょにかいものにいきます",
+        romaji: "Obasan to issho ni kaimono ni ikimasu",
+        traducao: "Vou fazer compras junto com minha tia",
+      },
+    ],
+  },
+  {
+    vocabulario: "お風呂",
+    romaji: "ofuro",
+    hiragana: "おふろ",
+    traducao: "banho",
+    exemplosFrases: [
+      {
+        exemplo: "毎日お風呂に入ります",
+        hiragana: "まいにちおふろにはいります",
+        romaji: "Mainichi ofuro ni hairimasu",
+        traducao: "Tomo banho todos os dias",
+      },
+      {
+        exemplo: "お風呂にお湯を入れてください",
+        hiragana: "おふろにおゆをいれてください",
+        romaji: "Ofuro ni oyu o irete kudasai",
+        traducao: "Por favor, coloque água na banheira",
+      },
+      {
+        exemplo: "お風呂に入る前に体を洗ってください",
+        hiragana: "おふろにはいるまえにからだをあらってください",
+        romaji: "Ofuro ni hairu mae ni karada o aratte kudasai",
+        traducao: "Por favor, lave o corpo antes de entrar no banho",
+      },
+    ],
+  },
+  {
+    vocabulario: "お弁当",
+    romaji: "obento",
+    hiragana: "おべんとう",
+    traducao: "marmita",
+    exemplosFrases: [
+      {
+        exemplo: "毎日お弁当を持って学校に行きます",
+        hiragana: "まいにちおべんとうをもってがっこうにいきます",
+        romaji: "Mainichi obento o motte gakkou ni ikimasu",
+        traducao: "Levo marmita para a escola todos os dias",
+      },
+      {
+        exemplo: "お母さんがお弁当を作ってくれました",
+        hiragana: "おかあさんがおべんとうをつくってくれました",
+        romaji: "Okaasan ga obento o tsukutte kuremashita",
+        traducao: "Minha mãe fez marmita para mim",
+      },
+      {
+        exemplo: "お弁当におにぎりと野菜が入っています",
+        hiragana: "おべんとうにおにぎりとやさいがはいっています",
+        romaji: "Obento ni onigiri to yasai ga haitteimasu",
+        traducao: "A marmita contém onigiri e legumes",
+      },
+    ],
+  },
+  {
+    vocabulario: "覚える",
+    romaji: "oboeru",
+    hiragana: "おぼえる",
+    traducao: "memorizar",
+    exemplosFrases: [
+      {
+        exemplo: "新しい単語を覚えました",
+        hiragana: "あたらしいたんごをおぼえました",
+        romaji: "Atarashii tango o oboemashita",
+        traducao: "Memorizei novas palavras",
+      },
+      {
+        exemplo: "歌の歌詞を覚えるのが得意です",
+        hiragana: "うたのかしをおぼえるのがとくいです",
+        romaji: "Uta no kashi o oboeru no ga tokui desu",
+        traducao: "Sou bom em memorizar letras de músicas",
+      },
+      {
+        exemplo: "テストの日程をしっかり覚えておきましょう",
+        hiragana: "テストのにっていをしっかりおぼえておきましょう",
+        romaji: "Tesuto no nittei o shikkari oboete okimashou",
+        traducao: "Vamos memorizar firmemente as datas das provas",
+      },
+    ],
+  },
+  {
+    vocabulario: "おまわりさん",
+    romaji: "omawarisan",
+    hiragana: "おまわりさん",
+    traducao: "policial",
+    exemplosFrases: [
+      {
+        exemplo: "おまわりさんに助けを求めました",
+        hiragana: "おまわりさんにたすけをもとめました",
+        romaji: "Omawarisan ni tasuke o motomemashita",
+        traducao: "Pedi ajuda ao policial",
+      },
+      {
+        exemplo: "おまわりさんが交通事故の対応をしています",
+        hiragana: "おまわりさんがこうつうじこのたいおうをしています",
+        romaji: "Omawarisan ga koutsuu jiko no taiou o shiteimasu",
+        traducao: "O policial está lidando com o acidente de trânsito",
+      },
+      {
+        exemplo: "おまわりさんに情報を提供しました",
+        hiragana: "おまわりさんにじょうほうをていきょうしました",
+        romaji: "Omawarisan ni jouhou o teikyou shimashita",
+        traducao: "Fornecei informações ao policial",
+      },
+    ],
+  },
+  {
+    vocabulario: "重い",
+    romaji: "omoi",
+    hiragana: "おもい",
+    traducao: "pesado",
+    exemplosFrases: [
+      {
+        exemplo: "この荷物は重いです",
+        hiragana: "このにもつはおもいです",
+        romaji: "Kono nimotsu wa omoi desu",
+        traducao: "Esta bagagem está pesada",
+      },
+      {
+        exemplo: "重い荷物を運ぶのは大変です",
+        hiragana: "おもいにもつをはこぶのはたいへんです",
+        romaji: "Omoi nimotsu o hakobu no wa taihen desu",
+        traducao: "Transportar bagagens pesadas é difícil",
+      },
+      {
+        exemplo: "この本はページ数が多くて重いです",
+        hiragana: "このほんはぺーじかずがおおくておもいです",
+        romaji: "Kono hon wa peesuu ga ookute omoi desu",
+        traducao: "Este livro é pesado, tem muitas páginas",
+      },
+    ],
+  },
+  {
+    vocabulario: "おもしろい",
+    romaji: "omoshiroi",
+    hiragana: "おもしろい",
+    traducao: "interessante/divertido",
+    exemplosFrases: [
+      {
+        exemplo: "その本はとてもおもしろかったです",
+        hiragana: "そのほんはとてもおもしろかったです",
+        romaji: "Sono hon wa totemo omoshirokatta desu",
+        traducao: "Aquele livro foi muito interessante/divertido",
+      },
+      {
+        exemplo: "映画がおもしろくて笑いました",
+        hiragana: "えいががおもしろくてわらいました",
+        romaji: "Eiga ga omoshirokute waraimashita",
+        traducao: "O filme era engraçado, eu ri",
+      },
+      {
+        exemplo: "友達と一緒に遊ぶのはいつもおもしろいです",
+        hiragana: "ともだちといっしょにあそぶのはいつもおもしろいです",
+        romaji: "Tomodachi to issho ni asobu no wa itsumo omoshiroi desu",
+        traducao: "Brincar com amigos é sempre divertido",
+      },
+    ],
+  },
+  {
+    vocabulario: "泳ぐ",
+    romaji: "oyogu",
+    hiragana: "およぐ",
+    traducao: "nadar",
+    exemplosFrases: [
+      {
+        exemplo: "夏に海で泳ぐのが好きです",
+        hiragana: "なつにうみでおよぐのがすきです",
+        romaji: "Natsu ni umi de oyogu no ga suki desu",
+        traducao: "Eu gosto de nadar no mar no verão",
+      },
+      {
+        exemplo: "プールで泳いでいる子供たちを見ました",
+        hiragana: "プールでおよいでいるこどもたちをみました",
+        romaji: "Puuru de oyoideiru kodomotachi o mimashita",
+        traducao: "Eu vi crianças nadando na piscina",
+      },
+      {
+        exemplo: "泳ぐ前によくストレッチをします",
+        hiragana: "およぐまえによくすとれっちをします",
+        romaji: "Oyogu mae ni yoku sutoretchi o shimasu",
+        traducao: "Eu faço alongamentos antes de nadar",
+      },
+    ],
+  },
+  {
+    vocabulario: "降りる",
+    romaji: "oriru",
+    hiragana: "おりる",
+    traducao: "descer/sair",
+    exemplosFrases: [
+      {
+        exemplo: "次の駅で降りる予定です",
+        hiragana: "つぎのえきでおりるよていです",
+        romaji: "Tsugi no eki de oriru yotei desu",
+        traducao: "Eu planejo descer na próxima estação",
+      },
+      {
+        exemplo: "バスから降りるときに気をつけてください",
+        hiragana: "バスからおりるときにきをつけてください",
+        romaji: "Basu kara oriru toki ni ki o tsukete kudasai",
+        traducao: "Por favor, tenha cuidado ao sair do ônibus",
+      },
+      {
+        exemplo: "エレベーターで最上階まで降りました",
+        hiragana: "エレベーターでさいじょうかいまでおりました",
+        romaji: "Erebeetaa de saijoukai made orimashita",
+        traducao: "Eu desci até o último andar de elevador",
+      },
+    ],
+  },
+  {
+    vocabulario: "終る",
+    romaji: "owaru",
+    hiragana: "おわる",
+    traducao: "terminar/acabar",
+    exemplosFrases: [
+      {
+        exemplo: "仕事が終ったら、映画を見に行きましょう",
+        hiragana: "しごとがおわったら、えいがをみにいきましょう",
+        romaji: "Shigoto ga owattara, eiga o mi ni ikimashou",
+        traducao: "Vamos ao cinema depois de terminar o trabalho",
+      },
+      {
+        exemplo: "授業が終ると友達と遊びに行きます",
+        hiragana: "じゅぎょうがおわるとともだちとあそびにいきます",
+        romaji: "Jugyou ga owaru to tomodachi to asobi ni ikimasu",
+        traducao: "Vou sair com meus amigos depois das aulas",
+      },
+      {
+        exemplo: "昨日の会議は遅くまで終りました",
+        hiragana: "きのうのかいぎはおそくまでおわりました",
+        romaji: "Kinou no kaigi wa osoku made owarimashita",
+        traducao: "A reunião de ontem terminou tarde",
+      },
+    ],
+  },
+  {
+    vocabulario: "音楽",
+    romaji: "ongaku",
+    hiragana: "おんがく",
+    traducao: "música",
+    exemplosFrases: [
+      {
+        exemplo: "音楽を聴くのが好きです",
+        hiragana: "おんがくをきくのがすきです",
+        romaji: "Ongaku o kiku no ga suki desu",
+        traducao: "Eu gosto de ouvir música",
+      },
+      {
+        exemplo: "音楽の演奏を楽しみにしています",
+        hiragana: "おんがくのえんそうをたのしみにしています",
+        romaji: "Ongaku no ensou o tanoshimi ni shiteimasu",
+        traducao: "Estou ansioso(a) pela apresentação musical",
+      },
+      {
+        exemplo: "音楽を作るのは難しいけれど楽しいです",
+        hiragana: "おんがくをつくるのはむずかしいけれどたのしいです",
+        romaji: "Ongaku o tsukuru no wa muzukashii keredo tanoshii desu",
+        traducao: "Criar música é difícil, mas divertido",
+      },
+    ],
+  },
+  {
+    vocabulario: "女",
+    romaji: "onna",
+    hiragana: "おんな",
+    traducao: "mulher",
+    exemplosFrases: [
+      {
+        exemplo: "彼女はとても優しいです",
+        hiragana: "かのじょはとてもやさしいです",
+        romaji: "Kanojo wa totemo yasashii desu",
+        traducao: "Ela é muito gentil",
+      },
+      {
+        exemplo: "彼女はきれいなドレスを着ています",
+        hiragana: "かのじょはきれいなどれすをきています",
+        romaji: "Kanojo wa kirei na doresu o kiteimasu",
+        traducao: "Ela está vestindo um vestido bonito",
+      },
+      {
+        exemplo: "彼女は有名な女優です",
+        hiragana: "かのじょはゆうめいなじょゆうです",
+        romaji: "Kanojo wa yuumei na joyuu desu",
+        traducao: "Ela é uma atriz famosa",
+      },
+    ],
+  },
+  {
+    vocabulario: "女の子",
+    romaji: "onnanoko",
+    hiragana: "おんなのこ",
+    traducao: "menina",
+    exemplosFrases: [
+      {
+        exemplo: "彼女は可愛い女の子です",
+        hiragana: "かのじょはかわいいおんなのこです",
+        romaji: "Kanojo wa kawaii onnanoko desu",
+        traducao: "Ela é uma menina bonita",
+      },
+      {
+        exemplo: "彼女は元気な女の子です",
+        hiragana: "かのじょはげんきなおんなのこです",
+        romaji: "Kanojo wa genki na onnanoko desu",
+        traducao: "Ela é uma menina animada",
+      },
+      {
+        exemplo: "彼女は学校で一番頭のいい女の子です",
+        hiragana: "かのじょはがっこうでいちばんあたまのいいおんなのこです",
+        romaji: "Kanojo wa gakkou de ichiban atama no ii onnanoko desu",
+        traducao: "Ela é a menina mais inteligente da escola",
+      },
+    ],
+  },
+  {
+    vocabulario: "外国",
+    romaji: "gaikoku",
+    hiragana: "がいこく",
+    traducao: "país estrangeiro",
+    exemplosFrases: [
+      {
+        exemplo: "私は外国に行きたいです",
+        hiragana: "わたしはがいこくにいきたいです",
+        romaji: "Watashi wa gaikoku ni ikitai desu",
+        traducao: "Eu quero ir para um país estrangeiro",
+      },
+      {
+        exemplo: "外国の文化に興味があります",
+        hiragana: "がいこくのぶんかにきょうみがあります",
+        romaji: "Gaikoku no bunka ni kyoumi ga arimasu",
+        traducao: "Eu tenho interesse na cultura de outros países",
+      },
+      {
+        exemplo: "外国人の友達がいます",
+        hiragana: "がいこくじんのともだちがいます",
+        romaji: "Gaikokujin no tomodachi ga imasu",
+        traducao: "Eu tenho amigos estrangeiros",
+      },
+    ],
+  },
+  {
+    vocabulario: "外国人",
+    romaji: "gaikokujin",
+    hiragana: "がいこくじん",
+    traducao: "estrangeiro",
+    exemplosFrases: [
+      {
+        exemplo: "外国人と話すのは楽しいです",
+        hiragana: "がいこくじんとはなすのはたのしいです",
+        romaji: "Gaikokujin to hanasu no wa tanoshii desu",
+        traducao: "É divertido conversar com estrangeiros",
+      },
+      {
+        exemplo: "外国人の先生がいます",
+        hiragana: "がいこくじんのせんせいがいます",
+        romaji: "Gaikokujin no sensei ga imasu",
+        traducao: "Eu tenho um professor estrangeiro",
+      },
+      {
+        exemplo: "外国人の友達を作りたいです",
+        hiragana: "がいこくじんのともだちをつくりたいです",
+        romaji: "Gaikokujin no tomodachi o tsukuritai desu",
+        traducao: "Eu quero fazer amigos estrangeiros",
+      },
+    ],
+  },
+  {
+    vocabulario: "会社",
+    romaji: "kaisha",
+    hiragana: "かいしゃ",
+    traducao: "empresa",
+    exemplosFrases: [
+      {
+        exemplo: "私は大きな会社で働いています",
+        hiragana: "わたしはおおきなかいしゃではたらいています",
+        romaji: "Watashi wa ookina kaisha de hataraiteimasu",
+        traducao: "Eu trabalho em uma grande empresa",
+      },
+      {
+        exemplo: "会社の同僚とランチに行きました",
+        hiragana: "かいしゃのどうりょうとランチにいきました",
+        romaji: "Kaisha no douryou to ranchi ni ikimashita",
+        traducao: "Fui almoçar com meus colegas de trabalho",
+      },
+      {
+        exemplo: "新しい会社に転職しました",
+        hiragana: "あたらしいかいしゃにてんしょくしました",
+        romaji: "Atarashii kaisha ni tenshoku shimashita",
+        traducao: "Mudei de emprego para uma nova empresa",
+      },
+    ],
+  },
+  {
+    vocabulario: "階段",
+    romaji: "kaidan",
+    hiragana: "かいだん",
+    traducao: "escada",
+    exemplosFrases: [
+      {
+        exemplo: "階段を上る",
+        hiragana: "かいだんをのぼる",
+        romaji: "Kaidan wo noboru",
+        traducao: "Subir as escadas",
+      },
+      {
+        exemplo: "階段を下りる",
+        hiragana: "かいだんをおりる",
+        romaji: "Kaidan wo oriru",
+        traducao: "Descer as escadas",
+      },
+      {
+        exemplo: "階段を使ってください",
+        hiragana: "かいだんをつかってください",
+        romaji: "Kaidan wo tsukatte kudasai",
+        traducao: "Por favor, use as escadas",
+      },
+    ],
+  },
+  {
+    vocabulario: "買い物",
+    romaji: "kaimono",
+    hiragana: "かいもの",
+    traducao: "compras",
+    exemplosFrases: [
+      {
+        exemplo: "買い物に行く",
+        hiragana: "かいものにいく",
+        romaji: "Kaimono ni iku",
+        traducao: "Ir às compras",
+      },
+      {
+        exemplo: "買い物リストを作る",
+        hiragana: "かいものリストをつくる",
+        romaji: "Kaimono risuto o tsukuru",
+        traducao: "Fazer uma lista de compras",
+      },
+      {
+        exemplo: "毎週買い物をする",
+        hiragana: "まいしゅうかいものをする",
+        romaji: "Maishuu kaimono o suru",
+        traducao: "Fazer compras todas as semanas",
+      },
+    ],
+  },
+  {
+    vocabulario: "買う",
+    romaji: "kau",
+    hiragana: "かう",
+    traducao: "comprar",
+    exemplosFrases: [
+      {
+        exemplo: "本を買う",
+        hiragana: "ほんをかう",
+        romaji: "Hon o kau",
+        traducao: "Comprar um livro",
+      },
+      {
+        exemplo: "服を買う",
+        hiragana: "ふくをかう",
+        romaji: "Fuku o kau",
+        traducao: "Comprar roupas",
+      },
+      {
+        exemplo: "食べ物を買う",
+        hiragana: "たべものをかう",
+        romaji: "Tabemono o kau",
+        traducao: "Comprar comida",
+      },
+    ],
+  },
+  {
+    vocabulario: "返す",
+    romaji: "kaesu",
+    hiragana: "かえす",
+    traducao: "devolver",
+    exemplosFrases: [
+      {
+        exemplo: "本を図書館に返す",
+        hiragana: "ほんをとしょかんにかえす",
+        romaji: "Hon o toshokan ni kaesu",
+        traducao: "Devolver um livro para a biblioteca",
+      },
+      {
+        exemplo: "借りたお金を返す",
+        hiragana: "かりたおかねをかえす",
+        romaji: "Karita okane o kaesu",
+        traducao: "Devolver o dinheiro emprestado",
+      },
+      {
+        exemplo: "友達から借りたCDを返す",
+        hiragana: "ともだちからかりたCDをかえす",
+        romaji: "Tomodachi kara karita CD o kaesu",
+        traducao: "Devolver o CD emprestado pelo amigo",
+      },
+    ],
+  },
+  {
+    vocabulario: "帰る",
+    romaji: "kaeru",
+    hiragana: "かえる",
+    traducao: "voltar para casa",
+    exemplosFrases: [
+      {
+        exemplo: "学校から帰る",
+        hiragana: "がっこうからかえる",
+        romaji: "Gakkou kara kaeru",
+        traducao: "Voltar para casa da escola",
+      },
+      {
+        exemplo: "仕事から帰る",
+        hiragana: "しごとからかえる",
+        romaji: "Shigoto kara kaeru",
+        traducao: "Voltar para casa do trabalho",
+      },
+      {
+        exemplo: "旅行から帰る",
+        hiragana: "りょこうからかえる",
+        romaji: "Ryokou kara kaeru",
+        traducao: "Voltar para casa da viagem",
+      },
+    ],
+  },
+  {
+    vocabulario: "かかる",
+    romaji: "kakaru",
+    hiragana: "かかる",
+    traducao: "levar tempo",
+    exemplosFrases: [
+      {
+        exemplo: "仕事に時間がかかる",
+        hiragana: "しごとにじかんがかかる",
+        romaji: "Shigoto ni jikan ga kakaru",
+        traducao: "O trabalho leva tempo",
+      },
+      {
+        exemplo: "勉強に努力がかかる",
+        hiragana: "べんきょうにどりょくがかかる",
+        romaji: "Benkyou ni doryoku ga kakaru",
+        traducao: "O estudo requer esforço",
+      },
+      {
+        exemplo: "家族との準備に時間がかかる",
+        hiragana: "かぞくとのじゅんびにじかんがかかる",
+        romaji: "Kazoku to no junbi ni jikan ga kakaru",
+        traducao: "Leva tempo para se preparar com a família",
+      },
+    ],
+  },
+  {
+    vocabulario: "かぎ",
+    romaji: "kagi",
+    hiragana: "かぎ",
+    traducao: "chave",
+    exemplosFrases: [
+      {
+        exemplo: "ドアのかぎを探す",
+        hiragana: "ドアのかぎをさがす",
+        romaji: "Doa no kagi o sagasu",
+        traducao: "Procurar a chave da porta",
+      },
+      {
+        exemplo: "かばんのかぎをなくす",
+        hiragana: "かばんのかぎをなくす",
+        romaji: "Kaban no kagi o nakusu",
+        traducao: "Perder a chave da bolsa",
+      },
+      {
+        exemplo: "かぎを開ける",
+        hiragana: "かぎをあける",
+        romaji: "Kagi o akeru",
+        traducao: "Abrir a chave",
+      },
+    ],
+  },
+  {
+    vocabulario: "書く",
+    romaji: "kaku",
+    hiragana: "かく",
+    traducao: "escrever",
+    exemplosFrases: [
+      {
+        exemplo: "手紙を書く",
+        hiragana: "てがみをかく",
+        romaji: "Tegami o kaku",
+        traducao: "Escrever uma carta",
+      },
+      {
+        exemplo: "日記を書く",
+        hiragana: "にっきをかく",
+        romaji: "Nikki o kaku",
+        traducao: "Escrever um diário",
+      },
+      {
+        exemplo: "宿題を書く",
+        hiragana: "しゅくだいをかく",
+        romaji: "Shukudai o kaku",
+        traducao: "Escrever a lição de casa",
+      },
+    ],
+  },
+  {
+    vocabulario: "学生",
+    romaji: "gakusei",
+    hiragana: "がくせい",
+    traducao: "estudante",
+    exemplosFrases: [
+      {
+        exemplo: "私は大学の学生です",
+        hiragana: "わたしはだいがくのがくせいです",
+        romaji: "Watashi wa daigaku no gakusei desu",
+        traducao: "Eu sou estudante universitário",
+      },
+      {
+        exemplo: "学生証を持っていく",
+        hiragana: "がくせいしょうをもっていく",
+        romaji: "Gakusei shou o motte iku",
+        traducao: "Levar o cartão de estudante",
+      },
+      {
+        exemplo: "友達と一緒に学生寮に住む",
+        hiragana: "ともだちといっしょにがくせいりょうにすむ",
+        romaji: "Tomodachi to issho ni gakusei-ryou ni sumu",
+        traducao: "Morar no alojamento estudantil com amigos",
+      },
+    ],
+  },
+  {
+    vocabulario: "かける",
+    romaji: "kakeru",
+    hiragana: "かける",
+    traducao: "colocar",
+    exemplosFrases: [
+      {
+        exemplo: "メガネをかける",
+        hiragana: "メガネをかける",
+        romaji: "Megane o kakeru",
+        traducao: "Colocar os óculos",
+      },
+      {
+        exemplo: "時計を壁にかける",
+        hiragana: "とけいをかべにかける",
+        romaji: "Tokei o kabe ni kakeru",
+        traducao: "Colocar o relógio na parede",
+      },
+      {
+        exemplo: "服をハンガーにかける",
+        hiragana: "ふくをはんがーにかける",
+        romaji: "Fuku o hangaa ni kakeru",
+        traducao: "Colocar a roupa no cabide",
+      },
+    ],
+  },
+  {
+    vocabulario: "傘",
+    romaji: "kasa",
+    hiragana: "かさ",
+    traducao: "guarda-chuva",
+    exemplosFrases: [
+      {
+        exemplo: "雨の日に傘を持つ",
+        hiragana: "あめのひにかさをもつ",
+        romaji: "Ame no hi ni kasa o motsu",
+        traducao: "Segurar um guarda-chuva em um dia chuvoso",
+      },
+      {
+        exemplo: "傘を開く",
+        hiragana: "かさをひらく",
+        romaji: "Kasa o hiraku",
+        traducao: "Abrir o guarda-chuva",
+      },
+      {
+        exemplo: "傘を忘れる",
+        hiragana: "かさをわすれる",
+        romaji: "Kasa o wasureru",
+        traducao: "Esquecer o guarda-chuva",
+      },
+    ],
+  },
+  {
+    vocabulario: "貸す",
+    romaji: "kasu",
+    hiragana: "かす",
+    traducao: "emprestar",
+    exemplosFrases: [
+      {
+        exemplo: "本を友達に貸す",
+        hiragana: "ほんをともだちにかす",
+        romaji: "Hon o tomodachi ni kasu",
+        traducao: "Emprestar um livro para um amigo",
+      },
+      {
+        exemplo: "お金を返す",
+        hiragana: "おかねをかえす",
+        romaji: "Okane o kaesu",
+        traducao: "Devolver dinheiro",
+      },
+      {
+        exemplo: "傘を貸してください",
+        hiragana: "かさをかしてください",
+        romaji: "Kasa o kashite kudasai",
+        traducao: "Por favor, me empreste um guarda-chuva",
+      },
+    ],
+  },
+  {
+    vocabulario: "風",
+    romaji: "kaze",
+    hiragana: "かぜ",
+    traducao: "vento",
+    exemplosFrases: [
+      {
+        exemplo: "風が強い",
+        hiragana: "かぜがつよい",
+        romaji: "Kaze ga tsuyoi",
+        traducao: "O vento está forte",
+      },
+      {
+        exemplo: "風邪を引く",
+        hiragana: "かぜをひく",
+        romaji: "Kaze o hiku",
+        traducao: "Pegar um resfriado",
+      },
+      {
+        exemplo: "窓を閉めると風が入らない",
+        hiragana: "まどをしめるとかぜがはいらない",
+        romaji: "Mado o shimeru to kaze ga hairanai",
+        traducao: "Quando fecho a janela, o vento não entra",
+      },
+    ],
+  },
+  {
+    vocabulario: "風邪",
+    romaji: "kaze",
+    hiragana: "かぜ",
+    traducao: "resfriado",
+    exemplosFrases: [
+      {
+        exemplo: "風邪をひく",
+        hiragana: "かぜをひく",
+        romaji: "kaze o hiku",
+        traducao: "pegar um resfriado",
+      },
+      {
+        exemplo: "風邪薬を飲む",
+        hiragana: "かぜぐすりをのむ",
+        romaji: "kazegusuri o nomu",
+        traducao: "tomar remédio para resfriado",
+      },
+      {
+        exemplo: "風邪を引かないように気をつける",
+        hiragana: "かぜをひかないようにきをつける",
+        romaji: "kaze o hikanai you ni ki o tsukeru",
+        traducao: "tomar cuidado para não pegar um resfriado",
+      },
+    ],
+  },
+  {
+    vocabulario: "家族",
+    romaji: "kazoku",
+    hiragana: "かぞく",
+    traducao: "família",
+    exemplosFrases: [
+      {
+        exemplo: "私の家族は5人です",
+        hiragana: "わたしのかぞくは5にんです",
+        romaji: "watashi no kazoku wa go-nin desu",
+        traducao: "minha família tem 5 pessoas",
+      },
+      {
+        exemplo: "家族でピクニックに行く",
+        hiragana: "かぞくでピクニックにいく",
+        romaji: "kazoku de pikunikku ni iku",
+        traducao: "ir em um piquenique com a família",
+      },
+      {
+        exemplo: "家族と一緒に過ごす時間が大切だ",
+        hiragana: "かぞくといっしょにすごすじかんがたいせつだ",
+        romaji: "kazoku to issho ni sugosu jikan ga taisetsu da",
+        traducao: "o tempo passado com a família é importante",
+      },
+    ],
+  },
+  {
+    vocabulario: "方",
+    romaji: "kata",
+    hiragana: "かた",
+    traducao: "pessoa",
+    exemplosFrases: [
+      {
+        exemplo: "日本の方",
+        hiragana: "にほんのかた",
+        romaji: "Nihon no kata",
+        traducao: "pessoa japonesa",
+      },
+      {
+        exemplo: "丁寧な方",
+        hiragana: "ていねいなかた",
+        romaji: "teinei na kata",
+        traducao: "pessoa educada",
+      },
+      {
+        exemplo: "若い方",
+        hiragana: "わかいかた",
+        romaji: "wakai kata",
+        traducao: "pessoa jovem",
+      },
+    ],
+  },
+  {
+    vocabulario: "学校",
+    romaji: "gakkou",
+    hiragana: "がっこう",
+    traducao: "escola",
+    exemplosFrases: [
+      {
+        exemplo: "学校に行く",
+        hiragana: "がっこうにいく",
+        romaji: "gakkou ni iku",
+        traducao: "ir para a escola",
+      },
+      {
+        exemplo: "学校で勉強する",
+        hiragana: "がっこうでべんきょうする",
+        romaji: "gakkou de benkyou suru",
+        traducao: "estudar na escola",
+      },
+      {
+        exemplo: "学校の友達",
+        hiragana: "がっこうのともだち",
+        romaji: "gakkou no tomodachi",
+        traducao: "amigos da escola",
+      },
+    ],
+  },
+  {
+    vocabulario: "カップ",
+    romaji: "kappu",
+    hiragana: "かっぷ",
+    traducao: "xícara, copo",
+    exemplosFrases: [
+      {
+        exemplo: "コーヒーカップ",
+        hiragana: "こーひーかっぷ",
+        romaji: "koohii kappu",
+        traducao: "xícara de café",
+      },
+      {
+        exemplo: "お茶をカップで飲む",
+        hiragana: "おちゃをかっぷでのむ",
+        romaji: "ocha o kappu de nomu",
+        traducao: "beber chá em um copo",
+      },
+      {
+        exemplo: "カップ麺",
+        hiragana: "かっぷめん",
+        romaji: "kappu men",
+        traducao: "macarrão instantâneo (no copo)",
+      },
+    ],
+  },
+  {
+    vocabulario: "家庭",
+    romaji: "katei",
+    hiragana: "かてい",
+    traducao: "lar, família",
+    exemplosFrases: [
+      {
+        exemplo: "家庭の雰囲気",
+        hiragana: "かていのふんいき",
+        romaji: "katei no fun'iki",
+        traducao: "atmosfera familiar",
+      },
+      {
+        exemplo: "家庭料理",
+        hiragana: "かていりょうり",
+        romaji: "katei ryouri",
+        traducao: "culinária caseira",
+      },
+      {
+        exemplo: "家庭の時間を大切にする",
+        hiragana: "かていのじかんをたいせつにする",
+        romaji: "katei no jikan o taisetsu ni suru",
+        traducao: "valorizar o tempo em família",
+      },
+    ],
+  },
+  {
+    vocabulario: "角",
+    romaji: "kado",
+    hiragana: "かど",
+    traducao: "esquina",
+    exemplosFrases: [
+      {
+        exemplo: "角を曲がる",
+        hiragana: "かどをまがる",
+        romaji: "kado o magaru",
+        traducao: "virar na esquina",
+      },
+      {
+        exemplo: "角で待ち合わせる",
+        hiragana: "かどでまちあわせる",
+        romaji: "kado de machiawaseru",
+        traducao: "encontrar na esquina",
+      },
+      {
+        exemplo: "角の建物",
+        hiragana: "かどのたてもの",
+        romaji: "kado no tatemono",
+        traducao: "prédio de esquina",
+      },
+    ],
+  },
+  {
+    vocabulario: "かばん",
+    romaji: "kaban",
+    hiragana: "かばん",
+    traducao: "mochila, bolsa",
+    exemplosFrases: [
+      {
+        exemplo: "かばんを持つ",
+        hiragana: "かばんをもつ",
+        romaji: "kaban o motsu",
+        traducao: "segurar a mochila/bolsa",
+      },
+      {
+        exemplo: "かばんの中身",
+        hiragana: "かばんのなかみ",
+        romaji: "kaban no nakami",
+        traducao: "conteúdo da mochila/bolsa",
+      },
+      {
+        exemplo: "かばんを開ける",
+        hiragana: "かばんをあける",
+        romaji: "kaban o akeru",
+        traducao: "abrir a mochila/bolsa",
+      },
+    ],
+  },
+  {
+    vocabulario: "花瓶",
+    romaji: "kabin",
+    hiragana: "かびん",
+    traducao: "vaso de flores",
+    exemplosFrases: [
+      {
+        exemplo: "花瓶に花を生ける",
+        hiragana: "かびんにはなをいける",
+        romaji: "kabin ni hana o ikeru",
+        traducao: "arranjar flores no vaso",
+      },
+      {
+        exemplo: "花瓶が割れる",
+        hiragana: "かびんがわれる",
+        romaji: "kabin ga wareru",
+        traducao: "o vaso de flores quebra",
+      },
+      {
+        exemplo: "花瓶の水を替える",
+        hiragana: "かびんのみずをかえる",
+        romaji: "kabin no mizu o kaeru",
+        traducao: "trocar a água do vaso de flores",
+      },
+    ],
+  },
+  {
+    vocabulario: "紙",
+    romaji: "kami",
+    hiragana: "かみ",
+    traducao: "papel",
+    exemplosFrases: [
+      {
+        exemplo: "紙に書く",
+        hiragana: "かみにかく",
+        romaji: "kami ni kaku",
+        traducao: "escrever no papel",
+      },
+      {
+        exemplo: "紙を折る",
+        hiragana: "かみをおる",
+        romaji: "kami o oru",
+        traducao: "dobrar o papel",
+      },
+      {
+        exemplo: "紙を捨てる",
+        hiragana: "かみをすてる",
+        romaji: "kami o suteru",
+        traducao: "jogar o papel fora",
+      },
+    ],
+  },
+  {
+    vocabulario: "カメラ",
+    romaji: "kamera",
+    hiragana: "かめら",
+    traducao: "câmera",
+    exemplosFrases: [
+      {
+        exemplo: "カメラで写真を撮る",
+        hiragana: "かめらでしゃしんをとる",
+        romaji: "kamera de shashin o toru",
+        traducao: "tirar fotos com a câmera",
+      },
+      {
+        exemplo: "カメラを持つ",
+        hiragana: "かめらをもつ",
+        romaji: "kamera o motsu",
+        traducao: "segurar a câmera",
+      },
+      {
+        exemplo: "カメラを修理する",
+        hiragana: "かめらをしゅうりする",
+        romaji: "kamera o shuuri suru",
+        traducao: "consertar a câmera",
+      },
+    ],
+  },
+  {
+    vocabulario: "火曜日",
+    romaji: "kayoubi",
+    hiragana: "かようび",
+    traducao: "terça-feira",
+    exemplosFrases: [
+      {
+        exemplo: "火曜日に会議がある",
+        hiragana: "かようびにかいぎがある",
+        romaji: "kayoubi ni kaigi ga aru",
+        traducao: "tem uma reunião na terça-feira",
+      },
+      {
+        exemplo: "火曜日に出かける",
+        hiragana: "かようびにでかける",
+        romaji: "kayoubi ni dekakeru",
+        traducao: "sair na terça-feira",
+      },
+      {
+        exemplo: "火曜日は忙しい",
+        hiragana: "かようびはいそがしい",
+        romaji: "kayoubi wa isogashii",
+        traducao: "terças-feiras são ocupadas",
+      },
+    ],
+  },
+  {
+    vocabulario: "辛い",
+    romaji: "karai",
+    hiragana: "からい",
+    traducao: "apimentado, picante",
+    exemplosFrases: [
+      {
+        exemplo: "辛い料理が好き",
+        hiragana: "からいりょうりがすき",
+        romaji: "karai ryouri ga suki",
+        traducao: "gosto de comidas apimentadas",
+      },
+      {
+        exemplo: "辛い味がする",
+        hiragana: "からいあじがする",
+        romaji: "karai aji ga suru",
+        traducao: "tem um gosto picante",
+      },
+      {
+        exemplo: "辛い食べ物に耐性がある",
+        hiragana: "からいたべものにたいせいがある",
+        romaji: "karai tabemono ni taisei ga aru",
+        traducao: "tenho resistência a comidas picantes",
+      },
+    ],
+  },
+  {
+    vocabulario: "体",
+    romaji: "karada",
+    hiragana: "からだ",
+    traducao: "corpo",
+    exemplosFrases: [
+      {
+        exemplo: "体を動かす",
+        hiragana: "からだをうごかす",
+        romaji: "karada o ugokasu",
+        traducao: "mover o corpo",
+      },
+      {
+        exemplo: "体が疲れる",
+        hiragana: "からだがつかれる",
+        romaji: "karada ga tsukareru",
+        traducao: "o corpo fica cansado",
+      },
+      {
+        exemplo: "体を休める",
+        hiragana: "からだをやすめる",
+        romaji: "karada o yasumeru",
+        traducao: "descansar o corpo",
+      },
+    ],
+  },
+  {
+    vocabulario: "借りる",
+    romaji: "kariru",
+    hiragana: "かりる",
+    traducao: "pegar emprestado",
+    exemplosFrases: [
+      {
+        exemplo: "図書館で本を借りることができますか？",
+        hiragana: "としょかんでほんをかりることができますか？",
+        romaji: "toshokan de hon o kariru koto ga dekimasu ka?",
+        traducao: "Você pode pegar livros emprestados na biblioteca?",
+      },
+      {
+        exemplo: "友達にお金を借りる予定です。",
+        hiragana: "ともだちにおかねをかりるよていです。",
+        romaji: "tomodachi ni o-kane o kariru yotei desu.",
+        traducao: "Estou planejando pegar dinheiro emprestado de um amigo.",
+      },
+      {
+        exemplo: "映画館でDVDを借りることができます。",
+        hiragana: "えいがかんでDVDをかりることができます。",
+        romaji: "eigakan de DVD o kariru koto ga dekimasu.",
+        traducao: "Você pode alugar DVDs no cinema.",
+      },
+    ],
+  },
+  {
+    vocabulario: "軽い",
+    romaji: "karui",
+    hiragana: "かるい",
+    traducao: "leve",
+    exemplosFrases: [
+      {
+        exemplo: "このバッグはとても軽いです。",
+        hiragana: "このバッグはとてもかるいです。",
+        romaji: "kono baggu wa totemo karui desu.",
+        traducao: "Esta bolsa é muito leve.",
+      },
+      {
+        exemplo: "軽い運動をすることで健康を保つことができます。",
+        hiragana: "かるいうんどうをすることでけんこうをたもつことができます。",
+        romaji: "karui undou o suru koto de kenkou o tamotsu koto ga dekimasu.",
+        traducao: "Você pode manter a saúde fazendo exercícios leves.",
+      },
+      {
+        exemplo: "この料理は軽い味付けです。",
+        hiragana: "このりょうりはかるいあじつけです。",
+        romaji: "kono ryouri wa karui ajitsuke desu.",
+        traducao: "Este prato tem um tempero leve.",
+      },
+    ],
+  },
+  {
+    vocabulario: "カレー",
+    romaji: "karee",
+    hiragana: "かれー",
+    traducao: "curry",
+    exemplosFrases: [
+      {
+        exemplo: "昨日の晩ご飯はカレーを食べました。",
+        hiragana: "きのうのばんごはんはかれーをたべました。",
+        romaji: "kinou no bangohan wa karee o tabemashita.",
+        traducao: "Ontem à noite eu comi curry para o jantar.",
+      },
+      {
+        exemplo: "この店のカレーはとても美味しいです。",
+        hiragana: "このみせのかれーはとてもおいしいです。",
+        romaji: "kono mise no karee wa totemo oishii desu.",
+        traducao: "O curry neste restaurante é muito gostoso.",
+      },
+      {
+        exemplo: "週末に家族でカレーを作る予定です。",
+        hiragana: "しゅうまつにかぞくでかれーをつくるよていです。",
+        romaji: "shuumatsu ni kazoku de karee o tsukuru yotei desu.",
+        traducao: "Estamos planejando fazer curry em família no fim de semana.",
+      },
+    ],
+  },
+  {
+    vocabulario: "カレンダー",
+    romaji: "karenda-",
+    hiragana: "かれんだー",
+    traducao: "calendário",
+    exemplosFrases: [
+      {
+        exemplo: "今日はカレンダーの日付をチェックしましょう。",
+        hiragana: "きょうはかれんだーのひづけをチェックしましょう。",
+        romaji: "kyou wa karenda- no hidzuke o chekku shimashou.",
+        traducao: "Vamos verificar a data no calendário hoje.",
+      },
+      {
+        exemplo: "カレンダーに予定を書き込みましたか？",
+        hiragana: "かれんだーによていをかきこみましたか？",
+        romaji: "karenda- ni yotei o kakikomimashita ka?",
+        traducao: "Você anotou seus planos no calendário?",
+      },
+      {
+        exemplo: "毎月新しいカレンダーを買います。",
+        hiragana: "まいつきあたらしいかれんだーをかいます。",
+        romaji: "maitsuki atarashii karenda- o kaimasu.",
+        traducao: "Compro um novo calendário todos os meses.",
+      },
+    ],
+  },
+  {
+    vocabulario: "川",
+    romaji: "kawa",
+    hiragana: "かわ",
+    traducao: "rio",
+    exemplosFrases: [
+      {
+        exemplo: "川のそばでピクニックをしました。",
+        hiragana: "かわのそばでピクニックをしました。",
+        romaji: "kawa no soba de pikunikku o shimashita.",
+        traducao: "Fiz um picnic perto do rio.",
+      },
+      {
+        exemplo: "川の水はとても清澄です。",
+        hiragana: "かわのみずはとてもせいちょうです。",
+        romaji: "kawa no mizu wa totemo seichou desu.",
+        traducao: "A água do rio é muito límpida.",
+      },
+      {
+        exemplo: "夏には川で泳ぐのが楽しいですね。",
+        hiragana: "なつにはかわでおよぐのがたのしいですね。",
+        romaji: "natsu ni wa kawa de oyogu no ga tanoshii desu ne.",
+        traducao: "É divertido nadar no rio no verão, não é?",
+      },
+    ],
+  },
+  {
+    vocabulario: "かわいい",
+    romaji: "kawaii",
+    hiragana: "かわいい",
+    traducao: "fofo, bonito",
+    exemplosFrases: [
+      {
+        exemplo: "この子猫はとてもかわいいですね。",
+        hiragana: "このこねこはとてもかわいいですね。",
+        romaji: "kono koneko wa totemo kawaii desu ne.",
+        traducao: "Este gatinho é muito fofo, não é?",
+      },
+      {
+        exemplo: "かわいいドレスを見つけました。",
+        hiragana: "かわいいドレスをみつけました。",
+        romaji: "kawaii doresu o mitsukemashita.",
+        traducao: "Encontrei um vestido bonito.",
+      },
+      {
+        exemplo: "妹の笑顔はいつもかわいいです。",
+        hiragana: "いもうとのえがおはいつもかわいいです。",
+        romaji: "imouto no egao wa itsumo kawaii desu.",
+        traducao: "O sorriso da minha irmã mais nova é sempre fofo.",
+      },
+    ],
+  },
+  {
+    vocabulario: "漢字",
+    romaji: "kanji",
+    hiragana: "かんじ",
+    traducao: "caractere chinês",
+    exemplosFrases: [
+      {
+        exemplo: "日本語の漢字を勉強しています。",
+        hiragana: "にほんごのかんじをべんきょうしています。",
+        romaji: "nihongo no kanji o benkyou shiteimasu.",
+        traducao: "Estou estudando os caracteres chineses do japonês.",
+      },
+      {
+        exemplo: "この漢字は何と読みますか？",
+        hiragana: "このかんじはなんとよみますか？",
+        romaji: "kono kanji wa nanto yomimasu ka?",
+        traducao: "Como se lê esse caractere chinês?",
+      },
+      {
+        exemplo: "漢字の意味を調べる",
+        hiragana: "かんじのいみをしらべる",
+        romaji: "kanji no imi o shiraberu",
+        traducao: "Pesquisar o significado dos caracteres chineses",
+      },
+    ],
+  },
+  {
+    vocabulario: "木",
+    romaji: "ki",
+    hiragana: "き",
+    traducao: "árvore",
+    exemplosFrases: [
+      {
+        exemplo: "公園に大きな木があります。",
+        hiragana: "こうえんにおおきなきがあります。",
+        romaji: "kōen ni ōkina ki ga arimasu.",
+        traducao: "Há uma árvore grande no parque.",
+      },
+      {
+        exemplo: "庭に木を植えたいです。",
+        hiragana: "にわにきをうえたいです。",
+        romaji: "niwa ni ki o uetai desu.",
+        traducao: "Eu gostaria de plantar uma árvore no jardim.",
+      },
+      {
+        exemplo: "木の葉が風で揺れています。",
+        hiragana: "きのはがかぜでゆれています。",
+        romaji: "ki no ha ga kaze de yurete imasu.",
+        traducao: "As folhas das árvores estão tremendo ao vento.",
+      },
+    ],
+  },
+  {
+    vocabulario: "黄色",
+    romaji: "kiiro",
+    hiragana: "きいろ",
+    traducao: "amarelo",
+    exemplosFrases: [
+      {
+        exemplo: "太陽の色は黄色です。",
+        hiragana: "たいようのいろはきいろです。",
+        romaji: "taiyou no iro wa kiiro desu.",
+        traducao: "A cor do sol é amarela.",
+      },
+      {
+        exemplo: "黄色い花が咲いています。",
+        hiragana: "きいろいはながさいています。",
+        romaji: "kiiroi hana ga saite imasu.",
+        traducao: "Flores amarelas estão florescendo.",
+      },
+      {
+        exemplo: "黄色のバスが通り過ぎた。",
+        hiragana: "きいろのばすがとおりすぎた。",
+        romaji: "kiiro no basu ga toorisugita.",
+        traducao: "Um ônibus amarelo passou.",
+      },
+    ],
+  },
+  {
+    vocabulario: "消える",
+    romaji: "kieru",
+    hiragana: "きえる",
+    traducao: "desaparecer",
+    exemplosFrases: [
+      {
+        exemplo: "キャンドルの火が消えた。",
+        hiragana: "きゃんどるのひがきえた。",
+        romaji: "kyandoru no hi ga kieta.",
+        traducao: "A vela se apagou.",
+      },
+      {
+        exemplo: "テレビの画面が突然消えた。",
+        hiragana: "てれびのがめんがとつぜんきえた。",
+        romaji: "terebi no gamen ga totsuzen kieta.",
+        traducao: "A tela da TV apagou repentinamente.",
+      },
+      {
+        exemplo: "彼女のメッセージが消えてしまった。",
+        hiragana: "かのじょのめっせーじがきえてしまった。",
+        romaji: "kanojo no messeji ga kiete shimatta.",
+        traducao: "A mensagem dela desapareceu.",
+      },
+    ],
+  },
+  {
+    vocabulario: "聞く",
+    romaji: "kiku",
+    hiragana: "きく",
+    traducao: "ouvir, perguntar",
+    exemplosFrases: [
+      {
+        exemplo: "音楽を聞く",
+        hiragana: "おんがくをきく",
+        romaji: "ongaku o kiku",
+        traducao: "Ouvir música",
+      },
+      {
+        exemplo: "友達に質問を聞く",
+        hiragana: "ともだちにしつもんをきく",
+        romaji: "tomodachi ni shitsumon o kiku",
+        traducao: "Fazer uma pergunta ao amigo",
+      },
+      {
+        exemplo: "ニュースを聞いて勉強する",
+        hiragana: "にゅーすをきいてべんきょうする",
+        romaji: "nyuusu o kiite benkyou suru",
+        traducao: "Estudar ouvindo notícias",
+      },
+    ],
+  },
+  {
+    vocabulario: "北",
+    romaji: "kita",
+    hiragana: "きた",
+    traducao: "norte",
+    exemplosFrases: [
+      {
+        exemplo: "北海道に行く",
+        hiragana: "ほっかいどうにいく",
+        romaji: "hokkaidou ni iku",
+        traducao: "Ir para Hokkaido",
+      },
+      {
+        exemplo: "北側の部屋",
+        hiragana: "きたがわのへや",
+        romaji: "kitagawa no heya",
+        traducao: "Quarto no lado norte",
+      },
+      {
+        exemplo: "北風が強い",
+        hiragana: "きたかぜがつよい",
+        romaji: "kitakaze ga tsuyoi",
+        traducao: "Vento norte está forte",
+      },
+    ],
+  },
+  {
+    vocabulario: "ギター",
+    romaji: "gitaa",
+    hiragana: "ぎたー",
+    traducao: "violão, guitarra",
+    exemplosFrases: [
+      {
+        exemplo: "ギターを弾く",
+        hiragana: "ぎたーをひく",
+        romaji: "gitaa o hiku",
+        traducao: "Tocar violão/guitarra",
+      },
+      {
+        exemplo: "ギターの音が好きです",
+        hiragana: "ぎたーのおとがすきです",
+        romaji: "gitaa no oto ga suki desu",
+        traducao: "Eu gosto do som do violão/guitarra",
+      },
+      {
+        exemplo: "ギターを始めたばかりです",
+        hiragana: "ぎたーをはじめたばかりです",
+        romaji: "gitaa o hajimeta bakari desu",
+        traducao: "Eu comecei a tocar violão/guitarra recentemente",
+      },
+    ],
+  },
+  {
+    vocabulario: "汚い",
+    romaji: "kitanai",
+    hiragana: "きたない",
+    traducao: "sujo",
+    exemplosFrases: [
+      {
+        exemplo: "部屋が汚いです",
+        hiragana: "へやがきたないです",
+        romaji: "heya ga kitanai desu",
+        traducao: "O quarto está sujo",
+      },
+      {
+        exemplo: "汚い服を洗う",
+        hiragana: "きたないふくをあらう",
+        romaji: "kitanai fuku o arau",
+        traducao: "Lavar roupas sujas",
+      },
+      {
+        exemplo: "汚い水を捨てる",
+        hiragana: "きたないみずをすてる",
+        romaji: "kitanai mizu o suteru",
+        traducao: "Descartar água suja",
+      },
+    ],
+  },
+  {
+    vocabulario: "喫茶店",
+    romaji: "kissaten",
+    hiragana: "きっさてん",
+    traducao: "cafeteria",
+    exemplosFrases: [
+      {
+        exemplo: "喫茶店でコーヒーを飲む",
+        hiragana: "きっさてんでこーひーをのむ",
+        romaji: "kissaten de koohii o nomu",
+        traducao: "Beber café em uma cafeteria",
+      },
+      {
+        exemplo: "喫茶店で友達と話す",
+        hiragana: "きっさてんでともだちとはなす",
+        romaji: "kissaten de tomodachi to hanasu",
+        traducao: "Conversar com um amigo em uma cafeteria",
+      },
+      {
+        exemplo: "喫茶店でケーキを食べる",
+        hiragana: "きっさてんでけーきをたべる",
+        romaji: "kissaten de keeki o taberu",
+        traducao: "Comer bolo em uma cafeteria",
+      },
+    ],
+  },
+  {
+    vocabulario: "切手",
+    romaji: "kitte",
+    hiragana: "きって",
+    traducao: "selo",
+    exemplosFrases: [
+      {
+        exemplo: "郵便局で切手を買いました",
+        hiragana: "ゆうびんきょくできってをかいました",
+        romaji: "yuubinkyoku de kitte o kaimashita",
+        traducao: "Comprei selos no correio",
+      },
+      {
+        exemplo: "手紙に切手を貼りました",
+        hiragana: "てがみにきってをはりました",
+        romaji: "tegami ni kitte o harimashita",
+        traducao: "Colei um selo na carta",
+      },
+      {
+        exemplo: "切手のコレクションを始めました",
+        hiragana: "きってのこれくしょんをはじめました",
+        romaji: "kitte no korekushon o hajimemashita",
+        traducao: "Comecei uma coleção de selos",
+      },
+    ],
+  },
+  {
+    vocabulario: "切符",
+    romaji: "kippu",
+    hiragana: "きっぷ",
+    traducao: "bilhete",
+    exemplosFrases: [
+      {
+        exemplo: "映画の切符を予約しました",
+        hiragana: "えいがのきっぷをよやくしました",
+        romaji: "eiga no kippu o yoyaku shimashita",
+        traducao: "Fiz uma reserva de bilhete de cinema",
+      },
+      {
+        exemplo: "電車の切符を失くしました",
+        hiragana: "でんしゃのきっぷをなくしました",
+        romaji: "densha no kippu o nakushimashita",
+        traducao: "Perdi o bilhete de trem",
+      },
+      {
+        exemplo: "切符を確認してください",
+        hiragana: "きっぷをかくにんしてください",
+        romaji: "kippu o kakunin shite kudasai",
+        traducao: "Por favor, verifique o bilhete",
+      },
+    ],
+  },
+  {
+    vocabulario: "昨日",
+    romaji: "kinou",
+    hiragana: "きのう",
+    traducao: "ontem",
+    exemplosFrases: [
+      {
+        exemplo: "昨日の天気は晴れでした",
+        hiragana: "きのうのてんきははれでした",
+        romaji: "kinou no tenki wa hare deshita",
+        traducao: "O tempo estava ensolarado ontem",
+      },
+      {
+        exemplo: "昨日は友達と映画を見に行きました",
+        hiragana: "きのうはともだちとえいがをみにいきました",
+        romaji: "kinou wa tomodachi to eiga o mini ikimashita",
+        traducao: "Ontem fui ao cinema com um amigo",
+      },
+      {
+        exemplo: "昨日の晩ご飯は何を食べましたか？",
+        hiragana: "きのうのばんごはんはなにをたべましたか",
+        romaji: "kinou no bangohan wa nani o tabemashita ka?",
+        traducao: "O que você comeu no jantar de ontem?",
+      },
+    ],
+  },
+  {
+    vocabulario: "九",
+    romaji: "kyuu",
+    hiragana: "きゅう",
+    traducao: "nove",
+    exemplosFrases: [
+      {
+        exemplo: "九月に誕生日があります",
+        hiragana: "くがつにたんじょうびがあります",
+        romaji: "kugatsu ni tanjoubi ga arimasu",
+        traducao: "Tenho aniversário em setembro",
+      },
+      {
+        exemplo: "九時に会議があります",
+        hiragana: "くじにかいぎがあります",
+        romaji: "kuji ni kaigi ga arimasu",
+        traducao: "Haverá uma reunião às nove horas",
+      },
+      {
+        exemplo: "今日は九日です",
+        hiragana: "きょうはここのかです",
+        romaji: "kyou wa kokonoka desu",
+        traducao: "Hoje é dia nove",
+      },
+    ],
+  },
+  {
+    vocabulario: "牛肉",
+    romaji: "gyuuniku",
+    hiragana: "ぎゅうにく",
+    traducao: "carne de boi",
+    exemplosFrases: [
+      {
+        exemplo: "牛肉のステーキを食べました",
+        hiragana: "ぎゅうにくのすてーきをたべました",
+        romaji: "gyuuniku no suteeki o tabemashita",
+        traducao: "Comi um bife de carne bovina",
+      },
+      {
+        exemplo: "牛肉を炒めてご飯と一緒に食べます",
+        hiragana: "ぎゅうにくをいためてごはんといっしょにたべます",
+        romaji: "gyuuniku o itamete gohan to issho ni tabemasu",
+        traducao: "Vou fritar a carne bovina e comer com arroz",
+      },
+      {
+        exemplo: "牛肉は高いですが美味しいです",
+        hiragana: "ぎゅうにくはたかいですがおいしいです",
+        romaji: "gyuuniku wa takai desu ga oishii desu",
+        traducao: "A carne bovina é cara, mas é deliciosa",
+      },
+    ],
+  },
+  {
+    vocabulario: "牛乳",
+    romaji: "gyuunyuu",
+    hiragana: "ぎゅうにゅう",
+    traducao: "leite",
+    exemplosFrases: [
+      {
+        exemplo: "朝食に牛乳を飲みます",
+        hiragana: "ちょうしょくにぎゅうにゅうをのみます",
+        romaji: "choushoku ni gyuunyuu o nomimasu",
+        traducao: "Eu bebo leite no café da manhã",
+      },
+      {
+        exemplo: "牛乳は冷蔵庫に入れておいてください",
+        hiragana: "ぎゅうにゅうはれいぞうこにいれておいてください",
+        romaji: "gyuunyuu wa reizouko ni irete oite kudasai",
+        traducao: "Por favor, coloque o leite na geladeira",
+      },
+      {
+        exemplo: "この牛乳は賞味期限が切れています",
+        hiragana: "このぎゅうにゅうはしょうみきげんがきれています",
+        romaji: "kono gyuunyuu wa shoumikigen ga kirete imasu",
+        traducao: "Este leite está vencido",
+      },
+    ],
+  },
+  {
+    vocabulario: "今日",
+    romaji: "kyou",
+    hiragana: "きょう",
+    traducao: "hoje",
+    exemplosFrases: [
+      {
+        exemplo: "今日は忙しいです",
+        hiragana: "きょうはいそがしいです",
+        romaji: "kyou wa isogashii desu",
+        traducao: "Hoje estou ocupado",
+      },
+      {
+        exemplo: "今日の天気はどうですか？",
+        hiragana: "きょうのてんきはどうですか",
+        romaji: "kyou no tenki wa dou desu ka?",
+        traducao: "Como está o tempo hoje?",
+      },
+      {
+        exemplo: "今日は何をしようか考えています",
+        hiragana: "きょうはなにをしようかかんがえています",
+        romaji: "kyou wa nani o shiyou ka kangaete imasu",
+        traducao: "Estou pensando no que fazer hoje",
+      },
+    ],
+  },
+  {
+    vocabulario: "教室",
+    romaji: "kyoushitsu",
+    hiragana: "きょうしつ",
+    traducao: "sala de aula",
+    exemplosFrases: [
+      {
+        exemplo: "私は教室で日本語を勉強します",
+        hiragana: "わたしはきょうしつでにほんごをべんきょうします",
+        romaji: "watashi wa kyoushitsu de nihongo o benkyou shimasu",
+        traducao: "Eu estudo japonês na sala de aula",
+      },
+      {
+        exemplo: "教室は静かです",
+        hiragana: "きょうしつはしずかです",
+        romaji: "kyoushitsu wa shizuka desu",
+        traducao: "A sala de aula está silenciosa",
+      },
+      {
+        exemplo: "教室の窓から美しい景色が見えます",
+        hiragana: "きょうしつのまどからうつくしいけしきがみえます",
+        romaji: "kyoushitsu no mado kara utsukushii keshiki ga miemasu",
+        traducao: "Você pode ver uma bela vista da janela da sala de aula",
+      },
+    ],
+  },
+  {
+    vocabulario: "兄弟",
+    romaji: "kyoudai",
+    hiragana: "きょうだい",
+    traducao: "irmãos",
+    exemplosFrases: [
+      {
+        exemplo: "私には兄弟が一人います",
+        hiragana: "わたしにはきょうだいがひとりいます",
+        romaji: "watashi ni wa kyoudai ga hitori imasu",
+        traducao: "Eu tenho um irmão",
+      },
+      {
+        exemplo: "兄弟で遊ぶのが楽しいです",
+        hiragana: "きょうだいであそぶのがたのしいです",
+        romaji: "kyoudai de asobu no ga tanoshii desu",
+        traducao: "É divertido brincar com irmãos",
+      },
+      {
+        exemplo: "兄弟同士で仲良くすることが大切です",
+        hiragana: "きょうだいどうしでなかよくすることがたいせつです",
+        romaji: "kyoudai douji de nakayoku suru koto ga taisetsu desu",
+        traducao: "É importante ter um bom relacionamento entre irmãos",
+      },
+    ],
+  },
+  {
+    vocabulario: "去年",
+    romaji: "kyonen",
+    hiragana: "きょねん",
+    traducao: "ano passado",
+    exemplosFrases: [
+      {
+        exemplo: "去年の夏は海に行きました",
+        hiragana: "きょねんのなつはうみにいきました",
+        romaji: "kyonen no natsu wa umi ni ikimashita",
+        traducao: "Eu fui ao mar no verão passado",
+      },
+      {
+        exemplo: "去年の誕生日は友達と一緒にお祝いしました",
+        hiragana:
+          "きょねんのたんじょうびはともだちといっしょにおいわいしました",
+        romaji: "kyonen no tanjoubi wa tomodachi to issho ni oiwai shimashita",
+        traducao: "Celebrei meu aniversário com amigos no ano passado",
+      },
+      {
+        exemplo: "去年の春は桜を見に行きました",
+        hiragana: "きょねんのはるはさくらをみにいきました",
+        romaji: "kyonen no haru wa sakura o mi ni ikimashita",
+        traducao: "Eu fui ver as cerejeiras na primavera passada",
+      },
+    ],
+  },
+  {
+    vocabulario: "嫌い",
+    romaji: "kirai",
+    hiragana: "きらい",
+    traducao: "desgostar",
+    exemplosFrases: [
+      {
+        exemplo: "私は辛い食べ物が嫌いです",
+        hiragana: "わたしはからいたべものがきらいです",
+        romaji: "watashi wa karai tabemono ga kirai desu",
+        traducao: "Eu não gosto de comida apimentada",
+      },
+      {
+        exemplo: "彼は早起きが嫌いです",
+        hiragana: "かれははやおきがきらいです",
+        romaji: "kare wa hayaoki ga kirai desu",
+        traducao: "Ele não gosta de acordar cedo",
+      },
+      {
+        exemplo: "嫌いな音楽は聞きたくないです",
+        hiragana: "きらいなおんがくはききたくないです",
+        romaji: "kirai na ongaku wa kikitakunai desu",
+        traducao: "Eu não quero ouvir música que não gosto",
+      },
+    ],
+  },
+  {
+    vocabulario: "切る",
+    romaji: "kiru",
+    hiragana: "きる",
+    traducao: "cortar",
+    exemplosFrases: [
+      {
+        exemplo: "野菜を切って料理を作ります",
+        hiragana: "やさいをきってりょうりをつくります",
+        romaji: "yasai o kitte ryouri o tsukurimasu",
+        traducao: "Eu corto os legumes e cozinho",
+      },
+      {
+        exemplo: "爪を切るのが苦手です",
+        hiragana: "つめをきるのがにがてです",
+        romaji: "tsume o kiru no ga nigate desu",
+        traducao: "Eu tenho dificuldade em cortar as unhas",
+      },
+      {
+        exemplo: "切る前によく考えてください",
+        hiragana: "きるまえによくかんがえてください",
+        romaji: "kiru mae ni yoku kangaete kudasai",
+        traducao: "Por favor, pense bem antes de cortar",
+      },
+    ],
+  },
+  {
+    vocabulario: "着る",
+    romaji: "kiru",
+    hiragana: "きる",
+    traducao: "vestir",
+    exemplosFrases: [
+      {
+        exemplo: "今日は何を着ますか？",
+        hiragana: "きょうはなにをきますか？",
+        romaji: "kyou wa nani o kimasu ka?",
+        traducao: "O que você vai vestir hoje?",
+      },
+      {
+        exemplo: "寒いから厚い服を着てください",
+        hiragana: "さむいからあついふくをきてください",
+        romaji: "samui kara atsui fuku o kite kudasai",
+        traducao: "Por favor, vista roupas quentes porque está frio",
+      },
+      {
+        exemplo: "明日は制服を着なければなりません",
+        hiragana: "あしたはせいふくをきなければなりません",
+        romaji: "ashita wa seifuku o kinakereba narimasen",
+        traducao: "Amanhã eu tenho que vestir o uniforme",
+      },
+    ],
+  },
+  {
+    vocabulario: "きれい",
+    romaji: "kirei",
+    hiragana: "きれい",
+    traducao: "bonito, limpo",
+    exemplosFrases: [
+      {
+        exemplo: "彼女はきれいな花を持っています",
+        hiragana: "かのじょはきれいなはなをもっています",
+        romaji: "kanojo wa kirei na hana o motteimasu",
+        traducao: "Ela está segurando uma flor bonita",
+      },
+      {
+        exemplo: "この公園はとてもきれいですね",
+        hiragana: "このこうえんはとてもきれいですね",
+        romaji: "kono kouen wa totemo kirei desu ne",
+        traducao: "Este parque é muito bonito, não é?",
+      },
+      {
+        exemplo: "部屋をきれいに片付けました",
+        hiragana: "へやをきれいにかたづけました",
+        romaji: "heya o kirei ni katazukemashita",
+        traducao: "Eu arrumei o quarto de forma limpa",
+      },
+    ],
+  },
+  {
+    vocabulario: "銀行",
+    romaji: "ginkou",
+    hiragana: "ぎんこう",
+    traducao: "banco",
+    exemplosFrases: [
+      {
+        exemplo: "銀行にお金を預けます",
+        hiragana: "ぎんこうにおかねをあずけます",
+        romaji: "ginkou ni okane o azukemasu",
+        traducao: "Eu deposito dinheiro no banco",
+      },
+      {
+        exemplo: "今日は銀行に行かなければなりません",
+        hiragana: "きょうはぎんこうにいかなければなりません",
+        romaji: "kyou wa ginkou ni ikanakereba narimasen",
+        traducao: "Hoje eu tenho que ir ao banco",
+      },
+      {
+        exemplo: "銀行でお金を引き出しました",
+        hiragana: "ぎんこうでおかねをひきだしました",
+        romaji: "ginkou de okane o hikidashimashita",
+        traducao: "Eu saquei dinheiro no banco",
+      },
+    ],
+  },
+  {
+    vocabulario: "金曜日",
+    romaji: "kin'youbi",
+    hiragana: "きんようび",
+    traducao: "sexta-feira",
+    exemplosFrases: [
+      {
+        exemplo: "金曜日に映画を見に行きましょう",
+        hiragana: "きんようびにえいがをみにいきましょう",
+        romaji: "kin'youbi ni eiga o mi ni ikimashou",
+        traducao: "Vamos assistir um filme na sexta-feira",
+      },
+      {
+        exemplo: "今週の金曜日は忙しいですか？",
+        hiragana: "こんしゅうのきんようびはいそがしいですか？",
+        romaji: "konshuu no kin'youbi wa isogashii desu ka?",
+        traducao: "Você está ocupado nesta sexta-feira?",
+      },
+      {
+        exemplo: "金曜日に友達と食事に行く予定です",
+        hiragana: "きんようびにともだちとしょくじにいくよていです",
+        romaji: "kin'youbi ni tomodachi to shokuji ni iku yotei desu",
+        traducao:
+          "Eu tenho planos de sair para comer com amigos na sexta-feira",
+      },
+    ],
+  },
+  {
+    vocabulario: "薬",
+    romaji: "kusuri",
+    hiragana: "くすり",
+    traducao: "remédio",
+    exemplosFrases: [
+      {
+        exemplo: "風邪の薬を飲みました",
+        hiragana: "かぜのくすりをのみました",
+        romaji: "kaze no kusuri o nomimashita",
+        traducao: "Eu tomei remédio para o resfriado",
+      },
+      {
+        exemplo: "薬局で薬を買いました",
+        hiragana: "やっきょくでくすりをかいました",
+        romaji: "yakkyoku de kusuri o kaimashita",
+        traducao: "Eu comprei remédio na farmácia",
+      },
+      {
+        exemplo: "薬の飲み方を教えてください",
+        hiragana: "くすりののみかたをおしえてください",
+        romaji: "kusuri no nomikata o oshiete kudasai",
+        traducao: "Por favor, me ensine como tomar o remédio",
+      },
+    ],
+  },
+  {
+    vocabulario: "果物",
+    romaji: "kudamono",
+    hiragana: "くだもの",
+    traducao: "fruta",
+    exemplosFrases: [
+      {
+        exemplo: "毎日果物を食べることは大切です",
+        hiragana: "まいにちくだものをたべることはたいせつです",
+        romaji: "mainichi kudamono o taberu koto wa taisetsu desu",
+        traducao: "É importante comer frutas todos os dias",
+      },
+      {
+        exemplo: "スーパーで新鮮な果物を買いました",
+        hiragana: "すーぱーでしんせんなくだものをかいました",
+        romaji: "suupaa de shinsen na kudamono o kaimashita",
+        traducao: "Eu comprei frutas frescas no supermercado",
+      },
+      {
+        exemplo: "果物屋さんでいろいろな果物を見つけました",
+        hiragana: "くだものやさんでいろいろなくだものをみつけました",
+        romaji: "kudamono-ya-san de iroiro na kudamono o mitsukemashita",
+        traducao: "Eu encontrei várias frutas na loja de frutas",
+      },
+    ],
+  },
+  {
+    vocabulario: "口",
+    romaji: "kuchi",
+    hiragana: "くち",
+    traducao: "boca",
+    exemplosFrases: [
+      {
+        exemplo: "口を閉じてください",
+        hiragana: "くちをとじてください",
+        romaji: "kuchi o tojite kudasai",
+        traducao: "Por favor, feche a boca",
+      },
+      {
+        exemplo: "おいしい食べ物を口に入れる",
+        hiragana: "おいしいたべものをくちにいれる",
+        romaji: "oishii tabemono o kuchi ni ireru",
+        traducao: "Colocar comida deliciosa na boca",
+      },
+      {
+        exemplo: "口から笑い声が出た",
+        hiragana: "くちからわらいごえがでた",
+        romaji: "kuchi kara waraigoe ga deta",
+        traducao: "Um riso saiu da boca",
+      },
+    ],
+  },
+  {
+    vocabulario: "靴",
+    romaji: "kutsu",
+    hiragana: "くつ",
+    traducao: "sapato",
+    exemplosFrases: [
+      {
+        exemplo: "靴を履く",
+        hiragana: "くつをはく",
+        romaji: "kutsu o haku",
+        traducao: "Calçar sapatos",
+      },
+      {
+        exemplo: "新しい靴を買う",
+        hiragana: "あたらしいくつをかう",
+        romaji: "atarashii kutsu o kau",
+        traducao: "Comprar sapatos novos",
+      },
+      {
+        exemplo: "靴が脱げた",
+        hiragana: "くつがぬげた",
+        romaji: "kutsu ga nugeta",
+        traducao: "O sapato saiu do pé",
+      },
+    ],
+  },
+  {
+    vocabulario: "靴下",
+    romaji: "kutsushita",
+    hiragana: "くつした",
+    traducao: "meia",
+    exemplosFrases: [
+      {
+        exemplo: "靴下を履く",
+        hiragana: "くつしたをはく",
+        romaji: "kutsushita o haku",
+        traducao: "Calçar meias",
+      },
+      {
+        exemplo: "靴下が破れた",
+        hiragana: "くつしたがやぶれた",
+        romaji: "kutsushita ga yabureta",
+        traducao: "A meia rasgou",
+      },
+      {
+        exemplo: "新しい靴下を買う",
+        hiragana: "あたらしいくつしたをかう",
+        romaji: "atarashii kutsushita o kau",
+        traducao: "Comprar meias novas",
+      },
+    ],
+  },
+  {
+    vocabulario: "国",
+    romaji: "kuni",
+    hiragana: "くに",
+    traducao: "país",
+    exemplosFrases: [
+      {
+        exemplo: "日本は美しい国です",
+        hiragana: "にほんはうつくしいくにです",
+        romaji: "nihon wa utsukushii kuni desu",
+        traducao: "O Japão é um país bonito",
+      },
+      {
+        exemplo: "私はその国に住んでいます",
+        hiragana: "わたしはそのくににすんでいます",
+        romaji: "watashi wa sono kuni ni sunde imasu",
+        traducao: "Eu moro nesse país",
+      },
+      {
+        exemplo: "彼はその国の言語を話します",
+        hiragana: "かれはそのくにのげんごをはなします",
+        romaji: "kare wa sono kuni no gengo o hanashimasu",
+        traducao: "Ele fala o idioma desse país",
+      },
+    ],
+  },
+  {
+    vocabulario: "曇り",
+    romaji: "kumori",
+    hiragana: "くもり",
+    traducao: "nublado",
+    exemplosFrases: [
+      {
+        exemplo: "今日は曇りです",
+        hiragana: "きょうはくもりです",
+        romaji: "kyou wa kumori desu",
+        traducao: "Hoje está nublado",
+      },
+      {
+        exemplo: "明日も曇りの予報です",
+        hiragana: "あしたもくもりのよほうです",
+        romaji: "ashita mo kumori no yohou desu",
+        traducao: "A previsão também é de tempo nublado amanhã",
+      },
+      {
+        exemplo: "曇りの日には傘を持って行く",
+        hiragana: "くもりのひにはかさをもっていく",
+        romaji: "kumori no hi ni wa kasa o motte iku",
+        traducao: "Leve um guarda-chuva em dias nublados",
+      },
+    ],
+  },
+  {
+    vocabulario: "曇る",
+    romaji: "kumoru",
+    hiragana: "くもる",
+    traducao: "ficar nublado",
+    exemplosFrases: [
+      {
+        exemplo: "今日は空が曇っています",
+        hiragana: "きょうはそらがくもっています",
+        romaji: "kyou wa sora ga kumotte imasu",
+        traducao: "Hoje o céu está nublado",
+      },
+      {
+        exemplo: "雲が広がって曇ってきた",
+        hiragana: "くもがひろがってくもってきた",
+        romaji: "kumo ga hirogatte kumotte kita",
+        traducao: "As nuvens estão se espalhando e ficando nublado",
+      },
+      {
+        exemplo: "天気予報によると明日は曇るそうです",
+        hiragana: "てんきよほうによるとあしたはくもるそうです",
+        romaji: "tenki yohou ni yoru to ashita wa kumoru sou desu",
+        traducao: "De acordo com a previsão do tempo, amanhã ficará nublado",
+      },
+    ],
+  },
+  {
+    vocabulario: "暗い",
+    romaji: "kurai",
+    hiragana: "くらい",
+    traducao: "escuro",
+    exemplosFrases: [
+      {
+        exemplo: "部屋が暗いので電気をつけましょう",
+        hiragana: "へやがくらいのででんきをつけましょう",
+        romaji: "heya ga kurai node denki o tsukemashou",
+        traducao: "Vamos ligar a luz porque o quarto está escuro",
+      },
+      {
+        exemplo: "夜道は暗いので気をつけてください",
+        hiragana: "よみちはくらいのできをつけてください",
+        romaji: "yomichi wa kurai node ki o tsukete kudasai",
+        traducao: "Tenha cuidado ao caminhar na rua à noite porque está escuro",
+      },
+      {
+        exemplo: "暗い場所では懐中電灯が役立ちます",
+        hiragana: "くらいばしょではかいちゅうでんとうがやくだちます",
+        romaji: "kurai basho de wa kaichuudentou ga yakudachimasu",
+        traducao: "Uma lanterna é útil em lugares escuros",
+      },
+    ],
+  },
+  {
+    vocabulario: "クラス",
+    romaji: "kurasu",
+    hiragana: "くらす",
+    traducao: "classe",
+    exemplosFrases: [
+      {
+        exemplo: "私のクラスは日本語を勉強しています",
+        hiragana: "わたしのくらすはにほんごをべんきょうしています",
+        romaji: "watashi no kurasu wa nihongo o benkyou shite imasu",
+        traducao: "Minha classe está estudando japonês",
+      },
+      {
+        exemplo: "クラスメートと一緒にプロジェクトを進めています",
+        hiragana: "くらすめーとといっしょにぷろじぇくとをすすめています",
+        romaji: "kurasumeeto to issho ni purojekuto o susumete imasu",
+        traducao:
+          "Estou avançando com o projeto junto com meus colegas de classe",
+      },
+      {
+        exemplo: "クラスで友達をたくさん作りました",
+        hiragana: "くらすでともだちをたくさんつくりました",
+        romaji: "kurasu de tomodachi o takusan tsukurimashita",
+        traducao: "Fiz muitos amigos na classe",
+      },
+    ],
+  },
+  {
+    vocabulario: "グラム",
+    romaji: "guramu",
+    hiragana: "ぐらむ",
+    traducao: "grama",
+    exemplosFrases: [
+      {
+        exemplo: "この果物は100グラムです",
+        hiragana: "このくだものは100ぐらむです",
+        romaji: "kono kudamono wa 100 guramu desu",
+        traducao: "Esta fruta pesa 100 gramas",
+      },
+      {
+        exemplo: "レシピにはグラムで材料を計量してください",
+        hiragana: "れしぴにはぐらむでざいりょうをけいりょうしてください",
+        romaji: "reshipi ni wa guramu de zairyou o keiryou shite kudasai",
+        traducao: "Meça os ingredientes em gramas de acordo com a receita",
+      },
+      {
+        exemplo: "一袋に200グラムのお米が入っています",
+        hiragana: "いちふくろに200ぐらむのおこめがはいっています",
+        romaji: "ichi fukuro ni 200 guramu no okome ga haitte imasu",
+        traducao: "Há 200 gramas de arroz em um saco",
+      },
+    ],
+  },
+  {
+    vocabulario: "来る",
+    romaji: "kuru",
+    hiragana: "くる",
+    traducao: "vir",
+    exemplosFrases: [
+      {
+        exemplo: "明日友達が遊びに来ます",
+        hiragana: "あしたともだちがあそびにきます",
+        romaji: "ashita tomodachi ga asobi ni kimasu",
+        traducao: "Meu amigo virá brincar amanhã",
+      },
+      {
+        exemplo: "来週の月曜日に会議があります",
+        hiragana: "らいしゅうのげつようびにかいぎがあります",
+        romaji: "raishuu no getsuyoubi ni kaigi ga arimasu",
+        traducao: "Haverá uma reunião na próxima segunda-feira",
+      },
+      {
+        exemplo: "お母さんが夕食の準備に来ました",
+        hiragana: "おかあさんがゆうしょくのじゅんびにきました",
+        romaji: "okaasan ga yuushoku no junbi ni kimashita",
+        traducao: "Minha mãe veio preparar o jantar",
+      },
+    ],
+  },
+  {
+    vocabulario: "車",
+    romaji: "kuruma",
+    hiragana: "くるま",
+    traducao: "carro",
+    exemplosFrases: [
+      {
+        exemplo: "車を運転する",
+        hiragana: "くるまをうんてんする",
+        romaji: "kuruma o unten suru",
+        traducao: "Dirigir um carro",
+      },
+      {
+        exemplo: "車が速い",
+        hiragana: "くるまがはやい",
+        romaji: "kuruma ga hayai",
+        traducao: "O carro é rápido",
+      },
+      {
+        exemplo: "車を買う",
+        hiragana: "くるまをかう",
+        romaji: "kuruma o kau",
+        traducao: "Comprar um carro",
+      },
+    ],
+  },
+  {
+    vocabulario: "黒",
+    romaji: "kuro",
+    hiragana: "くろ",
+    traducao: "preto",
+    exemplosFrases: [
+      {
+        exemplo: "黒いネコ",
+        hiragana: "くろいねこ",
+        romaji: "kuroi neko",
+        traducao: "Gato preto",
+      },
+      {
+        exemplo: "黒い服を着る",
+        hiragana: "くろいふくをきる",
+        romaji: "kuroi fuku o kiru",
+        traducao: "Vestir roupas pretas",
+      },
+      {
+        exemplo: "黒い髪",
+        hiragana: "くろいかみ",
+        romaji: "kuroi kami",
+        traducao: "Cabelo preto",
+      },
+    ],
+  },
+  {
+    vocabulario: "警官",
+    romaji: "keikan",
+    hiragana: "けいかん",
+    traducao: "policial",
+    exemplosFrases: [
+      {
+        exemplo: "警官に聞く",
+        hiragana: "けいかんにきく",
+        romaji: "keikan ni kiku",
+        traducao: "Perguntar ao policial",
+      },
+      {
+        exemplo: "警官の制服",
+        hiragana: "けいかんのせいふく",
+        romaji: "keikan no seifuku",
+        traducao: "Uniforme do policial",
+      },
+      {
+        exemplo: "警官が道を封鎖する",
+        hiragana: "けいかんがみちをふうさする",
+        romaji: "keikan ga michi o fusasu suru",
+        traducao: "O policial fecha a estrada",
+      },
+    ],
+  },
+  {
+    vocabulario: "今朝",
+    romaji: "kesa",
+    hiragana: "けさ",
+    traducao: "esta manhã",
+    exemplosFrases: [
+      {
+        exemplo: "今朝起きた",
+        hiragana: "けさおきた",
+        romaji: "kesa okita",
+        traducao: "Acordei esta manhã",
+      },
+      {
+        exemplo: "今朝のニュース",
+        hiragana: "けさのニュース",
+        romaji: "kesa no nyuusu",
+        traducao: "Notícias desta manhã",
+      },
+      {
+        exemplo: "今朝は早く出かけた",
+        hiragana: "けさははやくでかけた",
+        romaji: "kesa wa hayaku dekaketa",
+        traducao: "Saí cedo esta manhã",
+      },
+    ],
+  },
+  {
+    vocabulario: "消す",
+    romaji: "kesu",
+    hiragana: "けす",
+    traducao: "apagar",
+    exemplosFrases: [
+      {
+        exemplo: "電気を消す",
+        hiragana: "でんきをけす",
+        romaji: "denki o kesu",
+        traducao: "Apagar a luz",
+      },
+      {
+        exemplo: "テレビを消す",
+        hiragana: "テレビをけす",
+        romaji: "terebi o kesu",
+        traducao: "Desligar a televisão",
+      },
+      {
+        exemplo: "火を消す",
+        hiragana: "ひをけす",
+        romaji: "hi o kesu",
+        traducao: "Apagar o fogo",
+      },
+    ],
+  },
+  {
+    vocabulario: "結構",
+    romaji: "kekko",
+    hiragana: "けっこう",
+    traducao: "bom, suficiente",
+    exemplosFrases: [
+      {
+        exemplo: "結構です",
+        hiragana: "けっこうです",
+        romaji: "kekko desu",
+        traducao: "Está bom, está tudo bem",
+      },
+      {
+        exemplo: "結構な大きさ",
+        hiragana: "けっこうなおおきさ",
+        romaji: "kekko na ookisa",
+        traducao: "Um tamanho adequado",
+      },
+      {
+        exemplo: "結構時間がかかった",
+        hiragana: "けっこうじかんがかかった",
+        romaji: "kekko jikan ga kakatta",
+        traducao: "Demorou bastante tempo",
+      },
+    ],
+  },
+  {
+    vocabulario: "結婚",
+    romaji: "kekkon",
+    hiragana: "けっこん",
+    traducao: "casamento",
+    exemplosFrases: [
+      {
+        exemplo: "私は来月結婚します。",
+        hiragana: "わたしはらいげつけっこんします。",
+        romaji: "Watashi wa raigetsu kekkon shimasu.",
+        traducao: "Eu vou me casar no próximo mês.",
+      },
+      {
+        exemplo: "彼女と結婚したいです。",
+        hiragana: "かのじょとけっこんしたいです。",
+        romaji: "Kanojo to kekkon shitai desu.",
+        traducao: "Eu quero casar com ela.",
+      },
+      {
+        exemplo: "結婚式の準備をしています。",
+        hiragana: "けっこんしきのじゅんびをしています。",
+        romaji: "Kekkonshiki no junbi o shite imasu.",
+        traducao: "Estou preparando para o casamento.",
+      },
+    ],
+  },
+  {
+    vocabulario: "月曜日",
+    romaji: "getsuyoubi",
+    hiragana: "げつようび",
+    traducao: "segunda-feira",
+    exemplosFrases: [
+      {
+        exemplo: "今日は月曜日です。",
+        hiragana: "きょうはげつようびです。",
+        romaji: "Kyou wa getsuyoubi desu.",
+        traducao: "Hoje é segunda-feira.",
+      },
+      {
+        exemplo: "明日は月曜日から始まります。",
+        hiragana: "あしたはげつようびからはじまります。",
+        romaji: "Ashita wa getsuyoubi kara hajimarimasu.",
+        traducao: "Amanhã começa a partir de segunda-feira.",
+      },
+      {
+        exemplo: "月曜日の朝早く起きます。",
+        hiragana: "げつようびのあさはやくおきます。",
+        romaji: "Getsuyoubi no asa hayaku okimasu.",
+        traducao: "Eu acordo cedo nas segundas-feiras.",
+      },
+    ],
+  },
+  {
+    vocabulario: "玄関",
+    romaji: "genkan",
+    hiragana: "げんかん",
+    traducao: "hall de entrada",
+    exemplosFrases: [
+      {
+        exemplo: "靴を玄関に置いてください。",
+        hiragana: "くつをげんかんにおいてください。",
+        romaji: "Kutsu o genkan ni oite kudasai.",
+        traducao: "Por favor, coloque os sapatos no hall de entrada.",
+      },
+      {
+        exemplo: "玄関でお客様をお迎えします。",
+        hiragana: "げんかんでおきゃくさまをおむかえします。",
+        romaji: "Genkan de okyakusama o mukaeshimasu.",
+        traducao: "Vou receber os convidados no hall de entrada.",
+      },
+      {
+        exemplo: "帰る時は玄関を閉めてください。",
+        hiragana: "かえるときはげんかんをしめてください。",
+        romaji: "Kaeru toki wa genkan o shimete kudasai.",
+        traducao: "Por favor, feche a porta do hall de entrada ao sair.",
+      },
+    ],
+  },
+  {
+    vocabulario: "元気",
+    romaji: "genki",
+    hiragana: "げんき",
+    traducao: "energia, saúde",
+    exemplosFrases: [
+      {
+        exemplo: "今日は元気ですか？",
+        hiragana: "きょうはげんきですか？",
+        romaji: "Kyou wa genki desu ka?",
+        traducao: "Você está bem hoje?",
+      },
+      {
+        exemplo: "元気がないときは休んだ方がいいです。",
+        hiragana: "げんきがないときはやすんだほうがいいです。",
+        romaji: "Genki ga nai toki wa yasunda hou ga ii desu.",
+        traducao: "Quando não está se sentindo bem, é melhor descansar.",
+      },
+      {
+        exemplo: "元気になるために運動をします。",
+        hiragana: "げんきになるためにうんどうをします。",
+        romaji: "Genki ni naru tame ni undou o shimasu.",
+        traducao: "Faço exercícios para ficar saudável.",
+      },
+    ],
+  },
+  {
+    vocabulario: "五",
+    romaji: "go",
+    hiragana: "ご",
+    traducao: "cinco",
+    exemplosFrases: [
+      {
+        exemplo: "五人家族で旅行に行きます。",
+        hiragana: "ごにんかぞくでりょこうにいきます。",
+        romaji: "Go-nin kazoku de ryokou ni ikimasu.",
+        traducao: "Vamos viajar em família de cinco pessoas.",
+      },
+      {
+        exemplo: "五つ星ホテルでゆっくり過ごしましょう。",
+        hiragana: "いつつぼしホテルでゆっくりすごしましょう。",
+        romaji: "Itsutsu-boshi hoteru de yukkuri sugoshimashou.",
+        traducao: "Vamos passar um tempo relaxante em um hotel cinco estrelas.",
+      },
+      {
+        exemplo: "五月に誕生日を迎えます。",
+        hiragana: "ごがつにたんじょうびをむかえます。",
+        romaji: "Gogatsu ni tanjoubi o mukaemasu.",
+        traducao: "Vou comemorar meu aniversário em maio.",
+      },
+    ],
+  },
+  {
+    vocabulario: "公園",
+    romaji: "kouen",
+    hiragana: "こうえん",
+    traducao: "parque",
+    exemplosFrases: [
+      {
+        exemplo: "今日は公園でピクニックをします。",
+        hiragana: "きょうはこうえんでぴくにっくをします。",
+        romaji: "Kyou wa kouen de pikunikku o shimasu.",
+        traducao: "Vamos fazer um piquenique no parque hoje.",
+      },
+      {
+        exemplo: "公園で花見を楽しみます。",
+        hiragana: "こうえんではなみをたのしみます。",
+        romaji: "Kouen de hanami o tanoshimimasu.",
+        traducao: "Vamos aproveitar a visualização das flores no parque.",
+      },
+      {
+        exemplo: "公園で子供たちが遊んでいます。",
+        hiragana: "こうえんでこどもたちがあそんでいます。",
+        romaji: "Kouen de kodomotachi ga asondeimasu.",
+        traducao: "As crianças estão brincando no parque.",
+      },
+    ],
+  },
+  {
+    vocabulario: "交差点",
+    romaji: "kousaten",
+    hiragana: "こうさてん",
+    traducao: "cruzamento",
+    exemplosFrases: [
+      {
+        exemplo: "交差点を渡る時は注意してください。",
+        hiragana: "こうさてんをわたるときはちゅういしてください。",
+        romaji: "Kousaten o wataru toki wa chuui shite kudasai.",
+        traducao: "Por favor, tenha cuidado ao atravessar o cruzamento.",
+      },
+      {
+        exemplo: "交差点で信号待ちをしています。",
+        hiragana: "こうさてんでしんごうまちをしています。",
+        romaji: "Kousaten de shingou machi o shiteimasu.",
+        traducao: "Estou esperando o sinal no cruzamento.",
+      },
+      {
+        exemplo: "交差点の角にコンビニがあります。",
+        hiragana: "こうさてんのかどにこんびにがあります。",
+        romaji: "Kousaten no kado ni konbini ga arimasu.",
+        traducao: "Há uma loja de conveniência na esquina do cruzamento.",
+      },
+    ],
+  },
+  {
+    vocabulario: "紅茶",
+    romaji: "koucha",
+    hiragana: "こうちゃ",
+    traducao: "chá preto",
+    exemplosFrases: [
+      {
+        exemplo: "朝食に紅茶を飲みます。",
+        hiragana: "ちょうしょくにこうちゃをのみます。",
+        romaji: "Choushoku ni koucha o nomimasu.",
+        traducao: "Eu bebo chá preto no café da manhã.",
+      },
+      {
+        exemplo: "紅茶には砂糖とミルクを入れますか？",
+        hiragana: "こうちゃにはさとうとみるくをいれますか？",
+        romaji: "Koucha ni wa satou to miruku o iremasu ka?",
+        traducao: "Você coloca açúcar e leite no chá preto?",
+      },
+      {
+        exemplo: "紅茶を飲むとリラックスできます。",
+        hiragana: "こうちゃをのむとリラックスできます。",
+        romaji: "Koucha o nomu to rirakkusu dekimasu.",
+        traducao: "Beber chá preto me ajuda a relaxar.",
+      },
+    ],
+  },
+  {
+    vocabulario: "交番",
+    romaji: "kouban",
+    hiragana: "こうばん",
+    traducao: "posto policial",
+    exemplosFrases: [
+      {
+        exemplo: "迷子の子供を交番で保護しました。",
+        hiragana: "まいごのこどもをこうばんでほごしました。",
+        romaji: "Maigo no kodomo o kouban de hogo shimashita.",
+        traducao: "Protegemos uma criança perdida no posto policial.",
+      },
+      {
+        exemplo: "夜遅くでも交番に助けを求めることができます。",
+        hiragana: "よるおそくでもこうばんにたすけをもとめることができます。",
+        romaji: "Yoru osoku demo kouban ni tasuke o motomeru koto ga dekimasu.",
+        traducao:
+          "Você pode pedir ajuda ao posto policial mesmo tarde da noite.",
+      },
+      {
+        exemplo: "交番の前にバス停があります。",
+        hiragana: "こうばんのまえにばすていがあります。",
+        romaji: "Kouban no mae ni basutei ga arimasu.",
+        traducao: "Há uma parada de ônibus em frente ao posto policial.",
+      },
+    ],
+  },
+  {
+    vocabulario: "声",
+    romaji: "koe",
+    hiragana: "こえ",
+    traducao: "voz",
+    exemplosFrases: [
+      {
+        exemplo: "彼の声はとても大きいです。",
+        hiragana: "かれのこえはとてもおおきいです。",
+        romaji: "Kare no koe wa totemo ookii desu.",
+        traducao: "A voz dele é muito alta.",
+      },
+      {
+        exemplo: "遠くから彼女の声が聞こえました。",
+        hiragana: "とおくからかのじょのこえがきこえました。",
+        romaji: "Tooku kara kanojo no koe ga kikoemashita.",
+        traducao: "Ouvi a voz dela vindo de longe.",
+      },
+      {
+        exemplo: "会議室で静かに声を落としてください。",
+        hiragana: "かいぎしつでしずかにこえをおとしてください。",
+        romaji: "Kaigishitsu de shizuka ni koe o otoshite kudasai.",
+        traducao: "Por favor, fale baixo na sala de reuniões.",
+      },
+    ],
+  },
+  {
+    vocabulario: "コート",
+    romaji: "kooto",
+    hiragana: "こーと",
+    traducao: "casaco",
+    exemplosFrases: [
+      {
+        exemplo: "寒い日にはコートを着て出かけます。",
+        hiragana: "さむいひにはこーとをきてでかけます。",
+        romaji: "Samui hi ni wa kooto o kite dekakemasu.",
+        traducao: "Eu uso casaco quando saio em dias frios.",
+      },
+      {
+        exemplo: "コートのポケットに手を入れました。",
+        hiragana: "こーとのぽけっとにてをいれました。",
+        romaji: "Kooto no poketto ni te o iremashita.",
+        traducao: "Coloquei as mãos nos bolsos do casaco.",
+      },
+      {
+        exemplo: "このコートはおしゃれですね。",
+        hiragana: "このこーとはおしゃれですね。",
+        romaji: "Kono kooto wa oshare desu ne.",
+        traducao: "Este casaco é elegante, não é?",
+      },
+    ],
+  },
+];
 
 export default n5VocabList;
