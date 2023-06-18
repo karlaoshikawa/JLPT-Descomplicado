@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logoJLPT from "../images/logo-header-site.png";
-import Search from "./Search";
 import style from './Header.module.scss';
 
 export default function Header() {
@@ -33,7 +32,6 @@ export default function Header() {
         <div className="header-link">N1</div>
           </Link>
           </div>
-      <Search />
         </div>
     </div>
   );
