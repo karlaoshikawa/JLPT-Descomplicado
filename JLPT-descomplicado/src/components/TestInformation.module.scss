@@ -1,8 +1,80 @@
 .TestInformation_container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 140rem;
+  max-width: 120rem;
   margin: 0 auto;
   flex-direction: column;
+
+  img {
+    width: 35rem;
+    border-radius: 5px;
+    border: 2px solid #c80200;
+    margin-top: 3rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    margin: 6rem 0;
+  }
+
+  .TestInformation_box {
+    width: 120rem;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 2rem;
+
+    p {
+      font-size: 1.6rem;
+      line-height: 1.8;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+    }
+
+    h4 {
+      font-size: 2rem;
+      color: #c80200;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+      transition: all 0.3s;
+      color: #2b2d42;
+      font-size: 1.6rem;
+
+      &:hover,
+      &:active {
+        color: #8d99ae;
+      }
+    }
+
+    th {
+      font-size: 1.6rem;
+      line-height: 2.5rem;
+      color: #c80200;
+    }
+
+    td {
+      font-size: 1.6rem;
+      line-height: 3rem;
+      margin-bottom: 3rem;
+      width: 25rem;
+    }
+
+    table {
+      margin: 2rem 0;
+    }
+
+.TestInformation_item {
+td {
+  text-align: center;
+}
+}
+  }
 }

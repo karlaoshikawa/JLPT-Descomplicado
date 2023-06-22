@@ -6,6 +6,7 @@ import Katakana from './pages/Katakana';
 import Caracter from './pages/Caracter';
 import AboutJLPT from './pages/AboutJLPT';
 import HowToApply from './pages/HowToApply';
+import JLPTN5 from './pages/JLPTN5';
 // import ExerciseRomaji from './components/ExerciseRomaji';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <Route exact path='/katakana'><Katakana /></Route>
       <Route exact path='/katakana/:caracter'><Caracter /></Route>
       {/* <Route exact path='/katakana/exercise-kaku'><ExerciseRomaji /></Route> */}
-      <Route exact path='/jlpt-n5'><Home /></Route>
+      <Route exact path='/jlpt-n5'><JLPTN5 /></Route>
       <Route exact path='/jlpt-n4'><Home /></Route>
       <Route exact path='/jlpt-n3'><Home /></Route>
       <Route exact path='/jlpt-n2'><Home /></Route>
