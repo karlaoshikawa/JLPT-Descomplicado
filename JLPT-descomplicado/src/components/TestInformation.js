@@ -142,21 +142,21 @@ export default function TestInformation() {
             </tr>
             <tr>
               <td>Leitura</td>
-              <td>110 minutos</td>
+              <td className={style.TestInformation_time}>110 minutos</td>
             </tr>
             <tr>
               <td>Gramática e Vocabulário</td>
-              <td>60 minutos</td>
+              <td className={style.TestInformation_time}>60 minutos</td>
             </tr>
             <tr>
               <td>Compreensão Auditiva</td>
-              <td>60 minutos</td>
+              <td className={style.TestInformation_time}>60 minutos</td>
             </tr>
             <tr>
               <td>
                 <strong>Total</strong>
               </td>
-              <td>
+              <td className={style.TestInformation_time}>
                 <strong>230 minutos</strong>
               </td>
             </tr>
@@ -165,21 +165,21 @@ export default function TestInformation() {
             </tr>
             <tr>
               <td>Leitura</td>
-              <td>105 minutos</td>
+              <td className={style.TestInformation_time}>105 minutos</td>
             </tr>
             <tr>
               <td>Gramática e Vocabulário</td>
-              <td>60 minutos</td>
+              <td className={style.TestInformation_time}>60 minutos</td>
             </tr>
             <tr>
               <td>Compreensão Auditiva</td>
-              <td>50 minutos</td>
+              <td className={style.TestInformation_time}>50 minutos</td>
             </tr>
             <tr>
               <td>
                 <strong>Total</strong>
               </td>
-              <td>
+              <td className={style.TestInformation_time}>
                 <strong>215 minutos</strong>
               </td>
             </tr>
@@ -188,21 +188,21 @@ export default function TestInformation() {
             </tr>
             <tr>
               <td>Leitura</td>
-              <td>95 minutos</td>
+              <td className={style.TestInformation_time}>95 minutos</td>
             </tr>
             <tr>
               <td>Gramática e Vocabulário</td>
-              <td>60 minutos</td>
+              <td className={style.TestInformation_time}>60 minutos</td>
             </tr>
             <tr>
               <td>Compreensão Auditiva</td>
-              <td>40 minutos</td>
+              <td className={style.TestInformation_time}>40 minutos</td>
             </tr>
             <tr>
               <td>
                 <strong>Total</strong>
               </td>
-              <td>
+              <td className={style.TestInformation_time}>
                 <strong>195 minutos</strong>
               </td>
             </tr>
@@ -211,21 +211,21 @@ export default function TestInformation() {
             </tr>
             <tr>
               <td>Leitura</td>
-              <td>70 minutos</td>
+              <td className={style.TestInformation_time}>70 minutos</td>
             </tr>
             <tr>
               <td>Gramática e Vocabulário</td>
-              <td>60 minutos</td>
+              <td className={style.TestInformation_time}>60 minutos</td>
             </tr>
             <tr>
               <td>Compreensão Auditiva</td>
-              <td>35 minutos</td>
+              <td className={style.TestInformation_time}>35 minutos</td>
             </tr>
             <tr>
               <td>
                 <strong>Total</strong>
               </td>
-              <td>
+              <td className={style.TestInformation_time}>
                 <strong>165 minutos</strong>
               </td>
             </tr>
@@ -234,21 +234,21 @@ export default function TestInformation() {
             </tr>
             <tr>
               <td>Leitura</td>
-              <td>65 minutos</td>
+              <td className={style.TestInformation_time}>65 minutos</td>
             </tr>
             <tr>
               <td>Gramática e Vocabulário</td>
-              <td>60 minutos</td>
+              <td className={style.TestInformation_time}>60 minutos</td>
             </tr>
             <tr>
               <td>Compreensão Auditiva</td>
-              <td>30 minutos</td>
+              <td className={style.TestInformation_time}>30 minutos</td>
             </tr>
             <tr>
               <td>
                 <strong>Total</strong>
               </td>
-              <td>
+              <td className={style.TestInformation_time}>
                 <strong>155 minutos</strong>
               </td>
             </tr>

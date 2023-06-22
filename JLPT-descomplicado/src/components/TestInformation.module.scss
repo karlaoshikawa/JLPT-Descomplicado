@@ -23,17 +23,17 @@
     align-items: start;
     flex-direction: column;
     margin: 0 auto;
-    gap: 2rem;
 
     p {
       font-size: 1.6rem;
-      line-height: 1.8;
+      line-height: 1.8rem;
       margin: 0;
+      margin-bottom: 2rem;
     }
 
     h3 {
       font-size: 2.4rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
 
     h4 {
@@ -65,16 +65,23 @@
       line-height: 3rem;
       margin-bottom: 3rem;
       width: 25rem;
+      border-bottom: 1px solid #8d99ae;
     }
 
     table {
       margin: 2rem 0;
     }
 
-.TestInformation_item {
-td {
-  text-align: center;
-}
-}
+    .TestInformation_item {
+      td {
+        text-align: center;
+      }
+    }
+
+    .TestInformation_time {
+      width: 16rem;
+        text-align: center;
+  
+    }
   }
 }
