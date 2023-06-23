@@ -5,13 +5,16 @@ import TestDate from "./TestDate";
 export default function LinksHome() {
   return (
     <div className={style.linksHome_container}>
-      <Link to={'/o-que-e-jlpt'}>
-      <p>O que é JLPT?</p>
-      </Link>
-       <Link to={'/sobre-o-teste'}>
-      <p>Sobre o teste</p>
-      </Link>
       <TestDate />
+      <Link to={"/o-que-e-jlpt"}>
+        <p>O que é JLPT?</p>
+      </Link>
+      <Link to={"/sobre-o-teste"}>
+        <p>Sobre o teste</p>
+      </Link>
+      <Link to={"/como-se-preparar"}>
+        <p>Como se preparar</p>
+      </Link>
     </div>
-  )
+  );
 };
