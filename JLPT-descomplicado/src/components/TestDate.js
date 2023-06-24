@@ -3,10 +3,10 @@ import style from "./TestDate.module.scss";
 export default function TestDate() {
   return (
     <div className={style.testDate_container}>
-      <h2>Data do teste JLPT</h2>
+      <p>Data do teste JLPT em 2023</p>
       <div className={style.testDate_box}>
-        <h3>dia 2 de Julho de 2023 (domingo)</h3>
-        <h3>dia 3 de Dezembro de 2023 (domingo)</h3>
+        <p>dia 2 de Julho(domingo)</p>
+        <p>dia 3 de Dezembro(domingo)</p>
       </div>
     </div>
   );
