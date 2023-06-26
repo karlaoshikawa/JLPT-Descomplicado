@@ -1,12 +1,32 @@
 .footer_container {
   background-color: #1b0000;
   margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   .footer_link_box {
+    max-width: 130rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #c80200;
+  }
+
+  .footer_link {
+    flex-direction: column;
+    margin: 3rem 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 130rem;
-    margin: 0 auto;
+    justify-content: flex-start;
+    gap: 1rem; /* Adicionado espaçamento interno */
+
+    h2 {
+      color: #edf2f4;
+      font-size: 2rem;
+    }
 
     a {
       text-decoration: none;
@@ -17,7 +37,6 @@
 
       img {
         width: 200px;
-        margin: 5px 0;
       }
 
       &:hover,
@@ -25,11 +44,29 @@
         color: #8d99ae;
       }
     }
-    .footer_link {
-      width: 50rem;
+
+    .footer_instagram {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.6rem;
     }
+    .footer_linkLogo {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+
   }
+    .footer_copyright {
+      display: flex;
+      align-items: center;
+      color: #8d99ae;
+      margin: 1.5rem;
+      font-size: 1.2rem;
+    }
+  
 }

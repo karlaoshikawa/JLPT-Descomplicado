@@ -1,40 +1,128 @@
 import { Link } from "react-router-dom";
 import logoJLPT from "../images/logo-header-site.png";
-import Search from "./Search";
-import style from './Footer.module.scss';
+import style from "./Footer.module.scss";
+import { FiInstagram } from "react-icons/fi";
 
 export default function Footer() {
   return (
     <div className={style.footer_container}>
       <div className={style.footer_link_box}>
-      <Link to="/" data-testid="link-to-home">
-      <img src={logoJLPT} alt="logo JLPT descomplicado" />
-        </Link>
         <div className={style.footer_link}>
-      <Link to="/hiragana" data-testid="link-to-hiragana">
-        <div className="header-link">Hiragana</div>
-      </Link>
-      <Link to="/katakana" data-testid="link-to-katakana">
-        <div className="header-link">Katakana</div>
-      </Link>
-      <Link to="/jlpt-n5" data-testid="link-to-n5">
-        <div className="header-link">N5</div>
-      </Link>
-      <Link to="/jlpt-n4" data-testid="link-to-n4">
-        <div className="header-link">N4</div>
-      </Link>
-      <Link to="/jlpt-n3" data-testid="link-to-n3">
-        <div className="header-link">N3</div>
-      </Link>
-      <Link to="/jlpt-n2" data-testid="link-to-n2">
-        <div className="header-link">N2</div>
-      </Link>
-      <Link to="/jlpt-n1" data-testid="link-to-n1">
-        <div className="header-link">N1</div>
-          </Link>
+          <div className={style.footer_linkLogo}>
+            <Link to="/" data-testid="link-to-home">
+              <img src={logoJLPT} alt="logo JLPT descomplicado" />
+            </Link>
+            <a
+              className={style.footer_instagram}
+              href="https://www.instagram.com/jlpt_descomplicado/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiInstagram />
+              <p>@jlpt_descomplicado</p>
+            </a>
           </div>
-      <Search />
         </div>
+        <div className={style.footer_link}>
+          <h2>Categoria</h2>
+          <Link to="/hiragana" data-testid="link-to-hiragana">
+            <div className="header-link">Hiragana</div>
+          </Link>
+          <Link to="/katakana" data-testid="link-to-katakana">
+            <div className="header-link">Katakana</div>
+          </Link>
+          <Link to="/jlpt-n5" data-testid="link-to-n5">
+            <div className="header-link">JLPT N5</div>
+          </Link>
+          <Link to="/jlpt-n4" data-testid="link-to-n4">
+            <div className="header-link">JLPT N4</div>
+          </Link>
+          <Link to="/jlpt-n3" data-testid="link-to-n3">
+            <div className="header-link">JLPT N3</div>
+          </Link>
+          <Link to="/jlpt-n2" data-testid="link-to-n2">
+            <div className="header-link">JLPT N2</div>
+          </Link>
+          <Link to="/jlpt-n1" data-testid="link-to-n1">
+            <div className="header-link">JLPT N1</div>
+          </Link>
+        </div>
+
+        <div className={style.footer_link}>
+          <h2>Kanji</h2>
+          <Link to="/jlpt-n5/kanji">
+            <div>JLPT N5</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N4</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N3</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N2</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N1</div>
+          </Link>
+        </div>
+
+        <div className={style.footer_link}>
+          <h2>Vocabulário</h2>
+          <Link to="/jlpt-n5/vocabulario">
+            <div>JLPT N5</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N4</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N3</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N2</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N1</div>
+          </Link>
+        </div>
+
+        <div className={style.footer_link}>
+          <h2>Gramática</h2>
+          <Link to="/jlpt-n5/grammar">
+            <div>JLPT N5</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N4</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N3</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N2</div>
+          </Link>
+          <Link to="">
+            <div>JLPT N1</div>
+          </Link>
+        </div>
+
+        <div className={style.footer_link}>
+          <h2>Links Úteis</h2>
+          <Link to={"/o-que-e-jlpt"}>
+            <p>O que é JLPT?</p>
+          </Link>
+          <Link to={"/sobre-o-teste"}>
+            <p>Sobre o teste</p>
+          </Link>
+          <Link to={"/como-se-preparar"}>
+            <p>Como se preparar</p>
+          </Link>
+        </div>
+      </div>
+      <div className={style.footer_copyright}>
+        <p className={style.footer_copyright}>
+          Copyright &copy; 2023 JLPT - Descomplicado. All rights reserved.
+        </p>
+      </div>
     </div>
   );
 }
