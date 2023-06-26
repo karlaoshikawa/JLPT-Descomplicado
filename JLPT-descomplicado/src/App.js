@@ -24,6 +24,9 @@ function App() {
       <Route exact path='/katakana/:caracter'><Caracter /></Route>
       {/* <Route exact path='/katakana/exercise-kaku'><ExerciseRomaji /></Route> */}
       <Route exact path='/jlpt-n5'><JLPTN5 /></Route>
+      <Route exact path='/jlpt-n5/kanji'><JLPTN5 /></Route>
+      <Route exact path='/jlpt-n5/vocabulary'><JLPTN5 /></Route>
+      <Route exact path='/jlpt-n5/grammar'><JLPTN5 /></Route>
       <Route exact path='/jlpt-n4'><Home /></Route>
       <Route exact path='/jlpt-n3'><Home /></Route>
       <Route exact path='/jlpt-n2'><Home /></Route>

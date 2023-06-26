@@ -31,6 +31,11 @@
       margin-top: 0;
       color: #c80200;
     }
+
+    &:hover,
+      &:active {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+      }
   }
 
   .table_box_yoon {
@@ -56,6 +61,11 @@
       margin-top: 0;
       color: #c80200;
     }
+
+    &:hover,
+      &:active {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+      }
   }
 }
 
