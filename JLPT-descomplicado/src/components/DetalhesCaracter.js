@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import style from "./DetalhesCaracter.module.scss";
 import { Link } from "react-router-dom";
 import { getnextcaracter } from "../redux/actions";
+import { FiArrowRight } from "react-icons/fi";
 
 import { hiraganaList, hiraganaDakuon, hiraganaYoon } from "../data/hiragana";
 import { katakanaList, katakanaDakuon, katakanaYoon } from "../data/katakana";
@@ -51,8 +52,8 @@ export default function DetalhesCaracter() {
   };
 
   console.log(nextCaracter);
-  console.log('atual', moji.posicao);
-  console.log('next',nextMojiIndex);
+  console.log("atual", moji.posicao);
+  console.log("next", nextMojiIndex);
 
   return (
     <div className={style.detalhesCaracter_container}>
@@ -70,23 +71,25 @@ export default function DetalhesCaracter() {
               {moji.kana}: {ex.palavra}
             </h3>
             <p>romaji: {ex.romaji}</p>
-            <p>tradução: {ex.traducao}</p>
+            <p className={style.caracter_traducao}>tradução: {ex.traducao}</p>
           </div>
         ) : null
       )}
       {nextCaracter?.letra ? (
         <Link
+          className={style.detalhesCaracter_next_link}
           to={`/${moji.kana}/${nextCaracter.letra}`}
           onClick={() =>
             caracterState(moji.kana, basicList, nextCaracter, nextMojiIndex)
           }
         >
-          <h4 className={style.detalhesCaracter_next_link}>próximo</h4>
+          <h4>próximo</h4>
+          <FiArrowRight />
         </Link>
       ) : (
-          <Link to={`/${moji.kana}`}>
-            <h4 className={style.detalhesCaracter_next_link}>{moji.kana}</h4>
-          </Link>
+        <Link className={style.detalhesCaracter_next_link} to={`/${moji.kana}`}>
+          <h4>{moji.kana}</h4>
+        </Link>
       )}
     </div>
   );

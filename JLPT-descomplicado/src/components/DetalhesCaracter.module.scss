@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 10px;
   max-width: 100rem;
-  margin: 0 auto;
+  margin: 3rem auto;
   text-decoration: none;
 
   h1 {
@@ -67,11 +67,25 @@
       margin-bottom: 0;
       color: #1b0000;
     }
+
+    .caracter_traducao {
+      width: 35rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid #c80200;
+    }
   }
 
   .detalhesCaracter_next_link {
     font-size: 2.4rem;
-    color: #1b0000;
-    text-decoration-line: none;
+    color: #c80200;
+    text-decoration: none;
+    display: flex;
+      align-items: center;
+      flex-direction: row;
+
+      &:hover,
+      &:active {
+        color: #ef233c;
+      }
   }
 }

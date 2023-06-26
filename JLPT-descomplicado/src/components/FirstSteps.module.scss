@@ -26,7 +26,30 @@
       object-fit: cover;
     }
 
-    
+    a {
+      font-size: 2.4rem;
+      text-decoration: none;
+      color: #c80200;
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      text-decoration: none;
+      width: 30rem;
+      height: 15rem;
+      margin-bottom: 3rem;
+
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+
+      &:hover,
+      &:active {
+        color: #ef233c;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+      }
+    }
 
     h2 {
       font-size: 3rem;
