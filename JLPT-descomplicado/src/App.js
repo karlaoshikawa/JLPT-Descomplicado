@@ -8,6 +8,7 @@ import AboutJLPT from './pages/AboutJLPT';
 import HowToApply from './pages/HowToApply';
 import JLPTN5 from './pages/JLPTN5';
 import HowToPreparing from './pages/HowToPreparing';
+import N5Kanji from './pages/N5Kanji';
 // import ExerciseRomaji from './components/ExerciseRomaji';
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       <Route exact path='/katakana/:caracter'><Caracter /></Route>
       {/* <Route exact path='/katakana/exercise-kaku'><ExerciseRomaji /></Route> */}
       <Route exact path='/jlpt-n5'><JLPTN5 /></Route>
-      <Route exact path='/jlpt-n5/kanji'><JLPTN5 /></Route>
+      <Route exact path='/jlpt-n5/kanji'><N5Kanji /></Route>
+      <Route exact path='/jlpt-n5/kanji/:kanji'><N5Kanji /></Route>
       <Route exact path='/jlpt-n5/vocabulary'><JLPTN5 /></Route>
       <Route exact path='/jlpt-n5/grammar'><JLPTN5 /></Route>
       <Route exact path='/jlpt-n4'><Home /></Route>

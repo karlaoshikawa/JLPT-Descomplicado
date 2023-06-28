@@ -51,10 +51,6 @@ export default function DetalhesCaracter() {
     setGetCaracter(next);
   };
 
-  console.log(nextCaracter);
-  console.log("atual", moji.posicao);
-  console.log("next", nextMojiIndex);
-
   return (
     <div className={style.detalhesCaracter_container}>
       <h1>Ideograma: {moji.kana}</h1>
