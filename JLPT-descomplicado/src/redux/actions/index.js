@@ -4,6 +4,7 @@ export const userLevelAction = (user) => ({
   ...user,
 })
 
+// hiragana e katakana
 export const GETCARACTER = 'GETCARACTER';
 export const getcaracter = (caracter) => ({
   type: GETCARACTER,
@@ -15,3 +16,10 @@ export const getnextcaracter = (caracter) => ({
   type: GETNEXTCARACTER,
   ...caracter,
 })
+
+// JLPT N Level
+export const ITEMLENGHT = "ITEMLENGHT";
+export const itemlenght = (caracter) => ({
+  type: ITEMLENGHT,
+  ...caracter,
+});

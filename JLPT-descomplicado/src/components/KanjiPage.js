@@ -1,69 +1,55 @@
 import { Link } from "react-router-dom";
-// import n5KanjiList from "../data/n5/n5Kanji";
 import style from "./KanjiPage.module.scss";
+import { itemlenght } from "../redux/actions";
+import { useDispatch } from "react-redux";
 
-export default function KanjiPage({ nivel, kanji }) {
-  const kanjiList = kanji;
+export default function KanjiPage({ kanji, next, nivel, posicao }) {
+  const dispatch = useDispatch();
+
+  const handleClick = (tipo, posicao) => {
+    dispatch(itemlenght({tipo, posicao}));
+  };
   return (
     <div className={style.kanjiPage_container}>
-      <table className={style.kanjiPage_table}>
-        <thead className={style.kanjiPage_thead}>
-          <tr>
-            <th>
-              <p>Kanji</p>
-            </th>
-            <th>
-              <p>On Yomi</p>
-            </th>
-            <th>
-              <p>Kun Yomi</p>
-            </th>
-            <th>
-              <p>Significado</p>
-            </th>
-          </tr>
-        </thead>
-        <tbody className={style.kanjiPage_tbody}>
-          {kanjiList.map((item) => (
-            <tr key={item.name}>
-              <td>
-                <Link to={`${nivel}/kanji/${item.significado}`}>
-                  <h5>{item.kanji}</h5>
-                </Link>
-              </td>
-              <td>
-                <p>
-                  {item.onYomi.map((yon, index) => (
-                    <span key={index}>
-                      {`${yon.katakana}, ${yon.romaji}`}
-                      <br />
-                    </span>
-                  ))}
-                </p>
-              </td>
-              <td>
-                <p>
-                  {item.kunYomi.map((kun, index) => (
-                    <span key={index}>
-                      {`${kun.hiragana}, ${kun.romaji}`}
-                      <br />
-                    </span>
-                  ))}
-                </p>
-              </td>
-              <td>
-                <p>{item.significado}</p>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      <div className={style.kanjiPage_memo}>
-        <p>
-          Esta é uma lista aproximada um compilado de varios materiais sobre o
-          assunto, em caso de dúvida consulte a Japan Foundation e o Japan
-          Educational Exchanges and Services (JEES).
-        </p>
+      <div className={style.kanjiPage_box}>
+        <h3>{kanji.significado}</h3>
+        <h2>{kanji.kanji}</h2>
+      </div>
+      <div className={style.kanjiPage_informations}>
+        <h3>Informações:</h3>
+        <h4>On Yomi</h4>
+        {kanji.onYomi.map((on) => (
+          <>
+            <p>{on.katakana}</p>
+            <p>{on.romaji}</p>
+          </>
+        ))}
+        <h4>Kun Yomi</h4>
+        {kanji.kunYomi.map((kun) => (
+          <>
+            <p>{kun.hiragana}</p>
+            <p>{kun.romaji}</p>
+          </>
+        ))}
+      </div>
+      <div className={style.kanjiPage_informations}>
+        {kanji.exemplos.map((moji) => (
+          <>
+            <h4>kanji:</h4>
+            <p>{moji.kanji}</p>
+            <h4>furigana:</h4>
+            <p>{moji.furigana}</p>
+            <h4>romaji:</h4>
+            <p>{moji.romaji}</p>
+            <h4>tradução:</h4>
+            <p>{moji.traducao}</p>
+          </>
+        ))}
+      </div>
+      <div className={style.kanjiPage_next}>
+        <Link to={`${next}`} onClick={() => handleClick(nivel, posicao)}>
+          <p>proximo</p>
+        </Link>
       </div>
     </div>
   );
