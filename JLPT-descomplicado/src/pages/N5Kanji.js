@@ -5,6 +5,8 @@ import KanjiPage from "../components/KanjiPage";
 import { useSelector } from "react-redux";
 
 import n5KanjiList from "../data/n5/n5Kanji";
+import NCards from "../components/NCards";
+import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
 
 export default function N5Kanji() {
@@ -20,8 +22,11 @@ export default function N5Kanji() {
         kanji={kanji}
         next={next}
         nivel={kanjiState.tipo}
-        posicao={kanjiState.posicao + 1} />
+        posicao={kanjiState.posicao + 1}
+      />
+      <TitleAndSubtitle wordH3={"Veja mais sobre JLPT N5"} wordP={""} />
+      <NCards number={5} />
       <Footer />
     </>
-  )
+  );
 }
