@@ -12,7 +12,6 @@ export default function N5Kanji() {
 
   const kanji = n5KanjiList[kanjiState.posicao];
 
-  
   const next = n5KanjiList[kanjiState.posicao + 1].significado
   return (
     <>
