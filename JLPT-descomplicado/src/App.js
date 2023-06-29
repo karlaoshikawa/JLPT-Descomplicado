@@ -10,6 +10,7 @@ import JLPTN5 from './pages/JLPTN5';
 import HowToPreparing from './pages/HowToPreparing';
 import N5KanjiList from './pages/N5KanjiList';
 import N5Kanji from './pages/N5Kanji';
+import N5VocabularyList from './pages/N5VocabularyList';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
       <Route exact path='/jlpt-n5'><JLPTN5 /></Route>
       <Route exact path='/jlpt-n5/kanji'><N5KanjiList /></Route>
       <Route exact path='/jlpt-n5/kanji/:kanji'><N5Kanji /></Route>
-      <Route exact path='/jlpt-n5/vocabulary'><JLPTN5 /></Route>
+      <Route exact path='/jlpt-n5/vocabulary'><N5VocabularyList /></Route>
       <Route exact path='/jlpt-n5/grammar'><JLPTN5 /></Route>
       <Route exact path='/jlpt-n4'><Home /></Route>
       <Route exact path='/jlpt-n3'><Home /></Route>
