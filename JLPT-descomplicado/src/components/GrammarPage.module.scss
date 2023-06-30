@@ -1,4 +1,4 @@
-.VocabularyPage_container {
+.grammarPage_container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,13 +18,13 @@
     margin: 0;
   }
 
-  .VocabularyPage_line {
+  .grammarPage_line {
     width: 120rem;
     height: 1px;
     background-color: #c80200;
   }
 
-  .VocabularyPage_box_kanji {
+  .grammarPage_box_kanji {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,7 @@
     align-self: flex-start;
   }
 
-  .VocabularyPage_top_box {
+  .grammarPage_top_box {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -42,7 +42,7 @@
     margin-top: 2rem;
   }
 
-  .VocabularyPage_box {
+  .grammarPage_box {
     border: 1px solid #ced4da;
     border-radius: 8px;
     display: flex;
@@ -67,7 +67,7 @@
     }
   }
 
-  .VocabularyPage_box_informations {
+  .grammarPage_box_informations {
     border: 1px solid #c7c8c9;
 
     background-color: #dae0e5;
@@ -82,7 +82,7 @@
     }
   }
 
-  .VocabularyPage_informations {
+  .grammarPage_informations {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -101,7 +101,7 @@
     }
   }
 
-  .VocabularyPage_informations_horizontal {
+  .grammarPage_informations_horizontal {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -109,7 +109,7 @@
     gap: 2rem;
   }
 
-  .VocabularyPage_informations_item {
+  .grammarPage_informations_item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,7 +117,7 @@
     padding: 0 3rem;
   }
 
-  .VocabularyPage_exemplos {
+  .grammarPage_exemplos {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -129,7 +129,7 @@
       margin-bottom: 2rem;
     }
 
-    .VocabularyPage_exemplos_block {
+    .grammarPage_exemplos_block {
       width: 60rem;
       display: flex;
       flex-direction: column;
@@ -155,7 +155,7 @@
         margin: 0 0 1rem 0;
       }
 
-      .VocabularyPage_exemplos_item {
+      .grammarPage_exemplos_item {
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -164,7 +164,7 @@
     }
   }
 
-  .VocabularyPage_next {
+  .grammarPage_next {
     font-size: 2.4rem;
     color: #c80200;
     text-decoration: none;
