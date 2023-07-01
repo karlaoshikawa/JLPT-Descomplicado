@@ -64,6 +64,10 @@ export default function VocabularyPage({ grammar, next, nivel, posicao }) {
             <h4>Tradução:</h4>
             <p>{grammar.exemplo.traducao}</p>
           </div>
+          <div className={style.grammarPage_exemplos_item}>
+            <h4>Explicação:</h4>
+            <p>{grammar.explicacao}</p>
+          </div>
         </div>
       </div>
       <div>

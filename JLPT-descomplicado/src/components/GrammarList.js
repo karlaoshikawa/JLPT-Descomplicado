@@ -31,7 +31,7 @@ export default function GrammarList({ nivel, grammar }) {
             <tr key={item.name}>
               <td>
                 <Link
-                  to={`grammar/${item.romaji}`}
+                  to={`grammar/${item.romaji.replace(/[^a-zA-Z]/g, "-")}`}
                   onClick={() => handleClick(nivel, index)}
                 >
                   <h5>{item.topico}</h5>
