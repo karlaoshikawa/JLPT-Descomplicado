@@ -52,19 +52,6 @@ const n5GrammarList = [
     },
   },
   {
-    topico: "か～か",
-    romaji: "ka~ka",
-    traducao: "ou",
-    explicacao:
-      "Neste exemplo, a expressão 'か～か' é usada para apresentar duas opções e perguntar qual delas é melhor. Significa 'ou' e é usado para indicar uma escolha entre duas possibilidades.",
-    exemplo: {
-      frase: "本を買うか、貸してもらうか、どちらがいいですか？",
-      furigana: "ほんをかうか、かしてもらうか、どちらがいいですか？",
-      romaji: "Hon o kau ka, kashite morau ka, dochira ga ii desu ka?",
-      traducao: "Comprar um livro ou pegar emprestado, qual é melhor?",
-    },
-  },
-  {
     topico: "があります",
     romaji: "ga arimasu",
     traducao: "há sim; é (coisas não vivas)",

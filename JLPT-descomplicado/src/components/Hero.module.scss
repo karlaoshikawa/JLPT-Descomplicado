@@ -1,8 +1,15 @@
 .hero_container {
   display: flex;
   justify-content: center;
-  
-  img {
-    width: 150rem;
+}
+
+.hero_container img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1024px) {
+  .hero_container img {
+    max-width: 150rem;
   }
 }
