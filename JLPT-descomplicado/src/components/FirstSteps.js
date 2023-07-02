@@ -36,39 +36,51 @@ export default function FirstSteps() {
 
       <div className={style.firstSteps_box2}>
         <img src={FirstStep02} alt="Rumo a proficiencia em japones" />
-          <h1>Rumo a proficiência:</h1>
+        <h1>Rumo a proficiência:</h1>
         <div className={style.firstSteps_boxItem2}>
           <div className={style.firstSteps_boxCard2}>
             <Link to="/jlpt-n5">
               <p>N5</p>
             </Link>
           </div>
-          <h2>
+          <h2 className={style.firstSteps_mobileArrowRight}>
             <FiArrowRight />
+          </h2>
+          <h2 className={style.firstSteps_mobileArrow}>
+            <FiArrowDown />
           </h2>
           <div className={style.firstSteps_boxCard2}>
             <Link to="/">
               <p>N4</p>
             </Link>
           </div>
-          <h2>
+          <h2 className={style.firstSteps_mobileArrowRight}>
             <FiArrowRight />
+          </h2>
+          <h2 className={style.firstSteps_mobileArrow}>
+            <FiArrowDown />
           </h2>
           <div className={style.firstSteps_boxCard2}>
             <Link to="/">
               <p>N3</p>
             </Link>
           </div>
-          <h2>
+          <h2 className={style.firstSteps_mobileArrowRight}>
             <FiArrowRight />
+          </h2>
+          <h2 className={style.firstSteps_mobileArrow}>
+            <FiArrowDown />
           </h2>
           <div className={style.firstSteps_boxCard2}>
             <Link to="/">
               <p>N2</p>
             </Link>
           </div>
-          <h2>
+          <h2 className={style.firstSteps_mobileArrowRight}>
             <FiArrowRight />
+          </h2>
+          <h2 className={style.firstSteps_mobileArrow}>
+            <FiArrowDown />
           </h2>
           <div className={style.firstSteps_boxCard2}>
             <Link to="/">

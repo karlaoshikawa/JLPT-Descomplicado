@@ -39,18 +39,17 @@
       flex-direction: column;
       align-items: center;
 
-      .header_links {
-        width: 100%;
+        .header_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 
-        a {
-          width: calc(50% - 5px);
-          margin-bottom: 5px;
-
-          &:nth-child(2n) {
-            margin-right: 10px;
-          }
-        }
-      }
+    a {
+      margin: 1rem;
+    }
+  }
     }
   }
 }

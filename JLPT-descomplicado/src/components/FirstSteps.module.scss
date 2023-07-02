@@ -36,7 +36,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 50px;
       text-decoration: none;
       width: 30rem;
       height: 15rem;
@@ -65,6 +64,24 @@
       height: 140rem;
     }
   }
+
+  @media (max-width: 768px) {
+    .firstSteps_box {
+      grid-template-columns: 1fr;
+    }
+
+    .firstSteps_boxItem {
+      margin-bottom: 3rem;
+    }
+
+    img {
+      display: none;
+    }
+
+    a {
+      width: 100%;
+    }
+  }
 }
 
 .firstSteps_box2 {
@@ -84,6 +101,10 @@
     align-items: center;
     flex-direction: row;
     margin: 0 auto;
+  }
+
+  .firstSteps_mobileArrow {
+    display: none;
   }
 
   a {
@@ -120,5 +141,37 @@
     font-size: 3.2rem;
     color: #2b2d42;
     margin: 5rem;
+  }
+
+  @media (max-width: 768px) {
+    .firstSteps_boxItem2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 3rem;
+      width: 100%;
+    }
+
+    a {
+      width: 30rem;
+      height: 15rem;
+      margin: 2rem;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .firstSteps_mobileArrowRight {
+      display: none;
+    }
+
+    .firstSteps_mobileArrow {
+      display: block;
+      h2 {
+        font-size: 3rem;
+        color: #8d99ae;
+      }
+    }
   }
 }

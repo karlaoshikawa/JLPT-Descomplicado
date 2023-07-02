@@ -11,6 +11,10 @@
     margin: 0 0 1rem 0rem;
   }
 
+  @media (max-width: 768px) {
+    margin-left: 0rem;
+  }
+  
   .testDate_box {
     display: flex;
     align-items: center;

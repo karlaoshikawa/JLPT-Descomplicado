@@ -19,10 +19,24 @@
     color: #c80200;
 
     &:hover,
-      &:active { 
-    color: #EF233C;
-  }
+    &:active {
+      color: #ef233c;
+    }
   }
 
-  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+
+    a {
+      margin-bottom: 10px;
+    }
+
+    .linksHome_line {
+      width: 90%;
+    height: 1px;
+    background-color: #c80200;
+    }
+  }
 }
