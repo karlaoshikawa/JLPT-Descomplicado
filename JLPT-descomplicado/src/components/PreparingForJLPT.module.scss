@@ -23,4 +23,12 @@
     margin-bottom: 3rem;
     max-width: 90rem;
   }
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+
+    .PreparingForJLPT_box {
+      width: 100%;
+    }
+  }
 }

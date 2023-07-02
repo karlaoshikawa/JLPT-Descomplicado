@@ -48,4 +48,33 @@
       grid-column: span 2;
     }
   }
+
+  @media (max-width: 768px) {
+    .PageJLPTDetails_container {
+      padding: 0 2rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    p {
+      width: 100%;
+    }
+
+    .PageJLPTDetails_box {
+      width: 85%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      grid-gap: 3rem;
+      
+    }
+
+    .PageJLPTDetails_gridItem {
+      
+      text-align: center;
+    }
+  }
 }

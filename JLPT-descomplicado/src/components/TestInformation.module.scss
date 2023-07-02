@@ -79,8 +79,19 @@
     }
 
     .TestInformation_time {
-        width: 16rem;
-        text-align: center;
+      width: 16rem;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 90%;
+
+    .TestInformation_box {
+      width: 85%;
+      th {
+        font-size: 1.4rem;
+      }
     }
   }
 }
