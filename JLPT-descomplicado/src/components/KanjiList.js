@@ -18,10 +18,10 @@ export default function KanjiList({ nivel, kanji }) {
             <th>
               <p>Kanji</p>
             </th>
-            <th>
+            <th className={style.kanjiList_mobileOff}>
               <p>On Yomi</p>
             </th>
-            <th>
+            <th className={style.kanjiList_mobileOff}>
               <p>Kun Yomi</p>
             </th>
             <th>
@@ -35,12 +35,12 @@ export default function KanjiList({ nivel, kanji }) {
               <td>
                 <Link
                   to={`kanji/${item.significado}`}
-                  onClick= {()=> handleClick(nivel, index)}
+                  onClick={() => handleClick(nivel, index)}
                 >
                   <h5>{item.kanji}</h5>
                 </Link>
               </td>
-              <td>
+              <td className={style.kanjiList_mobileOff}>
                 <p>
                   {item.onYomi.map((yon, index) => (
                     <span key={index}>
@@ -50,7 +50,7 @@ export default function KanjiList({ nivel, kanji }) {
                   ))}
                 </p>
               </td>
-              <td>
+              <td className={style.kanjiList_mobileOff}>
                 <p>
                   {item.kunYomi.map((kun, index) => (
                     <span key={index}>
