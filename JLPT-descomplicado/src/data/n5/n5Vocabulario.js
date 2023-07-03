@@ -2065,7 +2065,7 @@ const n5VocabList = [
     vocabulario: "駅",
     romaji: "eki",
     hiragana: "えき",
-    traducao: "estação (de trem/metrô)",
+    traducao: "estação (de trem ou metrô)",
     exemplosFrases: [
       {
         exemplo: "駅に行きます。",
@@ -2214,32 +2214,6 @@ const n5VocabList = [
         hiragana: "おおきいこえではなしてください。",
         romaji: "ōkii koe de hanashite kudasai.",
         traducao: "Por favor, fale em voz alta.",
-      },
-    ],
-  },
-  {
-    vocabulario: "大きな",
-    romaji: "ookina",
-    hiragana: "おおきな",
-    traducao: "grande",
-    exemplosFrases: [
-      {
-        exemplo: "大きな家",
-        hiragana: "おおきないえ",
-        romaji: "ookina ie",
-        traducao: "uma casa grande",
-      },
-      {
-        exemplo: "大きな夢",
-        hiragana: "おおきなゆめ",
-        romaji: "ookina yume",
-        traducao: "um grande sonho",
-      },
-      {
-        exemplo: "大きな声",
-        hiragana: "おおきなこえ",
-        romaji: "ookina koe",
-        traducao: "uma voz alta",
       },
     ],
   },
@@ -3131,7 +3105,7 @@ const n5VocabList = [
     vocabulario: "おもしろい",
     romaji: "omoshiroi",
     hiragana: "おもしろい",
-    traducao: "interessante/divertido",
+    traducao: "interessante, divertido",
     exemplosFrases: [
       {
         exemplo: "その本はとてもおもしろかったです",
@@ -3183,7 +3157,7 @@ const n5VocabList = [
     vocabulario: "降りる",
     romaji: "oriru",
     hiragana: "おりる",
-    traducao: "descer/sair",
+    traducao: "descer, sair",
     exemplosFrases: [
       {
         exemplo: "次の駅で降りる予定です",
@@ -3209,7 +3183,7 @@ const n5VocabList = [
     vocabulario: "終る",
     romaji: "owaru",
     hiragana: "おわる",
-    traducao: "terminar/acabar",
+    traducao: "terminar, acabar",
     exemplosFrases: [
       {
         exemplo: "仕事が終ったら、映画を見に行きましょう",

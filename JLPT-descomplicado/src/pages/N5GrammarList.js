@@ -10,7 +10,7 @@ export default function N5GrammarList() {
       <Header />
       <TitleAndSubtitle
         wordH3={"Lista de Gramática do nível JLPT N5"}
-        wordP={"Clique no tópico para ver mais detalhes"}
+        wordP={"Clique no tópico para ver mais informações"}
       />
       <GrammarList nivel={"jlpt-n5"} grammar={n5Grammar} />
       <Footer />

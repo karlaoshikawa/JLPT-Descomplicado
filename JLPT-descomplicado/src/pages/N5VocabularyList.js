@@ -10,7 +10,7 @@ export default function N5VocabularyList() {
       <Header />
       <TitleAndSubtitle
         wordH3={"Lista do Vocabulário do nível JLPT N5"}
-        wordP={"Clique no vocabulário para ver os exemplos"}
+        wordP={"Clique no vocabulário para ver mais informações"}
       />
       <VocabularyList nivel={"jlpt-n5"} vocabulario={n5VocabList} />
       <Footer />

@@ -10,7 +10,7 @@ export default function N5KanjiList() {
       <Header />
       <TitleAndSubtitle
         wordH3={"Lista de Kanji do nível JLPT N5"}
-        wordP={"Clique no Kanji para ver os exemplos"}
+        wordP={"Clique no Kanji para ver mais informações"}
       />
       <KanjiList nivel={"jlpt-n5"} kanji={n5KanjiList} />
       <Footer />

@@ -21,7 +21,7 @@ export default function VocabularyList({ nivel, vocabulario }) {
             <th>
               <p>Romaji</p>
             </th>
-            <th>
+            <th className={style.vocabularyList_mobileOff}>
               <p>Hiragana</p>
             </th>
             <th>
@@ -41,14 +41,10 @@ export default function VocabularyList({ nivel, vocabulario }) {
                 </Link>
               </td>
               <td>
-                <p>
-                  {item.romaji}
-                </p>
+                <p>{item.romaji}</p>
               </td>
-              <td>
-                <p>
-                  {item.hiragana}
-                </p>
+              <td className={style.vocabularyList_mobileOff}>
+                <p>{item.hiragana}</p>
               </td>
               <td>
                 <p>{item.traducao}</p>

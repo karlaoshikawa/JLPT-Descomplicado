@@ -89,4 +89,40 @@
       width: 100rem;
     }
   }
+
+  @media (max-width: 768px) {
+    .grammarList_container {
+      width: 90%;
+    }
+    .grammarList_thead {
+      p {
+        width: 14rem;
+        font-size: 1.8rem;
+        margin: 0 0.2rem;
+      }
+    }
+    .grammarList_tbody {
+      p {
+        width: 14rem;
+        font-size: 1.8rem;
+        margin: 0 0.2rem;
+        height: 8rem;
+        margin: 0 0.2rem;
+      }
+      a {
+        h5 {
+          width: 14rem;
+          font-size: 1.8rem;
+          margin: 0 0.2rem;
+          height: 8rem;
+          margin: 0 0.2rem;
+        }
+      }
+    }
+    .grammarList_memo {
+      width: 85%;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
 }
