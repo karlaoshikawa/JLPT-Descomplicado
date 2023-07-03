@@ -89,3 +89,15 @@
       }
   }
 }
+
+@media (max-width: 768px) {
+  .detalhesCaracter_container {
+    .caracter_exemplo {
+      width: 85%;
+    }
+
+    .caracter_exemplo_box {
+       width: 85%;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 .NCards_container {
   display: flex;
-  align-items: space;
+  align-items: flex-start;
   flex-wrap: wrap;
   max-width: 100rem;
   margin: 0rem auto;
@@ -8,7 +8,7 @@
   justify-content: space-between;
 
   .NCards_itemBox {
-  a {
+    a {
       font-size: 2.4rem;
       text-decoration: none;
       color: #c80200;
@@ -31,6 +31,20 @@
         color: #ef233c;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
       }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .NCards_container {
+      align-items: center;
+      justify-content: center;
+    }
+    .NCards_itemBox {
+      width: 100%;
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
