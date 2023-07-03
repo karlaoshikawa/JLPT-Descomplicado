@@ -95,15 +95,34 @@
   }
 
   @media (max-width: 768px) {
-    .kanjiList_thead p,
-    .kanjiList_tbody p,
-    .kanjiList_tbody a h5,
-    .kanjiList_memo p {
-      width: 100%;
-      max-width: 100%;
-      margin: 1rem;
-      padding: 1rem;
-      box-sizing: border-box;
+    .kanjiList_container {
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+    }
+    .kanjiList_thead {
+      p {
+        width: 11rem;
+        font-size: 1.6rem;
+        height: 8rem;
+        margin: 0 0.2rem;
+      }
+    }
+    .kanjiList_tbody {
+      p {
+        width: 11rem;
+        font-size: 1.6rem;
+        height: 8rem;
+        margin: 0 0.2rem;
+      }
+      a {
+        h5 {
+          width: 11rem;
+          font-size: 1.6rem;
+          height: 8rem;
+          margin: 0 0.2rem;
+        }
+      }
     }
   }
 }
