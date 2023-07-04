@@ -3,13 +3,11 @@
   flex-direction: column;
   max-width: 120rem;
   margin: 5rem auto;
-
   .kanjiList_thead {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     p {
       display: flex;
       justify-content: center;
@@ -20,19 +18,16 @@
       height: 8rem;
       margin: 0rem 2rem;
       background-color: #c80200;
-
       box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
       font-size: 2.4rem;
       color: #fff;
     }
   }
-
   .kanjiList_tbody {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     p {
       display: flex;
       justify-content: center;
@@ -40,39 +35,32 @@
       flex-direction: column;
       border: 1px solid #ced4da;
       border-radius: 8px;
-      width: 100%;
-      max-width: 25rem;
+      width: 25rem;
       height: 10rem;
       text-align: center;
       margin: 2rem;
-
       box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
       font-size: 2.4rem;
       color: #2b2d42;
     }
-
     a {
       display: flex;
       justify-content: center;
       align-items: center;
       text-decoration: none;
-
       h5 {
         display: flex;
         justify-content: center;
         align-items: center;
         border: 1px solid #ced4da;
         border-radius: 8px;
-        width: 100%;
-        max-width: 25rem;
+        width: 25rem;
         height: 10rem;
         text-align: center;
         margin: 2rem;
-
         box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
         font-size: 3rem;
         color: #c80200;
-
         &:hover,
         &:active {
           color: #ef233c;
@@ -81,7 +69,6 @@
       }
     }
   }
-
   .kanjiList_memo {
     display: flex;
     justify-content: center;
