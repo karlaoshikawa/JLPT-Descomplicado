@@ -179,4 +179,53 @@
       color: #ef233c;
     }
   }
+
+  @media (max-width: 768px) {
+    .grammarPage_container {
+      width: 90%;
+    }
+
+    .grammarPage_line {
+      width: 85%;
+    }
+
+    .grammarPage_top_box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      gap: 2rem;
+      margin: 2rem auto;
+    }
+
+    .grammarPage_box_informations {
+      height: 32rem;
+      width: 30rem;
+    }
+
+    .grammarPage_informations {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        text-align: center;
+      }
+    }
+
+    .grammarPage_exemplos {
+      width: 90%;
+      align-items: center;
+    }
+
+    .grammarPage_exemplos_block {
+      max-width: 85%;
+      padding: 1rem;
+      margin: 0;
+      align-items: center;
+      align-self: center;
+    }
+  }
 }
