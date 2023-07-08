@@ -2,19 +2,17 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import KanjiList from "../components/KanjiList";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
-import n5KanjiList from "../data/n5/n5Kanji";
 import n4KanjiList from "../data/n4/n4Kanji";
 
-export default function N5KanjiList() {
-  console.log(n4KanjiList.length);
+export default function N4KanjiList() {
   return (
     <>
       <Header />
       <TitleAndSubtitle
-        wordH3={"Lista de Kanji do nível JLPT N5"}
+        wordH3={"Lista de Kanji do nível JLPT N4"}
         wordP={"Clique no Kanji para ver mais informações"}
       />
-      <KanjiList nivel={"jlpt-n5"} kanji={n5KanjiList} />
+      <KanjiList nivel={"jlpt-n4"} kanji={n4KanjiList} />
       <Footer />
     </>
   );

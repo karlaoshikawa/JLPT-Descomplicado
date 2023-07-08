@@ -7,13 +7,16 @@ import Caracter from "./pages/Caracter";
 import AboutJLPT from "./pages/AboutJLPT";
 import HowToApply from "./pages/HowToApply";
 import JLPTN5 from "./pages/JLPTN5";
+import JLPTN4 from "./pages/JLPTN4";
 import HowToPreparing from "./pages/HowToPreparing";
 import N5KanjiList from "./pages/N5KanjiList";
 import N5Kanji from "./pages/N5Kanji";
+import N4Kanji from "./pages/N4Kanji";
 import N5VocabularyList from "./pages/N5VocabularyList";
 import N5Vocabulary from "./pages/N5Vocabulary";
 import N5GrammarList from "./pages/N5GrammarList";
 import N5Grammar from "./pages/N5Grammar";
+import N4KanjiList from "./pages/N4KanjiList";
 
 function App() {
   return (
@@ -47,11 +50,20 @@ function App() {
       <Route exact path="/jlpt-n5">
         <JLPTN5 />
       </Route>
+      <Route exact path="/jlpt-n4">
+        <JLPTN4 />
+      </Route>
       <Route exact path="/jlpt-n5/kanji">
         <N5KanjiList />
       </Route>
+      <Route exact path="/jlpt-n4/kanji">
+        <N4KanjiList />
+      </Route>
       <Route exact path="/jlpt-n5/kanji/:kanji">
         <N5Kanji />
+      </Route>
+      <Route exact path="/jlpt-n4/kanji/:kanji">
+        <N4Kanji />
       </Route>
       <Route exact path="/jlpt-n5/vocabulary">
         <N5VocabularyList />

@@ -1,0 +1,33 @@
+.N4Description_container {
+  display: flex;
+  align-items: center;
+  max-width: 120rem;
+  margin: 0 auto;
+  flex-direction: column;
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 0 0 2rem 0;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .N4Description_container {
+    width: 85%;
+  }
+}
