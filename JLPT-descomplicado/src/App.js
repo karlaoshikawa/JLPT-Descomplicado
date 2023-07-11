@@ -14,6 +14,8 @@ import N5Kanji from "./pages/N5Kanji";
 import N4Kanji from "./pages/N4Kanji";
 import N5VocabularyList from "./pages/N5VocabularyList";
 import N5Vocabulary from "./pages/N5Vocabulary";
+import N4VocabularyList from "./pages/N4VocabularyList";
+import N4Vocabulary from "./pages/N4Vocabulary";
 import N5GrammarList from "./pages/N5GrammarList";
 import N4GrammarList from "./pages/N4GrammarList";
 import N5Grammar from "./pages/N5Grammar";
@@ -72,6 +74,12 @@ function App() {
       </Route>
       <Route exact path="/jlpt-n5/vocabulary/:vocabulary">
         <N5Vocabulary />
+      </Route>
+      <Route exact path="/jlpt-n4/vocabulary">
+        <N4VocabularyList />
+      </Route>
+      <Route exact path="/jlpt-n4/vocabulary/:vocabulary">
+        <N4Vocabulary />
       </Route>
       <Route exact path="/jlpt-n5/grammar">
         <N5GrammarList />
