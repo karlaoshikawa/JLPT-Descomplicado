@@ -4,18 +4,18 @@ import GrammarPage from "../components/GrammarPage";
 
 import { useSelector } from "react-redux";
 
-import n4GrammarList from "../data/n4/n4Grammar";
+import n3GrammarList from "../data/n3/n3Grammar";
 import NCards from "../components/NCards";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
 export default function N4Grammar() {
   const grammarState = useSelector((state) => state.nlevel);
 
-  const grammar = n4GrammarList[grammarState.posicao];
+  const grammar = n3GrammarList[grammarState.posicao];
 
-  const next = !n4GrammarList[grammarState.posicao + 1]
+  const next = !n3GrammarList[grammarState.posicao + 1]
     ? ""
-    : n4GrammarList[grammarState.posicao + 1].romaji;
+    : n3GrammarList[grammarState.posicao + 1].romaji;
   return (
     <>
       <Header />

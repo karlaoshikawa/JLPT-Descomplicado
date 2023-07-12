@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 import VocabularyList from "../components/VocabularyList";
-import n5VocabList from "../data/n5/n5Vocabulario";
+import n3VocabList from "../data/n3/n3Vocabulario";
 
 export default function N5VocabularyList() {
   return (
@@ -12,7 +12,7 @@ export default function N5VocabularyList() {
         wordH3={"Lista do Vocabulário do nível JLPT N5"}
         wordP={"Clique no vocabulário para ver mais informações"}
       />
-      <VocabularyList nivel={"jlpt-n5"} vocabulario={n5VocabList} />
+      <VocabularyList nivel={"jlpt-n3"} vocabulario={n3VocabList} />
       <Footer />
     </>
   );

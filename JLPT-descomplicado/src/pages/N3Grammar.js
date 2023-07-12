@@ -4,18 +4,18 @@ import GrammarPage from "../components/GrammarPage";
 
 import { useSelector } from "react-redux";
 
-import n5GrammarList from "../data/n5/N5Grammar";
+import n3GrammarList from "../data/n3/n3Grammar";
 import NCards from "../components/NCards";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
-export default function N5Grammar() {
+export default function N3Grammar() {
   const grammarState = useSelector((state) => state.nlevel);
 
-  const grammar = n5GrammarList[grammarState.posicao];
+  const grammar = n3GrammarList[grammarState.posicao];
 
-  const next = !n5GrammarList[grammarState.posicao + 1]
+  const next = !n3GrammarList[grammarState.posicao + 1]
     ? ""
-    : n5GrammarList[grammarState.posicao + 1].romaji;
+    : n3GrammarList[grammarState.posicao + 1].romaji;
   return (
     <>
       <Header />
@@ -25,8 +25,8 @@ export default function N5Grammar() {
         nivel={grammarState.tipo}
         posicao={grammarState.posicao + 1}
       />
-      <TitleAndSubtitle wordH3={"Veja mais sobre JLPT N5"} wordP={""} />
-      <NCards number={5} />
+      <TitleAndSubtitle wordH3={"Veja mais sobre JLPT N3"} wordP={""} />
+      <NCards number={3} />
       <Footer />
     </>
   );
