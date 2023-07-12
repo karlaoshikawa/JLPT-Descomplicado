@@ -85,14 +85,16 @@ export default function KanjiPage({ kanji, next, nivel, posicao }) {
         ))}
       </div>
       <div>
-        <Link
-          to={`${next}`}
-          onClick={() => handleClick(nivel, posicao)}
-          className={style.kanjiPage_next}
-        >
-          <h4>proximo</h4>
-          <FiArrowRight />
-        </Link>
+        {!next ? null : (
+          <Link
+            to={`${next}`}
+            onClick={() => handleClick(nivel, posicao)}
+            className={style.kanjiPage_next}
+          >
+            <h4>proximo</h4>
+            <FiArrowRight />
+          </Link>
+        )}
       </div>
     </div>
   );

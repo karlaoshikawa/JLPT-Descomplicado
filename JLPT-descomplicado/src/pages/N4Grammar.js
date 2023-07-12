@@ -8,12 +8,14 @@ import n4GrammarList from "../data/n4/n4Grammar";
 import NCards from "../components/NCards";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
-export default function N5Grammar() {
+export default function N4Grammar() {
   const grammarState = useSelector((state) => state.nlevel);
 
   const grammar = n4GrammarList[grammarState.posicao];
 
-  const next = n4GrammarList[grammarState.posicao + 1].romaji;
+  const next = !n4GrammarList[grammarState.posicao + 1]
+    ? ""
+    : n4GrammarList[grammarState.posicao + 1].romaji;
   return (
     <>
       <Header />

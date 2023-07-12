@@ -13,7 +13,10 @@ export default function N5Kanji() {
 
   const kanji = n4KanjiList[kanjiState.posicao];
 
-  const next = n4KanjiList[kanjiState.posicao + 1].significado;
+  const next = !n4KanjiList[kanjiState.posicao + 1]
+    ? ""
+    : n4KanjiList[kanjiState.posicao + 1].significado;
+  
   return (
     <>
       <Header />

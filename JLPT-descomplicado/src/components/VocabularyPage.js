@@ -75,14 +75,16 @@ export default function VocabularyPage({ vocabulary, next, nivel, posicao }) {
         ))}
       </div>
       <div>
-        <Link
-          to={`${next}`}
-          onClick={() => handleClick(nivel, posicao)}
-          className={style.VocabularyPage_next}
-        >
-          <h4>proximo</h4>
-          <FiArrowRight />
-        </Link>
+        {!next ? null : (
+          <Link
+            to={`${next}`}
+            onClick={() => handleClick(nivel, posicao)}
+            className={style.VocabularyPage_next}
+          >
+            <h4>proximo</h4>
+            <FiArrowRight />
+          </Link>
+        )}
       </div>
     </div>
   );

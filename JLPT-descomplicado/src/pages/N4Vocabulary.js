@@ -14,7 +14,10 @@ export default function N4Vocabulary() {
 
   const vocabulary = n4VocabList[vocabularyState.posicao];
 
-  const next = n4VocabList[vocabularyState.posicao + 1].romaji;
+  const next = !n4VocabList[vocabularyState.posicao + 1]
+    ? ""
+    : n4VocabList[vocabularyState.posicao + 1].romaji;
+  
   return (
     <>
       <Header />

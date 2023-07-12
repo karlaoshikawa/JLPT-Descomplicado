@@ -4,18 +4,18 @@ import KanjiPage from "../components/KanjiPage";
 
 import { useSelector } from "react-redux";
 
-import n5KanjiList from "../data/n5/n5Kanji";
+import n3KanjiList from "../data/n3/n3Kanji";
 import NCards from "../components/NCards";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
-export default function N5Kanji() {
+export default function N3Kanji() {
   const kanjiState = useSelector((state) => state.nlevel);
 
-  const kanji = n5KanjiList[kanjiState.posicao];
+  const kanji = n3KanjiList[kanjiState.posicao];
 
-  const next = !n5KanjiList[kanjiState.posicao + 1]
+  const next = !n3KanjiList[kanjiState.posicao + 1]
     ? ""
-    : n5KanjiList[kanjiState.posicao + 1].significado;
+    : n3KanjiList[kanjiState.posicao + 1].significado;
   
   return (
     <>
@@ -26,7 +26,7 @@ export default function N5Kanji() {
         nivel={kanjiState.tipo}
         posicao={kanjiState.posicao + 1}
       />
-      <TitleAndSubtitle wordH3={"Veja mais sobre JLPT N5"} wordP={""} />
+      <TitleAndSubtitle wordH3={"Veja mais sobre JLPT N3"} wordP={""} />
       <NCards number={5} />
       <Footer />
     </>
