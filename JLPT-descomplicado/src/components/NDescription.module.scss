@@ -1,4 +1,4 @@
-.N4Description_container {
+.NDescription_container {
   display: flex;
   align-items: center;
   max-width: 120rem;
@@ -27,7 +27,7 @@
 }
 
 @media (max-width: 768px) {
-  .N4Description_container {
+  .NDescription_container {
     width: 85%;
   }
 }

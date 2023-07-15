@@ -1,10 +1,10 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import N5Description from "../components/N5Description";
+import N3Description from "../components/N3Description";
 import NCards from "../components/NCards";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
-export default function JLPTN5() {
+export default function JLPTN3() {
   return (
     <>
       <Header />
@@ -13,7 +13,7 @@ export default function JLPTN5() {
         wordP={""}
       />
       <NCards number={3} />
-      <N5Description />
+      <N3Description />
       <Footer />
     </>
   );

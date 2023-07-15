@@ -1,10 +1,10 @@
-import style from "./N4Description.module.scss";
+import style from "./NDescription.module.scss";
 
 export default function N4Description() {
   return (
-    <div className={style.N4Description_container}>
-      <div className={style.N4Description_box}>
-        <div className={style.N4Description_gridItem}>
+    <div className={style.NDescription_container}>
+      <div className={style.NDescription_box}>
+        <div className={style.NDescription_gridItem}>
           <p>
             O JLPT N4 é um nível intermediário no exame de proficiência da
             língua japonesa. Ele avalia habilidades mais avançadas em comparação
@@ -12,7 +12,7 @@ export default function N4Description() {
             as seções e habilidades testadas no JLPT N4:
           </p>
         </div>
-        <div className={style.N4Description_gridItem}>
+        <div className={style.NDescription_gridItem}>
           <h3>Seções do JLPT N4:</h3>
 
           <h4>Vocabulário e Leitura:</h4>

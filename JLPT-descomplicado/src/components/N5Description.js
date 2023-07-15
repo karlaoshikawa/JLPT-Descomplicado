@@ -1,10 +1,10 @@
-import style from "./N5Description.module.scss";
+import style from "./NDescription.module.scss";
 
 export default function N5Description() {
   return (
-    <div className={style.N5Description_container}>
-      <div className={style.N5Description_box}>
-        <div className={style.N5Description_gridItem}>
+    <div className={style.NDescription_container}>
+      <div className={style.NDescription_box}>
+        <div className={style.NDescription_gridItem}>
           <p>
             É o nível mais básico e introdutório do exame. Ele é projetado para
             avaliar o conhecimento fundamental da língua japonesa. É importante
@@ -15,7 +15,7 @@ export default function N5Description() {
             progressivamente em termos de complexidade e conhecimento exigido.
           </p>
         </div>
-        <div className={style.N5Description_gridItem}>
+        <div className={style.NDescription_gridItem}>
           <h3>Seções do JLPT N5:</h3>
 
           <h4>Vocabulário e Leitura:</h4>
