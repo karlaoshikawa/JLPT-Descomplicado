@@ -8,8 +8,9 @@ export default function N4Description() {
           <p>
             O JLPT N4 é um nível intermediário no exame de proficiência da
             língua japonesa. Ele avalia habilidades mais avançadas em comparação
-            ao N5, exigindo um conhecimento mais amplo da língua. Abaixo estão
-            as seções e habilidades testadas no JLPT N4:
+            ao N5, exigindo um conhecimento mais amplo da língua. Inclua os
+            conhecimentos dos níveis anteriores. Abaixo estão as seções e
+            habilidades testadas no JLPT N4:
           </p>
         </div>
         <div className={style.NDescription_gridItem}>
@@ -19,8 +20,8 @@ export default function N4Description() {
           <p>
             Nesta seção, os candidatos serão testados em seu conhecimento de
             vocabulário japonês intermediário e habilidades de leitura. É
-            necessário ser capaz de ler artigos de notícias simples,
-            além de estar familiarizado com cerca de 1.500 palavras.
+            necessário ser capaz de ler artigos de notícias simples, além de
+            estar familiarizado com cerca de 1.500 palavras.
           </p>
 
           <h4>Gramática e Leitura:</h4>

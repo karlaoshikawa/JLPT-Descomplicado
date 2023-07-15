@@ -9,7 +9,8 @@ export default function N4Description() {
             O JLPT N3 é um nível intermediário avançado no exame de proficiência
             da língua japonesa. Ele avalia habilidades mais sofisticadas em
             comparação com o N4, exigindo um conhecimento ainda mais abrangente
-            da língua. Abaixo estão as seções e habilidades testadas no JLPT N3:
+            da língua. Inclua os conhecimentos dos níveis anteriores. Abaixo
+            estão as seções e habilidades testadas no JLPT N3:
           </p>
         </div>
         <div className={style.NDescription_gridItem}>
