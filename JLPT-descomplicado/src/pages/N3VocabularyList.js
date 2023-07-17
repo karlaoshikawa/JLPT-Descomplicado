@@ -9,7 +9,7 @@ export default function N3VocabularyList() {
     <>
       <Header />
       <TitleAndSubtitle
-        wordH3={"Lista do Vocabulário do nível JLPT N5"}
+        wordH3={"Lista do Vocabulário do nível JLPT N3"}
         wordP={"Clique no vocabulário para ver mais informações"}
       />
       <VocabularyList nivel={"jlpt-n3"} vocabulario={n3VocabList} />

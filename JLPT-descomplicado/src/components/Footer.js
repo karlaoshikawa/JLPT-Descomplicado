@@ -2,8 +2,12 @@ import { Link } from "react-router-dom";
 import logoJLPT from "../images/logo-header-site.png";
 import style from "./Footer.module.scss";
 import { FiInstagram } from "react-icons/fi";
+import { useMemo } from "react";
 
 export default function Footer() {
+  useMemo(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, []);
   return (
     <div className={style.footer_container}>
       <div className={style.footer_link_box}>
@@ -18,7 +22,10 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <FiInstagram />
+              <h3>
+                <FiInstagram />
+                {`   Instagram`}
+              </h3>
               <p>@jlpt_descomplicado</p>
             </a>
           </div>
@@ -53,35 +60,35 @@ export default function Footer() {
           <Link to="/jlpt-n5/kanji">
             <div>JLPT N5</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n4/kanji">
             <div>JLPT N4</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n3/kanji">
             <div>JLPT N3</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n2/kanji">
             <div>JLPT N2</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n1/kanji">
             <div>JLPT N1</div>
           </Link>
         </div>
 
         <div className={style.footer_link}>
           <h2>Vocabulário</h2>
-          <Link to="/jlpt-n5/vocabulario">
+          <Link to="/jlpt-n5/vocabulary">
             <div>JLPT N5</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n4/vocabulary">
             <div>JLPT N4</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n3/vocabulary">
             <div>JLPT N3</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n2/vocabulary">
             <div>JLPT N2</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n1/vocabulary">
             <div>JLPT N1</div>
           </Link>
         </div>
@@ -91,16 +98,16 @@ export default function Footer() {
           <Link to="/jlpt-n5/grammar">
             <div>JLPT N5</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n4/grammar">
             <div>JLPT N4</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n3/grammar">
             <div>JLPT N3</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n2/grammar">
             <div>JLPT N2</div>
           </Link>
-          <Link to="">
+          <Link to="/jlpt-n1/grammar">
             <div>JLPT N1</div>
           </Link>
         </div>
