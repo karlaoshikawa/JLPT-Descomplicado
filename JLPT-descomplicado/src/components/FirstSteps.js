@@ -50,7 +50,7 @@ export default function FirstSteps() {
             <FiArrowDown />
           </h2>
           <div className={style.firstSteps_boxCard2}>
-            <Link to="/">
+            <Link to="/jlpt-n4">
               <p>N4</p>
             </Link>
           </div>
@@ -61,7 +61,7 @@ export default function FirstSteps() {
             <FiArrowDown />
           </h2>
           <div className={style.firstSteps_boxCard2}>
-            <Link to="/">
+            <Link to="/jlpt-n3">
               <p>N3</p>
             </Link>
           </div>
@@ -72,7 +72,7 @@ export default function FirstSteps() {
             <FiArrowDown />
           </h2>
           <div className={style.firstSteps_boxCard2}>
-            <Link to="/">
+            <Link to="/jlpt-n2">
               <p>N2</p>
             </Link>
           </div>
@@ -83,7 +83,7 @@ export default function FirstSteps() {
             <FiArrowDown />
           </h2>
           <div className={style.firstSteps_boxCard2}>
-            <Link to="/">
+            <Link to="/jlpt-n1">
               <p>N1</p>
             </Link>
           </div>

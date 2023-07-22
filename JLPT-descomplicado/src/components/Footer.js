@@ -30,6 +30,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
+        <div>className={style.footer_line}</div>
         <div className={style.footer_link}>
           <h2>Categoria</h2>
           <Link to="/hiragana" data-testid="link-to-hiragana">
@@ -54,7 +55,7 @@ export default function Footer() {
             <div className="header-link">JLPT N1</div>
           </Link>
         </div>
-
+        <div className={style.footer_line}></div>
         <div className={style.footer_link}>
           <h2>Kanji</h2>
           <Link to="/jlpt-n5/kanji">
@@ -73,6 +74,7 @@ export default function Footer() {
             <div>JLPT N1</div>
           </Link>
         </div>
+        <div className={style.footer_line}></div>
 
         <div className={style.footer_link}>
           <h2>Vocabulário</h2>
@@ -92,7 +94,7 @@ export default function Footer() {
             <div>JLPT N1</div>
           </Link>
         </div>
-
+        <div className={style.footer_line}></div>
         <div className={style.footer_link}>
           <h2>Gramática</h2>
           <Link to="/jlpt-n5/grammar">
@@ -111,7 +113,7 @@ export default function Footer() {
             <div>JLPT N1</div>
           </Link>
         </div>
-
+        <div className={style.footer_line}></div>
         <div className={style.footer_link}>
           <h2>Links Úteis</h2>
           <Link to={"/o-que-e-jlpt"}>
