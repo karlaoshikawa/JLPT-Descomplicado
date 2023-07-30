@@ -12,13 +12,17 @@ export default function Table({ caracteres, tipo, katakana }) {
     dispatch(getcaracter({ isKatakana, tipo, moji, index }))
 }
   return (
-    <div className={style.table_container}>
+    <div
+      className={style.table_container}
+      data-testid={`table-${isKatakana}-${tipo}-list`}
+    >
       {caracteres.map((moji, i) => (
         <Link
-          to={ `/${isKatakana}/${moji.letra}` }
+          to={`/${isKatakana}/${moji.letra}`}
           key={i}
-          className={tipo === 'Yoon' ? style.table_box_yoon : style.table_box}
+          className={tipo === "Yoon" ? style.table_box_yoon : style.table_box}
           onClick={() => caracterState(moji.letra, i)}
+          data-testid={`table-${isKatakana}-${moji.letra}`}
         >
           <p>{moji.letra}</p>
           <h2>{katakana ? moji.katakana : moji.hiragana}</h2>

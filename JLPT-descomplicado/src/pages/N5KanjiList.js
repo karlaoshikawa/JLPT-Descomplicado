@@ -6,7 +6,6 @@ import n5KanjiList from "../data/n5/n5Kanji";
 import n4KanjiList from "../data/n4/n4Kanji";
 
 export default function N5KanjiList() {
-  console.log(n4KanjiList.length);
   return (
     <>
       <Header />

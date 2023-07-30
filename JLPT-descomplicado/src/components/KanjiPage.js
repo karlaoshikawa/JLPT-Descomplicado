@@ -18,7 +18,7 @@ export default function KanjiPage({ kanji, next, nivel, posicao }) {
 
   const jlpt = nivel.split("-").pop();
   return (
-    <div className={style.kanjiPage_container}>
+    <div className={style.kanjiPage_container} data-testid="kanji-page">
       <h1>{`Kanji JLPT ${jlpt.toUpperCase()}`}</h1>
       <div className={style.kanjiPage_line}></div>
       <div className={style.kanjiPage_top_box}>

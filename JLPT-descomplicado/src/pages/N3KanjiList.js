@@ -5,7 +5,6 @@ import TitleAndSubtitle from "../components/TitleAndSubtitle";
 import n3KanjiList from "../data/n3/n3Kanji";
 
 export default function N3KanjiList() {
-  console.log(n3KanjiList.length);
   return (
     <>
       <Header />

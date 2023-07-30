@@ -11,7 +11,10 @@ export default function VocabularyList({ nivel, vocabulario }) {
     dispatch(itemlenght({ tipo, posicao }));
   };
   return (
-    <div className={style.vocabularyList_container}>
+    <div
+      className={style.vocabularyList_container}
+      data-testid="vocabulary-list"
+    >
       <table className={style.vocabularyList_table}>
         <thead className={style.vocabularyList_thead}>
           <tr>
@@ -31,11 +34,12 @@ export default function VocabularyList({ nivel, vocabulario }) {
         </thead>
         <tbody className={style.vocabularyList_tbody}>
           {vocabularyList.map((item, index) => (
-            <tr key={item.name}>
+            <tr key={index}>
               <td>
                 <Link
                   to={`vocabulary/${item.romaji}`}
                   onClick={() => handleClick(nivel, index)}
+                  data-testid={`vocabulary-${item.romaji}`}
                 >
                   <h5>{item.vocabulario}</h5>
                 </Link>

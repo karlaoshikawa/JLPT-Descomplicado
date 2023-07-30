@@ -11,7 +11,7 @@ export default function GrammarList({ nivel, grammar }) {
     dispatch(itemlenght({ tipo, posicao }));
   };
   return (
-    <div className={style.grammarList_container}>
+    <div className={style.grammarList_container} data-testid="grammar-list">
       <table className={style.grammarList_table}>
         <thead className={style.grammarList_thead}>
           <tr>
@@ -28,11 +28,12 @@ export default function GrammarList({ nivel, grammar }) {
         </thead>
         <tbody className={style.grammarList_tbody}>
           {grammarList.map((item, index) => (
-            <tr key={item.name}>
+            <tr key={index}>
               <td>
                 <Link
                   to={`grammar/${item.romaji.replace(/[^a-zA-Z]/g, "-")}`}
                   onClick={() => handleClick(nivel, index)}
+                  data-testid={`grammar-${item.romaji.replace(/[^a-zA-Z]/g, "-")}`}
                 >
                   <h5>{item.topico}</h5>
                 </Link>

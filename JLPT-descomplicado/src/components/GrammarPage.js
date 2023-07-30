@@ -18,7 +18,10 @@ export default function VocabularyPage({ grammar, next, nivel, posicao }) {
 
   const jlpt = nivel.split("-").pop();
   return (
-    <div className={style.grammarPage_container}>
+    <div
+      className={style.grammarPage_container}
+      data-testid="grammar-page"
+    >
       <h1>{`Gramática JLPT ${jlpt.toUpperCase()}`}</h1>
       <div className={style.grammarPage_line}></div>
       <div className={style.grammarPage_top_box}>

@@ -5,7 +5,6 @@ import VocabularyList from "../components/VocabularyList";
 import n4VocabList from "../data/n4/n4Vocabulario";
 
 export default function N4VocabularyList() {
-  console.log(n4VocabList);
   return (
     <>
       <Header />

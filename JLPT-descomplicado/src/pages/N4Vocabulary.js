@@ -9,7 +9,6 @@ import NCards from "../components/NCards";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
 export default function N4Vocabulary() {
-  console.log("oi",n4VocabList);
   const vocabularyState = useSelector((state) => state.nlevel);
 
   const vocabulary = n4VocabList[vocabularyState.posicao];

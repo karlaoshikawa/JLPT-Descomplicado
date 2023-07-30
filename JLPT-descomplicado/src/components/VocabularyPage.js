@@ -18,7 +18,7 @@ export default function VocabularyPage({ vocabulary, next, nivel, posicao }) {
 
   const jlpt = nivel.split("-").pop();
   return (
-    <div className={style.VocabularyPage_container}>
+    <div className={style.VocabularyPage_container} data-testid="vocabulary-page">
       <h1>{`Vocabulário JLPT ${jlpt.toUpperCase()}`}</h1>
       <div className={style.VocabularyPage_line}></div>
       <div className={style.VocabularyPage_top_box}>

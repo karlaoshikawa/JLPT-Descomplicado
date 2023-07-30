@@ -10,17 +10,34 @@ import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
 export default function Hiragana() {
   return (
-    <div className={style.TitleAndSubtitle_container} >
+    <div className={style.TitleAndSubtitle_container}>
       <Header />
-      <TitleAndSubtitle wordH3={"Hiragana"} wordP={"Clique no Caracter para ver os exemplos"}/>
-      <Table caracteres={hiraganaList} />
+      <TitleAndSubtitle
+        wordH3={"Hiragana"}
+        wordP={"Clique no Caracter para ver os exemplos"}
+      />
+      <Table caracteres={hiraganaList} data-testid="hiragana-list" />
 
-      <TitleAndSubtitle wordH3={"Hiragana Dakuon"} wordP={"Clique no Caracter para ver os exemplos"}/>
-      <Table caracteres={hiraganaDakuon} tipo='Dakuon'/>
+      <TitleAndSubtitle
+        wordH3={"Hiragana Dakuon"}
+        wordP={"Clique no Caracter para ver os exemplos"}
+      />
+      <Table
+        caracteres={hiraganaDakuon}
+        tipo="Dakuon"
+        data-testid="hiragana-dakuon-list"
+      />
 
-      <TitleAndSubtitle wordH3={"Hiragana Yoon"} wordP={"Clique no Caracter para ver os exemplos"}/>
-      <Table caracteres={ hiraganaYoon } tipo='Yoon'/>
+      <TitleAndSubtitle
+        wordH3={"Hiragana Yoon"}
+        wordP={"Clique no Caracter para ver os exemplos"}
+      />
+      <Table
+        caracteres={hiraganaYoon}
+        tipo="Yoon"
+        data-testid="hiragana-Yoon-list"
+      />
       <Footer />
     </div>
-  )
+  );
 }

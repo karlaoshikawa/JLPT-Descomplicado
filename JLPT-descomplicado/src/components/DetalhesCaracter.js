@@ -52,8 +52,8 @@ export default function DetalhesCaracter() {
   };
 
   return (
-    <div className={style.detalhesCaracter_container}>
-      <h1>Ideograma: {moji.kana}</h1>
+    <div className={style.detalhesCaracter_container} data-testid="caracter">
+      <h1 data-testid={`caracter-${moji.kana}`}>Ideograma: {moji.kana}</h1>
       <div className={style.caracter_box}>
         <h3>{getCaracter.letra}</h3>
         <h2>{Object.values(getCaracter)[1]}</h2>
@@ -73,6 +73,7 @@ export default function DetalhesCaracter() {
       )}
       {nextCaracter?.letra ? (
         <Link
+          data-testid={`caracter-${nextCaracter.letra}`}
           className={style.detalhesCaracter_next_link}
           to={`/${moji.kana}/${nextCaracter.letra}`}
           onClick={() =>
