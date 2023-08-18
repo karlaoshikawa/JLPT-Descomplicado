@@ -42,6 +42,7 @@ import N4KanjiList from "./pages/N4KanjiList";
 import N3KanjiList from "./pages/N3KanjiList";
 import N2KanjiList from "./pages/N2KanjiList";
 import N1KanjiList from "./pages/N1KanjiList";
+import JLPTN from "./pages/JLPTN";
 
 function App() {
   return (
@@ -87,6 +88,9 @@ function App() {
       <Route exact path="/jlpt-n1">
         <JLPTN1 />
       </Route>
+      <Route exact path="/:jlptN">
+        <JLPTN />
+      </Route>
       <Route exact path="/jlpt-n5/kanji">
         <N5KanjiList />
       </Route>
@@ -117,7 +121,7 @@ function App() {
       <Route exact path="/jlpt-n1/kanji/:kanji">
         <N1Kanji />
       </Route>
-      <Route exact path="/jlpt-n5/vocabulary">
+      <Route exact path="/:jlpt/:vocabulary">
         <N5VocabularyList />
       </Route>
       <Route exact path="/jlpt-n4/vocabulary">

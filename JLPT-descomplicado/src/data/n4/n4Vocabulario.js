@@ -104,32 +104,6 @@ const n4VocabList = [
     ],
   },
   {
-    vocabulario: "アフリカ",
-    romaji: "afurika",
-    hiragana: "あふりか",
-    traducao: "África",
-    exemplosFrases: [
-      {
-        exemplo: "アフリカに旅行したいです。",
-        hiragana: "あふりかにりょこうしたいです。",
-        romaji: "Afurika ni ryokō shitai desu.",
-        traducao: "Eu quero viajar para a África.",
-      },
-      {
-        exemplo: "アフリカの文化に興味があります。",
-        hiragana: "あふりかのぶんかにきょうみがあります。",
-        romaji: "Afurika no bunka ni kyōmi ga arimasu.",
-        traducao: "Tenho interesse na cultura da África.",
-      },
-      {
-        exemplo: "アフリカの動物は美しいです。",
-        hiragana: "あふりかのどうぶつはうつくしいです。",
-        romaji: "Afurika no doubutsu wa utsukushii desu.",
-        traducao: "Os animais da África são bonitos.",
-      },
-    ],
-  },
-  {
     vocabulario: "アジア",
     romaji: "ajia",
     hiragana: "あじあ",

@@ -1,42 +1,5 @@
 const n1VocabList = [
   {
-    vocabulario: "陰",
-    romaji: "kage",
-    hiragana: "かげ",
-    traducao: "sombra",
-    exemplosFrases: [
-      {
-        exemplo:
-          "木の陰で涼んでいます。夏の日差しを避けるために、木の陰で涼んでいます。",
-        hiragana:
-          "きのかげですずんでいます。なつのひざしをさけるために、きのかげですずんでいます。",
-        romaji:
-          "Ki no kage de sunde imasu. Natsu no hizashi o sakeru tame ni, ki no kage de sunde imasu.",
-        traducao:
-          "Estou me refrescando na sombra da árvore para evitar a luz solar forte do verão.",
-      },
-      {
-        exemplo:
-          "陽と陰は対照的な存在です。太陽が降り注ぐ庭に、木々の陰が涼しさをもたらします。",
-        hiragana:
-          "ようとかげはたいしょうてきなそんざいです。たいようがふりそそぐにわに、きぎのかげがすずしさをもたらします。",
-        romaji:
-          "Yō to kage wa taishōteki na sonzai desu. Taiyō ga furisosogu niwa ni, kigi no kage ga suzushisa o motarashimasu.",
-        traducao:
-          "O sol e a sombra são existências contrastantes. Nas hortas banhadas pelo sol, a sombra das árvores traz frescor.",
-      },
-      {
-        exemplo: "太陽が雲の陰に隠れました。雲の陰で肌寒さを感じます。",
-        hiragana:
-          "たいようがくものかげにかくれました。くものかげではださむさをかんじます。",
-        romaji:
-          "Taiyō ga kumo no kage ni kakuremashita. Kumo no kage de hadasamusa o kanjimasu.",
-        traducao:
-          "O sol se escondeu atrás das nuvens. Sinto um frio na pele na sombra das nuvens.",
-      },
-    ],
-  },
-  {
     vocabulario: "放棄",
     romaji: "hōki",
     hiragana: "ほうき",

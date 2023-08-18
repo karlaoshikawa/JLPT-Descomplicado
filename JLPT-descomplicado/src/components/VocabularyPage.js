@@ -8,6 +8,8 @@ import { useMemo } from "react";
 export default function VocabularyPage({ vocabulary, next, nivel, posicao }) {
   const dispatch = useDispatch();
 
+  console.log("vocabulary", vocabulary)
+
   const handleClick = (tipo, posicao) => {
     dispatch(itemlenght({ tipo, posicao }));
   };

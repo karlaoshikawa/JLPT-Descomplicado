@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./NCards.module.scss";
 
-export default function NCards({number}) {
+export default function NCards({ number }) {
   return (
     <div className={style.NCards_container}>
       <div className={style.NCards_itemBox}>
