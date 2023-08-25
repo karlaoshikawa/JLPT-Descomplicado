@@ -41,38 +41,38 @@ export default function Footer() {
           <Link to="/katakana" data-testid="link-to-katakana-footer">
             <div className="header-link">Katakana</div>
           </Link>
-          <Link to="/jlpt-n5" data-testid="link-to-n5-footer">
+          <Link to="/jlpt/n5" data-testid="link-to-n5-footer">
             <div className="header-link">JLPT N5</div>
           </Link>
-          <Link to="/jlpt-n4" data-testid="link-to-n4-footer">
+          <Link to="/jlpt/n4" data-testid="link-to-n4-footer">
             <div className="header-link">JLPT N4</div>
           </Link>
-          <Link to="/jlpt-n3" data-testid="link-to-n3-footer">
+          <Link to="/jlpt/n3" data-testid="link-to-n3-footer">
             <div className="header-link">JLPT N3</div>
           </Link>
-          <Link to="/jlpt-n2" data-testid="link-to-n2-footer">
+          <Link to="/jlpt/n2" data-testid="link-to-n2-footer">
             <div className="header-link">JLPT N2</div>
           </Link>
-          <Link to="/jlpt-n1" data-testid="link-to-n1-footer">
+          <Link to="/jlpt/n1" data-testid="link-to-n1-footer">
             <div className="header-link">JLPT N1</div>
           </Link>
         </div>
         <div className={style.footer_line}></div>
         <div className={style.footer_link}>
           <h2>Kanji</h2>
-          <Link to="/jlpt-n5/kanji" data-testid="link-kanji-n5-footer">
+          <Link to="/jlpt/n5/kanji" data-testid="link-kanji-n5-footer">
             <div>JLPT N5</div>
           </Link>
-          <Link to="/jlpt-n4/kanji" data-testid="link-kanji-n4-footer">
+          <Link to="/jlpt/n4/kanji" data-testid="link-kanji-n4-footer">
             <div>JLPT N4</div>
           </Link>
-          <Link to="/jlpt-n3/kanji" data-testid="link-kanji-n3-footer">
+          <Link to="/jlpt/n3/kanji" data-testid="link-kanji-n3-footer">
             <div>JLPT N3</div>
           </Link>
-          <Link to="/jlpt-n2/kanji" data-testid="link-kanji-n2-footer">
+          <Link to="/jlpt/n2/kanji" data-testid="link-kanji-n2-footer">
             <div>JLPT N2</div>
           </Link>
-          <Link to="/jlpt-n1/kanji" data-testid="link-kanji-n1-footer">
+          <Link to="/jlpt/n1/kanji" data-testid="link-kanji-n1-footer">
             <div>JLPT N1</div>
           </Link>
         </div>
@@ -81,31 +81,31 @@ export default function Footer() {
         <div className={style.footer_link}>
           <h2>Vocabulário</h2>
           <Link
-            to="/jlpt-n5/vocabulary"
+            to="/jlpt/n5/vocabulary"
             data-testid="link-vocabulary-n5-footer"
           >
             <div>JLPT N5</div>
           </Link>
           <Link
-            to="/jlpt-n4/vocabulary"
+            to="/jlpt/n4/vocabulary"
             data-testid="link-vocabulary-n4-footer"
           >
             <div>JLPT N4</div>
           </Link>
           <Link
-            to="/jlpt-n3/vocabulary"
+            to="/jlpt/n3/vocabulary"
             data-testid="link-vocabulary-n3-footer"
           >
             <div>JLPT N3</div>
           </Link>
           <Link
-            to="/jlpt-n2/vocabulary"
+            to="/jlpt/n2/vocabulary"
             data-testid="link-vocabulary-n2-footer"
           >
             <div>JLPT N2</div>
           </Link>
           <Link
-            to="/jlpt-n1/vocabulary"
+            to="/jlpt/n1/vocabulary"
             data-testid="link-vocabulary-n1-footer"
           >
             <div>JLPT N1</div>
@@ -114,19 +114,19 @@ export default function Footer() {
         <div className={style.footer_line}></div>
         <div className={style.footer_link}>
           <h2>Gramática</h2>
-          <Link to="/jlpt-n5/grammar" data-testid="link-grammar-n5-footer">
+          <Link to="/jlpt/n5/grammar" data-testid="link-grammar-n5-footer">
             <div>JLPT N5</div>
           </Link>
-          <Link to="/jlpt-n4/grammar" data-testid="link-grammar-n4-footer">
+          <Link to="/jlpt/n4/grammar" data-testid="link-grammar-n4-footer">
             <div>JLPT N4</div>
           </Link>
-          <Link to="/jlpt-n3/grammar" data-testid="link-grammar-n3-footer">
+          <Link to="/jlpt/n3/grammar" data-testid="link-grammar-n3-footer">
             <div>JLPT N3</div>
           </Link>
-          <Link to="/jlpt-n2/grammar" data-testid="link-grammar-n2-footer">
+          <Link to="/jlpt/n2/grammar" data-testid="link-grammar-n2-footer">
             <div>JLPT N2</div>
           </Link>
-          <Link to="/jlpt-n1/grammar" data-testid="link-grammar-n1-footer">
+          <Link to="/jlpt/n1/grammar" data-testid="link-grammar-n1-footer">
             <div>JLPT N1</div>
           </Link>
         </div>

@@ -10,7 +10,8 @@ export default function Table({ caracteres, tipo, katakana }) {
   
   const caracterState = (moji, index) => {
     dispatch(getcaracter({ isKatakana, tipo, moji, index }))
-}
+  }
+  console.log(getcaracter);
   return (
     <div
       className={style.table_container}
@@ -18,7 +19,7 @@ export default function Table({ caracteres, tipo, katakana }) {
     >
       {caracteres.map((moji, i) => (
         <Link
-          to={`/${isKatakana}/${moji.letra}`}
+          to={`/${isKatakana}/${ tipo=== undefined ? "basic" : tipo}/${i}/${moji.letra}`}
           key={i}
           className={tipo === "Yoon" ? style.table_box_yoon : style.table_box}
           onClick={() => caracterState(moji.letra, i)}

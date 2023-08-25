@@ -16,19 +16,19 @@ export default function Header() {
           <Link to="/katakana" data-testid="link-to-katakana">
             <div>Katakana</div>
           </Link>
-          <Link to="/jlpt-n5" data-testid="link-to-n5">
+          <Link to="/jlpt/n5" data-testid="link-to-n5">
             <div>N5</div>
           </Link>
-          <Link to="/jlpt-n4" data-testid="link-to-n4">
+          <Link to="/jlpt/n4" data-testid="link-to-n4">
             <div>N4</div>
           </Link>
-          <Link to="/jlpt-n3" data-testid="link-to-n3">
+          <Link to="/jlpt/n3" data-testid="link-to-n3">
             <div>N3</div>
           </Link>
-          <Link to="/jlpt-n2" data-testid="link-to-n2">
+          <Link to="/jlpt/n2" data-testid="link-to-n2">
             <div>N2</div>
           </Link>
-          <Link to="/jlpt-n1" data-testid="link-to-n1">
+          <Link to="/jlpt/n1" data-testid="link-to-n1">
             <div>N1</div>
           </Link>
         </div>

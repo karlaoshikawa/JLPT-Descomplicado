@@ -59,21 +59,24 @@ function App() {
       <Route exact path="/como-se-preparar">
         <HowToPreparing />
       </Route>
-      <Route exact path="/hiragana">
+      <Route exact path="/jlpt/:NLevel">
+        <JLPTN />
+      </Route>
+      <Route exact path="/:hiraOrKatakana">
         <Hiragana />
       </Route>
-      <Route exact path="/hiragana/:caracter">
+
+      <Route exact path="/:hiraOrKatakana/:tipo/:index/:caracter">
         <Caracter />
       </Route>
-      {/* <Route exact path='/hiragana/exercise-kaku'><ExerciseRomaji /></Route> */}
-      <Route exact path="/katakana">
+
+      {/* <Route exact path="/katakana">
         <Katakana />
-      </Route>
-      <Route exact path="/katakana/:caracter">
+      </Route> */}
+      {/* <Route exact path="/:katakana/:caracter">
         <Caracter />
-      </Route>
-      {/* <Route exact path='/katakana/exercise-kaku'><ExerciseRomaji /></Route> */}
-      <Route exact path="/jlpt-n5">
+      </Route> */}
+      {/* <Route exact path="/jlpt-n5">
         <JLPTN5 />
       </Route>
       <Route exact path="/jlpt-n4">
@@ -87,38 +90,36 @@ function App() {
       </Route>
       <Route exact path="/jlpt-n1">
         <JLPTN1 />
-      </Route>
-      <Route exact path="/:jlptN">
-        <JLPTN />
-      </Route>
-      <Route exact path="/jlpt-n5/kanji">
+      </Route> */}
+
+      <Route exact path="/jlpt/:n5/kanji">
         <N5KanjiList />
       </Route>
-      <Route exact path="/jlpt-n4/kanji">
+      <Route exact path="/jlpt/:n4/kanji">
         <N4KanjiList />
       </Route>
-      <Route exact path="/jlpt-n3/kanji">
+      <Route exact path="/jlpt/:n3/kanji">
         <N3KanjiList />
       </Route>
-      <Route exact path="/jlpt-n2/kanji">
+      <Route exact path="/jlpt/:n2/kanji">
         <N2KanjiList />
       </Route>
-      <Route exact path="/jlpt-n1/kanji">
+      <Route exact path="/jlpt/:n1/kanji">
         <N1KanjiList />
       </Route>
-      <Route exact path="/jlpt-n5/kanji/:kanji">
+      <Route exact path="/jlpt/:n5/kanji/:kanji">
         <N5Kanji />
       </Route>
-      <Route exact path="/jlpt-n4/kanji/:kanji">
+      <Route exact path="/jlpt/:n4/kanji/:kanji">
         <N4Kanji />
       </Route>
-      <Route exact path="/jlpt-n3/kanji/:kanji">
+      <Route exact path="/jlpt/:n3/kanji/:kanji">
         <N3Kanji />
       </Route>
-      <Route exact path="/jlpt-n2/kanji/:kanji">
+      <Route exact path="/jlpt/:n2/kanji/:kanji">
         <N2Kanji />
       </Route>
-      <Route exact path="/jlpt-n1/kanji/:kanji">
+      <Route exact path="/jlpt/:n1/kanji/:kanji">
         <N1Kanji />
       </Route>
       <Route exact path="/:jlpt/:vocabulary">

@@ -10,32 +10,32 @@ import TitleAndSubtitle from "../components/TitleAndSubtitle";
 import { useParams } from "react-router-dom";
 
 export default function JLPTN() {
-  const { jlptN } = useParams();
+  const { NLevel } = useParams();
 
-  const jlptLevel = jlptN.replace(/[^0-9]/g, "");
+  const jlptLevel = NLevel.slice(1);
   let description;
   switch (jlptLevel) {
-    case 1:
+    case "1":
       description = <N1Description />;
       break;
-    case 2:
+    case "2":
       description = <N2Description />;
       break;
-    case 3:
+    case "3":
       description = <N3Description />;
       break;
-    case 4:
+    case "4":
       description = <N4Description />;
       break;
-    case 5:
+    case "5":
       description = <N5Description />;
       break;
     default:
       description = "";
       break;
-  };
+  }
 
-  console.log("parans", jlptN, jlptLevel, description);
+  console.log("parans", NLevel, jlptLevel, description);
   return (
     <>
       <Header />
