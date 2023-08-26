@@ -10,6 +10,8 @@ export default function KanjiList({ nivel, kanji }) {
   const handleClick = (tipo, posicao) => {
     dispatch(itemlenght({tipo, posicao}))
   }
+
+  console.log(nivel, kanji);
   return (
     <div className={style.kanjiList_container} data-testid="kanji-list">
       <table className={style.kanjiList_table}>
@@ -34,7 +36,7 @@ export default function KanjiList({ nivel, kanji }) {
             <tr key={index}>
               <td>
                 <Link
-                  to={`kanji/${item.significado}`}
+                  to={`kanji/${index}/${item.significado}`}
                   onClick={() => handleClick(nivel, index)}
                   data-testid={`kanji-${item.significado}`}
                 >

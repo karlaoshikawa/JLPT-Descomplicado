@@ -1,25 +1,21 @@
 import { Link } from "react-router-dom";
 import style from "./KanjiPage.module.scss";
-import { itemlenght } from "../redux/actions";
-import { useDispatch } from "react-redux";
+// import { itemlenght } from "../redux/actions";
+// import { useDispatch } from "react-redux";
 import { FiArrowRight } from "react-icons/fi";
-import { useMemo } from "react";
+import { useParams } from "react-router-dom";
 
 export default function KanjiPage({ kanji, next, nivel, posicao }) {
-  const dispatch = useDispatch();
+  const { nlevel, index } = useParams();
+  // const dispatch = useDispatch();
 
-  const handleClick = (tipo, posicao) => {
-    dispatch(itemlenght({ tipo, posicao }));
-  };
-
-  useMemo(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-  }, []);
-
-  const jlpt = nivel.split("-").pop();
+  // const handleClick = (tipo, posicao) => {
+  //   dispatch(itemlenght({ tipo, posicao }));
+  // };
+  //const jlpt = nivel.split("-").pop();
   return (
     <div className={style.kanjiPage_container} data-testid="kanji-page">
-      <h1>{`Kanji JLPT ${jlpt.toUpperCase()}`}</h1>
+      <h1>{`Kanji JLPT ${nlevel.toUpperCase()}`}</h1>
       <div className={style.kanjiPage_line}></div>
       <div className={style.kanjiPage_top_box}>
         <div className={style.kanjiPage_box_kanji}>
@@ -92,8 +88,10 @@ export default function KanjiPage({ kanji, next, nivel, posicao }) {
       <div>
         {!next ? null : (
           <Link
-            to={`${next}`}
-            onClick={() => handleClick(nivel, posicao)}
+            to={`/jlpt/${nlevel}/kanji/${+index + 1}/${next}`}
+            onClick={() =>
+              window.scrollTo({ top: 0, left: 0, behavior: "instant" })
+            }
             className={style.kanjiPage_next}
           >
             <h4>proximo</h4>

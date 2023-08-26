@@ -6,8 +6,6 @@ import { useParams } from "react-router-dom";
 
 export default function VocabularyList({ nivel, vocabulario }) {
   const dispatch = useDispatch();
-  let { vocabulary } = useParams();
-  vocabulary = "vocabulary";
   const vocabularyList = vocabulario;
 
   const handleClick = (tipo, posicao) => {
@@ -40,7 +38,7 @@ export default function VocabularyList({ nivel, vocabulario }) {
             <tr key={index}>
               <td>
                 <Link
-                  to={`${vocabulary}/${item.romaji}`}
+                  to={`vocabulary/${index}/${item.romaji}`}
                   onClick={() => handleClick(nivel, index)}
                   data-testid={`vocabulary-${item.romaji}`}
                 >

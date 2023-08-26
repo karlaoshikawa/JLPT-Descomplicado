@@ -1,4 +1,4 @@
-import { Switch, Route } from "react-router-dom";
+import { Redirect, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Hiragana from "./pages/Hiragana";
@@ -17,12 +17,13 @@ import N4Kanji from "./pages/N4Kanji";
 import N3Kanji from "./pages/N3Kanji";
 import N2Kanji from "./pages/N2Kanji";
 import N1Kanji from "./pages/N1Kanji";
+import NKanji from "./pages/NKanji";
 import N5VocabularyList from "./pages/N5VocabularyList";
 import N4VocabularyList from "./pages/N4VocabularyList";
 import N3VocabularyList from "./pages/N3VocabularyList";
 import N2VocabularyList from "./pages/N2VocabularyList";
-import N1VocabularyList from "./pages/N1VocabularyList";
-import N5Vocabulary from "./pages/N5Vocabulary";
+import NVocabularyList from "./pages/NVocabularyList";
+import NVocabulary from "./pages/NVocabulary";
 import N4Vocabulary from "./pages/N4Vocabulary";
 import N3Vocabulary from "./pages/N3Vocabulary";
 import N2Vocabulary from "./pages/N2Vocabulary";
@@ -32,16 +33,19 @@ import N4GrammarList from "./pages/N4GrammarList";
 import N3GrammarList from "./pages/N3GrammarList";
 import N2GrammarList from "./pages/N2GrammarList";
 import N1GrammarList from "./pages/N1GrammarList";
+import NGrammarList from "./pages/NGrammarList";
 import N5Grammar from "./pages/N5Grammar";
 import N4Grammar from "./pages/N4Grammar";
 import N3Grammar from "./pages/N3Grammar";
 import N2Grammar from "./pages/N2Grammar";
 import N1Grammar from "./pages/N1Grammar";
+import NGrammar from "./pages/NGrammar";
 import N5KanjiList from "./pages/N5KanjiList";
 import N4KanjiList from "./pages/N4KanjiList";
 import N3KanjiList from "./pages/N3KanjiList";
 import N2KanjiList from "./pages/N2KanjiList";
 import N1KanjiList from "./pages/N1KanjiList";
+import NKanjiList from "./pages/NKanjiList";
 import JLPTN from "./pages/JLPTN";
 
 function App() {
@@ -50,18 +54,23 @@ function App() {
       <Route exact path="/">
         <Home />
       </Route>
+
       <Route exact path="/o-que-e-jlpt">
         <AboutJLPT />
       </Route>
+
       <Route exact path="/sobre-o-teste">
         <HowToApply />
       </Route>
+
       <Route exact path="/como-se-preparar">
         <HowToPreparing />
       </Route>
+
       <Route exact path="/jlpt/:NLevel">
         <JLPTN />
       </Route>
+
       <Route exact path="/:hiraOrKatakana">
         <Hiragana />
       </Route>
@@ -69,6 +78,32 @@ function App() {
       <Route exact path="/:hiraOrKatakana/:tipo/:index/:caracter">
         <Caracter />
       </Route>
+
+      <Route exact path="/jlpt/:nlevel/kanji">
+        <NKanjiList />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/kanji/:index/:kanjiCaracter">
+        <NKanji />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/grammar">
+        <NGrammarList />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/grammar/:index/:grammarTopic">
+        <NGrammar />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/vocabulary">
+        <NVocabularyList />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/vocabulary/:index/:vocabularyTopic">
+        <NVocabulary />
+      </Route>
+
+      <Redirect exact from="*" to="/" />
 
       {/* <Route exact path="/katakana">
         <Katakana />
@@ -92,7 +127,7 @@ function App() {
         <JLPTN1 />
       </Route> */}
 
-      <Route exact path="/jlpt/:n5/kanji">
+      {/* <Route exact path="/jlpt/:n5/kanji">
         <N5KanjiList />
       </Route>
       <Route exact path="/jlpt/:n4/kanji">
@@ -104,13 +139,14 @@ function App() {
       <Route exact path="/jlpt/:n2/kanji">
         <N2KanjiList />
       </Route>
-      <Route exact path="/jlpt/:n1/kanji">
+      <Route exact path="/jlpt/:n1/:kanji">
         <N1KanjiList />
-      </Route>
-      <Route exact path="/jlpt/:n5/kanji/:kanji">
+      </Route> */}
+
+      {/* <Route exact path="/jlpt/:n5/kanji/:kanji">
         <N5Kanji />
-      </Route>
-      <Route exact path="/jlpt/:n4/kanji/:kanji">
+      </Route> */}
+      {/* <Route exact path="/jlpt/:n4/kanji/:kanji">
         <N4Kanji />
       </Route>
       <Route exact path="/jlpt/:n3/kanji/:kanji">
@@ -181,7 +217,7 @@ function App() {
       </Route>
       <Route exact path="/jlpt-n1/grammar/:grammar">
         <N1Grammar />
-      </Route>
+      </Route>*/}
     </Switch>
   );
 }

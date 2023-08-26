@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import style from "./GrammarPage.module.scss";
 import { itemlenght } from "../redux/actions";
 import { useDispatch } from "react-redux";
@@ -6,23 +6,24 @@ import { FiArrowRight } from "react-icons/fi";
 import { useMemo } from "react";
 
 export default function VocabularyPage({ grammar, next, nivel, posicao }) {
-  const dispatch = useDispatch();
+  const { nlevel, index } = useParams();
+  // const dispatch = useDispatch();
 
-  useMemo(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-  }, []);
+  // useMemo(() => {
+  //   window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  // }, []);
   
-  const handleClick = (tipo, posicao) => {
-    dispatch(itemlenght({ tipo, posicao }));
-  };
+  // const handleClick = (tipo, posicao) => {
+  //   dispatch(itemlenght({ tipo, posicao }));
+  // };
 
-  const jlpt = nivel.split("-").pop();
+  // const jlpt = nivel.split("-").pop();
   return (
     <div
       className={style.grammarPage_container}
       data-testid="grammar-page"
     >
-      <h1>{`Gramática JLPT ${jlpt.toUpperCase()}`}</h1>
+      <h1>{`Gramática JLPT ${nlevel.toUpperCase()}`}</h1>
       <div className={style.grammarPage_line}></div>
       <div className={style.grammarPage_top_box}>
         <div className={style.grammarPage_box_kanji}>
@@ -81,8 +82,8 @@ export default function VocabularyPage({ grammar, next, nivel, posicao }) {
       <div>
         {!next ? null : (
           <Link
-            to={`${next}`}
-            onClick={() => handleClick(nivel, posicao)}
+            to={`/jlpt/${nlevel}/grammar/${+index + 1}/${next}`}
+            onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "instant" })}
             className={style.grammarPage_next}
           >
             <h4>proximo</h4>

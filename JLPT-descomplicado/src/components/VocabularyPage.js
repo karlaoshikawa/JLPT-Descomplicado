@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import style from "./VocabularyPage.module.scss";
 import { itemlenght } from "../redux/actions";
 import { useDispatch } from "react-redux";
@@ -6,22 +6,26 @@ import { FiArrowRight } from "react-icons/fi";
 import { useMemo } from "react";
 
 export default function VocabularyPage({ vocabulary, next, nivel, posicao }) {
-  const dispatch = useDispatch();
+  const { nlevel, index } = useParams();
+  // const dispatch = useDispatch();
 
-  console.log("vocabulary", vocabulary)
+  // console.log("vocabulary", vocabulary)
 
-  const handleClick = (tipo, posicao) => {
-    dispatch(itemlenght({ tipo, posicao }));
-  };
+  // const handleClick = (tipo, posicao) => {
+  //   dispatch(itemlenght({ tipo, posicao }));
+  // };
 
-  useMemo(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-  }, [])
+  // useMemo(() => {
+  //   window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  // }, [])
 
-  const jlpt = nivel.split("-").pop();
+  // const jlpt = nivel.split("-").pop();
   return (
-    <div className={style.VocabularyPage_container} data-testid="vocabulary-page">
-      <h1>{`Vocabulário JLPT ${jlpt.toUpperCase()}`}</h1>
+    <div
+      className={style.VocabularyPage_container}
+      data-testid="vocabulary-page"
+    >
+      <h1>{`Vocabulário JLPT ${nlevel.toUpperCase()}`}</h1>
       <div className={style.VocabularyPage_line}></div>
       <div className={style.VocabularyPage_top_box}>
         <div className={style.VocabularyPage_box_kanji}>
@@ -84,8 +88,10 @@ export default function VocabularyPage({ vocabulary, next, nivel, posicao }) {
       <div>
         {!next ? null : (
           <Link
-            to={`${next}`}
-            onClick={() => handleClick(nivel, posicao)}
+            to={`/jlpt/${nlevel}/vocabulary/${+index + 1}/${next}`}
+            onClick={() =>
+              window.scrollTo({ top: 0, left: 0, behavior: "instant" })
+            }
             className={style.VocabularyPage_next}
           >
             <h4>proximo</h4>
