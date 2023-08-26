@@ -4,6 +4,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 export default function VocabularyPage({ grammar, next }) {
   const { nlevel, index } = useParams();
+  console.log(nlevel,index);
   return (
     <div
       className={style.grammarPage_container}

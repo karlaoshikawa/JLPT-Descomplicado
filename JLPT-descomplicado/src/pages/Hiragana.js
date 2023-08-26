@@ -16,6 +16,7 @@ import { useParams } from "react-router-dom";
 export default function Hiragana() {
   const { hiraOrKatakana } = useParams();
 
+console.log(hiraOrKatakana);
   return (
     <>
       {hiraOrKatakana === "hiragana" || hiraOrKatakana === "katakana" ? (

@@ -17,8 +17,40 @@ import JLPTN from "./pages/JLPTN";
 function App() {
   return (
     <Switch>
-      <Route exact path="/">
-        <Home />
+      <Route exact path="/:hiraOrKatakana/:tipo/:index/:caracter">
+        <Caracter />
+      </Route>
+
+      <Route exact path="/:hiraOrKatakana">
+        <Hiragana />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/kanji/:index/:kanjiCaracter">
+        <NKanji />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/kanji">
+        <NKanjiList />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/grammar/:index/:grammarTopic">
+        <NGrammar />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/grammar">
+        <NGrammarList />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/vocabulary/:index/:vocabularyTopic">
+        <NVocabulary />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/vocabulary">
+        <NVocabularyList />
+      </Route>
+
+      <Route exact path="/jlpt/:NLevel">
+        <JLPTN />
       </Route>
 
       <Route exact path="/o-que-e-jlpt">
@@ -33,43 +65,11 @@ function App() {
         <HowToPreparing />
       </Route>
 
-      <Route exact path="/jlpt/:NLevel">
-        <JLPTN />
+      <Route exact path="/">
+        <Home />
       </Route>
 
-      <Route exact path="/:hiraOrKatakana">
-        <Hiragana />
-      </Route>
-
-      <Route exact path="/:hiraOrKatakana/:tipo/:index/:caracter">
-        <Caracter />
-      </Route>
-
-      <Route exact path="/jlpt/:nlevel/kanji">
-        <NKanjiList />
-      </Route>
-
-      <Route exact path="/jlpt/:nlevel/kanji/:index/:kanjiCaracter">
-        <NKanji />
-      </Route>
-
-      <Route exact path="/jlpt/:nlevel/grammar">
-        <NGrammarList />
-      </Route>
-
-      <Route exact path="/jlpt/:nlevel/grammar/:index/:grammarTopic">
-        <NGrammar />
-      </Route>
-
-      <Route exact path="/jlpt/:nlevel/vocabulary">
-        <NVocabularyList />
-      </Route>
-
-      <Route exact path="/jlpt/:nlevel/vocabulary/:index/:vocabularyTopic">
-        <NVocabulary />
-      </Route>
-
-      <Redirect exact from="*" to="/" />
+      <Redirect from="*" to="/" />
     </Switch>
   );
 }

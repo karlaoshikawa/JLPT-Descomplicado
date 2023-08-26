@@ -14,7 +14,8 @@ import NCards from "../components/NCards";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
 export default function N1Kanji() {
-  const { nlevel, index} = useParams();
+  const { nlevel, index } = useParams();
+  console.log(nlevel, index);
 
   let kanjiList;
   switch (nlevel) {
