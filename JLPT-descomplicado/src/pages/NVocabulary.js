@@ -2,8 +2,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import VocabularyPage from "../components/VocabularyPage";
 
-import { useSelector } from "react-redux";
-
 import n5VocabList from "../data/n5/n5Vocabulario";
 import n4VocabList from "../data/n4/n4Vocabulario";
 import n3VocabList from "../data/n3/n3Vocabulario";
@@ -16,7 +14,6 @@ import { useParams } from "react-router-dom";
 
 export default function NVocabulary() {
   const { nlevel, index } = useParams();
-  // const vocabularyState = useSelector((state) => state.nlevel);
 
     let vocabularyList;
     switch (nlevel) {

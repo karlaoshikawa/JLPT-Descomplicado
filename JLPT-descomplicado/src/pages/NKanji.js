@@ -2,7 +2,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import KanjiPage from "../components/KanjiPage";
 
-import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 
 import n1KanjiList from "../data/n1/n1Kanji";
@@ -16,7 +15,6 @@ import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
 export default function N1Kanji() {
   const { nlevel, index} = useParams();
-  const kanjiState = useSelector((state) => state.nlevel);
 
   let kanjiList;
   switch (nlevel) {

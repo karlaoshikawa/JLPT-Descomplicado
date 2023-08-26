@@ -35,7 +35,6 @@ export default function NKanjiList() {
       break;
   }
 
-  console.log(nlevel);
   return (
     <>
       <Header />

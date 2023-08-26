@@ -1,23 +1,14 @@
-import { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
 import style from "./DetalhesCaracter.module.scss";
 import { Link } from "react-router-dom";
-import { getnextcaracter } from "../redux/actions";
 import { FiArrowRight } from "react-icons/fi";
 import { useParams } from "react-router-dom";
 
 import { hiraganaList, hiraganaDakuon, hiraganaYoon } from "../data/hiragana";
 import { katakanaList, katakanaDakuon, katakanaYoon } from "../data/katakana";
-import { useMemo } from "react";
 
 export default function DetalhesCaracter() {
-  // const dispatch = useDispatch();
   const { hiraOrKatakana, tipo, index, caracter } = useParams();
 
-  // const [getCaracter, setGetCaracter] = useState({});
-  // const [nextCaracter, setNextCaracter] = useState({});
-
-  // const moji = useSelector((state) => state.caracter);
   const basicList = tipo === "basic" ? "List" : tipo;
   const dataString = `${hiraOrKatakana}${basicList}`;
   const data = [
@@ -37,28 +28,12 @@ export default function DetalhesCaracter() {
     "katakanaYoon",
   ];
 
-  const nextMojiIndex = +index === 37
-      ? +index + 3
-      : +index + 1;
+  const nextMojiIndex = +index === 37 ? +index + 3 : +index + 1;
 
   const dataIndex = dataStringList.findIndex((item) => dataString === item);
   const list = data[dataIndex];
   const caracterInfos = list[index];
   const nextCaracter = list[nextMojiIndex];
-
-  // useEffect(() => {
-  //   // const dataCaracter = list.find((carac) => carac.letra === moji.caracter);
-  //   // setGetCaracter(dataCaracter);
-  //   setGetCaracter(list[+index]);
-  //   setNextCaracter(list[nextMojiIndex]);
-  // }, [index, nextCaracter, nextMojiIndex]);
-
-  // const caracterState = (kana, tipo, next, posicao) => {
-  //   dispatch(getnextcaracter({ kana, tipo, next, posicao }));
-  //   setGetCaracter(next);
-  // };
-
-  console.log(caracterInfos);
 
   return (
     <div className={style.detalhesCaracter_container} data-testid="caracter">

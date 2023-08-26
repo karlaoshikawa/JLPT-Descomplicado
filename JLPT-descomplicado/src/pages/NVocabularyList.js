@@ -10,7 +10,7 @@ import n1VocabList from "../data/n1/n1Vocabulario";
 import { useParams } from "react-router-dom";
 
 export default function NVocabularyList() {
-  const { nlevel, index } = useParams();
+  const { nlevel } = useParams();
   
   let vocabularyList;
   switch (nlevel) {

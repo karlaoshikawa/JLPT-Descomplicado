@@ -1,6 +1,6 @@
 # JLPT Descomplicado
 
-O site "JLPT - Descomplicado" é um projeto pessoal desenvolvido com o objetivo de auxiliar pessoas interessadas em aprender japonês e se preparar para os testes de proficiência da língua japonesa, especialmente o JLPT (Japanese Language Proficiency Test). O foco principal do site é simplificar e descomplicar o processo de aprendizado, fornecendo recursos e informações valiosas para estudantes de todos os níveis.
+O site "JLPT - Descomplicado" é um projeto desenvolvido com o objetivo de auxiliar pessoas interessadas em aprender japonês e se preparar para os testes de proficiência da língua japonesa, especialmente o JLPT (Japanese Language Proficiency Test). O foco principal do site é simplificar e descomplicar o processo de aprendizado, fornecendo recursos e informações valiosas para estudantes de todos os níveis.
 
 ## Deploy Temporário
 
@@ -12,10 +12,11 @@ O site "JLPT - Descomplicado" é um projeto pessoal desenvolvido com o objetivo 
 
 ## Planejamento das Funcionalidades
 
-- hiraga e katakana com exercicios
-- JLPT todos os niveis com exercicios e testes
-- Simulados
+- hiraga e katakana
+- JLPT todos os niveis
 - Informacoes sobre a prova
+- exercicios e testes
+- Simulados
 
 
 ## Checklist
@@ -40,7 +41,13 @@ O site "JLPT - Descomplicado" é um projeto pessoal desenvolvido com o objetivo 
 - [x] 18. Style - N5 KanjiList mobile
 - [x] 19. Style - N5 GrammarList Mobile
 - [x] 20. Style - N5 VocabularyList Mobile
+- [x] 21. Style - Pag de detalhes Kanji, Vocabulario e gramatica Mobile
+- [x] 22. Data - N4 - API de Kanji
+- [x] 23. Data - N4 - API de Vocabulario e Gramatica
+- [x] 24. Data - N3 - API de Kanji
+- [x] 25. Testes
+
 
 ## Stacks
 
-HTML | CSS - SASS(scss) | JavaScript | React - Redux 
+HTML | CSS - SASS(scss) | JavaScript | React - Redux | Jest

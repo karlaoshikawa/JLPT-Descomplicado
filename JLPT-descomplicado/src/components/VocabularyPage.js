@@ -1,25 +1,9 @@
 import { Link, useParams } from "react-router-dom";
 import style from "./VocabularyPage.module.scss";
-import { itemlenght } from "../redux/actions";
-import { useDispatch } from "react-redux";
 import { FiArrowRight } from "react-icons/fi";
-import { useMemo } from "react";
 
 export default function VocabularyPage({ vocabulary, next, nivel, posicao }) {
   const { nlevel, index } = useParams();
-  // const dispatch = useDispatch();
-
-  // console.log("vocabulary", vocabulary)
-
-  // const handleClick = (tipo, posicao) => {
-  //   dispatch(itemlenght({ tipo, posicao }));
-  // };
-
-  // useMemo(() => {
-  //   window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-  // }, [])
-
-  // const jlpt = nivel.split("-").pop();
   return (
     <div
       className={style.VocabularyPage_container}

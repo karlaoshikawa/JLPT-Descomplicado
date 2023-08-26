@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import style from "./VocabularyList.module.scss";
 import { useDispatch } from "react-redux";
 import { itemlenght } from "../redux/actions";
-import { useParams } from "react-router-dom";
 
 export default function VocabularyList({ nivel, vocabulario }) {
   const dispatch = useDispatch();

@@ -1,23 +1,9 @@
 import { Link, useParams } from "react-router-dom";
 import style from "./GrammarPage.module.scss";
-import { itemlenght } from "../redux/actions";
-import { useDispatch } from "react-redux";
 import { FiArrowRight } from "react-icons/fi";
-import { useMemo } from "react";
 
-export default function VocabularyPage({ grammar, next, nivel, posicao }) {
+export default function VocabularyPage({ grammar, next }) {
   const { nlevel, index } = useParams();
-  // const dispatch = useDispatch();
-
-  // useMemo(() => {
-  //   window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-  // }, []);
-  
-  // const handleClick = (tipo, posicao) => {
-  //   dispatch(itemlenght({ tipo, posicao }));
-  // };
-
-  // const jlpt = nivel.split("-").pop();
   return (
     <div
       className={style.grammarPage_container}

@@ -2,10 +2,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import GrammarPage from "../components/GrammarPage";
 
-import { useSelector } from "react-redux";
-
-import n1GrammarList from "../data/n1/n1Grammar";
-
 import n5Grammar from "../data/n5/N5Grammar";
 import n4Grammar from "../data/n4/n4Grammar";
 import n3Grammar from "../data/n3/n3Grammar";
@@ -40,8 +36,6 @@ export default function N1Grammar() {
       grammarList = "";
       break;
   }
-
-  // const grammarState = useSelector((state) => state.nlevel);
 
   const grammar = grammarList[index];
 
