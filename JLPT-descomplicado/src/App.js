@@ -17,14 +17,6 @@ import JLPTN from "./pages/JLPTN";
 function App() {
   return (
     <Switch>
-      <Route exact path="/:hiraOrKatakana/:tipo/:index/:caracter">
-        <Caracter />
-      </Route>
-
-      <Route exact path="/:hiraOrKatakana">
-        <Hiragana />
-      </Route>
-
       <Route exact path="/jlpt/:nlevel/kanji/:index/:kanjiCaracter">
         <NKanji />
       </Route>
@@ -51,6 +43,14 @@ function App() {
 
       <Route exact path="/jlpt/:NLevel">
         <JLPTN />
+      </Route>
+
+      <Route exact path="/:hiraOrKatakana/:tipo/:index/:caracter">
+        <Caracter />
+      </Route>
+
+      <Route exact path="/:hiraOrKatakana">
+        <Hiragana />
       </Route>
 
       <Route exact path="/o-que-e-jlpt">

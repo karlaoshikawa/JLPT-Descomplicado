@@ -11,9 +11,10 @@ import { katakanaDakuon } from "../data/katakana";
 import { katakanaYoon } from "../data/katakana";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
-import { useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 
 export default function Hiragana() {
+  const history = useHistory();
   const { hiraOrKatakana } = useParams();
 
 console.log(hiraOrKatakana);
@@ -62,7 +63,7 @@ console.log(hiraOrKatakana);
           />
           <Footer />
         </div>
-      ) : null}
+      ) : history.push("/")}
     </>
   );
 }
