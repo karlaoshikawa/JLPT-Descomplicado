@@ -139,8 +139,17 @@ export default function Footer() {
           <Link to={"/sobre-o-teste"} data-testid="link-sobre-teste-footer">
             <p>Sobre o teste</p>
           </Link>
-          <Link to={"/como-se-preparar"} data-testid="link-como-preparar-footer">
+          <Link
+            to={"/como-se-preparar"}
+            data-testid="link-como-preparar-footer"
+          >
             <p>Como se preparar</p>
+          </Link>
+
+          <Link
+            to={"/politica-de-privacidade"}
+          >
+            <p>Politica de Privacidade</p>
           </Link>
         </div>
       </div>

@@ -6,6 +6,7 @@ import Caracter from "./pages/Caracter";
 import AboutJLPT from "./pages/AboutJLPT";
 import HowToApply from "./pages/HowToApply";
 import HowToPreparing from "./pages/HowToPreparing";
+import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
 import NKanji from "./pages/NKanji";
 import NVocabularyList from "./pages/NVocabularyList";
 import NVocabulary from "./pages/NVocabulary";
@@ -17,6 +18,22 @@ import JLPTN from "./pages/JLPTN";
 function App() {
   return (
     <Switch>
+      <Route exact path="/o-que-e-jlpt">
+        <AboutJLPT />
+      </Route>
+
+      <Route exact path="/sobre-o-teste">
+        <HowToApply />
+      </Route>
+
+      <Route exact path="/como-se-preparar">
+        <HowToPreparing />
+      </Route>
+
+      <Route exact path="/politica-de-privacidade">
+        <PoliticaDePrivacidade />
+      </Route>
+
       <Route exact path="/jlpt/:nlevel/kanji/:index/:kanjiCaracter">
         <NKanji />
       </Route>

@@ -7,10 +7,11 @@ import N4Description from "../components/N4Description";
 import N5Description from "../components/N5Description";
 import NCards from "../components/NCards";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
-import { useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 
 export default function JLPTN() {
   const { NLevel } = useParams();
+  const history = useHistory();
 
   const jlptLevel = NLevel.slice(1);
   let description;
@@ -31,19 +32,24 @@ export default function JLPTN() {
       description = <N5Description />;
       break;
     default:
-      description = "";
+      description = false;
       break;
   }
 
   console.log("parans", NLevel, jlptLevel, description);
   return (
     <>
-      <Header />
-      <TitleAndSubtitle wordH3={`JLPT N${jlptLevel}`} wordP={""} />
-      <NCards number={jlptLevel} />
-      {description}
-      {/* <N1Description /> */}
-      <Footer />
+      {!description ? (
+        history.push("/")
+      ) : (
+        <>
+          <Header />
+          <TitleAndSubtitle wordH3={`JLPT N${jlptLevel}`} wordP={""} />
+          <NCards number={jlptLevel} />
+          {description}
+          <Footer />
+        </>
+      )}
     </>
   );
 }
