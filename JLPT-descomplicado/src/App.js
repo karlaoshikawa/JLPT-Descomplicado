@@ -14,6 +14,7 @@ import NGrammarList from "./pages/NGrammarList";
 import NGrammar from "./pages/NGrammar";
 import NKanjiList from "./pages/NKanjiList";
 import JLPTN from "./pages/JLPTN";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
 
       <Route exact path="/politica-de-privacidade">
         <PoliticaDePrivacidade />
+      </Route>
+
+      <Route exact path="/sobre-nos">
+        <AboutUs />
       </Route>
 
       <Route exact path="/jlpt/:nlevel/kanji/:index/:kanjiCaracter">

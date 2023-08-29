@@ -30,6 +30,10 @@ export default function Footer() {
               </h3>
               <p>@jlpt_descomplicado</p>
             </a>
+            <p>jlptdescomplicado@gmail.com</p>
+            <Link to="/sobre-nos" data-testid="link-to-hiragana-footer">
+              <div className="header-link">Sobre nós</div>
+            </Link>
           </div>
         </div>
         <div>className={style.footer_line}</div>
@@ -146,9 +150,7 @@ export default function Footer() {
             <p>Como se preparar</p>
           </Link>
 
-          <Link
-            to={"/politica-de-privacidade"}
-          >
+          <Link to={"/politica-de-privacidade"}>
             <p>Politica de Privacidade</p>
           </Link>
         </div>
