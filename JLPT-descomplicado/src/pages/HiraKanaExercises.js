@@ -24,19 +24,19 @@ export default function HiraKanaExercises() {
   const [listAll, setListAll] = useState("");
   const [componentExercise, setComponentExercise] = useState("");
 
-  let exerciseComponent = "";
+  let exerciseComponent;
   switch (componentExercise) {
     case "basic":
-      exerciseComponent = <ExerciseRomaji caracterList={list} />;
+      exerciseComponent = list;
       break;
     case "dakuon":
-      exerciseComponent = <ExerciseRomaji caracterList={listDakuon} />;
+      exerciseComponent = listDakuon;
       break;
     case "yoon":
-      exerciseComponent = <ExerciseRomaji caracterList={listYoon} />;
+      exerciseComponent = listYoon;
       break;
     case "all":
-      exerciseComponent = <ExerciseRomaji caracterList={listAll} />;
+      exerciseComponent = listAll;
       break;
     default:
       exerciseComponent = "";
@@ -66,7 +66,7 @@ export default function HiraKanaExercises() {
     const katakanaAll = [...katakanaList, ...katakanaDakuon, ...katakanaYoon]
     setListAll(hiraOrKatakana === "hiragana" ? hiraganaAll : katakanaAll);
   };
-console.log(exerciseComponent);
+
   return (
     <>
       {hiraOrKatakana === "hiragana" || hiraOrKatakana === "katakana" ? (
@@ -107,15 +107,8 @@ console.log(exerciseComponent);
               LISTA COMPLETA
             </h2>
           </div>
-          <div
-            className={
-              componentExercise === ""
-                ? styleCard.TitleAndSubtitle_emptyBox
-                : null
-            }
-          ></div>
 
-          {exerciseComponent}
+          <ExerciseRomaji caracterList={exerciseComponent}/>
           <Footer />
         </div>
       ) : (

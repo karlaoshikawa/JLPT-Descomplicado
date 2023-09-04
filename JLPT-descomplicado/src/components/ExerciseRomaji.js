@@ -26,7 +26,7 @@ export default function ExerciseRomaji({ caracterList }) {
 
   const checkAnswer = (element, inputValue, index) => {
     const isCorrect = element.letra === inputValue;
-    if (isCorrect) {
+    if (isCorrect && !showAnswers[index]) {
       const newShowAnswers = [...showAnswers];
       newShowAnswers[index] = true;
       setShowAnswers(newShowAnswers);
