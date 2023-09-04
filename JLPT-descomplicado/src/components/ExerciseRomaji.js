@@ -34,7 +34,6 @@ export default function ExerciseRomaji({ caracterList }) {
     }
     return isCorrect;
   };
-
   return (
     <div className={style.ExerciseRomaji_container}>
       {exerciseList.map((element, index) => (
@@ -48,7 +47,7 @@ export default function ExerciseRomaji({ caracterList }) {
               : style.inputMistake
           }
         >
-          <p>{element.hiragana}</p>
+          <p>{element.hiragana ? element.hiragana : element.katakana}</p>
           <input
             type="text"
             value={inputValues[index]}

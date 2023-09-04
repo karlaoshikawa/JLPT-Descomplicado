@@ -66,7 +66,6 @@ export default function HiraKanaExercises() {
     const katakanaAll = [...katakanaList, ...katakanaDakuon, ...katakanaYoon]
     setListAll(hiraOrKatakana === "hiragana" ? hiraganaAll : katakanaAll);
   };
-
   return (
     <>
       {hiraOrKatakana === "hiragana" || hiraOrKatakana === "katakana" ? (
