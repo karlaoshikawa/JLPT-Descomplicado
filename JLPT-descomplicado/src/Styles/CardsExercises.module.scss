@@ -1,0 +1,54 @@
+.CardsExercises_container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: 0rem auto;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #c80200;
+
+  .CardsExercises_itemBox {
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: #c80200;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-decoration: none;
+    width: 27rem;
+    height: 15rem;
+    margin-bottom: 5rem;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+
+    &:hover,
+    &:active {
+      color: #ef233c;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+    }
+
+  }
+
+  .second_row {
+    align-self: center;
+  }
+
+  @media (max-width: 768px) {
+    .NCards_container {
+      align-items: center;
+      justify-content: center;
+    }
+    .NCards_itemBox {
+      width: 100%;
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
