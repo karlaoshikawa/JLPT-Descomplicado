@@ -16,6 +16,7 @@ export default function ExerciseRomaji({ caracterList }) {
     setExerciseList(list12elements.slice(0, 12));
     setInputValues(list12elements.slice(0, 12).map(() => ""));
     setOkAnswers(list12elements.slice(0, 12).map((element) => element.letra));
+    setShowAnswers(Array(12).fill(false));
   }, [caracterList]);
 
   const handleInputChange = (index, value) => {
@@ -62,9 +63,7 @@ export default function ExerciseRomaji({ caracterList }) {
               });
             }}
           >
-            {showAnswers[index]
-              ? `Resposta: ${okAnswers[index]}`
-              : "Resposta"}
+            {showAnswers[index] ? `Resposta: ${okAnswers[index]}` : "Resposta"}
           </h4>
         </div>
       ))}
