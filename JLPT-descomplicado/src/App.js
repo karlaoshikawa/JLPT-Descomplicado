@@ -2,6 +2,7 @@ import { Redirect, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Hiragana from "./pages/Hiragana";
+import HiraKanaExercises from "./pages/HiraKanaExercises";
 import Caracter from "./pages/Caracter";
 import AboutJLPT from "./pages/AboutJLPT";
 import HowToApply from "./pages/HowToApply";
@@ -67,24 +68,16 @@ function App() {
         <JLPTN />
       </Route>
 
+      <Route exact path="/:hiraOrKatakana/exercises">
+        <HiraKanaExercises />
+      </Route>
+
       <Route exact path="/:hiraOrKatakana/:tipo/:index/:caracter">
         <Caracter />
       </Route>
 
       <Route exact path="/:hiraOrKatakana">
         <Hiragana />
-      </Route>
-
-      <Route exact path="/o-que-e-jlpt">
-        <AboutJLPT />
-      </Route>
-
-      <Route exact path="/sobre-o-teste">
-        <HowToApply />
-      </Route>
-
-      <Route exact path="/como-se-preparar">
-        <HowToPreparing />
       </Route>
 
       <Route exact path="/">

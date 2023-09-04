@@ -1,38 +1,73 @@
-// import { Link } from "react-router-dom";
-// import style from '../components/ExerciseRomaji.module.scss';
+import React, { useEffect, useState } from "react";
+import style from "../components/ExerciseRomaji.module.scss";
 
-// import { hiraganaList, hiraganaDakuon, hiraganaYoon } from "../data/hiragana";
-// import { katakanaList, katakanaDakuon, katakanaYoon } from "../data/katakana";
+export default function ExerciseRomaji({ caracterList }) {
+  const [exerciseList, setExerciseList] = useState([]);
+  const [inputValues, setInputValues] = useState([]);
+  const [showAnswers, setShowAnswers] = useState(Array(12).fill(false));
+  const [okAnswers, setOkAnswers] = useState([]);
 
-// export default function ExerciseRomaji() {
-//   let caracterList = '';
-//   return (
-//     <div className={style.ExerciseRomaji_container} >
-//       <h1>Escreva em romaji</h1>
-//       <button
-//         type="button"
-//         onClick={'aindaNaoSei'}
-//       >
-//         Hiragana
-//       </button>
-//       <button
-//         type="button"
-//         onClick={'aindaNaoSei'}
-//       >
-//         Hiragana Dakuon
-//       </button>
-//       <button
-//         type="button"
-//         onClick={'aindaNaoSei'}
-//       >
-//         Hiragana Yoon
-//       </button>
-//       <button
-//         type="button"
-//         onClick={'aindaNaoSei'}
-//       >
-//         Zenbu
-//       </button>
-//     </div>
-//   );
-// }
+  useEffect(() => {
+    const list =
+      caracterList === ""
+        ? []
+        : caracterList.filter((element) => element.letra !== "");
+    const list12elements = list.sort(() => Math.random() - 0.5);
+    setExerciseList(list12elements.slice(0, 12));
+    setInputValues(list12elements.slice(0, 12).map(() => ""));
+    setOkAnswers(list12elements.slice(0, 12).map((element) => element.letra));
+  }, [caracterList]);
+
+  const handleInputChange = (index, value) => {
+    const newInputValues = [...inputValues];
+    newInputValues[index] = value;
+    setInputValues(newInputValues);
+  };
+
+  const checkAnswer = (element, inputValue, index) => {
+    const isCorrect = element.letra === inputValue;
+    if (isCorrect) {
+      const newShowAnswers = [...showAnswers];
+      newShowAnswers[index] = true;
+      setShowAnswers(newShowAnswers);
+    }
+    return isCorrect;
+  };
+
+  return (
+    <div className={style.ExerciseRomaji_container}>
+      {exerciseList.map((element, index) => (
+        <div
+          key={index}
+          className={
+            inputValues[index] === ""
+              ? style.inputDefault
+              : checkAnswer(element, inputValues[index], index)
+              ? style.inputOk
+              : style.inputMistake
+          }
+        >
+          <p>{element.hiragana}</p>
+          <input
+            type="text"
+            value={inputValues[index]}
+            onChange={(e) => handleInputChange(index, e.target.value)}
+          />
+          <h4
+            onClick={() => {
+              setShowAnswers((prevShowAnswers) => {
+                const newShowAnswers = [...prevShowAnswers];
+                newShowAnswers[index] = !newShowAnswers[index];
+                return newShowAnswers;
+              });
+            }}
+          >
+            {showAnswers[index]
+              ? `Resposta: ${okAnswers[index]}`
+              : "Resposta"}
+          </h4>
+        </div>
+      ))}
+    </div>
+  );
+}
