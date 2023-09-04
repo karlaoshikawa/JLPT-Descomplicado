@@ -107,6 +107,7 @@ export default function HiraKanaExercises() {
               LISTA COMPLETA
             </h2>
           </div>
+        <h6>Preencha com a forma de leitura dos caracteres</h6>
 
           <ExerciseRomaji caracterList={exerciseComponent}/>
           <Footer />
