@@ -1,78 +1,84 @@
 .ExerciseRomaji_container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
-  gap: 10px;
-  height:38rem;
-  max-width: 100rem;
-  margin: 5rem auto;
 
-  p {
-    font-size: 3.6rem;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-    color: #c80200;
-  }
+  .ExerciseRomaji_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100rem;
+    margin: 5rem auto 0 auto;
 
-  input {
-     max-width: 8rem;
-     margin-top: 1rem;
-     font-size: 2.4rem;
-  }
-
-  h4 {
-    font-size: 1.4rem;
-
-    &:hover,
-    &:active {
-      cursor: pointer;
+    p {
+      font-size: 3.6rem;
+      margin-top: 1rem;
+      margin-bottom: 0rem;
       color: #c80200;
+    }
+
+    input {
+      max-width: 8rem;
+      margin-top: 1rem;
+      font-size: 2.4rem;
+    }
+
+    h4 {
+      font-size: 1.4rem;
+
+      &:hover,
+      &:active {
+        cursor: pointer;
+        color: #c80200;
+      }
+    }
+
+    .inputDefault {
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 15rem;
+      width: 15rem;
+      text-decoration: none;
+      margin-bottom: 3rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+    }
+
+    .inputOk {
+      border: 2px solid #01750d;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 15rem;
+      width: 15rem;
+      text-decoration: none;
+      margin-bottom: 3rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+    }
+
+    .inputMistake {
+      border: 2px solid #c80200;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 15rem;
+      width: 15rem;
+      text-decoration: none;
+      margin-bottom: 3rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
     }
   }
 
-  .inputDefault {
-    border: 1px solid #ced4da;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 15rem;
-    width: 15rem;
-    text-decoration: none;
-    margin-bottom: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
-  }
-
-  .inputOk {
-    border: 2px solid #01750d;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 15rem;
-    width: 15rem;
-    text-decoration: none;
-    margin-bottom: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
-  }
-
-  .inputMistake {
-    border: 2px solid #c80200;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 15rem;
-    width: 15rem;
-    text-decoration: none;
-    margin-bottom: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
-  }
-
-  .detalhesCaracter_next_link {
+  .ExerciseRomaji_newlist_buttom {
     font-size: 2.4rem;
     color: #c80200;
     text-decoration: none;
@@ -89,7 +95,15 @@
 
 @media (max-width: 768px) {
   .ExerciseRomaji_container {
-    width: 90%;
-    
+    align-items: center;
+    justify-content: center;
+  }
+  .ExerciseRomaji_box {
+    width: 85%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin: 0rem auto;
   }
 }

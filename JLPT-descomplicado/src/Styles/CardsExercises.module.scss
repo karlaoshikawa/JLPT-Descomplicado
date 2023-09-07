@@ -35,16 +35,18 @@
   }
 
   @media (max-width: 768px) {
-    .NCards_container {
+    .CardsExercises_container {
       align-items: center;
       justify-content: center;
     }
-    .NCards_itemBox {
-      width: 100%;
+    .CardsExercises_itemBox {
+      margin: 0rem auto;
       margin-bottom: 3rem;
       display: flex;
       align-items: center;
       justify-content: center;
+    
     }
+    
   }
 }

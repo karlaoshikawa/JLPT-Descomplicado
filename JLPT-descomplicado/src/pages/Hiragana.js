@@ -10,6 +10,7 @@ import { katakanaList } from "../data/katakana";
 import { katakanaDakuon } from "../data/katakana";
 import { katakanaYoon } from "../data/katakana";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
+import OneCard from "../components/OneCard";
 
 import { useHistory, useParams } from "react-router-dom";
 
@@ -23,6 +24,11 @@ console.log(hiraOrKatakana);
       {hiraOrKatakana === "hiragana" || hiraOrKatakana === "katakana" ? (
         <div className={style.TitleAndSubtitle_container}>
           <Header />
+          <TitleAndSubtitle
+            wordH3={"Exercícios"}
+            wordP={"Clique no Caracter para ver os exemplos"}
+          />
+          <OneCard tipo={hiraOrKatakana} />
           <TitleAndSubtitle
             wordH3={hiraOrKatakana}
             wordP={"Clique no Caracter para ver os exemplos"}
@@ -63,7 +69,9 @@ console.log(hiraOrKatakana);
           />
           <Footer />
         </div>
-      ) : history.push("/")}
+      ) : (
+        history.push("/")
+      )}
     </>
   );
 }

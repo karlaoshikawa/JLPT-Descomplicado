@@ -62,8 +62,8 @@ export default function HiraKanaExercises() {
 
   const handleClickALL = () => {
     setComponentExercise("all");
-    const hiraganaAll = [...hiraganaList, ...hiraganaDakuon, ...hiraganaYoon]
-    const katakanaAll = [...katakanaList, ...katakanaDakuon, ...katakanaYoon]
+    const hiraganaAll = [...hiraganaList, ...hiraganaDakuon, ...hiraganaYoon];
+    const katakanaAll = [...katakanaList, ...katakanaDakuon, ...katakanaYoon];
     setListAll(hiraOrKatakana === "hiragana" ? hiraganaAll : katakanaAll);
   };
   return (
@@ -106,9 +106,11 @@ export default function HiraKanaExercises() {
               LISTA COMPLETA
             </h2>
           </div>
-        <h6>Preencha com a forma de leitura dos caracteres</h6>
+          <h6>
+            Preencha com a forma de leitura dos caracteres
+          </h6>
 
-          <ExerciseRomaji caracterList={exerciseComponent}/>
+          <ExerciseRomaji caracterList={exerciseComponent} />
           <Footer />
         </div>
       ) : (
