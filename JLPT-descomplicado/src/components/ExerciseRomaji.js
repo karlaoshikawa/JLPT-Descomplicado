@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import style from "../components/ExerciseRomaji.module.scss";
 import { FiArrowRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
+import instagramChamada from "../images/instagramBanner.webp";
 
 export default function ExerciseRomaji({ caracterList }) {
   const [exerciseList, setExerciseList] = useState([]);
@@ -41,40 +43,59 @@ export default function ExerciseRomaji({ caracterList }) {
 
   return (
     <div className={style.ExerciseRomaji_container}>
-      <div className={style.ExerciseRomaji_box}>
-        {exerciseList.map((element, index) => (
-          <div
-            key={index}
-            className={
-              inputValues[index] === ""
-                ? style.inputDefault
-                : checkAnswer(element, inputValues[index], index)
-                ? style.inputOk
-                : style.inputMistake
-            }
+      {!caracterList ? (
+        <div className={style.ExerciseRomaji_img}>
+          <a
+            href="https://www.instagram.com/jlpt_descomplicado/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <p>{element.hiragana ? element.hiragana : element.katakana}</p>
-            <input
-              type="text"
-              value={inputValues[index]}
-              onChange={(e) => handleInputChange(index, e.target.value.toLocaleLowerCase())}
+            <img
+              className={style.ExerciseRomaji_img}
+              src={instagramChamada}
+              alt="Primeiros passos japones"
             />
-            <h4
-              onClick={() => {
-                setShowAnswers((prevShowAnswers) => {
-                  const newShowAnswers = [...prevShowAnswers];
-                  newShowAnswers[index] = !newShowAnswers[index];
-                  return newShowAnswers;
-                });
-              }}
+          </a>
+        </div>
+      ) : (
+        <div className={style.ExerciseRomaji_box}>
+          {exerciseList.map((element, index) => (
+            <div
+              key={index}
+              className={
+                inputValues[index] === ""
+                  ? style.inputDefault
+                  : checkAnswer(element, inputValues[index], index)
+                  ? style.inputOk
+                  : style.inputMistake
+              }
             >
-              {showAnswers[index]
-                ? `Resposta: ${okAnswers[index]}`
-                : "Resposta"}
-            </h4>
-          </div>
-        ))}
-      </div>
+              <p>{element.hiragana ? element.hiragana : element.katakana}</p>
+              <input
+                type="text"
+                value={inputValues[index]}
+                onChange={(e) =>
+                  handleInputChange(index, e.target.value.toLocaleLowerCase())
+                }
+              />
+              <h4
+                onClick={() => {
+                  setShowAnswers((prevShowAnswers) => {
+                    const newShowAnswers = [...prevShowAnswers];
+                    newShowAnswers[index] = !newShowAnswers[index];
+                    return newShowAnswers;
+                  });
+                }}
+              >
+                {showAnswers[index]
+                  ? `Resposta: ${okAnswers[index]}`
+                  : "Resposta"}
+              </h4>
+            </div>
+          ))}
+        </div>
+      )}
+
       {!caracterList ? null : (
         <div
           className={style.ExerciseRomaji_newlist_buttom}

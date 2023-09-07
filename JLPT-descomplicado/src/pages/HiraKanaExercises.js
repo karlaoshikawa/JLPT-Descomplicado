@@ -43,12 +43,22 @@ export default function HiraKanaExercises() {
       break;
   }
 
+  const upWindowMobile = () => {
+    if (window.innerWidth <= 768) {
+      const halfPageHeight = window.innerHeight / 1;
+      window.scrollTo({ top: halfPageHeight, left: 0, behavior: "smooth" });
+    }
+  }
+
   const handleClick = () => {
+    upWindowMobile();
+
     setComponentExercise("basic");
     setList(hiraOrKatakana === "hiragana" ? hiraganaList : katakanaList);
   };
 
   const handleClickDakuon = () => {
+    upWindowMobile();
     setComponentExercise("dakuon");
     setListDakuon(
       hiraOrKatakana === "hiragana" ? hiraganaDakuon : katakanaDakuon
@@ -56,11 +66,13 @@ export default function HiraKanaExercises() {
   };
 
   const handleClickYoon = () => {
+    upWindowMobile();
     setComponentExercise("yoon");
     setListYoon(hiraOrKatakana === "hiragana" ? hiraganaYoon : katakanaYoon);
   };
 
   const handleClickALL = () => {
+    upWindowMobile();
     setComponentExercise("all");
     const hiraganaAll = [...hiraganaList, ...hiraganaDakuon, ...hiraganaYoon];
     const katakanaAll = [...katakanaList, ...katakanaDakuon, ...katakanaYoon];
@@ -106,9 +118,9 @@ export default function HiraKanaExercises() {
               LISTA COMPLETA
             </h2>
           </div>
-          <h6>
-            Preencha com a forma de leitura dos caracteres
-          </h6>
+          {componentExercise === "" ? null : (
+            <h6>Preencha com a forma de leitura dos caracteres</h6>
+          )}
 
           <ExerciseRomaji caracterList={exerciseComponent} />
           <Footer />
