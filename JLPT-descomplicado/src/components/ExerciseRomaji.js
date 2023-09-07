@@ -57,7 +57,7 @@ export default function ExerciseRomaji({ caracterList }) {
             <input
               type="text"
               value={inputValues[index]}
-              onChange={(e) => handleInputChange(index, e.target.value)}
+              onChange={(e) => handleInputChange(index, e.target.value.toLocaleLowerCase())}
             />
             <h4
               onClick={() => {
