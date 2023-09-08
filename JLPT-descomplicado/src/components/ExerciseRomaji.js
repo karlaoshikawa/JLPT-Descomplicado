@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import style from "../components/ExerciseRomaji.module.scss";
 import { FiArrowRight } from "react-icons/fi";
-import { Link } from "react-router-dom";
 import instagramChamada from "../images/instagramBanner.webp";
 
 export default function ExerciseRomaji({ caracterList }) {
