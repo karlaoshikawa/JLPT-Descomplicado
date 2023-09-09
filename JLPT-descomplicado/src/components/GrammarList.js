@@ -18,7 +18,7 @@ export default function GrammarList({ nivel, grammar }) {
             <th>
               <p>Tópico</p>
             </th>
-            <th>
+            <th className={style.grammarList_mobileOff}>
               <p>Romaji</p>
             </th>
             <th>
@@ -31,14 +31,20 @@ export default function GrammarList({ nivel, grammar }) {
             <tr key={index}>
               <td>
                 <Link
-                  to={`grammar/${index}/${item.romaji.replace(/[^a-zA-Z]/g, "-")}`}
+                  to={`grammar/${index}/${item.romaji.replace(
+                    /[^a-zA-Z]/g,
+                    "-"
+                  )}`}
                   onClick={() => handleClick(nivel, index)}
-                  data-testid={`grammar-${item.romaji.replace(/[^a-zA-Z]/g, "-")}`}
+                  data-testid={`grammar-${item.romaji.replace(
+                    /[^a-zA-Z]/g,
+                    "-"
+                  )}`}
                 >
                   <h5>{item.topico}</h5>
                 </Link>
               </td>
-              <td>
+              <td className={style.grammarList_mobileOff}>
                 <p>{item.romaji}</p>
               </td>
               <td>

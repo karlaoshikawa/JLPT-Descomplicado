@@ -92,9 +92,12 @@
 
   @media (max-width: 768px) {
     .vocabularyList_container {
-      width: 90%;
+      max-width: 85%;
+      margin: 0 auto;
     }
     .vocabularyList_thead {
+      max-width: 80%;
+      margin: 0 auto;
       p {
         width: 12.5rem;
         font-size: 1.8rem;
@@ -102,6 +105,8 @@
       }
     }
     .vocabularyList_tbody {
+      max-width: 80%;
+      margin: 0 auto;
       p {
         width: 12.5rem;
         font-size: 1.8rem;

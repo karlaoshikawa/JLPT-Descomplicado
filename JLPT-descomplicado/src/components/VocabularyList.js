@@ -21,7 +21,7 @@ export default function VocabularyList({ nivel, vocabulario }) {
             <th>
               <p>Vocabulário</p>
             </th>
-            <th>
+            <th className={style.vocabularyList_mobileOff}>
               <p>Romaji</p>
             </th>
             <th className={style.vocabularyList_mobileOff}>
@@ -44,7 +44,7 @@ export default function VocabularyList({ nivel, vocabulario }) {
                   <h5>{item.vocabulario}</h5>
                 </Link>
               </td>
-              <td>
+              <td className={style.vocabularyList_mobileOff}>
                 <p>{item.romaji}</p>
               </td>
               <td className={style.vocabularyList_mobileOff}>
