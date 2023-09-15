@@ -1,0 +1,132 @@
+.ExerciseKanji_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .ExerciseKanji_img {
+    margin: 3rem auto;
+    width: 45rem;
+  }
+
+  .ExerciseKanji_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 110rem;
+    margin: 5rem auto 0 auto;
+    justify-content: center;
+
+    p {
+      font-size: 3.6rem;
+      margin-top: 1rem;
+      margin-bottom: 0rem;
+      color: #c80200;
+    }
+
+    input {
+      max-width: 16rem;
+      margin-top: 1rem;
+      font-size: 2.4rem;
+
+       &:focus {
+        outline-color: #c80200;
+       }
+    }
+
+    h4 {
+      font-size: 1.6rem;
+      padding: 1rem;
+      margin: 1rem 0;
+
+      &:hover,
+      &:active {
+        cursor: pointer;
+        color: #c80200;
+      }
+    }
+
+    .inputDefault {
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 25rem;
+      width: 20rem;
+      text-decoration: none;
+      margin-bottom: 3rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+    }
+
+    .inputOk {
+      border: 2px solid #01750d;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 25rem;
+      width: 20rem;
+      text-decoration: none;
+      margin-bottom: 3rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+    }
+
+    .inputMistake {
+      border: 2px solid #c80200;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 25rem;
+      width: 20rem;
+      text-decoration: none;
+      margin-bottom: 3rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+    }
+  }
+
+  .ExerciseKanji_newlist_buttom {
+    font-size: 2.4rem;
+    color: #c80200;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    &:hover,
+    &:active {
+      color: #ef233c;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .ExerciseKanji_container {
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .ExerciseKanji_img {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .ExerciseKanji_box {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

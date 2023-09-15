@@ -9,6 +9,7 @@ import HowToApply from "./pages/HowToApply";
 import HowToPreparing from "./pages/HowToPreparing";
 import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
 import NKanji from "./pages/NKanji";
+import NKanjiExercise from "./pages/NKanjiExercise";
 import NVocabularyList from "./pages/NVocabularyList";
 import NVocabulary from "./pages/NVocabulary";
 import NGrammarList from "./pages/NGrammarList";
@@ -38,6 +39,10 @@ function App() {
 
       <Route exact path="/sobre-nos">
         <AboutUs />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/kanji/exercises">
+        <NKanjiExercise />
       </Route>
 
       <Route exact path="/jlpt/:nlevel/kanji/:index/:kanjiCaracter">
