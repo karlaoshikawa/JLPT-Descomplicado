@@ -9,6 +9,17 @@
     width: 45rem;
   }
 
+  .ExerciseKanji_line{
+     width: 70%;
+    height: 1px;
+    margin-top: 2rem;
+    background-color: #c80200;
+  }
+
+  .ExerciseKanji_h2{
+    font-size: 2.4rem;
+  }
+
   .ExerciseKanji_box {
     display: flex;
     flex-direction: row;

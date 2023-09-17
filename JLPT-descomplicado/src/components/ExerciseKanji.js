@@ -99,63 +99,69 @@ export default function ExerciseRomaji({ kanjiList }) {
           </a>
         </div>
       ) : (
-        <div className={style.ExerciseKanji_box}>
-          {exerciseList.map((element, index) => (
-            <div
-              key={index}
-              className={
-                inputValues[index] === ""
-                  ? style.inputDefault
-                  : checkAnswer(element, inputValues[index], index)
-                  ? style.inputOk
-                  : style.inputMistake
-              }
-            >
-              <p>{element.exemplos[indiceEx].kanji}</p>
+        <>
+          <h2 className={style.ExerciseKanji_h2}>
+            Escreva o que cada palavra em Kanji significa
+          </h2>
 
+          <div className={style.ExerciseKanji_box}>
+            {exerciseList.map((element, index) => (
               <div
-                className={style.ExerciseKanji_answers}
-                onClick={() => {
-                  setShowAnswers((prevShowAnswers) => {
-                    const newShowAnswers = [...prevShowAnswers];
-                    newShowAnswers[index] = !newShowAnswers[index];
-                    return newShowAnswers;
-                  });
-                }}
-              >
-                <h4>
-                  {showAnswers[index]
-                    ? `Resposta: ${okAnswers[index]}`
-                    : "Resposta"}
-                </h4>
-                <h4>
-                  {showAnswers[index]
-                    ? `Romaji: ${romajiAnswers[index]}`
-                    : "Romaji"}
-                </h4>
-                <h4>
-                  {showAnswers[index]
-                    ? `Furigana: ${furiganaAnswers[index]}`
-                    : "Furigana"}
-                </h4>
-              </div>
-
-              <input
-                type="text"
-                value={inputValues[index]}
-                onChange={(e) =>
-                  handleInputChange(
-                    index,
-                    e.target.value
-                      .toLowerCase()
-                      .normalize("NFD")
-                      .replace(/[\u0300-\u036f]/g, "")
-                  )
+                key={index}
+                className={
+                  inputValues[index] === ""
+                    ? style.inputDefault
+                    : checkAnswer(element, inputValues[index], index)
+                    ? style.inputOk
+                    : style.inputMistake
                 }
-              />
-            </div>
-          ))}
-        </div>
+              >
+                <p>{element.exemplos[indiceEx].kanji}</p>
+
+                <div
+                  className={style.ExerciseKanji_answers}
+                  onClick={() => {
+                    setShowAnswers((prevShowAnswers) => {
+                      const newShowAnswers = [...prevShowAnswers];
+                      newShowAnswers[index] = !newShowAnswers[index];
+                      return newShowAnswers;
+                    });
+                  }}
+                >
+                  <h4>
+                    {showAnswers[index]
+                      ? `Resposta: ${okAnswers[index]}`
+                      : "Resposta"}
+                  </h4>
+                  <h4>
+                    {showAnswers[index]
+                      ? `Romaji: ${romajiAnswers[index]}`
+                      : "Romaji"}
+                  </h4>
+                  <h4>
+                    {showAnswers[index]
+                      ? `Furigana: ${furiganaAnswers[index]}`
+                      : "Furigana"}
+                  </h4>
+                </div>
+
+                <input
+                  type="text"
+                  value={inputValues[index]}
+                  onChange={(e) =>
+                    handleInputChange(
+                      index,
+                      e.target.value
+                        .toLowerCase()
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
+                    )
+                  }
+                />
+              </div>
+            ))}
+          </div>
+        </>
       )}
 
       {!kanjiList ? null : (
@@ -169,6 +175,7 @@ export default function ExerciseRomaji({ kanjiList }) {
           <FiArrowRight />
         </div>
       )}
+      <div className={style.ExerciseKanji_line}></div>
     </div>
   );
 }
