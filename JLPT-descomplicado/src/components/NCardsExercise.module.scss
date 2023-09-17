@@ -1,0 +1,52 @@
+.NCards_containerExercises {
+  display: flex;
+  // align-items: flex-start; usar quando tiver os 3 cards
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100rem;
+  margin: 0rem auto;
+  flex-direction: row;
+  // justify-content: space-between; usar quando tiver os 3 cards
+  justify-content: center;
+
+  .NCards_itemBoxExercises {
+    a {
+      font-size: 2.4rem;
+      text-decoration: none;
+      color: #c80200;
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      text-decoration: none;
+      width: 30rem;
+      height: 15rem;
+      margin-bottom: 5rem;
+
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+
+      &:hover,
+      &:active {
+        color: #ef233c;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .NCards_containerExercises {
+      align-items: center;
+      justify-content: center;
+    }
+    .NCards_itemBoxExercises {
+      width: 100%;
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

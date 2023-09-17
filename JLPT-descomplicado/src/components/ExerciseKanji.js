@@ -10,14 +10,15 @@ export default function ExerciseRomaji({ kanjiList }) {
   const [showAnswers, setShowAnswers] = useState(Array(10).fill(false));
   const [okAnswers, setOkAnswers] = useState([]);
   const [furiganaAnswers, setFuriganaAnswers] = useState([]);
+  const [romajiAnswers, setRomajiAnswers] = useState([]);
   const [reloadList, setReloadList] = useState(false);
   const [indiceEx, setIndiceEx] = useState();
 
   useMemo(() => {
-    const sortEx = [1, 2, 3];
+    const sortEx = [0, 1, 2];
     sortEx.sort(() => Math.random() - 0.5);
     setIndiceEx(sortEx[1]);
-  }, [KanjiList])
+  }, [KanjiList]);
 
   useEffect(() => {
     const list =
@@ -32,12 +33,19 @@ export default function ExerciseRomaji({ kanjiList }) {
     setReloadList(false);
 
     setOkAnswers(
-      list10elements.slice(0, 10).map((element) => element.exemplos[indiceEx].traducao)
+      list10elements
+        .slice(0, 10)
+        .map((element) => element.exemplos[indiceEx].traducao)
     );
     setFuriganaAnswers(
       list10elements
         .slice(0, 10)
         .map((element) => element.exemplos[indiceEx].furigana)
+    );
+    setRomajiAnswers(
+      list10elements
+        .slice(0, 10)
+        .map((element) => element.exemplos[indiceEx].romaji)
     );
   }, [kanjiList, reloadList]);
 
@@ -48,7 +56,23 @@ export default function ExerciseRomaji({ kanjiList }) {
   };
 
   const checkAnswer = (element, inputValue, index) => {
-    const isCorrect = element.exemplos[indiceEx].traducao === inputValue;
+    const normalize = (string) => {
+      return string
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim();
+    };
+
+    const answerOkLowerCase = element.exemplos[indiceEx].traducao
+      .split(/[;,()]+/)
+      .map((answer) => normalize(answer));
+
+    const inputNormalized = normalize(inputValue);
+
+    const isCorrect = answerOkLowerCase.some((expectedAnswer) =>
+      inputNormalized.includes(expectedAnswer)
+    );
     if (isCorrect && !showAnswers[index]) {
       const newShowAnswers = [...showAnswers];
       newShowAnswers[index] = true;
@@ -57,7 +81,7 @@ export default function ExerciseRomaji({ kanjiList }) {
     return isCorrect;
   };
 
-console.log(okAnswers, inputValues, showAnswers, indiceEx, furiganaAnswers);
+  console.log(okAnswers, inputValues, showAnswers, indiceEx, furiganaAnswers);
   return (
     <div className={style.ExerciseKanji_container}>
       {!kanjiList ? (
@@ -88,14 +112,9 @@ console.log(okAnswers, inputValues, showAnswers, indiceEx, furiganaAnswers);
               }
             >
               <p>{element.exemplos[indiceEx].kanji}</p>
-              <input
-                type="text"
-                value={inputValues[index]}
-                onChange={(e) =>
-                  handleInputChange(index, e.target.value.toLocaleLowerCase())
-                }
-              />
+
               <div
+                className={style.ExerciseKanji_answers}
                 onClick={() => {
                   setShowAnswers((prevShowAnswers) => {
                     const newShowAnswers = [...prevShowAnswers];
@@ -111,10 +130,29 @@ console.log(okAnswers, inputValues, showAnswers, indiceEx, furiganaAnswers);
                 </h4>
                 <h4>
                   {showAnswers[index]
+                    ? `Romaji: ${romajiAnswers[index]}`
+                    : "Romaji"}
+                </h4>
+                <h4>
+                  {showAnswers[index]
                     ? `Furigana: ${furiganaAnswers[index]}`
                     : "Furigana"}
                 </h4>
               </div>
+
+              <input
+                type="text"
+                value={inputValues[index]}
+                onChange={(e) =>
+                  handleInputChange(
+                    index,
+                    e.target.value
+                      .toLowerCase()
+                      .normalize("NFD")
+                      .replace(/[\u0300-\u036f]/g, "")
+                  )
+                }
+              />
             </div>
           ))}
         </div>

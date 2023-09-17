@@ -15,7 +15,6 @@ import TitleAndSubtitle from "../components/TitleAndSubtitle";
 
 export default function NKanjiExercise() {
   const { nlevel } = useParams();
-  console.log(nlevel );
 
   let kanjiList;
   switch (nlevel) {
@@ -45,12 +44,16 @@ export default function NKanjiExercise() {
       <Header />
 
       <TitleAndSubtitle
-        wordH3={"Vamos Treinar! - 'Gambate!'"}
+        wordH3={`Vamos Treinar! Kanji ${nlevel.toUpperCase()} - 'Gambate!'`}
         wordP={
           "A palavra 'Gambate' é uma expressão que pode ser traduzida como 'Vai com tudo!' ou 'Força!'. É uma forma de encorajamento e apoio."
         }
       />
       <ExerciseKanji kanjiList={kanjiList} />
+      <TitleAndSubtitle
+        wordH3={`Veja mais sobre JLPT ${nlevel.toUpperCase()}`}
+        wordP={""}
+      />
       <NCards number={+nlevel.substring(1)} />
       <Footer />
     </>

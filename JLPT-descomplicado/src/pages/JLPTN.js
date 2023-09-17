@@ -6,6 +6,7 @@ import N3Description from "../components/N3Description";
 import N4Description from "../components/N4Description";
 import N5Description from "../components/N5Description";
 import NCards from "../components/NCards";
+import NCardsExercises from "../components/NCardsExercises";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 import { useHistory, useParams } from "react-router-dom";
 
@@ -36,7 +37,6 @@ export default function JLPTN() {
       break;
   }
 
-  console.log("parans", NLevel, jlptLevel, description);
   return (
     <>
       {!description ? (
@@ -46,6 +46,8 @@ export default function JLPTN() {
           <Header />
           <TitleAndSubtitle wordH3={`JLPT N${jlptLevel}`} wordP={""} />
           <NCards number={jlptLevel} />
+          <TitleAndSubtitle wordH3={`EXERCICÍOS JLPT N${jlptLevel}`} wordP={""} />
+          <NCardsExercises number={jlptLevel} />
           {description}
           <Footer />
         </>
