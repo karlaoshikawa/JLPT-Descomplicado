@@ -11,7 +11,7 @@ export default function ExerciseRomaji({ kanjiList }) {
   const [showAnswers, setShowAnswers] = useState(Array(10).fill(false));
   const [okAnswers, setOkAnswers] = useState([]);
   const [furiganaAnswers, setFuriganaAnswers] = useState([]);
-  const [romajiAnswers, setRomajiAnswers] = useState([]);
+  const [traducaoAnswers, setTraducaoAnswers] = useState([]);
   const [reloadList, setReloadList] = useState(false);
   const [indiceEx, setIndiceEx] = useState();
 
@@ -36,17 +36,17 @@ export default function ExerciseRomaji({ kanjiList }) {
     setOkAnswers(
       list10elements
         .slice(0, 10)
-        .map((element) => element.exemplos[indiceEx].traducao)
+        .map((element) => element.exemplos[indiceEx].romaji)
     );
     setFuriganaAnswers(
       list10elements
         .slice(0, 10)
         .map((element) => element.exemplos[indiceEx].furigana)
     );
-    setRomajiAnswers(
+    setTraducaoAnswers(
       list10elements
         .slice(0, 10)
-        .map((element) => element.exemplos[indiceEx].romaji)
+        .map((element) => element.exemplos[indiceEx].traducao)
     );
   }, [kanjiList, reloadList]);
 
@@ -58,7 +58,7 @@ export default function ExerciseRomaji({ kanjiList }) {
 
   const checkAnswer = (element, inputValue, index) => {
 
-    const answerOkLowerCase = element.exemplos[indiceEx].traducao
+    const answerOkLowerCase = element.exemplos[indiceEx].romaji
       .split(/[;,()]+/)
       .map((answer) => normalize(answer));
 
@@ -95,7 +95,7 @@ export default function ExerciseRomaji({ kanjiList }) {
       ) : (
         <>
           <h2 className={style.ExerciseKanji_h2}>
-            Escreva o que cada palavra em Kanji significa
+            Escreva as palavras em Kanji em forma alfabética
           </h2>
 
           <div className={style.ExerciseKanji_box}>
@@ -129,8 +129,8 @@ export default function ExerciseRomaji({ kanjiList }) {
                   </h4>
                   <h4>
                     {showAnswers[index]
-                      ? `Romaji: ${romajiAnswers[index]}`
-                      : "Romaji"}
+                      ? `Tradução: ${traducaoAnswers[index]}`
+                      : "Tradução"}
                   </h4>
                   <h4>
                     {showAnswers[index]

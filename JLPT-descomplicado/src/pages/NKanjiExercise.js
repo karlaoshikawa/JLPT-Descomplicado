@@ -11,10 +11,16 @@ import n5KanjiList from "../data/n5/n5Kanji";
 
 import NCards from "../components/NCards";
 import ExerciseKanji from "../components/ExerciseKanji";
+import ExerciseKanjiFurigana from "../components/ExerciseKanjiFurigana";
+import instagramChamada from "../images/instagramBanner.webp";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
+import styleCard from "../Styles/CardsExercises.module.scss";
+import style from "../components/ExerciseKanji.module.scss";
+import { useState } from "react";
 
 export default function NKanjiExercise() {
   const { nlevel } = useParams();
+  const [exerciseType, setExerciseType] = useState();
 
   let kanjiList;
   switch (nlevel) {
@@ -38,7 +44,19 @@ export default function NKanjiExercise() {
       break;
   }
 
- 
+  let typeOfExercise;
+  switch (exerciseType) {
+    case "translate":
+      typeOfExercise = <ExerciseKanji kanjiList={kanjiList} />;
+      break;
+    case "romaji":
+      typeOfExercise = <ExerciseKanjiFurigana kanjiList={kanjiList} />;
+      break;
+    default:
+      typeOfExercise = "";
+      break;
+  }
+  
   return (
     <>
       <Header />
@@ -49,7 +67,39 @@ export default function NKanjiExercise() {
           "A palavra 'Gambate' é uma expressão que pode ser traduzida como 'Vai com tudo!' ou 'Força!'. É uma forma de encorajamento e apoio."
         }
       />
-      <ExerciseKanji kanjiList={kanjiList} />
+      <div className={styleCard.CardsExercises_container}>
+        <h2
+          className={styleCard.CardsExercises_itemBox}
+          onClick={() => setExerciseType("translate")}
+        >
+          {`Traduzir`}
+        </h2>
+        <h2
+          className={styleCard.CardsExercises_itemBox}
+          onClick={() => setExerciseType("romaji")}
+        >
+          {`Romaji`}
+        </h2>
+      </div>
+      {typeOfExercise ? (
+        typeOfExercise
+      ) : (
+        <div className={style.ExerciseKanji_container}>
+          <div className={style.ExerciseKanji_img}>
+            <a
+              href="https://www.instagram.com/jlpt_descomplicado/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className={style.ExerciseKanji_img}
+                src={instagramChamada}
+                alt="Primeiros passos japones"
+              />
+            </a>
+          </div>
+        </div>
+      )}
       <TitleAndSubtitle
         wordH3={`Veja mais sobre JLPT ${nlevel.toUpperCase()}`}
         wordP={""}
