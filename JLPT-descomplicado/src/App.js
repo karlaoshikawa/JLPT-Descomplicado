@@ -10,6 +10,7 @@ import HowToPreparing from "./pages/HowToPreparing";
 import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
 import NKanji from "./pages/NKanji";
 import NKanjiExercise from "./pages/NKanjiExercise";
+import NKanjiVocabulary from "./pages/NVocabularyExercise";
 import NVocabularyList from "./pages/NVocabularyList";
 import NVocabulary from "./pages/NVocabulary";
 import NGrammarList from "./pages/NGrammarList";
@@ -59,6 +60,10 @@ function App() {
 
       <Route exact path="/jlpt/:nlevel/grammar">
         <NGrammarList />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/vocabulary/exercises">
+        <NKanjiVocabulary />
       </Route>
 
       <Route exact path="/jlpt/:nlevel/vocabulary/:index/:vocabularyTopic">

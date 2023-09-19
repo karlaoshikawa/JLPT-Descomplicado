@@ -8,6 +8,8 @@
   flex-direction: row;
   // justify-content: space-between; usar quando tiver os 3 cards
   justify-content: center;
+  // espaco para quando tem apenas 2 cards
+  gap: 3rem;
 
   .NCards_itemBoxExercises {
     a {

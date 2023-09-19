@@ -5,27 +5,21 @@ import instagramChamada from "../images/instagramBanner.webp";
 import KanjiList from "./KanjiList";
 import { normalize } from "../ultils/ExercisesUltils";
 
-export default function ExerciseRomaji({ kanjiList }) {
+export default function ExerciseRomaji({ vocabularyList, type }) {
   const [exerciseList, setExerciseList] = useState([]);
   const [inputValues, setInputValues] = useState([]);
   const [showAnswers, setShowAnswers] = useState(Array(10).fill(false));
-  const [okAnswers, setOkAnswers] = useState([]);
-  const [furiganaAnswers, setFuriganaAnswers] = useState([]);
+  const [vocabularioAnswers, setVocabularioAnswers] = useState([]);
+  const [hiraganaAnswers, setHiraganaAnswers] = useState([]);
   const [romajiAnswers, setRomajiAnswers] = useState([]);
+  const [traducaoAnswers, setTraducaoAnswers] = useState([]);
   const [reloadList, setReloadList] = useState(false);
-  const [indiceEx, setIndiceEx] = useState();
-
-  useMemo(() => {
-    const sortEx = [0, 1, 2];
-    sortEx.sort(() => Math.random() - 0.5);
-    setIndiceEx(sortEx[1]);
-  }, [KanjiList]);
 
   useEffect(() => {
     const list =
-      kanjiList === ""
+      vocabularyList === ""
         ? []
-        : kanjiList.filter((element) => element.kanji !== "");
+        : vocabularyList.filter((element) => element.vocabulario !== "");
     const list10elements = list.sort(() => Math.random() - 0.5);
     setExerciseList(list10elements.slice(0, 10));
     setInputValues(list10elements.slice(0, 10).map(() => ""));
@@ -33,22 +27,21 @@ export default function ExerciseRomaji({ kanjiList }) {
     setShowAnswers(Array(10).fill(false));
     setReloadList(false);
 
-    setOkAnswers(
-      list10elements
-        .slice(0, 10)
-        .map((element) => element.exemplos[indiceEx].traducao)
+    setVocabularioAnswers(
+      list10elements.slice(0, 10).map((element) => element.vocabulario)
     );
-    setFuriganaAnswers(
+    setHiraganaAnswers(
       list10elements
         .slice(0, 10)
-        .map((element) => element.exemplos[indiceEx].furigana)
+        .map((element) => element.hiragana)
+    );
+    setTraducaoAnswers(
+      list10elements.slice(0, 10).map((element) => element.traducao)
     );
     setRomajiAnswers(
-      list10elements
-        .slice(0, 10)
-        .map((element) => element.exemplos[indiceEx].romaji)
+      list10elements.slice(0, 10).map((element) => element.romaji)
     );
-  }, [kanjiList, reloadList]);
+  }, [vocabularyList, reloadList, type]);
 
   const handleInputChange = (index, value) => {
     const newInputValues = [...inputValues];
@@ -57,8 +50,9 @@ export default function ExerciseRomaji({ kanjiList }) {
   };
 
   const checkAnswer = (element, inputValue, index) => {
+    const typeExercise = type === "translate" ? element.traducao : element.romaji
 
-    const answerOkLowerCase = element.exemplos[indiceEx].traducao
+    const answerOkLowerCase = typeExercise
       .split(/[;,()]+/)
       .map((answer) => normalize(answer));
 
@@ -75,17 +69,10 @@ export default function ExerciseRomaji({ kanjiList }) {
     return isCorrect;
   };
 
-  const upWindowMobile = () => {
-    if (window.innerWidth <= 768) {
-      const halfPageHeight = window.innerHeight / 1;
-      window.scrollTo({ top: halfPageHeight, left: 0, behavior: "smooth" });
-    }
-  };
-
-  console.log(okAnswers, inputValues, showAnswers, indiceEx, furiganaAnswers);
+  console.log(vocabularioAnswers, inputValues, showAnswers, hiraganaAnswers);
   return (
     <div className={style.ExerciseKanji_container}>
-      {!kanjiList ? (
+      {!vocabularyList ? (
         <div className={style.ExerciseKanji_img}>
           <a
             href="https://www.instagram.com/jlpt_descomplicado/"
@@ -117,7 +104,7 @@ export default function ExerciseRomaji({ kanjiList }) {
                     : style.inputMistake
                 }
               >
-                <p>{element.exemplos[indiceEx].kanji}</p>
+                <p>{element.vocabulario}</p>
 
                 <div
                   className={style.ExerciseKanji_answers}
@@ -131,17 +118,26 @@ export default function ExerciseRomaji({ kanjiList }) {
                 >
                   <h4>
                     {showAnswers[index]
-                      ? `Resposta: ${okAnswers[index]}`
+                      ? `Resposta: ${
+                          type === "translate"
+                            ? traducaoAnswers[index]
+                            : romajiAnswers[index]
+                        }`
                       : "Resposta"}
                   </h4>
                   <h4>
                     {showAnswers[index]
-                      ? `Romaji: ${romajiAnswers[index]}`
-                      : "Romaji"}
+                      ? type === "translate"
+                        ? `Romaji: ${romajiAnswers[index]}`
+                        : `Tradução: ${traducaoAnswers[index]}`
+                      : type === "translate"
+                      ? "Romaji:"
+                      : "Tradução:"}
                   </h4>
+
                   <h4>
                     {showAnswers[index]
-                      ? `Furigana: ${furiganaAnswers[index]}`
+                      ? `Furigana: ${hiraganaAnswers[index]}`
                       : "Furigana"}
                   </h4>
                 </div>
@@ -165,11 +161,10 @@ export default function ExerciseRomaji({ kanjiList }) {
         </>
       )}
 
-      {!kanjiList ? null : (
+      {!vocabularyList ? null : (
         <div
           className={style.ExerciseKanji_newlist_buttom}
           onClick={() => {
-            upWindowMobile();
             setReloadList(true);
           }}
         >

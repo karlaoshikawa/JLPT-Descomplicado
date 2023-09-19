@@ -12,15 +12,15 @@ export default function NCardsExercises({ number }) {
           Exercicíos de Kanji
         </Link>
       </div>
-      {/* <div className={style.NCards_itemBoxExercises}>
+      <div className={style.NCards_itemBoxExercises}>
         <Link
           to={`/jlpt/n${number}/vocabulary/exercises`}
           data-testid="link-vocabulary-ncard"
         >
-          Vocabulário
+          Exercicíos de Vocabulário
         </Link>
       </div>
-      <div className={style.NCards_itemBoxExercises}>
+      {/* <div className={style.NCards_itemBoxExercises}>
         <Link
           to={`/jlpt/n${number}/grammar/exercises`}
           data-testid="link-grammar-ncard"

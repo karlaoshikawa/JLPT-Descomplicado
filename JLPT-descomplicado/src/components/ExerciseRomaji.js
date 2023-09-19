@@ -39,6 +39,13 @@ export default function ExerciseRomaji({ caracterList }) {
     }
     return isCorrect;
   };
+  
+  const upWindowMobile = () => {
+    if (window.innerWidth <= 768) {
+      const halfPageHeight = window.innerHeight / 1;
+      window.scrollTo({ top: halfPageHeight, left: 0, behavior: "smooth" });
+    }
+  };
 
   return (
     <div className={style.ExerciseRomaji_container}>
@@ -99,6 +106,7 @@ export default function ExerciseRomaji({ caracterList }) {
         <div
           className={style.ExerciseRomaji_newlist_buttom}
           onClick={() => {
+            upWindowMobile();
             setReloadList(true);
           }}
         >
