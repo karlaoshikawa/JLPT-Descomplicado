@@ -89,7 +89,9 @@ export default function ExerciseRomaji({ vocabularyList, type }) {
       ) : (
         <>
           <h2 className={style.ExerciseKanji_h2}>
-            Escreva o que cada palavra em Kanji significa
+            {type === "translate"
+              ? "Escreva a tradução dos vocabulários"
+              : "Escreva os vocabulários em forma alfabética"}
           </h2>
 
           <div className={style.ExerciseKanji_box}>
