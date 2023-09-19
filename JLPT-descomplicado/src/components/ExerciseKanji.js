@@ -158,6 +158,15 @@ export default function ExerciseRomaji({ kanjiList }) {
                         .replace(/[\u0300-\u036f]/g, "")
                     )
                   }
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter") {
+                      setShowAnswers((prevShowAnswers) => {
+                        const newShowAnswers = [...prevShowAnswers];
+                        newShowAnswers[index] = !newShowAnswers[index];
+                        return newShowAnswers;
+                      });
+                    }
+                  }}
                 />
               </div>
             ))}

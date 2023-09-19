@@ -83,6 +83,15 @@ export default function ExerciseRomaji({ caracterList }) {
                 onChange={(e) =>
                   handleInputChange(index, e.target.value.toLocaleLowerCase())
                 }
+                onKeyDown={(event) => {
+                  if (event.key === "Enter") {
+                    setShowAnswers((prevShowAnswers) => {
+                      const newShowAnswers = [...prevShowAnswers];
+                      newShowAnswers[index] = !newShowAnswers[index];
+                      return newShowAnswers;
+                    });
+                  }
+                }}
               />
               <h4
                 onClick={() => {
