@@ -129,10 +129,10 @@ export default function ExerciseRomaji({ kanjiList }) {
                     });
                   }}
                 >
-                  <h4>
+                  <h4 className={style.ExerciseKanji_answers_h4}>
                     {showAnswers[index]
                       ? `Resposta: ${okAnswers[index]}`
-                      : "Resposta"}
+                      : "Veja a Resposta"}
                   </h4>
                   <h4>
                     {showAnswers[index]

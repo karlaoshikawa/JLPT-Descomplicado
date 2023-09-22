@@ -104,7 +104,7 @@ export default function ExerciseRomaji({ caracterList }) {
               >
                 {showAnswers[index]
                   ? `Resposta: ${okAnswers[index]}`
-                  : "Resposta"}
+                  : "Veja a Resposta"}
               </h4>
             </div>
           ))}

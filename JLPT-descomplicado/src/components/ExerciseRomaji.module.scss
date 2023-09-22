@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  cursor: pointer;
 
   .ExerciseRomaji_img {
     margin: 3rem auto;
@@ -95,6 +96,7 @@
     &:hover,
     &:active {
       color: #ef233c;
+      cursor: pointer;
     }
   }
 }

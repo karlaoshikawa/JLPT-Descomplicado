@@ -1,8 +1,7 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import style from "../components/ExerciseKanji.module.scss";
 import { FiArrowRight } from "react-icons/fi";
 import instagramChamada from "../images/instagramBanner.webp";
-import KanjiList from "./KanjiList";
 import { normalize } from "../ultils/ExercisesUltils";
 
 export default function ExerciseRomaji({ vocabularyList, type }) {
@@ -118,14 +117,14 @@ export default function ExerciseRomaji({ vocabularyList, type }) {
                     });
                   }}
                 >
-                  <h4>
+                  <h4 className={style.ExerciseKanji_answers_h4}>
                     {showAnswers[index]
                       ? `Resposta: ${
                           type === "translate"
                             ? traducaoAnswers[index]
                             : romajiAnswers[index]
                         }`
-                      : "Resposta"}
+                      : "Veja a Resposta"}
                   </h4>
                   <h4>
                     {showAnswers[index]

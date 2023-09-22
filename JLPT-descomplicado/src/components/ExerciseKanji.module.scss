@@ -61,6 +61,11 @@
     .ExerciseKanji_answers {
       margin-top: 1rem;
       height: 12rem;
+      cursor: pointer;
+    }
+
+    .ExerciseKanji_answers_h4 {
+color: #c80200;
     }
 
     .inputDefault {
@@ -127,6 +132,7 @@
     &:hover,
     &:active {
       color: #ef233c;
+      cursor: pointer;
     }
   }
 }
