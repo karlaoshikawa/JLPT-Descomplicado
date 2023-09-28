@@ -1,0 +1,14 @@
+.listDescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 100rem;
+  margin: 0 auto;
+
+  p {
+    font-size: 2rem;
+    color: #2b2d42;
+    margin-bottom: 2rem;
+  }
+}

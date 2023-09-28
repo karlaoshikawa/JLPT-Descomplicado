@@ -8,6 +8,7 @@ import n3Grammar from "../data/n3/n3Grammar";
 import n2Grammar from "../data/n2/n2Grammar";
 import n1Grammar from "../data/n1/n1Grammar";
 import { useParams } from "react-router-dom";
+import ListGrammsrDescription from "../components/ListGrammarDescription";
 
 export default function N5GrammarList() {
   const { nlevel } = useParams();
@@ -40,6 +41,7 @@ export default function N5GrammarList() {
         wordH3={`Lista de Gramática do nível JLPT ${nlevel.toUpperCase()}`}
         wordP={"Clique no tópico para ver mais informações"}
       />
+      <ListGrammsrDescription level={nlevel} />
       <GrammarList nivel={`jlpt-${nlevel}`} grammar={grammarList} />
       <Footer />
     </>

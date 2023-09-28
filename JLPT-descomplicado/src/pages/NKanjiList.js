@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import KanjiList from "../components/KanjiList";
+import ListDescription from "../components/ListKanjiDescription";
 import TitleAndSubtitle from "../components/TitleAndSubtitle";
 import n1KanjiList from "../data/n1/n1Kanji";
 import n2KanjiList from "../data/n2/n2Kanji";
@@ -42,6 +43,7 @@ export default function NKanjiList() {
         wordH3={`Lista de Kanji do nível JLPT ${nlevel.toUpperCase()}`}
         wordP={"Clique no Kanji para ver mais informações"}
       />
+      <ListDescription level={nlevel} />
       <KanjiList nivel={`jlpt-${nlevel}`} kanji={kanjiList} />
       <Footer />
     </>

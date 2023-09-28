@@ -8,6 +8,7 @@ import n3VocabList from "../data/n3/n3Vocabulario";
 import n2VocabList from "../data/n2/n2Vocabulario";
 import n1VocabList from "../data/n1/n1Vocabulario";
 import { useParams } from "react-router-dom";
+import ListVocabularyDescription from "../components/ListVocabularyDescription";
 
 export default function NVocabularyList() {
   const { nlevel } = useParams();
@@ -40,6 +41,7 @@ export default function NVocabularyList() {
         wordH3={`Lista do Vocabulário do nível JLPT ${nlevel.toUpperCase()}`}
         wordP={"Clique no vocabulário para ver mais informações"}
       />
+      <ListVocabularyDescription level={nlevel} />
       <VocabularyList nivel={`jlpt-${nlevel}`} vocabulario={vocabularyList} />
       <Footer />
     </>
