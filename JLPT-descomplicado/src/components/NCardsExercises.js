@@ -20,14 +20,14 @@ export default function NCardsExercises({ number }) {
           Exercicíos de Vocabulário
         </Link>
       </div>
-      {/* <div className={style.NCards_itemBoxExercises}>
+      <div className={style.NCards_itemBoxExercises}>
         <Link
           to={`/jlpt/n${number}/grammar/exercises`}
           data-testid="link-grammar-ncard"
         >
-          Gramática
+          Exercicíos de Gramática
         </Link>
-      </div> */}
+      </div>
     </div>
   );
 }

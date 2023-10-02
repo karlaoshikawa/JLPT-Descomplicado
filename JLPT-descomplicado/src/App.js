@@ -14,6 +14,7 @@ import NKanjiVocabulary from "./pages/NVocabularyExercise";
 import NVocabularyList from "./pages/NVocabularyList";
 import NVocabulary from "./pages/NVocabulary";
 import NGrammarList from "./pages/NGrammarList";
+import NGrammarExercise from "./pages/NGrammarExercise";
 import NGrammar from "./pages/NGrammar";
 import NKanjiList from "./pages/NKanjiList";
 import JLPTN from "./pages/JLPTN";
@@ -52,6 +53,10 @@ function App() {
 
       <Route exact path="/jlpt/:nlevel/kanji">
         <NKanjiList />
+      </Route>
+
+      <Route exact path="/jlpt/:nlevel/grammar/exercises">
+        <NGrammarExercise />
       </Route>
 
       <Route exact path="/jlpt/:nlevel/grammar/:index/:grammarTopic">

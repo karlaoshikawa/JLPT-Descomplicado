@@ -1,0 +1,235 @@
+.ExerciseGrammar_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+
+  .ExerciseGrammar_img {
+    margin: 3rem auto;
+    width: 45rem;
+  }
+
+  .ExerciseGrammar_line {
+    width: 70%;
+    height: 1px;
+    margin-top: 2rem;
+    background-color: #c80200;
+  }
+
+  .ExerciseGrammar_h2 {
+    font-size: 2.4rem;
+  }
+
+  .ExerciseGrammar_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 110rem;
+    padding: 3rem2rem;
+    margin: 5rem auto 0 auto;
+    justify-content: center;
+
+    p {
+      font-size: 3.6rem;
+      margin-bottom: 0rem;
+      color: #c80200;
+      padding: 0 2rem;
+    }
+
+    input {
+      max-width: 16rem;
+      margin: 2rem 0;
+      font-size: 2.4rem;
+
+      &:focus {
+        outline-color: #c80200;
+      }
+    }
+
+    h4 {
+      font-size: 1.6rem;
+      color: #6c757d;
+
+      &:hover,
+      &:active {
+        cursor: pointer;
+        color: #c80200;
+      }
+    }
+
+    h5 {
+      font-size: 2.4rem;
+      margin: 3rem 0 0 0;
+    }
+
+    
+
+    .h3Default{
+      border: 1px solid #ced4da;
+      font-size: 2rem;
+      margin: 2rem 3rem;
+      font-weight: 400;
+
+      cursor: pointer;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+
+      &:hover,
+      &:active {
+        border: 1px solid #6c757d;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+      }
+    }
+
+    .h3Ok {
+      border: 2px solid #01750d;
+      font-size: 2rem;
+      margin: 2rem 3rem;
+      font-weight: 400;
+
+      cursor: pointer;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+
+      &:hover,
+      &:active {
+        border: 2px solid #01750d;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+      }
+    }
+
+    .h3Mistake {
+      border: 2px solid #c80200;
+      font-size: 2rem;
+      margin: 2rem 3rem;
+      font-weight: 400;
+
+      cursor: pointer;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+
+      &:hover,
+      &:active {
+        border: 2px solid #c80200;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+      }
+    }
+
+    .ExerciseGrammar_answers {
+      margin-top: 2rem;
+      cursor: pointer;
+
+      //border: 1px solid #ced4da;
+      padding: 0 2rem;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+
+      &:hover,
+      &:active {
+        color: #ef233c;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+      }
+    }
+
+    .ExerciseGrammar_answers_h4 {
+      color: #2b2d42;
+    }
+
+    .inputDefault {
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // height: 28rem;
+      width: 80rem;
+      text-decoration: none;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+      padding: 2rem;
+    }
+
+    .inputOk {
+      border: 2px solid #01750d;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // height: 28rem;
+      width: 80rem;
+      text-decoration: none;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+      padding: 2rem;
+
+      input {
+        border-color: #01750d;
+        &:focus {
+          outline-color: #01750d;
+        }
+      }
+    }
+
+    .inputMistake {
+      border: 2px solid #c80200;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // height: 28rem;
+      width: 80rem;
+      text-decoration: none;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+      padding: 2rem;
+      input {
+        &:focus {
+          outline-color: #c80200;
+        }
+      }
+    }
+  }
+
+  .ExerciseGrammar_newlist_buttom {
+    font-size: 2.4rem;
+    color: #c80200;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    &:hover,
+    &:active {
+      color: #ef233c;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .ExerciseGrammar_container {
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .ExerciseGrammar_img {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .ExerciseGrammar_box {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

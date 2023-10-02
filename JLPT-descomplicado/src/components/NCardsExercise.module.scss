@@ -1,15 +1,14 @@
 .NCards_containerExercises {
   display: flex;
-  // align-items: flex-start; usar quando tiver os 3 cards
-  align-items: center;
+  align-items: flex-start; 
   flex-wrap: wrap;
   max-width: 100rem;
   margin: 0rem auto;
   flex-direction: row;
-  // justify-content: space-between; usar quando tiver os 3 cards
-  justify-content: center;
+  justify-content: space-between; 
+  //justify-content: center;
   // espaco para quando tem apenas 2 cards
-  gap: 3rem;
+  //gap: 3rem;
   cursor: pointer;
 
   .NCards_itemBoxExercises {
