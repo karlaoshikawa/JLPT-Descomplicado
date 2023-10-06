@@ -146,6 +146,7 @@ export default function ExerciseGrammar({ grammarList }) {
             upWindowMobile();
             setReloadList(true);
             setUserAnswer("");
+            setShowAnswers(false);
           }}
         >
           <h5>Próximo</h5>
