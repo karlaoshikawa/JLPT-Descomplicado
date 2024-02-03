@@ -10262,7 +10262,7 @@ const n4VocabList = [
   },
   {
     vocabulario: "再来週",
-    romaji: "sarainenshū",
+    romaji: "saraishū",
     hiragana: "さらいしゅう",
     traducao: "próxima semana",
     exemplosFrases: [
