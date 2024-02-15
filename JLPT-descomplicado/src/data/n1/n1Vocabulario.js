@@ -11105,3 +11105,26 @@ const n1VocabList = [
 ];
 
 export default n1VocabList;
+
+const newArr = n1VocabList.map((item) => item.vocabulario);
+console.log(newArr);
+
+function posicoesItensRepetidos(array) {
+  var posicoes = {};
+  var itensRepetidos = [];
+
+  for (var i = 0; i < array.length; i++) {
+    var item = array[i];
+    if (posicoes[item] !== undefined) {
+      if (!itensRepetidos.includes(item)) {
+        itensRepetidos.push(item); // Adiciona item repetido à lista
+      }
+      itensRepetidos.push(i); // Adiciona a posição do item repetido à lista
+    } else {
+      posicoes[item] = i; // Armazena a posição do item no objeto posicoes
+    }
+  }
+
+  return itensRepetidos;
+}
+console.log(posicoesItensRepetidos(newArr));

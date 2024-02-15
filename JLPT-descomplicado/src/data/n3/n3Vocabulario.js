@@ -1414,7 +1414,7 @@ const n3VocabList = [
     vocabulario: "大いに",
     romaji: "ōini",
     hiragana: "おおいに",
-    traducao: "muito, muito, grandemente",
+    traducao: "muito, grandemente",
     exemplosFrases: [
       {
         exemplo: "彼は大いに喜んだ。",
@@ -1648,7 +1648,7 @@ const n3VocabList = [
     vocabulario: "直ちに",
     romaji: "tadachi ni",
     hiragana: "ただちに",
-    traducao: "imediatamente, imediatamente",
+    traducao: "imediatamente",
     exemplosFrases: [
       {
         exemplo: "問題が発生したら、直ちに報告してください。",
@@ -4089,188 +4089,6 @@ const n3VocabList = [
     ],
   },
   {
-    vocabulario: "ず",
-    romaji: "zu",
-    hiragana: "ず",
-    traducao: "não fazer",
-    exemplosFrases: [
-      {
-        exemplo: "泣かずに笑おう",
-        hiragana: "なかずにわらおう",
-        romaji: "Nakazu ni waraou",
-        traducao: "Vamos sorrir sem chorar",
-      },
-      {
-        exemplo: "後悔せずに進もう",
-        hiragana: "こうかいせずにすすもう",
-        romaji: "Kōkai sezu ni susumou",
-        traducao: "Vamos seguir em frente sem arrependimentos",
-      },
-      {
-        exemplo: "言わずに行こう",
-        hiragana: "いわずにいこう",
-        romaji: "Iwazu ni ikou",
-        traducao: "Vamos sem dizer nada",
-      },
-    ],
-  },
-  {
-    vocabulario: "せる",
-    romaji: "seru",
-    hiragana: "せる",
-    traducao: "fazer",
-    exemplosFrases: [
-      {
-        exemplo: "楽しませる",
-        hiragana: "たのしませる",
-        romaji: "Tanoshimaseru",
-        traducao: "Fazer alguém se divertir",
-      },
-      {
-        exemplo: "笑わせる",
-        hiragana: "わらわせる",
-        romaji: "Warawaseru",
-        traducao: "Fazer alguém rir",
-      },
-      {
-        exemplo: "驚かせる",
-        hiragana: "おどろかせる",
-        romaji: "Odorokaseru",
-        traducao: "Fazer alguém se surpreender",
-      },
-    ],
-  },
-  {
-    vocabulario: "な",
-    romaji: "na",
-    hiragana: "な",
-    traducao: "não é",
-    exemplosFrases: [
-      {
-        exemplo: "美しいな",
-        hiragana: "うつくしいな",
-        romaji: "Utsukushii na",
-        traducao: "Isso é bonito",
-      },
-      {
-        exemplo: "面白いな",
-        hiragana: "おもしろいな",
-        romaji: "Omoshiroi na",
-        traducao: "Isso é interessante",
-      },
-      {
-        exemplo: "遅いな",
-        hiragana: "おそいな",
-        romaji: "Osoi na",
-        traducao: "Isso é lento",
-      },
-    ],
-  },
-  {
-    vocabulario: "ない",
-    romaji: "nai",
-    hiragana: "ない",
-    traducao: "não existe, não tem",
-    exemplosFrases: [
-      {
-        exemplo: "食べない",
-        hiragana: "たべない",
-        romaji: "Tabenai",
-        traducao: "Não como",
-      },
-      {
-        exemplo: "見ない",
-        hiragana: "みない",
-        romaji: "Minai",
-        traducao: "Não vejo",
-      },
-      {
-        exemplo: "行かない",
-        hiragana: "いかない",
-        romaji: "Ikanai",
-        traducao: "Não vou",
-      },
-    ],
-  },
-  {
-    vocabulario: "なら",
-    romaji: "nara",
-    hiragana: "なら",
-    traducao: "se, caso",
-    exemplosFrases: [
-      {
-        exemplo: "行くなら今がチャンスだ。",
-        hiragana: "いくならいまがちゃんすだ。",
-        romaji: "Iku nara ima ga chansu da.",
-        traducao: "Se for para ir, agora é a chance.",
-      },
-      {
-        exemplo: "買うなら値段を確かめてから。",
-        hiragana: "かうならねだんをたしかめてから。",
-        romaji: "Kau nara nedan o tashikamete kara.",
-        traducao: "Se for comprar, verifique o preço primeiro.",
-      },
-      {
-        exemplo: "遊ぶなら公園がいい。",
-        hiragana: "あそぶならこうえんがいい。",
-        romaji: "Asobu nara kōen ga ii.",
-        traducao: "Se for brincar, o parque é bom.",
-      },
-    ],
-  },
-  {
-    vocabulario: "に",
-    romaji: "ni",
-    hiragana: "に",
-    traducao: "para, em, a",
-    exemplosFrases: [
-      {
-        exemplo: "学校に行く",
-        hiragana: "がっこうにいく",
-        romaji: "Gakkō ni iku",
-        traducao: "Ir para a escola",
-      },
-      {
-        exemplo: "公園に遊ぶ",
-        hiragana: "こうえんにあそぶ",
-        romaji: "Kōen ni asobu",
-        traducao: "Brincar no parque",
-      },
-      {
-        exemplo: "友達に会う",
-        hiragana: "ともだちにあう",
-        romaji: "Tomodachi ni au",
-        traducao: "Encontrar-se com um amigo",
-      },
-    ],
-  },
-  {
-    vocabulario: "ん",
-    romaji: "n",
-    hiragana: "ん",
-    traducao: "sinalizador de substantivo",
-    exemplosFrases: [
-      {
-        exemplo: "本を読んでいます。",
-        hiragana: "ほんをよんでいます。",
-        romaji: "Hon o yondeimasu.",
-        traducao: "Estou lendo um livro.",
-      },
-      {
-        exemplo: "音楽を聴いています。",
-        hiragana: "おんがくをきいています。",
-        romaji: "Ongaku o kiiteimasu.",
-        traducao: "Estou ouvindo música.",
-      },
-      {
-        exemplo: "友達と話しています。",
-        hiragana: "ともだちとはなしています。",
-        romaji: "Tomodachi to hanashiteimasu.",
-        traducao: "Estou conversando com um amigo.",
-      },
-    ],
-  },
-  {
     vocabulario: "あるいは",
     romaji: "aruiwa",
     hiragana: "あるいは",
@@ -4539,58 +4357,6 @@ const n3VocabList = [
         hiragana: "さらにじかんがかかるかもしれません。",
         romaji: "Sara ni jikan ga kakaru kamoshiremasen.",
         traducao: "Pode levar ainda mais tempo.",
-      },
-    ],
-  },
-  {
-    vocabulario: "あっ",
-    romaji: "a",
-    hiragana: "あっ",
-    traducao: "Ah!, Oh!",
-    exemplosFrases: [
-      {
-        exemplo: "あっ、忘れ物をした。",
-        hiragana: "あっ、わすれものをした。",
-        romaji: "A, wasuremono o shita.",
-        traducao: "Ah, esqueci algo.",
-      },
-      {
-        exemplo: "あっ、そうだ、明日の予定を忘れていた。",
-        hiragana: "あっ、そうだ、あしたのよていをわすれていた。",
-        romaji: "A, sō da, ashita no yotei o wasureteita.",
-        traducao: "Ah, é isso mesmo, esqueci dos planos para amanhã.",
-      },
-      {
-        exemplo: "あっ、注意しないと。",
-        hiragana: "あっ、ちゅういしないと。",
-        romaji: "A, chūi shinaito.",
-        traducao: "Ah, tenho que ter cuidado.",
-      },
-    ],
-  },
-  {
-    vocabulario: "う",
-    romaji: "u",
-    hiragana: "う",
-    traducao: "Ah!, Oh!",
-    exemplosFrases: [
-      {
-        exemplo: "う、ちょっと待って。",
-        hiragana: "う、ちょっとまって。",
-        romaji: "U, chotto matte.",
-        traducao: "Ah, espere um pouco.",
-      },
-      {
-        exemplo: "う、どうしよう。",
-        hiragana: "う、どうしよう。",
-        romaji: "U, dōshiyou.",
-        traducao: "Ah, o que devo fazer.",
-      },
-      {
-        exemplo: "う、うまくいかない。",
-        hiragana: "う、うまくいかない。",
-        romaji: "U, umaku ikanai.",
-        traducao: "Ah, não está indo bem.",
       },
     ],
   },
@@ -5251,32 +5017,6 @@ const n3VocabList = [
           "ぜんいんのきょうりょくにより、もんだいがかいけつされました。",
         romaji: "Zen'in no kyōryoku ni yori, mondai ga kaiketsu sa remashita.",
         traducao: "Com a cooperação de todos, o problema foi resolvido.",
-      },
-    ],
-  },
-  {
-    vocabulario: "せき",
-    romaji: "seki",
-    hiragana: "せき",
-    traducao: "tosse",
-    exemplosFrases: [
-      {
-        exemplo: "風邪でせきが止まらない。",
-        hiragana: "かぜでせきがとまらない。",
-        romaji: "Kaze de seki ga tomaranai.",
-        traducao: "A tosse não para devido ao resfriado.",
-      },
-      {
-        exemplo: "夜中のせきが眠れない。",
-        hiragana: "よなかのせきがねむれない。",
-        romaji: "Yonaka no seki ga nemurenai.",
-        traducao: "Não consigo dormir por causa da tosse durante a noite.",
-      },
-      {
-        exemplo: "せきをするたびに水を飲んでいます。",
-        hiragana: "せきをするたびにみずをのんでいます。",
-        romaji: "Seki o suru tabi ni mizu o nondeimasu.",
-        traducao: "Estou bebendo água sempre que tosso.",
       },
     ],
   },
@@ -6952,7 +6692,7 @@ const n3VocabList = [
     vocabulario: "意識",
     romaji: "ishiki",
     hiragana: "いしき",
-    traducao: "consciência, consciência",
+    traducao: "consciência",
     exemplosFrases: [
       {
         exemplo: "環境保護の意識を高める。",
@@ -7313,32 +7053,6 @@ const n3VocabList = [
     ],
   },
   {
-    vocabulario: "うち",
-    romaji: "uchi",
-    hiragana: "うち",
-    traducao: "casa, lar",
-    exemplosFrases: [
-      {
-        exemplo: "うちに帰る。",
-        hiragana: "うちにかえる。",
-        romaji: "Uchi ni kaeru.",
-        traducao: "Voltar para casa.",
-      },
-      {
-        exemplo: "うちで食事をする。",
-        hiragana: "うちでしょくじをする。",
-        romaji: "Uchi de shokuji o suru.",
-        traducao: "Comer em casa.",
-      },
-      {
-        exemplo: "うちの近くに公園がある。",
-        hiragana: "うちのちかくにこうえんがある。",
-        romaji: "Uchi no chikaku ni kōen ga aru.",
-        traducao: "Há um parque perto da minha casa.",
-      },
-    ],
-  },
-  {
     vocabulario: "下り",
     romaji: "kudari",
     hiragana: "くだり",
@@ -7414,32 +7128,6 @@ const n3VocabList = [
         hiragana: "かのじょとのえんをたいせつにしたい。",
         romaji: "Kanojo to no en o taisetsu ni shitai.",
         traducao: "Quero valorizar o nosso relacionamento.",
-      },
-    ],
-  },
-  {
-    vocabulario: "デー",
-    romaji: "dē",
-    hiragana: "でー",
-    traducao: "dia (gíria)",
-    exemplosFrases: [
-      {
-        exemplo: "週末は遊びに行くデー。",
-        hiragana: "しゅうまつはあそびにいくでー。",
-        romaji: "Shūmatsu wa asobi ni iku dē.",
-        traducao: "Dia de sair e se divertir no fim de semana.",
-      },
-      {
-        exemplo: "飲み会のデーは楽しい。",
-        hiragana: "のみかいのでーはたのしい。",
-        romaji: "Nomikai no dē wa tanoshii.",
-        traducao: "Os dias de beber com os amigos são divertidos.",
-      },
-      {
-        exemplo: "買い物デーでお買い物する。",
-        hiragana: "かいものでーでおかいものする。",
-        romaji: "Kaimono dē de o-kaimono suru.",
-        traducao: "Fazer compras no dia de compras.",
       },
     ],
   },
@@ -7726,32 +7414,6 @@ const n3VocabList = [
         hiragana: "がめんにひょうじされためっせーじ",
         romaji: "Gamen ni hyōji sareta messēji",
         traducao: "Mensagem exibida na tela.",
-      },
-    ],
-  },
-  {
-    vocabulario: "わがまま",
-    romaji: "wagamama",
-    hiragana: "わがまま",
-    traducao: "egoísmo, capricho",
-    exemplosFrases: [
-      {
-        exemplo: "わがままな子供",
-        hiragana: "わがままなこども",
-        romaji: "Wagamama na kodomo",
-        traducao: "Criança mimada, egoísta.",
-      },
-      {
-        exemplo: "わがままな要求",
-        hiragana: "わがままなようきゅう",
-        romaji: "Wagamama na yōkyū",
-        traducao: "Pedido egoísta.",
-      },
-      {
-        exemplo: "わがままに行動する",
-        hiragana: "わがままにこうどうする",
-        romaji: "Wagamama ni kōdō suru",
-        traducao: "Agir de forma egoísta.",
       },
     ],
   },
@@ -9654,58 +9316,6 @@ const n3VocabList = [
     ],
   },
   {
-    vocabulario: "くしゃみ",
-    romaji: "kushami",
-    hiragana: "くしゃみ",
-    traducao: "espirro",
-    exemplosFrases: [
-      {
-        exemplo: "くしゃみをする",
-        hiragana: "くしゃみをする",
-        romaji: "Kushami o suru",
-        traducao: "Espirrar",
-      },
-      {
-        exemplo: "くしゃみを我慢する",
-        hiragana: "くしゃみをがまんする",
-        romaji: "Kushami o gaman suru",
-        traducao: "Segurar o espirro",
-      },
-      {
-        exemplo: "くしゃみの音",
-        hiragana: "くしゃみのおと",
-        romaji: "Kushami no oto",
-        traducao: "Som do espirro",
-      },
-    ],
-  },
-  {
-    vocabulario: "そば",
-    romaji: "soba",
-    hiragana: "そば",
-    traducao: "macarrão de trigo sarraceno, perto",
-    exemplosFrases: [
-      {
-        exemplo: "そばを食べる",
-        hiragana: "そばをたべる",
-        romaji: "Soba o taberu",
-        traducao: "Comer macarrão de trigo sarraceno",
-      },
-      {
-        exemplo: "そば屋",
-        hiragana: "そばや",
-        romaji: "Sobaya",
-        traducao: "Restaurante de soba",
-      },
-      {
-        exemplo: "そばのつゆ",
-        hiragana: "そばのつゆ",
-        romaji: "Soba no tsuyu",
-        traducao: "Caldo de soba",
-      },
-    ],
-  },
-  {
     vocabulario: "ランチ",
     romaji: "ranchi",
     hiragana: "らんち",
@@ -9862,32 +9472,6 @@ const n3VocabList = [
     ],
   },
   {
-    vocabulario: "ところ",
-    romaji: "tokoro",
-    hiragana: "ところ",
-    traducao: "lugar, momento",
-    exemplosFrases: [
-      {
-        exemplo: "どこに行くところですか？",
-        hiragana: "どこにいくところですか？",
-        romaji: "Doko ni iku tokoro desu ka?",
-        traducao: "Para onde você está indo?",
-      },
-      {
-        exemplo: "ちょっと待っているところです。",
-        hiragana: "ちょっとまっているところです。",
-        romaji: "Chotto matte iru tokoro desu.",
-        traducao: "Estou esperando um momento.",
-      },
-      {
-        exemplo: "映画を見るところです。",
-        hiragana: "えいがをみるところです。",
-        romaji: "Eiga o miru tokoro desu.",
-        traducao: "Estou prestes a assistir a um filme.",
-      },
-    ],
-  },
-  {
     vocabulario: "位置",
     romaji: "ichi",
     hiragana: "いち",
@@ -9936,32 +9520,6 @@ const n3VocabList = [
         hiragana: "さるたちがあそんでいます。",
         romaji: "Saru-tachi ga asondeimasu.",
         traducao: "Os macacos estão brincando.",
-      },
-    ],
-  },
-  {
-    vocabulario: "めん",
-    romaji: "men",
-    hiragana: "めん",
-    traducao: "macarrão, superfície",
-    exemplosFrases: [
-      {
-        exemplo: "ラーメンを食べる",
-        hiragana: "らーめんをたべる",
-        romaji: "Rāmen o taberu",
-        traducao: "Comer ramen",
-      },
-      {
-        exemplo: "めん類の種類",
-        hiragana: "めんるいのしゅるい",
-        romaji: "Men-rui no shurui",
-        traducao: "Tipos de macarrão",
-      },
-      {
-        exemplo: "表面のめん",
-        hiragana: "ひょうめんのめん",
-        romaji: "Hyōmen no men",
-        traducao: "Superfície",
       },
     ],
   },
@@ -10196,32 +9754,6 @@ const n3VocabList = [
         hiragana: "ぱすたのしゅるい",
         romaji: "Pasuta no shurui",
         traducao: "Tipos de massa",
-      },
-    ],
-  },
-  {
-    vocabulario: "まつ",
-    romaji: "matsu",
-    hiragana: "まつ",
-    traducao: "esperar",
-    exemplosFrases: [
-      {
-        exemplo: "友達をまつ",
-        hiragana: "ともだちをまつ",
-        romaji: "Tomodachi o matsu",
-        traducao: "Esperar um amigo",
-      },
-      {
-        exemplo: "バスをまつ",
-        hiragana: "ばすをまつ",
-        romaji: "Basu o matsu",
-        traducao: "Esperar um ônibus",
-      },
-      {
-        exemplo: "返事をまつ",
-        hiragana: "へんじをまつ",
-        romaji: "Henji o matsu",
-        traducao: "Esperar uma resposta",
       },
     ],
   },
@@ -10668,32 +10200,6 @@ const n3VocabList = [
     ],
   },
   {
-    vocabulario: "いちご",
-    romaji: "ichigo",
-    hiragana: "いちご",
-    traducao: "morango",
-    exemplosFrases: [
-      {
-        exemplo: "いちご狩りに行く",
-        hiragana: "いちごがりにいく",
-        romaji: "Ichigo-gari ni iku",
-        traducao: "Ir colher morangos",
-      },
-      {
-        exemplo: "いちごジャム",
-        hiragana: "いちごじゃむ",
-        romaji: "Ichigo jamu",
-        traducao: "Geléia de morango",
-      },
-      {
-        exemplo: "いちご味のアイスクリーム",
-        hiragana: "いちごあじのあいすくりーむ",
-        romaji: "Ichigo-aji no aisukurīmu",
-        traducao: "Sorvete de sabor morango",
-      },
-    ],
-  },
-  {
     vocabulario: "蚊",
     romaji: "ka",
     hiragana: "か",
@@ -10924,32 +10430,6 @@ const n3VocabList = [
         hiragana: "かいぎのめもをせいりする",
         romaji: "Kaigi no memo o seiri suru",
         traducao: "Organizar as anotações da reunião",
-      },
-    ],
-  },
-  {
-    vocabulario: "かず",
-    romaji: "kazu",
-    hiragana: "かず",
-    traducao: "número, quantidade",
-    exemplosFrases: [
-      {
-        exemplo: "数学の問題を解く",
-        hiragana: "すうがくのもんだいをとく",
-        romaji: "Sūgaku no mondai o toku",
-        traducao: "Resolver problemas de matemática",
-      },
-      {
-        exemplo: "人の数を数える",
-        hiragana: "ひとのかずをかぞえる",
-        romaji: "Hito no kazu o kazoeru",
-        traducao: "Contar o número de pessoas",
-      },
-      {
-        exemplo: "数量を確認する",
-        hiragana: "すうりょうをかくにんする",
-        romaji: "Sūryō o kakunin suru",
-        traducao: "Verificar a quantidade",
       },
     ],
   },
@@ -11708,32 +11188,6 @@ const n3VocabList = [
     ],
   },
   {
-    vocabulario: "ほこり",
-    romaji: "hokori",
-    hiragana: "ほこり",
-    traducao: "poeira",
-    exemplosFrases: [
-      {
-        exemplo: "ほこりを掃除する",
-        hiragana: "ほこりをそうじする",
-        romaji: "Hokori o sōji suru",
-        traducao: "Limpar a poeira",
-      },
-      {
-        exemplo: "ほこりがたまる",
-        hiragana: "ほこりがたまる",
-        romaji: "Hokori ga tamaru",
-        traducao: "A poeira se acumula",
-      },
-      {
-        exemplo: "ほこりを拭く",
-        hiragana: "ほこりをふく",
-        romaji: "Hokori o fuku",
-        traducao: "Limpar a poeira com um pano",
-      },
-    ],
-  },
-  {
     vocabulario: "汚染",
     romaji: "osen",
     hiragana: "おせん",
@@ -11756,32 +11210,6 @@ const n3VocabList = [
         hiragana: "たいきのおせん",
         romaji: "Taiki no osen",
         traducao: "Poluição do ar",
-      },
-    ],
-  },
-  {
-    vocabulario: "はと",
-    romaji: "hato",
-    hiragana: "はと",
-    traducao: "pombo",
-    exemplosFrases: [
-      {
-        exemplo: "公園ではとを見る",
-        hiragana: "こうえんではとをみる",
-        romaji: "Kōen de hato o miru",
-        traducao: "Ver pombos no parque",
-      },
-      {
-        exemplo: "はとの鳴き声",
-        hiragana: "はとのなきごえ",
-        romaji: "Hato no nakigoe",
-        traducao: "O som dos pombos",
-      },
-      {
-        exemplo: "はとに餌をやる",
-        hiragana: "はとにえさをやる",
-        romaji: "Hato ni esa o yaru",
-        traducao: "Alimentar os pombos",
       },
     ],
   },
@@ -11912,32 +11340,6 @@ const n3VocabList = [
         hiragana: "ふぁすとふーどのちゅうもん",
         romaji: "Fasuto fūdo no chūmon",
         traducao: "Pedido de fast food",
-      },
-    ],
-  },
-  {
-    vocabulario: "いとこ",
-    romaji: "itoko",
-    hiragana: "いとこ",
-    traducao: "primo(a)",
-    exemplosFrases: [
-      {
-        exemplo: "いとこと一緒に遊ぶ",
-        hiragana: "いとこといっしょにあそぶ",
-        romaji: "Itoko to issho ni asobu",
-        traducao: "Brincar com o(a) primo(a)",
-      },
-      {
-        exemplo: "いとこの家に泊まる",
-        hiragana: "いとこのいえにとまる",
-        romaji: "Itoko no ie ni tomaru",
-        traducao: "Ficar na casa do(a) primo(a)",
-      },
-      {
-        exemplo: "いとこと一緒に成長する",
-        hiragana: "いとこといっしょにせいちょうする",
-        romaji: "Itoko to issho ni seichō suru",
-        traducao: "Crescer junto com o(a) primo(a)",
       },
     ],
   },
@@ -12151,32 +11553,6 @@ const n3VocabList = [
     ],
   },
   {
-    vocabulario: "はちみつ",
-    romaji: "hachimitsu",
-    hiragana: "はちみつ",
-    traducao: "mel",
-    exemplosFrases: [
-      {
-        exemplo: "パンにはちみつを塗って食べるのが好きです。",
-        hiragana: "ぱんにはちみつをぬってたべるのがすきです。",
-        romaji: "Pan ni hachimitsu o nutte taberu no ga suki desu.",
-        traducao: "Eu gosto de passar mel no pão e comer.",
-      },
-      {
-        exemplo: "はちみつは自然の甘さがあります。",
-        hiragana: "はちみつはしぜんのあまさがあります。",
-        romaji: "Hachimitsu wa shizen no amasa ga arimasu.",
-        traducao: "O mel tem um sabor naturalmente doce.",
-      },
-      {
-        exemplo: "この地域ははちみつの生産が盛んです。",
-        hiragana: "このちいきははちみつのせいさんがさかんです。",
-        romaji: "Kono chiiki wa hachimitsu no seisangasakan desu.",
-        traducao: "Esta região é conhecida pela produção de mel.",
-      },
-    ],
-  },
-  {
     vocabulario: "キロ",
     romaji: "kiro",
     hiragana: "きろ",
@@ -12332,58 +11708,6 @@ const n3VocabList = [
         hiragana: "らけっとのぐりっぷをにぎりなおしました。",
         romaji: "Raketto no gurippu o nigiri naoshimashita.",
         traducao: "Eu reajustei o aperto da raquete.",
-      },
-    ],
-  },
-  {
-    vocabulario: "ネズミ",
-    romaji: "nezumi",
-    hiragana: "ねずみ",
-    traducao: "rato",
-    exemplosFrases: [
-      {
-        exemplo: "家にネズミが入ってきました。",
-        hiragana: "いえにねずみがはいってきました。",
-        romaji: "Ie ni nezumi ga haitte kimashita.",
-        traducao: "Um rato entrou na minha casa.",
-      },
-      {
-        exemplo: "ネズミは夜に活動します。",
-        hiragana: "ねずみはよるにかつどうします。",
-        romaji: "Nezumi wa yoru ni katsudō shimasu.",
-        traducao: "Os ratos são ativos durante a noite.",
-      },
-      {
-        exemplo: "ネズミ捕りでネズミを捕まえました。",
-        hiragana: "ねずみとりでねずみをつかまえました。",
-        romaji: "Nezumitori de nezumi o tsukamaemashita.",
-        traducao: "Capturei um rato com uma armadilha para ratos.",
-      },
-    ],
-  },
-  {
-    vocabulario: "ちょうだい",
-    romaji: "chōdai",
-    hiragana: "ちょうだい",
-    traducao: "por favor, me dê",
-    exemplosFrases: [
-      {
-        exemplo: "お水をちょうだい。",
-        hiragana: "おみずをちょうだい。",
-        romaji: "Omizu o chōdai.",
-        traducao: "Por favor, me dê água.",
-      },
-      {
-        exemplo: "ちょっと待ってください、助けてちょうだい。",
-        hiragana: "ちょっとまってください、たすけてちょうだい。",
-        romaji: "Chotto matte kudasai, tasukete chōdai.",
-        traducao: "Espere um momento, por favor, me ajude.",
-      },
-      {
-        exemplo: "スプーンをちょうだい。",
-        hiragana: "すぷーんをちょうだい。",
-        romaji: "Supūn o chōdai.",
-        traducao: "Por favor, me dê uma colher.",
       },
     ],
   },
@@ -12602,32 +11926,6 @@ const n3VocabList = [
         romaji: "Uwasa de wa kanojo wa yūmei na kashu da to iwareteimasu.",
         traducao:
           "Dizem que ela é uma cantora famosa, de acordo com os boatos.",
-      },
-    ],
-  },
-  {
-    vocabulario: "さい",
-    romaji: "sai",
-    hiragana: "さい",
-    traducao: "anos de idade",
-    exemplosFrases: [
-      {
-        exemplo: "私は25歳です。",
-        hiragana: "わたしは25さいです。",
-        romaji: "Watashi wa 25-sai desu.",
-        traducao: "Tenho 25 anos de idade.",
-      },
-      {
-        exemplo: "彼はまだ若干さいです。",
-        hiragana: "かれはまだじゃっかんさいです。",
-        romaji: "Kare wa mada jakkan-sai desu.",
-        traducao: "Ele ainda é um pouco jovem.",
-      },
-      {
-        exemplo: "来月で30歳になります。",
-        hiragana: "らいげつで30さいになります。",
-        romaji: "Raigetsu de 30-sai ni narimasu.",
-        traducao: "Vou completar 30 anos no próximo mês.",
       },
     ],
   },
@@ -13281,58 +12579,6 @@ const n3VocabList = [
     ],
   },
   {
-    vocabulario: "はさみ",
-    romaji: "hasami",
-    hiragana: "はさみ",
-    traducao: "tesoura",
-    exemplosFrases: [
-      {
-        exemplo: "はさみで紙を切ります。",
-        hiragana: "はさみでかみをきります。",
-        romaji: "Hasami de kami o kirimasu.",
-        traducao: "Eu corto papel com a tesoura.",
-      },
-      {
-        exemplo: "はさみが鋭いので注意して使ってください。",
-        hiragana: "はさみがするどいのでちゅういしてつかってください。",
-        romaji: "Hasami ga surudoi node chūi shite tsukatte kudasai.",
-        traducao: "Cuidado ao usar a tesoura, pois ela é afiada.",
-      },
-      {
-        exemplo: "はさみを使ってクラフト作品を作りました。",
-        hiragana: "はさみをつかってくらふとさくひんをつくりました。",
-        romaji: "Hasami o tsukatte kurafuto sakuhin o tsukurimashita.",
-        traducao: "Eu fiz uma peça de artesanato usando a tesoura.",
-      },
-    ],
-  },
-  {
-    vocabulario: "おば",
-    romaji: "oba",
-    hiragana: "おば",
-    traducao: "tia (irmã mais velha do pai ou da mãe)",
-    exemplosFrases: [
-      {
-        exemplo: "私のおばはとても優しい人です。",
-        hiragana: "わたしのおばはとてもやさしいひとです。",
-        romaji: "Watashi no oba wa totemo yasashii hito desu.",
-        traducao: "Minha tia é uma pessoa muito gentil.",
-      },
-      {
-        exemplo: "おばの家で楽しい時間を過ごしました。",
-        hiragana: "おばのいえでたのしいじかんをすごしました。",
-        romaji: "Oba no ie de tanoshii jikan o sugoshimashita.",
-        traducao: "Passei um tempo divertido na casa da minha tia.",
-      },
-      {
-        exemplo: "おばに料理を教えてもらいました。",
-        hiragana: "おばにりょうりをおしえてもらいました。",
-        romaji: "Oba ni ryōri o oshiete moraimashita.",
-        traducao: "Minha tia me ensinou a cozinhar.",
-      },
-    ],
-  },
-  {
     vocabulario: "ボウル",
     romaji: "bōru",
     hiragana: "ぼうる",
@@ -13537,35 +12783,6 @@ const n3VocabList = [
         hiragana: "しんせいひんがしじょうのとっぷにたちました。",
         romaji: "Shinseihin ga shijō no toppu ni tachimashita.",
         traducao: "O novo produto se destacou no topo do mercado.",
-      },
-    ],
-  },
-  {
-    vocabulario: "せき",
-    romaji: "seki",
-    hiragana: "せき",
-    traducao: "assento",
-    exemplosFrases: [
-      {
-        exemplo: "コンサートのチケットを買ったらすぐに座席を確保しましょう。",
-        hiragana:
-          "こんさーとのちけっとをかったらすぐにざせきをかくほしましょう。",
-        romaji:
-          "Konsāto no chiketto o kattara sugu ni zaseki o kakuho shimashō.",
-        traducao:
-          "Assim que comprar o ingresso para o concerto, garanta seu assento imediatamente.",
-      },
-      {
-        exemplo: "映画館の最前列の座席が空いていました。",
-        hiragana: "えいがかんのさいぜんれつのざせきがあいていました。",
-        romaji: "Eigakan no saizenretsu no zaseki ga aiteimashita.",
-        traducao: "Os assentos da primeira fila do cinema estavam vagos.",
-      },
-      {
-        exemplo: "会議の座席が予約されています。",
-        hiragana: "かいぎのざせきがよやくされています。",
-        romaji: "Kaigi no zaseki ga yoyaku sareteimasu.",
-        traducao: "Os assentos da reunião estão reservados.",
       },
     ],
   },
@@ -13840,60 +13057,6 @@ const n3VocabList = [
         hiragana: "ういすきーはおさけのいっしゅです。",
         romaji: "Uisukī wa osake no isshu desu.",
         traducao: "O uísque é um tipo de bebida alcoólica.",
-      },
-    ],
-  },
-  {
-    vocabulario: "一",
-    romaji: "ichi",
-    hiragana: "いち",
-    traducao: "um, único",
-    exemplosFrases: [
-      {
-        exemplo: "彼は一人で旅行に行きます。",
-        hiragana: "かれはひとりでりょこうにいきます。",
-        romaji: "Kare wa hitori de ryokō ni ikimasu.",
-        traducao: "Ele viaja sozinho.",
-      },
-      {
-        exemplo: "一つの問題に対して複数の解決策があります。",
-        hiragana:
-          "ひとつのもんだいにたいしてふくすうのかいけつさくがあります。",
-        romaji:
-          "Hitotsu no mondai ni taishite fukusū no kaiketsusaku ga arimasu.",
-        traducao: "Há várias soluções para um problema.",
-      },
-      {
-        exemplo: "このイベントは一度だけ開催されます。",
-        hiragana: "このいべんとはいちどだけかいさいされます。",
-        romaji: "Kono ibento wa ichido dake kaisai sa remasu.",
-        traducao: "Este evento é realizado apenas uma vez.",
-      },
-    ],
-  },
-  {
-    vocabulario: "一人一人",
-    romaji: "hitori hitori",
-    hiragana: "ひとりひとり",
-    traducao: "cada pessoa, individualmente",
-    exemplosFrases: [
-      {
-        exemplo: "一人一人にアドバイスをしていきます。",
-        hiragana: "ひとりひとりにあどばいすをしていきます。",
-        romaji: "Hitori hitori ni adobaisu o shite ikimasu.",
-        traducao: "Vou dar conselhos a cada pessoa individualmente.",
-      },
-      {
-        exemplo: "一人一人の意見を尊重しましょう。",
-        hiragana: "ひとりひとりのいけんをそんちょうしましょう。",
-        romaji: "Hitori hitori no iken o sonchō shimashō.",
-        traducao: "Vamos respeitar as opiniões de cada pessoa.",
-      },
-      {
-        exemplo: "一人一人に感謝の気持ちを伝えましょう。",
-        hiragana: "ひとりひとりにかんしゃのきもちをつたえましょう。",
-        romaji: "Hitori hitori ni kansha no kimochi o tsutaemashō.",
-        traducao: "Vamos expressar nossa gratidão a cada pessoa.",
       },
     ],
   },
