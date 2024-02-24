@@ -9,9 +9,9 @@ export default function VocabularyPage({ grammar, next }) {
   useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.keyCode === 39 && next) {
-        // Verifica se a tecla pressionada é a seta para a direita (keyCode 39)
-        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+        // seta para a direita (keyCode 39)
         window.location.href = `/jlpt/${nlevel}/grammar/${+index + 1}/${next}`;
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
       }
     };
 
