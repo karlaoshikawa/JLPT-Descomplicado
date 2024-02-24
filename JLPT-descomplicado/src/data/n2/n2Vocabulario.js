@@ -1815,35 +1815,6 @@ const n2VocabList = [
     ],
   },
   {
-    vocabulario: "ら",
-    romaji: "ra",
-    hiragana: "ら",
-    traducao: "etc., entre outros",
-    exemplosFrases: [
-      {
-        exemplo: "リンゴやオレンジらのフルーツがあります。",
-        hiragana: "リンゴやオレンジらのフルーツがあります。",
-        romaji: "Ringoya orenjira no furūtsu ga arimasu.",
-        traducao: "Há frutas como maçãs, laranjas, etc.",
-      },
-      {
-        exemplo: "映画や音楽らのエンターテイメントが楽しいです。",
-        hiragana: "えいがやおんがくらのエンターテイメントがたのしいです。",
-        romaji: "Eiga ya ongakura no entāteimento ga tanoshii desu.",
-        traducao:
-          "É divertido desfrutar de entretenimento como filmes, música, etc.",
-      },
-      {
-        exemplo: "旅行は観光や食べ物らの楽しみがたくさんあります。",
-        hiragana:
-          "りょこうはかんこうやたべものらのたのしみがたくさんあります。",
-        romaji: "Ryokō wa kankō ya tabemonora no tanoshimi ga takusan arimasu.",
-        traducao:
-          "Viagens oferecem muitos prazeres, como passeios turísticos, comida, etc.",
-      },
-    ],
-  },
-  {
     vocabulario: "天気",
     romaji: "tenki",
     hiragana: "てんき",

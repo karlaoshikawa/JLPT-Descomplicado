@@ -1,15 +1,29 @@
+import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import style from "./GrammarPage.module.scss";
 import { FiArrowRight } from "react-icons/fi";
 
 export default function VocabularyPage({ grammar, next }) {
   const { nlevel, index } = useParams();
-  console.log(nlevel,index);
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.keyCode === 39 && next) {
+        // Verifica se a tecla pressionada é a seta para a direita (keyCode 39)
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+        window.location.href = `/jlpt/${nlevel}/grammar/${+index + 1}/${next}`;
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [next, nlevel, index]);
+
   return (
-    <div
-      className={style.grammarPage_container}
-      data-testid="grammar-page"
-    >
+    <div className={style.grammarPage_container} data-testid="grammar-page">
       <h1>{`Gramática JLPT ${nlevel.toUpperCase()}`}</h1>
       <div className={style.grammarPage_line}></div>
       <div className={style.grammarPage_top_box}>
@@ -70,7 +84,9 @@ export default function VocabularyPage({ grammar, next }) {
         {!next ? null : (
           <Link
             to={`/jlpt/${nlevel}/grammar/${+index + 1}/${next}`}
-            onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "instant" })}
+            onClick={() =>
+              window.scrollTo({ top: 0, left: 0, behavior: "instant" })
+            }
             className={style.grammarPage_next}
           >
             <h4>proximo</h4>
